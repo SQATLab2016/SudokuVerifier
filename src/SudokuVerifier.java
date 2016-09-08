@@ -25,8 +25,6 @@ public class SudokuVerifier {
 			return -4;
 		}
 
-		printSudoku(candidateSolution);
-
 		return 0;
 
 	}
@@ -73,7 +71,7 @@ public class SudokuVerifier {
 	}
 
 	// prints whole sudoku grid for debugging
-	private void printSudoku(String solution) {
+	public void printSudoku(String solution) {
 		System.out.println("\nsudoku:");
 		System.out.println("_____________");
 		for (int i = 0; i < solution.length(); i += 9) {
