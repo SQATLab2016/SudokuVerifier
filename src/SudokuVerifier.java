@@ -8,9 +8,9 @@ public class SudokuVerifier {
 			return -1;
 		}
 		String[] grids, rows, columns;
-		grids = getGrids(candidateSolution);
 		rows = getRows(candidateSolution);
 		columns = getColumns(candidateSolution);
+		grids = getGrids(columns);
 		// returns 0 if the candidate solution is correct
 
 		if (!verifyGrids(grids)) {
@@ -24,7 +24,6 @@ public class SudokuVerifier {
 		else if (!verifyColumns(columns)) {
 			return -4;
 		}
-
 		return 0;
 
 	}
@@ -44,30 +43,51 @@ public class SudokuVerifier {
 		return true;
 	}
 
+	// generates string array of sudoku sub-grids
+	// Some real retarded @hacks here, but hey it work
+	private String[] getGrids(String[] columns) {
+		String[] grids = new String[9];
+		int index = -1;
+		for (int j = 0; j < 9; j += 3) {
+			for (int i = 0; i < 9; i++) {
+				if (i % 3 == 0) {
+					index++;
+				}
+				if (grids[index] == null) {
+					grids[index] = "";
+				}
+				grids[index] += columns[i].charAt(j) + "" + columns[i].charAt(j + 1) + "" + columns[i].charAt(j + 2);
+			}
+		}
+		return grids;
+	}
+
+	// generates string array of sudoku rows
 	private String[] getRows(String solution) {
 		String[] rows = new String[9];
-		// TODO get rows
+		String row;
+		for (int i = 0; i < 9; i++) {
+			row = "";
+			for (int j = 0; j < 9; j++) {
+				row += solution.charAt(i + j + (8 * i));
+			}
+			rows[i] = row;
+		}
 		return rows;
 	}
 
+	// generates string array of sudoku columns
 	private String[] getColumns(String solution) {
 		String[] columns = new String[9];
-		// TODO get columns
-		return columns;
-	}
-
-	// generates string array of sudoku sub-grids
-	private String[] getGrids(String solution) {
-		String[] grids = new String[9];
-		String grid;
+		String column;
 		for (int i = 0; i < 9; i++) {
-			grid = "";
+			column = "";
 			for (int j = 0; j < solution.length(); j += 9) {
-				grid += solution.charAt(j+i);
+				column += solution.charAt(j + i);
 			}
-			grids[i] = grid;
+			columns[i] = column;
 		}
-		return grids;
+		return columns;
 	}
 
 	// prints whole sudoku grid for debugging
