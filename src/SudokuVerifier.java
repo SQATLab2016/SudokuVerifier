@@ -13,33 +13,34 @@ public class SudokuVerifier {
 		grids = getGrids(columns);
 		// returns 0 if the candidate solution is correct
 
-		if (!verifyGrids(grids)) {
+		if (!verifySubStrings(grids)) {
 			return -2;
 		}
 
-		else if (!verifyRows(rows)) {
+		else if (!verifySubStrings(rows)) {
 			return -3;
 		}
 
-		else if (!verifyColumns(columns)) {
+		else if (!verifySubStrings(columns)) {
 			return -4;
 		}
 		return 0;
 
 	}
 
-	private boolean verifyGrids(String[] grids) {
-		// TODO verify grid logic
-		return true;
-	}
-
-	private boolean verifyRows(String[] rows) {
-		// TODO verify rows logic
-		return true;
-	}
-
-	private boolean verifyColumns(String[] columns) {
-		// TODO verify columns logic
+	private boolean verifySubStrings(String[] grids) {
+		String tempChar;
+		for (int j = 0; j < grids.length; j++) {
+			for (int i = 1; i < 10; i++) {	// test number 1-9
+				tempChar = Integer.toString(i);
+				if (grids[j].indexOf(tempChar) == -1) {
+					return false;	// number not found
+				}
+				else if (grids[j].indexOf(tempChar, grids[j].indexOf(tempChar) + 1) != -1) {
+					return false;	// number found more than once
+				}
+			}
+		}
 		return true;
 	}
 
