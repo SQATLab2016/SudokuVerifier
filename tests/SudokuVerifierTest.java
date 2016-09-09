@@ -12,4 +12,10 @@ public class SudokuVerifierTest {
 		fail("Not yet implemented");
 	}
 
+	@Test
+	public void testVerify_LengthVerify() {
+		SudokuVerifier sudokuVerifier = new SudokuVerifier();
+		assertEquals("",0,sudokuVerifier.verify("417369825632158947958724316825437169791586432346912758289643571573291684164875293"));
+		
+	}
 }
