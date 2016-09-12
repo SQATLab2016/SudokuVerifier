@@ -1,3 +1,5 @@
+
+
 import java.util.*;
 
 public class SudokuVerifier {
@@ -24,7 +26,9 @@ public class SudokuVerifier {
 				// create substring
 				// min should be 0, 9, 18, 27, 36 etc...
 				// max should be 8, 17, 26, 35, 44 etc...
+				
 				String subString = candidateSolution.substring(i * 9, ((i + 1) * 9) - 1);
+				
 				
 				// iterate through substring,
 				// where substring is one global row in sudoku grid.
@@ -54,7 +58,14 @@ public class SudokuVerifier {
 			for(int i = 0; i < 9; i++) {
 				
 				// calculates substring length so that it takes every n:th element of the string.
-				String subString = candidateSolution.substring(i, ((((i + 1) * 9) * 8) / (i + 1) + i));
+				String subString = "";//candidateSolution.substring(i, ((((i + 1) * 9) * 8) / (i + 1) + i));
+				
+				
+				for(int j = 0; j < candidateSolution.toCharArray().length; j++) {
+					if(j % 9 == 0) {
+						subString += candidateSolution.toCharArray()[j];
+					}		
+				}
 				
 				for (char c : subString.toCharArray()) {
 					if(charList.isEmpty()) {
@@ -83,13 +94,16 @@ public class SudokuVerifier {
 				}
 				
 				// first row of sub-grid
-				String subString = candidateSolution.substring(i * 3 + rowStartAddition, i + 3);
+				int startPoint = i * 3 + rowStartAddition;
+				String subString = candidateSolution.substring(startPoint, startPoint + 3);
 				
 				// second row ...
-				subString += candidateSolution.substring();
+				startPoint += 9;
+				subString += candidateSolution.substring(startPoint, startPoint + 3);
 				
 				// third row ...
-				subString += candidateSolution.substring();
+				startPoint += 9;
+				subString += candidateSolution.substring(startPoint, startPoint + 3);
 				
 				for (char c : subString.toCharArray()) {
 					if(charList.isEmpty()) {
