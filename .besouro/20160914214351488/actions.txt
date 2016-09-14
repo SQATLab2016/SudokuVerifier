@@ -15,3 +15,6 @@ RefactoringAction 1473879390121 SudokuVerifierTest.java ADD void testForValidDig
 RefactoringAction 1473879401773 SudokuVerifierTest.java RENAME testForValidDigits()/2=>void testForValidRows() METHOD
 EditAction 1473879417312 SudokuVerifierTest.java 1231 4 10 3
 EditAction 1473879433125 SudokuVerifierTest.java 1231 4 10 3
+UnitTestCaseAction 1473879436379 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473879436388 SudokuVerifierTest.java FAIL
+EditAction 1473879461265 SudokuVerifierTest.java 1231 4 10 3
