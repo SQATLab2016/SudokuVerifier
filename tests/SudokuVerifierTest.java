@@ -13,7 +13,7 @@ public class SudokuVerifierTest {
 		// Arrange
 		SudokuVerifier sv = new SudokuVerifier();
 		// Act
-		int result = sv.verify("4173698256321589479587243168254371697915864323469127582896435715732916841648752938");
+		int result = sv.verify("4173698256321589479587243888168254371697915864323469127582896435715732916841648752938");
 		// Assert
 		assertEquals(result, -5);
 	}
