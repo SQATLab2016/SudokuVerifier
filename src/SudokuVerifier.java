@@ -2,7 +2,6 @@
 public class SudokuVerifier {
 	
 	public int verify(String candidateSolution) {
-
 		int len = candidateSolution.length();
 		// Will not accept anything else, must be correct length
 		if (len != 81) {
@@ -11,9 +10,9 @@ public class SudokuVerifier {
 		
 	    /*
 		R1: A  cell in a Sudoku game can only store positive digits, i.e. 1...9.
-		R2: All digits appear only once in a sub grid 3x3, i.e. they cannot repeat.
 		R3: A digit can appear only once in the rows of the global grid.
 		R4: A digit can appear only once in the columns of the global grid.	     
+		R2: All digits appear only once in a sub grid 3x3, i.e. they cannot repeat.
 
 		Return 	0: means it is a valid Sudoku solution
 		Return -1: means it is violating Rule #1
