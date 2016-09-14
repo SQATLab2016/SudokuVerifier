@@ -25,28 +25,36 @@ public class SudokuVerifier {
 		*/
 	    
 		// Rule #1
-		if (!candidateSolution.matches("[1-9]")) {
+		if (!candidateSolution.matches("[1-9]+")) {
 			return -1; 
 		}
 		
 		// Rule #2
 	    for (int i = 0, offset = 0; i < 8; i++, offset += 8) {
-	        String row = candidateSolution.substring(offset, 8);
+	        String row = candidateSolution.substring(offset, offset+8);
 	        if (!isValidArray(row)) {
 	        	return -3;
 	        }
 	    }
 	    
+		// Rule #3
+	    for (int i = 0; i < 9; i++) {
+	        String row = candidateSolution.substring(offset, offset+8);
+	        if (!isValidArray(row)) {
+	        	return -3;
+	        }
+	    }
+
 	    // Valid
 		return 0;
 	}
 	
 	private boolean isValidArray(String array) {
-		for (int i = 0; i < 9; i++) {
-			String digit1 = array.substring(i, i);
-			for (int j = i+1; j < (9-i); j++) {
-				String digit2 = array.substring(j, j);
-				if (digit1 == digit2) {
+		for (int i = 0; i < 8; i++) {
+			String digit1 = array.substring(i, i+1);
+			for (int j = i+1; j < (8-i); j++) {
+				String digit2 = array.substring(j, j+1);
+				if (digit1.equals(digit2)) {
 					return false;
 				}
 			}
