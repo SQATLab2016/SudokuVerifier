@@ -9,7 +9,6 @@ public class SudokuVerifierTest {
 
 	@Test
 	public void testForCorrectLength() {
-		
 		// Arrange
 		SudokuVerifier sv = new SudokuVerifier();
 		// Act
@@ -20,8 +19,12 @@ public class SudokuVerifierTest {
 
 	@Test
 	public void testForValidDigits() {
-		// A correct Sudoku string: 417369825632158947958724316825437169791586432346912758289643571573291684164875293
-		
+		// Arrange
+		SudokuVerifier sv = new SudokuVerifier();
+		// Act
+		int result = sv.verify("017369825632158947958724316825437169791586432346912758289643571573291684164875293");
+		// Assert
+		assertEquals(result, -5);
 	}
 	
 	@Test
