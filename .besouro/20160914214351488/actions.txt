@@ -1,0 +1,16 @@
+FileOpenedAction 1473878631614 SudokuVerifier.java 1177 1 4 0
+RefactoringAction 1473878695885 SudokuVerifier.java ADD boolean is FIELD
+RefactoringAction 1473878697922 SudokuVerifier.java RENAME is=>boolean isValid FIELD
+RefactoringAction 1473878699565 SudokuVerifier.java RENAME isValid=>boolean isValidArray FIELD
+RefactoringAction 1473878705601 SudokuVerifier.java RENAME isValidArray=>boolean isValidArray() METHOD
+RefactoringAction 1473878708627 SudokuVerifier.java RENAME isValidArray()=>boolean isValidArray(String) METHOD
+CompilationAction 1473878975884 SudokuVerifier.java
+CompilationAction 1473879101112 SudokuVerifier.java
+CompilationAction 1473879101390 SudokuVerifier.java
+CompilationAction 1473879101390 SudokuVerifier.java
+CompilationAction 1473879205668 SudokuVerifier.java
+CompilationAction 1473879205861 SudokuVerifier.java
+CompilationAction 1473879341387 SudokuVerifier.java
+RefactoringAction 1473879390121 SudokuVerifierTest.java ADD void testForValidDigits()/2 METHOD
+RefactoringAction 1473879401773 SudokuVerifierTest.java RENAME testForValidDigits()/2=>void testForValidRows() METHOD
+EditAction 1473879417312 SudokuVerifierTest.java 1231 4 10 3

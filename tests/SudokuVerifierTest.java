@@ -28,6 +28,16 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test
+	public void testForValidRows() {
+		// Arrange
+		SudokuVerifier sv = new SudokuVerifier();
+		// Act
+		int result = sv.verify("017319825632158947958724316825437169791586432346912758289643571573291684164875293");
+		// Assert
+		assertEquals(result, -1);
+	}
+	
+	@Test
 	public void testVerify() {
 		fail("Not yet implemented");
 	}
