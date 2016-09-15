@@ -236,3 +236,6 @@ RefactoringAction 1473945747694 SudokuVerifierTest.java RENAME InString=>String 
 RefactoringAction 1473945749207 SudokuVerifierTest.java RENAME InCorString=>String InCorSubString FIELD
 RefactoringAction 1473945751719 SudokuVerifierTest.java RENAME InCorSubString=>String InCorSubGridString FIELD
 EditAction 1473945752431 SudokuVerifierTest.java 2887 8 15 7
+CompilationAction 1473945753990 SudokuVerifierTest.java
+CompilationAction 1473945768328 SudokuVerifierTest.java
+EditAction 1473945795588 SudokuVerifierTest.java 2884 8 15 7

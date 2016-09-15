@@ -9,7 +9,7 @@ public class SudokuVerifierTest {
 // An incorrect Sudoku string: 123456789912345678891234567789123456678912345567891234456789123345678912234567891
 	
 	public static final String CorString =				"417369825632158947958724316825437169791586432346912758289643571573291684164875293";
-	public static final String InCorSubGridString =				"417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+	public static final String InCorSubGridString =		"417369825432158947958724316825437169791586432346912758289643571573291684164875293";
 	public static final String IncorrecrColumnsString =	"417369825632158947958724316825437169791586432346912758289643571573291684364875291";
 	public static final String AlphaString =			"417369abc632158947958724316825437169791586432346912758289643571573291684164875293";
 	public static final String IncorLinesString =		"414369825632158947958724316825437169791586432346912758289643571573291684164875293";
@@ -58,7 +58,7 @@ public class SudokuVerifierTest {
 	}
 	@Test
 	public void TestIncorrectSubGrids(){
-		int result = sudoku.verify(IncorSubGridsString);
+		int result = sudoku.verify(InCorSubGridString);
 		assertEquals("A string with incorrect subgrids were given and something else than -4 was returned", -4, result);
 	}
 
