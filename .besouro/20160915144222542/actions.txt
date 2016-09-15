@@ -211,3 +211,6 @@ EditAction 1473943981376 SudokuVerifier.java 2600 10 27 0
 EditAction 1473944062409 SudokuVerifier.java 2689 10 28 0
 EditAction 1473944081505 SudokuVerifier.java 2900 10 29 0
 EditAction 1473944100202 SudokuVerifier.java 2896 10 29 0
+RefactoringAction 1473944328343 SudokuVerifierTest.java ADD void TestInc FIELD
+RefactoringAction 1473944333857 SudokuVerifierTest.java RENAME TestInc=>void TestIncorrectSubGrids() METHOD
+EditAction 1473944372444 SudokuVerifierTest.java 2742 8 15 7

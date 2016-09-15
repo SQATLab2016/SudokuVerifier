@@ -53,5 +53,10 @@ public class SudokuVerifierTest {
 		assertEquals("A string with incorrect columns were given and something else than -3 was returned", -3, result);
 		
 	}
+	@Test
+	public void TestIncorrectSubGrids(){
+		int result = sudoku.verify(IncorrecrColumnsString);
+		assertEquals("A string with incorrect subgrids were given and something else than -4 was returned", -4, result);
+	}
 
 }

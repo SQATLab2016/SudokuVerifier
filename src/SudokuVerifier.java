@@ -73,7 +73,14 @@ public class SudokuVerifier {
 		return 0;
 	}
 	private int TestSubGrids(){
-		
+		for (int row = 0; row<9; row +=3){
+			for (int col = 0; col<9; col +=3){
+				int result = this.TestSingleSubGrid(row, col);
+				if (result != 0){
+					return result;
+				}
+			}
+		}
 		return 0;
 	}
 	private int TestSingleSubGrid(int row, int col){
