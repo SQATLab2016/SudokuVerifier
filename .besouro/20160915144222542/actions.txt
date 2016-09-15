@@ -283,3 +283,6 @@ CompilationAction 1473946325244 SudokuVerifier.java
 RefactoringAction 1473946329637 SudokuVerifier.java RENAME FailedSubGrids=>int FailedSubGrid FIELD
 CompilationAction 1473946329644 SudokuVerifier.java
 EditAction 1473946355851 SudokuVerifier.java 3377 10 30 0
+UnitTestCaseAction 1473946383537 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473946383537 SudokuVerifierTest.java FAIL
+EditAction 1473946451503 SudokuVerifierTest.java 2835 8 15 7

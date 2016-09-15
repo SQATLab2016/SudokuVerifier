@@ -28,17 +28,17 @@ public class SudokuVerifierTest {
 	@Test
 	public void TestWithCorrectInput(){
 		int result = sudoku.verify(CorString);
-		assertEquals("Verifier returns something other than 0 with correct string", 0, result);
+		assertEquals("Verifier returns something other than 0 with correct string", SudokuVerifier.AllOk, result);
 	}
 	@Test
 	public  void TestTooLongString(){
 		int result = sudoku.verify(longString);
-		assertEquals("Test returns something else than -1 with too long string", -1, result);
+		assertEquals("Test returns something else than -1 with too long string", SudokuVerifier.FailedNumbers, result);
 	}
 	@Test 
 	public void TestTooShortString(){
 		int result = sudoku.verify(ShortString);
-		assertEquals("Test returns something else than -1 with too short string", -1, result);
+		assertEquals("Test returns something else than -1 with too short string", SudokuVerifier.FailedNumbers, result);
 	}
 	@Test
 	public void TestWithIncorrectLineString(){
