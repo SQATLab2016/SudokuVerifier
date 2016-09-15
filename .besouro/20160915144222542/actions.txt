@@ -303,3 +303,4 @@ RefactoringAction 1473946685562 SudokuVerifier.java RENAME SubGridDS=>int SubGri
 RefactoringAction 1473946688574 SudokuVerifier.java RENAME SubGrid=>int SubGridSize FIELD
 EditAction 1473946688724 SudokuVerifier.java 3453 10 30 0
 EditAction 1473946706672 SudokuVerifier.java 3461 10 30 0
+EditAction 1473946755820 SudokuVerifier.java 3475 10 30 0
