@@ -22,7 +22,27 @@ public class SudokuVerifier {
 				for(int k = j; k<j+21; k = k+9){
 					currentNumber = Character.getNumericValue(candidateSolution.charAt(j));
 					if(checker[currentNumber-1]==false) checker[currentNumber-1]=true;
-					else return -3;
+					else return -2;
+				}
+			}
+		}
+		for(int i = 27; i<34; i = i + 3){
+			initializeChecker(checker);
+			for(int j = i; j<i+3; j++){
+				for(int k = j; k<j+21; k = k+9){
+					currentNumber = Character.getNumericValue(candidateSolution.charAt(j));
+					if(checker[currentNumber-1]==false) checker[currentNumber-1]=true;
+					else return -2;
+				}
+			}
+		}
+		for(int i = 54; i<61; i = i + 3){
+			initializeChecker(checker);
+			for(int j = i; j<i+3; j++){
+				for(int k = j; k<j+21; k = k+9){
+					currentNumber = Character.getNumericValue(candidateSolution.charAt(j));
+					if(checker[currentNumber-1]==false) checker[currentNumber-1]=true;
+					else return -2;
 				}
 			}
 		}
