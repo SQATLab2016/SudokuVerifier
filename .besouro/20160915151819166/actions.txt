@@ -9,3 +9,14 @@ EditAction 1473942206513 SudokuVerifier.java 1830 4 28 0
 UnitTestCaseAction 1473942208529 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473942208532 SudokuVerifierTest.java FAIL
 EditAction 1473942221518 SudokuVerifierTest.java 917 3 9 2
+UnitTestCaseAction 1473942223499 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473942223500 SudokuVerifierTest.java FAIL
+RefactoringAction 1473942441458 SudokuVerifier.java ADD boolean checkColu FIELD
+RefactoringAction 1473942442473 SudokuVerifier.java RENAME checkColu=>boolean checkColumns FIELD
+RefactoringAction 1473942446498 SudokuVerifier.java RENAME checkColumns=>boolean checkColumns() METHOD
+RefactoringAction 1473942451032 SudokuVerifier.java RENAME checkColumns()=>boolean checkColumns(String) METHOD
+RefactoringAction 1473942973241 SudokuVerifierTest.java ADD void test FIELD
+RefactoringAction 1473942976255 SudokuVerifierTest.java RENAME test=>void testcheckLines FIELD
+RefactoringAction 1473942979269 SudokuVerifierTest.java RENAME testcheckLines=>void testcheckLines_True FIELD
+RefactoringAction 1473942981789 SudokuVerifierTest.java RENAME testcheckLines_True=>void testcheckLines_True() METHOD
+EditAction 1473943260394 SudokuVerifierTest.java 1266 4 13 3
