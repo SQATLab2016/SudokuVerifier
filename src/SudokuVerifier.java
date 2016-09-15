@@ -9,7 +9,6 @@ public class SudokuVerifier {
 	public int verify(String candidateSolution) {
 		// returns 0 if the candidate solution is correct
 		char temporal;
-		int temp;
 		
 		
 		
@@ -96,22 +95,22 @@ public class SudokuVerifier {
 		public boolean verifyColumns(String candidateSolution){
 			boolean ok=true;
 			int numTemp1=0;
-			for (int i = 0; i < 81; i=i+9) {
+			for (int i = 0; i < 9; i++) {
 				//columns
-				boolean row= true;
+				boolean column= true;
 				
 				for (int j = 0; j < 81; j=j+9) {
 					numTemp1= Integer.parseInt( ""+candidateSolution.charAt(i+j));
 					for (int j2 = 0; j2 < 81; j2=j2+9) {
 
 						if (j!=j2 && numTemp1==Integer.parseInt( ""+candidateSolution.charAt(i+j2))) {
-							row=false;
+							column=false;
 						}
 					}
 					
 				}
 				
-				if (!row) ok=false;
+				if (!column) ok=false;
 
 			}
 			

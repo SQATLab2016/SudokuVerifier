@@ -95,3 +95,10 @@ RefactoringAction 1473943553505 SudokuVerifierTest.java RENAME testVerifyRowInco
 EditAction 1473943611122 SudokuVerifierTest.java 1692 6 12 6
 CompilationAction 1473943611270 SudokuVerifierTest.java
 EditAction 1473943611287 SudokuVerifier.java 2142 4 15 0
+UnitTestCaseAction 1473943612267 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473943612268 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473943700454 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473943700454 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473943715950 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473943715951 SudokuVerifierTest.java FAIL
+EditAction 1473943931114 SudokuVerifierTest.java 1692 6 12 6
