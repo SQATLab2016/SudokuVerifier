@@ -75,3 +75,4 @@ EditAction 1473944520584 SudokuVerifier.java 3211 7 53 0
 RefactoringAction 1473944564692 SudokuVerifier.java REMOVE print(String) METHOD
 RefactoringAction 1473944564695 SudokuVerifier.java REMOVE main(String METHOD
 EditAction 1473944633816 SudokuVerifierTest.java 1281 4 13 3
+EditAction 1473944635534 SudokuVerifier.java 2925 5 49 0

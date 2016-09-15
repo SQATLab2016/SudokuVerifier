@@ -16,15 +16,15 @@ public class SudokuVerifier {
 	public boolean checkLines(String candidateSolution){
 		 String [] solution =candidateSolution.split("");
 		 int i = 0;
-		 String[] Line1 = new String[9];
-		 String[] Line2 = new String[9];
-		 String[] Line3 = new String[9];
-		 String[] Line4 = new String[9];
-		 String[] Line5 = new String[9];
-		 String[] Line6 = new String[9];
-		 String[] Line7 = new String[9];
-		 String[] Line8 = new String[9];
-		 String[] Line9 = new String[9];
+		 String[] Line1 = new String[8];
+		 String[] Line2 = new String[8];
+		 String[] Line3 = new String[8];
+		 String[] Line4 = new String[8];
+		 String[] Line5 = new String[8];
+		 String[] Line6 = new String[8];
+		 String[] Line7 = new String[8];
+		 String[] Line8 = new String[8];
+		 String[] Line9 = new String[8];
 		for(i=0;i<9; i++){Line1[i]=solution[i];}
 		for(i=0;i<9; i++){Line2[i]=solution[i+9];}
 		for(i=0;i<9; i++){Line3[i]=solution[i+18];}
@@ -84,17 +84,6 @@ public class SudokuVerifier {
 		
 	}
 
-	public static void print(String solution){
-		int i=0;
-		String[] split = solution.split("");
-		for(i=0;i<81;i++){System.out.println(split[i]);}
-	}
-
-
-
-public static void main(String[] args){
-	print("417369825632158947958724316825437169791586432346912758289643571573291684164875293");
-}
 	
 	
 }
