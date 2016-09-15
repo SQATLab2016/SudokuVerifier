@@ -77,9 +77,16 @@ public class SudokuVerifier {
 		return 0;
 	}
 	private int TestSingleSubGrid(int row, int col){
+		List<Integer> usedNumbers = new ArrayList<Integer>();
 		for (int x = row; x<(row+3); x++){
 			for (int y = col; y<(col+3); y++){
-				
+				int value = this.GetValueByCoordinates(row, col);
+				if (usedNumbers.contains(value)){
+					return -4;
+				}
+				else {
+					usedNumbers.add(value);
+				}
 			}
 		}
 		return 0;
