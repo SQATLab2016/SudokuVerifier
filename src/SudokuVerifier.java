@@ -34,9 +34,9 @@ public class SudokuVerifier {
 public static int verifyRowOrder(String candidateSolution) {		
 		
 
-		for(int i=0; i<=9; i++){
+		for(int i=1; i<=9; i++){
 			boolean[] check = new boolean[9];
-			for(int j=0; j<=9; j++){
+			for(int j=1; j<=9; j++){
 				if (check[candidateSolution.charAt(i*j-1) - 1])
 					return 1;
 				else
