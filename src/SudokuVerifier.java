@@ -59,6 +59,7 @@ public class SudokuVerifier {
 					usedNumbers.add(value);
 				}
 			}
+			usedNumbers.clear();
 		}
 		
 		return 0;
