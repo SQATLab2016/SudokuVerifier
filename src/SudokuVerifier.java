@@ -102,7 +102,7 @@ public class SudokuVerifier {
 				}
 			}
 		}
-		return 0;
+		return AllOk;
 	}
 	private int GetValueByCoordinates(int row, int col){
 		return this.sudokuMapping.get(row*this.rowMultiplayer+col);
