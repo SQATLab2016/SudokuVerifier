@@ -1,10 +1,23 @@
 
 public class SudokuVerifier {
 	
+	public boolean check(String[] Part){
+		return checknumber(Part, "1")&&checknumber(Part, "2")&&checknumber(Part, "3")&&checknumber(Part, "4")&&checknumber(Part, "5")&&checknumber(Part, "6")&&checknumber(Part, "7")&&checknumber(Part, "8")&&checknumber(Part, "9");
 	
-	public void convert(String candidateSolution){
+	}
+	
+	public boolean checknumber(String[] Part, String number){
+		int i=0;
+		int occurence=0;
+		for(i=0;i<9;i++){
+			if (Part[i]==number)occurence++;
+		}
+		return occurence==1;
+	}
+	
+	public boolean checkLines(String candidateSolution){
 		 String [] solution =candidateSolution.split("");
-		 int i=0;
+		 int i = 0;
 		 String[] Line1 = new String[9] ;
 		 String[] Line2 = new String[9];
 		 String[] Line3 = new String[9];
@@ -23,14 +36,22 @@ public class SudokuVerifier {
 		for(i=54;i<63; i++){Line7[i-54]=solution[i];}
 		for(i=63;i<72; i++){Line8[i-63]=solution[i];}
 		for(i=72;i<81; i++){Line9[i-72]=solution[i];}
+		return check(Line1)&&check(Line2)&&check(Line3)&&check(Line4)&&check(Line5)&&check(Line5)&&check(Line7)&&check(Line8)&&check(Line9);
 		
 }
 	
 	public int verify(String candidateSolution) {
 		// returns 0 if the candidate solution is correct
 		if (candidateSolution.length()==81){
-			candidateSolution.convert();
+			if (candidateSolution.checkLines()==true){
+				
+				
+			}
+			else return 
+			
 		
+			
+			
 		return 0;
 		
 		//check

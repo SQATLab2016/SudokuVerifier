@@ -11,5 +11,12 @@ public class SudokuVerifierTest {
 	public void testVerify() {
 		fail("Not yet implemented");
 	}
+	
+	@Test
+	public void testchecknumber() {
+		String[] test = ("1","2","3","4","5","6","7","8","9");
+		boolean check =checknumber(test,"1");
+		assertment(check==true, "There is 1 '1'");
+	}
 
 }
