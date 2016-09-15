@@ -184,3 +184,13 @@ EditAction 1473945890570 SudokuVerifier.java 1604 5 14 0
 EditAction 1473945968810 SudokuVerifier.java 1604 5 14 0
 EditAction 1473945970473 SudokuVerifierTest.java 1169 3 9 3
 EditAction 1473945977940 SudokuVerifierTest.java 1172 3 9 3
+UnitTestCaseAction 1473945982181 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473945982182 SudokuVerifierTest.java OK
+RefactoringAction 1473945998769 SudokuVerifierTest.java ADD void testColumn()/2 METHOD
+RefactoringAction 1473946039774 SudokuVerifierTest.java RENAME testRow()=>void testRowO() METHOD
+RefactoringAction 1473946040782 SudokuVerifierTest.java RENAME testRowO()=>void testRowOK() METHOD
+RefactoringAction 1473946046285 SudokuVerifierTest.java ADD void testRowOK()/2 METHOD
+RefactoringAction 1473946051291 SudokuVerifierTest.java RENAME testRowOK()/2=>void testRowER() METHOD
+RefactoringAction 1473946054794 SudokuVerifierTest.java RENAME testColumn()/2=>void testColumnOK() METHOD
+RefactoringAction 1473946057298 SudokuVerifierTest.java RENAME testColumn()=>void testColumnER() METHOD
+EditAction 1473946069826 SudokuVerifierTest.java 1761 5 15 5
