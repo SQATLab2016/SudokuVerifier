@@ -3,6 +3,7 @@ import java.util.Map;
 public class SudokuVerifier {
 	
 	Map<Integer, Integer> sudokuMapping;
+	int rowMultiplayer = 42;
 	
 	public int verify(String candidateSolution) {
 		
@@ -22,6 +23,9 @@ public class SudokuVerifier {
 				if (cellValue <= 0 && cellValue > 9){
 					return -1;
 				}
+				else {
+					this.sudokuMapping.put((row*this.rowMultiplayer+column), cellValue);
+				}
 				index++;
 			}
 		}
@@ -29,7 +33,8 @@ public class SudokuVerifier {
 		return 0;
 	}
 	private int GetNumberFromString(char str){
-		
+		string singleChar = String.valueOf(str);
+		int returnValue = Integer.parseInt()
 		
 		return -1;
 	}
