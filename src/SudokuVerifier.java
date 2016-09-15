@@ -87,7 +87,7 @@ public class SudokuVerifier {
 				}
 			}
 		}
-		return 0;
+		return AllOk;
 	}
 	private int TestSingleSubGrid(int row, int col){
 		List<Integer> usedNumbers = new ArrayList<Integer>();
