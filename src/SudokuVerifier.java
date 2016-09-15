@@ -9,7 +9,7 @@ public class SudokuVerifier {
 	public boolean checknumber(String[] Part, String number){
 		int i=0;
 		int occurence=0;
-		for(i=0;i<9;i++){	if (Part[i]==number)occurence++;}
+		for(i=0;i<9;i++){	if (Part[i]==number){occurence++;}}
 		return occurence==1;
 	}
 	
