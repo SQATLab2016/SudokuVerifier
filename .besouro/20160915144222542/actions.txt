@@ -1,0 +1,9 @@
+FileOpenedAction 1473939742776 SudokuVerifier.java 162 1 1 0
+RefactoringAction 1473939808607 SudokuVerifier.java ADD Map<Integer,Integer> sudokuMapping FIELD
+RefactoringAction 1473939814267 SudokuVerifier.java ADD import java.util.Map IMPORT
+RefactoringAction 1473939838295 SudokuVerifier.java ADD int S FIELD
+RefactoringAction 1473939842324 SudokuVerifier.java RENAME S=>int SpliceStringToMap FIELD
+RefactoringAction 1473939843348 SudokuVerifier.java RENAME SpliceStringToMap=>int SpliceStringToMap() METHOD
+RefactoringAction 1473939846363 SudokuVerifier.java RENAME SpliceStringToMap()=>int SpliceStringToMap(string) METHOD
+RefactoringAction 1473939852402 SudokuVerifier.java RENAME SpliceStringToMap(string)=>int SpliceStringToMap(String) METHOD
+EditAction 1473939934400 SudokuVerifier.java 378 2 3 0
