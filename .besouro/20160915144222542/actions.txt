@@ -94,3 +94,10 @@ RefactoringAction 1473941701779 SudokuVerifier.java ADD import java.util.ArrayLi
 CompilationAction 1473941703466 SudokuVerifier.java
 CompilationAction 1473941703467 SudokuVerifier.java
 EditAction 1473941742080 SudokuVerifier.java 1588 6 16 0
+CompilationAction 1473941743515 SudokuVerifier.java
+CompilationAction 1473941811887 SudokuVerifier.java
+CompilationAction 1473941812049 SudokuVerifier.java
+CompilationAction 1473941812050 SudokuVerifier.java
+CompilationAction 1473941826852 SudokuVerifier.java
+CompilationAction 1473941826853 SudokuVerifier.java
+EditAction 1473941854418 SudokuVerifier.java 1754 6 16 0

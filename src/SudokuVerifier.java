@@ -28,9 +28,16 @@ public class SudokuVerifier {
 	}
 	private int TestLines() {
 		List<Integer> usedNumber = new ArrayList<Integer>();
-		for (int i=0; i<9; i++){
-			if (usedNumber.contains(value)){
-				return -2;
+		for (int row=0; row<9; row++){
+			for (int col=0; col<9; col++)
+			{
+				int value = this.sudokuMapping.get(row*this.rowMultiplayer+col);
+				if (usedNumber.contains(value)){
+					return -2;
+				}
+				else {
+					usedNumber.add(value);
+				}
 			}
 		}
 		return 0;
