@@ -45,3 +45,34 @@ RefactoringAction 1473946399104 Column.java RENAME inserNumbers(int)=>void inser
 RefactoringAction 1473946404614 Column.java RENAME insertNumbers(int)=>void insertNumbersColum(int) METHOD
 RefactoringAction 1473946408124 Column.java RENAME insertNumbersColum(int)=>void insertNumbersColumn(int) METHOD
 EditAction 1473946466586 Column.java 243 1 1 0
+RefactoringAction 1473946529708 Column.java ADD String Repalce FIELD
+RefactoringAction 1473946533218 Column.java RENAME Repalce=>String repe FIELD
+RefactoringAction 1473946536228 Column.java RENAME repe=>String r FIELD
+RefactoringAction 1473946538738 Column.java RENAME r=>String repla FIELD
+RefactoringAction 1473946541248 Column.java RENAME repla=>String replaceNu FIELD
+RefactoringAction 1473946542258 Column.java RENAME replaceNu=>String replaceNub FIELD
+RefactoringAction 1473946545268 Column.java RENAME replaceNub=>String replaceNunber FIELD
+RefactoringAction 1473946551278 Column.java RENAME replaceNunber=>String replaceNumber FIELD
+RefactoringAction 1473946552788 Column.java RENAME replaceNumber=>String replaceNumber() METHOD
+RefactoringAction 1473946570808 Column.java RENAME replaceNumber()=>String replaceNumber(int) METHOD
+RefactoringAction 1473946572318 Column.java RENAME replaceNumber(int)=>String replaceNumber() METHOD
+RefactoringAction 1473946586328 Column.java RENAME replaceNumber()=>String replaceNumber(int) METHOD
+RefactoringAction 1473946589838 Column.java RENAME replaceNumber(int)=>String replaceNumber() METHOD
+RefactoringAction 1473946592348 Column.java RENAME replaceNumber()=>String replaceNumber(int) METHOD
+RefactoringAction 1473946605878 Column.java RENAME replaceNumber(int)=>String replaceNumber(int, int) METHOD
+RefactoringAction 1473946708938 Column.java RENAME insertNumbersColumn(int)=>void insertNumbersColumn(int, int) METHOD
+RefactoringAction 1473946740458 Column.java RENAME insertNumbersColumn(int, int)=>void insertNumbersColumn FIELD
+RefactoringAction 1473946756510 Column.java RENAME replaceNumber(int, int)=>String replaceNumber(int) METHOD
+RefactoringAction 1473946964197 Column.java RENAME insertNumbersColumn(int)=>void insertNumbersColumn(int, int) METHOD
+RefactoringAction 1473947007737 Column.java RENAME replaceNumber(int)=>String replaceNumber(int, int) METHOD
+RefactoringAction 1473947346142 Row.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1473947351162 Row.java RENAME column=>ArrayList<Integer> ro FIELD
+RefactoringAction 1473947353172 Row.java RENAME ro=>ArrayList<Integer> row FIELD
+RefactoringAction 1473947364182 Row.java RENAME insertNumbersColumn(int, int)=>void insertNumbersR(int, int) METHOD
+RefactoringAction 1473947365192 Row.java RENAME insertNumbersR(int, int)=>void insertNumbersROW(int, int) METHOD
+RefactoringAction 1473947366202 Row.java RENAME insertNumbersROW(int, int)=>void insertNumbersRO(int, int) METHOD
+RefactoringAction 1473947367212 Row.java RENAME insertNumbersRO(int, int)=>void insertNumbersR(int, int) METHOD
+RefactoringAction 1473947368222 Row.java RENAME insertNumbersR(int, int)=>void insertNumbersRow(int, int) METHOD
+RefactoringAction 1473947375232 Row.java RENAME replaceNumber(int, int)=>void replaceNumberR(int, int) METHOD
+RefactoringAction 1473947377242 Row.java RENAME replaceNumberR(int, int)=>void replaceNumberRow(int, int) METHOD
+EditAction 1473947438972 Row.java 338 2 2 0
