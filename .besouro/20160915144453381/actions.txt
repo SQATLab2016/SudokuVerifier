@@ -11,3 +11,10 @@ RefactoringAction 1473941006000 SudokuVerifier.java REMOVE verifyRow(String) MET
 EditAction 1473941007655 SudokuVerifier.java 1098 2 7 0
 CompilationAction 1473941008057 SudokuVerifier.java
 EditAction 1473941026858 SudokuVerifier.java 1108 2 7 0
+FileOpenedAction 1473941030949 SudokuVerifierTest.java 393 1 1 0
+RefactoringAction 1473941091523 SudokuVerifierTest.java ADD void testVerify()/2 METHOD
+RefactoringAction 1473941101601 SudokuVerifierTest.java RENAME testVerify()/2=>void testVerifyDigitd() METHOD
+RefactoringAction 1473941102641 SudokuVerifierTest.java RENAME testVerifyDigitd()=>void testVerifyDigits() METHOD
+RefactoringAction 1473941196921 SudokuVerifierTest.java RENAME testVerifyDigits()=>void testVerifyDigitsCor() METHOD
+RefactoringAction 1473941199948 SudokuVerifierTest.java RENAME testVerifyDigitsCor()=>void testVerifyDigitsCorrectString() METHOD
+EditAction 1473941247171 SudokuVerifierTest.java 630 2 3 1
