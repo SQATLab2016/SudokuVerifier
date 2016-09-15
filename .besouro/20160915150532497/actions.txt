@@ -174,3 +174,9 @@ RefactoringAction 1473945699251 SudokuVerifier.java RENAME verifyRow(int=>static
 EditAction 1473945714405 SudokuVerifier.java 1514 5 14 0
 CompilationAction 1473945714623 SudokuVerifierTest.java
 EditAction 1473945760273 SudokuVerifier.java 1563 5 14 0
+CompilationAction 1473945785450 SudokuVerifierTest.java
+RefactoringAction 1473945796223 SudokuVerifierTest.java ADD void testRow()/2 METHOD
+RefactoringAction 1473945824240 SudokuVerifierTest.java RENAME testRow()/2=>void testColumns() METHOD
+RefactoringAction 1473945826245 SudokuVerifierTest.java RENAME testColumns()=>void testColumn() METHOD
+RefactoringAction 1473945830329 SudokuVerifier.java RENAME verifyColum(int=>static int verifyColumn(int METHOD
+EditAction 1473945830433 SudokuVerifier.java 1564 5 14 0

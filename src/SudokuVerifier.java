@@ -51,7 +51,7 @@ public class SudokuVerifier {
 		return 0;
 	}
 	
-	public static int verifyColum(int[][] candidateSolution) {		
+	public static int verifyColumn(int[][] candidateSolution) {		
 		
 		for(int i=0; i<candidateSolution.length; i++){
 			BitSet filled = new BitSet(9);
