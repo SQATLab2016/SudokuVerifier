@@ -16,3 +16,13 @@ RefactoringAction 1473940133545 SudokuVerifierTest.java ADD void test FIELD
 RefactoringAction 1473940135562 SudokuVerifierTest.java RENAME test=>void testVerify FIELD
 EditAction 1473940219170 SudokuVerifier.java 2162 7 20 0
 EditAction 1473940222268 SudokuVerifierTest.java 1347 3 12 3
+CompilationAction 1473940223638 SudokuVerifierTest.java
+CompilationAction 1473940223639 SudokuVerifierTest.java
+CompilationAction 1473940223640 SudokuVerifierTest.java
+RefactoringAction 1473940280569 SudokuVerifier.java ADD String globalRows FIELD
+RefactoringAction 1473940287103 SudokuVerifier.java ADD String global FIELD
+RefactoringAction 1473940288120 SudokuVerifier.java RENAME global=>String globalCo FIELD
+RefactoringAction 1473940294636 SudokuVerifier.java RENAME globalCo=>String globalColumns FIELD
+RefactoringAction 1473940297653 SudokuVerifier.java ADD String s FIELD
+RefactoringAction 1473940300177 SudokuVerifier.java RENAME s=>String subgrids FIELD
+EditAction 1473940300964 SudokuVerifier.java 2249 7 20 0

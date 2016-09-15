@@ -1,6 +1,10 @@
 
 public class SudokuVerifier {
 	
+	private String globalRows;
+	private String globalColumns;
+	private String subgrids;
+	
 	public int verify(String candidateSolution) {
 		// returns 0 if the candidate solution is correct
 		
