@@ -226,3 +226,13 @@ EditAction 1473945501114 SudokuVerifierTest.java 2884 8 15 7
 UnitTestCaseAction 1473945503527 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473945503528 SudokuVerifierTest.java FAIL
 EditAction 1473945545561 SudokuVerifier.java 3080 10 30 0
+UnitTestCaseAction 1473945548727 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473945548728 SudokuVerifierTest.java FAIL
+RefactoringAction 1473945736651 SudokuVerifierTest.java REMOVE IncorSubGridsString FIELD
+RefactoringAction 1473945739163 SudokuVerifierTest.java ADD String CorString/2 FIELD
+RefactoringAction 1473945743171 SudokuVerifierTest.java REMOVE CorString/2 FIELD
+RefactoringAction 1473945745180 SudokuVerifierTest.java ADD String InString FIELD
+RefactoringAction 1473945747694 SudokuVerifierTest.java RENAME InString=>String InCorString FIELD
+RefactoringAction 1473945749207 SudokuVerifierTest.java RENAME InCorString=>String InCorSubString FIELD
+RefactoringAction 1473945751719 SudokuVerifierTest.java RENAME InCorSubString=>String InCorSubGridString FIELD
+EditAction 1473945752431 SudokuVerifierTest.java 2887 8 15 7
