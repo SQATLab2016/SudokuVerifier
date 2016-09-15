@@ -109,7 +109,8 @@ public class SudokuVerifier {
 
 			}
 			
-			
+			return ok;
+
 		}
 		
 		

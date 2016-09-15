@@ -113,3 +113,5 @@ RefactoringAction 1473944401939 SudokuVerifier.java ADD boolean ok FIELD
 RefactoringAction 1473944404952 SudokuVerifier.java REMOVE ok FIELD
 RefactoringAction 1473944631647 SudokuVerifier.java REMOVE verifySubGrid(String) METHOD
 EditAction 1473944631688 SudokuVerifier.java 2246 4 13 0
+CompilationAction 1473944631911 SudokuVerifier.java
+EditAction 1473944651334 SudokuVerifier.java 2257 4 14 0
