@@ -91,4 +91,32 @@ public class SudokuVerifier {
 			return ok;
 		}
 		
+		
+		
+		public boolean verifyColumns(String candidateSolution){
+			boolean ok=true;
+			int numTemp1=0;
+			for (int i = 0; i < 81; i=i+9) {
+				//columns
+				boolean row= true;
+				
+				for (int j = 0; j < 81; j=j+9) {
+					numTemp1= Integer.parseInt( ""+candidateSolution.charAt(i+j));
+					for (int j2 = 0; j2 < 81; j2=j2+9) {
+
+						if (j!=j2 && numTemp1==Integer.parseInt( ""+candidateSolution.charAt(i+j2))) {
+							row=false;
+						}
+					}
+					
+				}
+				
+				if (!row) ok=false;
+
+			}
+			
+			
+			return ok;
+		}
+		
 }

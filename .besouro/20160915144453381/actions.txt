@@ -93,3 +93,5 @@ RefactoringAction 1473943547485 SudokuVerifierTest.java RENAME testVerifyRowCorr
 RefactoringAction 1473943549494 SudokuVerifierTest.java RENAME testVerifyRCorrectString()=>void testVerifyColumnCorrectString() METHOD
 RefactoringAction 1473943553505 SudokuVerifierTest.java RENAME testVerifyRowIncorrectString()/2=>void testVerifyColumnIncorrectString() METHOD
 EditAction 1473943611122 SudokuVerifierTest.java 1692 6 12 6
+CompilationAction 1473943611270 SudokuVerifierTest.java
+EditAction 1473943611287 SudokuVerifier.java 2142 4 15 0
