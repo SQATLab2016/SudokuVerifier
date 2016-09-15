@@ -22,12 +22,12 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test
-	public void testVerify_WrongFormat_Returns_Minus5() {
+	public void testVerify_WrongLenght_Returns_Minus5() {
 		// Arrange
 		SudokuVerifier verifier = new SudokuVerifier();
 				
 		// Act
-		int result = verifier.verify("41736982563215894795872431682543716979158643234691275828964357157329168416487529");
+		boolean result = verifier.checkLenght("41736982563215894795872431682543716979158643234691275828964357157329168416487529");
 				
 		// Assert
 		assertEquals(-5, result);
@@ -39,7 +39,7 @@ public class SudokuVerifierTest {
 		SudokuVerifier verifier = new SudokuVerifier();
 				
 		// Act
-		int result = verifier.verify("417369825632158947958724316825437169791586432346912758289643571573291684164875393");
+		boolean result = verifier.checkRows("417369825632158947958724316825437169791586432346912758289643571573291684164875393");
 				
 		// Assert
 		assertEquals(-3, result);
@@ -51,19 +51,19 @@ public class SudokuVerifierTest {
 		SudokuVerifier verifier = new SudokuVerifier();
 				
 		// Act
-		int result = verifier.verify("147369258258147369369258147147369258258147369369258147147369258258147369369258147");
+		boolean result = verifier.checkColumns("147369258258147369369258147147369258258147369369258147147369258258147369369258147");
 				
 		// Assert
 		assertEquals(-4, result);
 	}
 	
 	@Test
-	public void testVerify_WrongBecauseOfNonPositiveNumber_Returns_Minus1() {
+	public void testVerify_WrongBecauseOfFormat_Returns_Minus1() {
 		// Arrange
 		SudokuVerifier verifier = new SudokuVerifier();
 				
 		// Act
-		int result = verifier.verify("4173698256321589479-8724316825437169791586432346912758289643571573291684164875293");
+		boolean result = verifier.checkFormat("4173698256321589479-8724316825437169791586432346912758289643571573291684164875293");
 				
 		// Assert
 		assertEquals(-1, result);
@@ -75,7 +75,7 @@ public class SudokuVerifierTest {
 		SudokuVerifier verifier = new SudokuVerifier();
 				
 		// Act
-		int result = verifier.verify("417369825642158947958724316825437169791586432346912758289643571573291684164875293");
+		boolean result = verifier.checkSubGrids("417369825642158947958724316825437169791586432346912758289643571573291684164875293");
 				
 		// Assert
 		assertEquals(-2, result);

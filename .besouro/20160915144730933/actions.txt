@@ -108,3 +108,6 @@ CompilationAction 1473945455983 SudokuVerifier.java
 CompilationAction 1473945455984 SudokuVerifier.java
 RefactoringAction 1473945679578 SudokuVerifier.java RENAME checkColums(String)=>boolean checkColumns(String) METHOD
 EditAction 1473945696469 SudokuVerifier.java 2966 7 26 0
+RefactoringAction 1473945957580 SudokuVerifierTest.java RENAME testVerify_WrongFormat_Returns_Minus5()=>void testVerify_WrongLenght_Returns_Minus5() METHOD
+RefactoringAction 1473945966095 SudokuVerifierTest.java RENAME testVerify_WrongBecauseOfNonPositiveNumber_Returns_Minus1()=>void testVerify_WrongBecauseOfFormat_Returns_Minus1() METHOD
+EditAction 1473946023143 SudokuVerifierTest.java 2261 6 18 6
