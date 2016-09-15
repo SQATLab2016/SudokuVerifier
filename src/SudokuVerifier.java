@@ -17,6 +17,8 @@ public class SudokuVerifier {
 	}
 
 	public int verify(String candidateSolution) {
+		this.globalRows = new String[9];
+		
 		// returns 0 if the candidate solution is correct
 		
 		//check that candidate solution has exactly 9*9 chars
