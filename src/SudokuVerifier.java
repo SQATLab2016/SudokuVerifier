@@ -18,6 +18,8 @@ public class SudokuVerifier {
 
 	public int verify(String candidateSolution) {
 		this.globalRows = new String[9];
+		this.globalColumns = new String[9];
+		this.subgrids = new String[9];
 		
 		// returns 0 if the candidate solution is correct
 		
