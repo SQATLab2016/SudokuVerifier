@@ -50,7 +50,7 @@ public class SudokuVerifier {
 			{
 				int value = this.GetValueByCoordinates(row, col);
 				if (usedNumbers.contains(value)){
-					return FailedRows;
+					return FailedRow;
 				}
 				else {
 					usedNumbers.add(value);
@@ -67,7 +67,7 @@ public class SudokuVerifier {
 			{
 				int value = this.GetValueByCoordinates(row, col);
 				if (usedNumbers.contains(value)){
-					return -3;
+					return FailedColumn;
 				}
 				else {
 					usedNumbers.add(value);
