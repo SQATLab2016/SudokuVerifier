@@ -11,6 +11,8 @@ public class SudokuVerifier {
 	public static final int FailedSubGrid = -2;
 	public static final int FailedRow = -3;
 	public static final int FailedColumn = -4;
+	private int rowCount = 9;
+	private int SubGridSize = 3;
 	int rowMultiplayer = 42;
 	
 	public SudokuVerifier(){

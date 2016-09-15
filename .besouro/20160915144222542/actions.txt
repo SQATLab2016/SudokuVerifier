@@ -294,3 +294,11 @@ UnitTestSessionAction 1473946531598 SudokuVerifierTest.java OK
 EditAction 1473946612204 SudokuVerifier.java 3388 10 30 0
 EditAction 1473946619271 SudokuVerifier.java 3392 10 30 0
 EditAction 1473946627529 SudokuVerifier.java 3396 10 30 0
+RefactoringAction 1473946666921 SudokuVerifier.java ADD int row FIELD
+RefactoringAction 1473946669438 SudokuVerifier.java RENAME row=>int rowCount FIELD
+RefactoringAction 1473946682008 SudokuVerifier.java ADD int SubGrud FIELD
+RefactoringAction 1473946683525 SudokuVerifier.java RENAME SubGrud=>int SubGrid FIELD
+RefactoringAction 1473946684544 SudokuVerifier.java RENAME SubGrid=>int SubGridDS FIELD
+RefactoringAction 1473946685562 SudokuVerifier.java RENAME SubGridDS=>int SubGrid FIELD
+RefactoringAction 1473946688574 SudokuVerifier.java RENAME SubGrid=>int SubGridSize FIELD
+EditAction 1473946688724 SudokuVerifier.java 3453 10 30 0
