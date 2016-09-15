@@ -39,7 +39,7 @@ public static int verifyRowOrder(String candidateSolution) {
 			BitSet filled = new BitSet(9);
 			for(int j=1; j<8; j++){
 				filled.set(candidateSolution.charAt(i*j-1)-1);
-			if(filled.size() != 9)
+			if(filled.length() != 9)
 				return 1;
 			}
 		}
