@@ -17,3 +17,6 @@ RefactoringAction 1473940648538 SudokuVerifierTest.java ADD void testVerify_Corr
 RefactoringAction 1473940648538 SudokuVerifierTest.java ADD void testVerify_WrongFormat_Returns_Minus5() METHOD
 RefactoringAction 1473940648539 SudokuVerifierTest.java ADD void testVerify_WrongBecauseOfRow_Returns_Minus3() METHOD
 EditAction 1473940649922 SudokuVerifierTest.java 1265 3 9 3
+UnitTestCaseAction 1473940652713 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473940652713 SudokuVerifierTest.java FAIL
+EditAction 1473940676262 SudokuVerifierTest.java 1265 3 9 3
