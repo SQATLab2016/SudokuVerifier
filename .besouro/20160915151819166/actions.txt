@@ -85,3 +85,6 @@ EditAction 1473944948211 SudokuVerifierTest.java 1209 4 13 3
 UnitTestCaseAction 1473944950158 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473944950159 SudokuVerifierTest.java FAIL
 EditAction 1473944976769 SudokuVerifierTest.java 1290 4 13 3
+UnitTestCaseAction 1473944978715 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473944978716 SudokuVerifierTest.java FAIL
+EditAction 1473945018476 SudokuVerifier.java 2957 5 50 0
