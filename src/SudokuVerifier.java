@@ -83,4 +83,18 @@ public class SudokuVerifier {
 	return -5; //return -5 means that the solution isn't 81 caracters long
 		
 	}
+
+	public static void print(String solution){
+		int i=0;
+		String[] split = solution.split("");
+		for(i=0;i<81;i++){System.out.println(split[i]);}
+	}
+
+
+
+public static void main(String[] args){
+	print("417369825632158947958724316825437169791586432346912758289643571573291684164875293");
+}
+	
+	
 }
