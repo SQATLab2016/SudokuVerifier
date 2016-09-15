@@ -81,8 +81,8 @@ public class SudokuVerifier {
 		return AllOk;
 	}
 	private int TestSubGrids(){
-		for (int row = 0; row<9; row +=3){
-			for (int col = 0; col<9; col +=3){
+		for (int row = 0; row<rowCount; row += SubGridSize){
+			for (int col = 0; col<rowCount; col += SubGridSize){
 				int result = this.TestSingleSubGrid(row, col);
 				if (result != AllOk){
 					return result;
