@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class SudokuVerifier {
@@ -27,7 +29,9 @@ public class SudokuVerifier {
 	private int TestLines() {
 		List<Integer> usedNumber = new ArrayList<Integer>();
 		for (int i=0; i<9; i++){
-			
+			if (usedNumber.contains(value)){
+				return -2;
+			}
 		}
 		return 0;
 	}

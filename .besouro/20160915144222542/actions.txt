@@ -87,3 +87,10 @@ CompilationAction 1473941619314 SudokuVerifier.java
 RefactoringAction 1473941621953 SudokuVerifier.java ADD int TestLines() METHOD
 EditAction 1473941646110 SudokuVerifier.java 1430 6 15 0
 EditAction 1473941694403 SudokuVerifier.java 1485 6 16 0
+CompilationAction 1473941695767 SudokuVerifier.java
+CompilationAction 1473941695768 SudokuVerifier.java
+RefactoringAction 1473941699405 SudokuVerifier.java ADD import java.util.List IMPORT
+RefactoringAction 1473941701779 SudokuVerifier.java ADD import java.util.ArrayList IMPORT
+CompilationAction 1473941703466 SudokuVerifier.java
+CompilationAction 1473941703467 SudokuVerifier.java
+EditAction 1473941742080 SudokuVerifier.java 1588 6 16 0
