@@ -221,3 +221,6 @@ RefactoringAction 1473946644438 SudokuVerifierTest.java RENAME test3x3ER()=>void
 RefactoringAction 1473946699975 SudokuVerifierTest.java ADD void test3x3OK()/2 METHOD
 RefactoringAction 1473946725487 SudokuVerifierTest.java RENAME test3x3OK()/2=>void test3x3ER() METHOD
 EditAction 1473946733795 SudokuVerifierTest.java 2387 7 21 7
+UnitTestCaseAction 1473946734740 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473946734740 SudokuVerifierTest.java FAIL
+EditAction 1473946758955 SudokuVerifierTest.java 2387 7 21 7
