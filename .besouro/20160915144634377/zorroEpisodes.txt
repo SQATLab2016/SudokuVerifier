@@ -1,0 +1,13 @@
+1473940085401 refactoring 3 90 true
+1473940346143 refactoring 3 260 true
+1473940400821 refactoring 2A 54 true
+1473941362563 test-first 3 961 true
+1473941496132 refactoring 3 133 true
+1473941820119 refactoring 3 323 true
+1473942321621 refactoring 3 501 true
+1473942445410 refactoring 3 123 true
+1473942723910 refactoring 3 278 true
+1473945227541 refactoring 3 2503 true
+1473945338894 refactoring 3 111 true
+1473945525280 refactoring 3 186 true
+1473946020025 refactoring 3 494 true
