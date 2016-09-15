@@ -7,3 +7,19 @@ RefactoringAction 1473939843348 SudokuVerifier.java RENAME SpliceStringToMap=>in
 RefactoringAction 1473939846363 SudokuVerifier.java RENAME SpliceStringToMap()=>int SpliceStringToMap(string) METHOD
 RefactoringAction 1473939852402 SudokuVerifier.java RENAME SpliceStringToMap(string)=>int SpliceStringToMap(String) METHOD
 EditAction 1473939934400 SudokuVerifier.java 378 2 3 0
+RefactoringAction 1473939947990 SudokuVerifier.java ADD int Test FIELD
+RefactoringAction 1473939958508 SudokuVerifier.java REMOVE Test FIELD
+RefactoringAction 1473939963027 SudokuVerifier.java ADD int VerifyC FIELD
+RefactoringAction 1473939968054 SudokuVerifier.java RENAME VerifyC=>int VerifyCorrectInput FIELD
+RefactoringAction 1473939970574 SudokuVerifier.java RENAME VerifyCorrectInput=>int VerifyCorrectInputByCekk FIELD
+RefactoringAction 1473939972092 SudokuVerifier.java RENAME VerifyCorrectInputByCekk=>int VerifyCorrectInputByCe FIELD
+RefactoringAction 1473939975110 SudokuVerifier.java RENAME VerifyCorrectInputByCe=>int VerifyCorrectInput() METHOD
+RefactoringAction 1473939978640 SudokuVerifier.java RENAME VerifyCorrectInput()=>int VerifyCorrectInput(char) METHOD
+RefactoringAction 1473939985207 SudokuVerifier.java RENAME VerifyCorrectInput(char)=>char str FIELD
+RefactoringAction 1473939989240 SudokuVerifier.java RENAME Get(char)=>int GetNumber(char) METHOD
+RefactoringAction 1473939994757 SudokuVerifier.java RENAME GetNumber(char)=>int GetNumberFrom(char) METHOD
+RefactoringAction 1473939997281 SudokuVerifier.java RENAME GetNumberFrom(char)=>int GetNumberFromChar(char) METHOD
+RefactoringAction 1473940008301 SudokuVerifier.java RENAME GetNumberFromChar(char)=>int GetNumberFromCh(char) METHOD
+RefactoringAction 1473940009826 SudokuVerifier.java RENAME GetNumberFromCh(char)=>int GetNumberFrom(char) METHOD
+RefactoringAction 1473940011350 SudokuVerifier.java RENAME GetNumberFrom(char)=>int GetNumberFromString(char) METHOD
+EditAction 1473940018463 SudokuVerifier.java 444 3 4 0

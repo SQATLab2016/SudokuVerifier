@@ -22,4 +22,9 @@ public class SudokuVerifier {
 		
 		return 0;
 	}
+	private int GetNumberFromString(char str){
+		
+		
+		return -1;
+	}
 }
