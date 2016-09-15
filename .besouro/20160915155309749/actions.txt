@@ -83,3 +83,18 @@ RefactoringAction 1473947530612 Board.java RENAME column=>ArrayList<ArrayList> b
 RefactoringAction 1473947534612 Board.java RENAME bor=>ArrayList<ArrayList> boar FIELD
 RefactoringAction 1473947535622 Board.java RENAME boar=>ArrayList<ArrayList> board FIELD
 EditAction 1473947581273 Board.java 127 0 0 0
+RefactoringAction 1473947651623 Board.java ADD void insertNumbersRow(int, int) METHOD
+RefactoringAction 1473947658633 Board.java RENAME insertNumbersRow(int, int)=>void insertRow(int, int) METHOD
+RefactoringAction 1473947675653 Board.java RENAME insertRow(int, int)=>void insertRow(A, int) METHOD
+RefactoringAction 1473947677163 Board.java RENAME insertRow(A, int)=>void insertRow(Arr, int) METHOD
+RefactoringAction 1473947679663 Board.java RENAME insertRow(Arr, int)=>void insertRow(ArrayList<E>, int) METHOD
+RefactoringAction 1473947685663 Board.java RENAME insertRow(ArrayList<E>, int)=>void insertRow(ArrayList<RO>, int) METHOD
+RefactoringAction 1473947686673 Board.java RENAME insertRow(ArrayList<RO>, int)=>void insertRow(ArrayList<>, int) METHOD
+RefactoringAction 1473947694183 Board.java RENAME insertRow(ArrayList<>, int)=>void insertRow() METHOD
+RefactoringAction 1473947698193 Board.java RENAME insertRow()=>void insertRow(ArrayList<Integer>, int) METHOD
+RefactoringAction 1473947707693 Board.java RENAME insertRow(ArrayList<Integer>, int)=>void insertRow(ArrayList<Integer>) METHOD
+RefactoringAction 1473947775213 Board.java ADD void insertRow(ArrayList<Integer>)/2 METHOD
+RefactoringAction 1473947781723 Board.java RENAME insertRow(ArrayList<Integer>)/2=>void insertCO(ArrayList<Integer>) METHOD
+RefactoringAction 1473947782723 Board.java RENAME insertCO(ArrayList<Integer>)=>void insertC(ArrayList<Integer>) METHOD
+RefactoringAction 1473947785233 Board.java RENAME insertC(ArrayList<Integer>)=>void insertColumn(ArrayList<Integer>) METHOD
+EditAction 1473947802193 Board.java 315 2 2 0
