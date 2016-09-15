@@ -46,7 +46,7 @@ public class SudokuVerifierTest {
 	@Test
 	public void testcheckLines_True(){
 		SudokuVerifier SV=new SudokuVerifier();
-		String solution = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		String solution = "123456789";
 		assertEquals("The lines are checked false despite being true", true, SV.checkLines(solution));
 	}
 
