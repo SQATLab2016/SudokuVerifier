@@ -12,15 +12,17 @@ public class SudokuVerifierTest {
 	public static final String IncorString = "123456789912345678891234567789123456678912345567891234456789123345678912234567891";
 	public static final String ShortString = "1234567899123456788912345677891234566789123455678912344567891233456";
 	public static final String longString = "1234567899123456788912345677891234566789123455678912344567891233456789123455678912344567891233456";
+	public static SudokuVerifier sudoku;
 
 	@Before
 	public void SetUp(){
-		SudokuVerifier sudoku = new SudokuVerifier();
+		sudoku = new SudokuVerifier();
 	}
 	
 	@Test
 	public void TestNumberFormattingCorrectInput(){
-		
+		int result = sudoku.verify(CorString);
+		assertEquals("Test returns -1 with correct string", 0, result);
 	}
 
 }
