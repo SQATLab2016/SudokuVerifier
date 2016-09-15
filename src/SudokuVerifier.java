@@ -39,8 +39,16 @@ public class SudokuVerifier {
 	    
 		// Rule #3
 	    for (int i = 0; i < 9; i++) {
-	        String row = candidateSolution.substring(offset, offset+8);
-	        if (!isValidArray(row)) {
+		    String column = candidateSolution.substring(i,i+1) +
+		    		candidateSolution.substring(i+9,i+10) +
+		    		candidateSolution.substring(i+18,i+19) +
+		    		candidateSolution.substring(i+27,i+28) +
+		    		candidateSolution.substring(i+36,i+37) +
+		    		candidateSolution.substring(i+45,i+46) +
+		    		candidateSolution.substring(i+54,i+55) +
+		    		candidateSolution.substring(i+63,i+64) +
+		    		candidateSolution.substring(i+72);
+	        if (!isValidArray(column)) {
 	        	return -3;
 	        }
 	    }

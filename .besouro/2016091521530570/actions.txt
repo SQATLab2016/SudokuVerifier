@@ -1,0 +1,6 @@
+FileOpenedAction 1473965585483 SudokuVerifier.java 1718 2 8 0
+FileOpenedAction 1473966713299 SudokuVerifierTest.java 1263 4 10 3
+RefactoringAction 1473966751721 SudokuVerifierTest.java ADD void testForValidRows()/2 METHOD
+RefactoringAction 1473966768661 SudokuVerifierTest.java RENAME testForValidRows()/2=>void testForValid() METHOD
+RefactoringAction 1473966793660 SudokuVerifierTest.java RENAME testForValid()=>void testForValidColumns() METHOD
+EditAction 1473966798696 SudokuVerifierTest.java 1554 5 13 4

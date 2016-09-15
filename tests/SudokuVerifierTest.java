@@ -38,6 +38,16 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test
+	public void testForValidColumns() {
+		// Arrange
+		SudokuVerifier sv = new SudokuVerifier();
+		// Act
+		int result = sv.verify("414369825632158947958724316825437169791586432346912758289643571573291684164875293");
+		// Assert
+		assertEquals("Should be -3", -3, result);
+	}
+
+	@Test
 	public void testVerify() {
 		fail("Not yet implemented");
 	}
