@@ -38,6 +38,8 @@ public class SudokuVerifier {
 		//return check(Line1)&&check(Line2)&&check(Line3)&&check(Line4)&&check(Line5)&&check(Line6)&&check(Line7)&&check(Line8)&&check(Line9);
 		String[] test = {"1","2","3","4","5","6","7","8","9"};
 		for(i=0;i<9; i++){System.out.print(Line1[i]);}
+		System.out.println();
+		for(i=0;i<9; i++){System.out.print(test[i]);}
 		return test==Line1;
  }  
 	public boolean checkColumns(String candidateSolution){
