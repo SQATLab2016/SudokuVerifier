@@ -8,3 +8,5 @@ RefactoringAction 1473941538754 SudokuVerifier.java ADD static int verify(String
 RefactoringAction 1473941546265 SudokuVerifier.java RENAME verify(String)/2=>static int verifyLeng(String) METHOD
 RefactoringAction 1473941547772 SudokuVerifier.java RENAME verifyLeng(String)=>static int verifyLength(String) METHOD
 EditAction 1473941624056 SudokuVerifierTest.java 743 2 4 2
+CompilationAction 1473941624624 SudokuVerifierTest.java
+EditAction 1473941641672 SudokuVerifier.java 492 2 3 0
