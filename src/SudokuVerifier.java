@@ -26,15 +26,14 @@ public class SudokuVerifier {
 		 String[] Line8 = new String[9];
 		 String[] Line9 = new String[9];
 		for(i=0;i<9; i++){Line1[i]=solution[i];}
-		for(i=0;i<9; i++){Line2[i]=solution[i+9];}
-		for(i=0;i<9; i++){Line3[i]=solution[i+18];}
-		for(i=0;i<9; i++){Line4[i]=solution[i+27];}
-		for(i=0;i<9; i++){Line5[i]=solution[i+36];}
-		for(i=0;i<9; i++){Line6[i]=solution[i+45];}
-		for(i=0;i<9; i++){Line7[i]=solution[i+54];}
-		for(i=0;i<9; i++){Line8[i]=solution[i+63];}
-		for(i=0;i<9; i++){Line9[i]=solution[i+72];}
-		for(i=0;i<9;i++){System.out.println(Line1[i]);}
+		//for(i=0;i<9; i++){Line2[i]=solution[i+9];}
+		//for(i=0;i<9; i++){Line3[i]=solution[i+18];}
+		//for(i=0;i<9; i++){Line4[i]=solution[i+27];}
+		//for(i=0;i<9; i++){Line5[i]=solution[i+36];}
+		//for(i=0;i<9; i++){Line6[i]=solution[i+45];}
+		//for(i=0;i<9; i++){Line7[i]=solution[i+54];}
+		//for(i=0;i<9; i++){Line8[i]=solution[i+63];}
+		//for(i=0;i<9; i++){Line9[i]=solution[i+72];}
 		return check(Line1);//&&check(Line2)&&check(Line3)&&check(Line4)&&check(Line5)&&check(Line6)&&check(Line7)&&check(Line8)&&check(Line9);
 		
  }  
