@@ -142,3 +142,12 @@ RefactoringAction 1473942367566 SudokuVerifier.java ADD int Test FIELD
 RefactoringAction 1473942369585 SudokuVerifier.java RENAME Test=>int TestRows FIELD
 RefactoringAction 1473942371103 SudokuVerifier.java RENAME TestRows=>int TestRows() METHOD
 EditAction 1473942389713 SudokuVerifier.java 1979 8 19 0
+RefactoringAction 1473942498284 SudokuVerifierTest.java ADD void Test FIELD
+RefactoringAction 1473942499296 SudokuVerifierTest.java RENAME Test=>void TestWith FIELD
+RefactoringAction 1473942501314 SudokuVerifierTest.java RENAME TestWith=>void TestWithAlp FIELD
+RefactoringAction 1473942502326 SudokuVerifierTest.java RENAME TestWithAlp=>void TestWithAlpa FIELD
+RefactoringAction 1473942505839 SudokuVerifierTest.java RENAME TestWithAlpa=>void TestWithStringThat FIELD
+RefactoringAction 1473942509357 SudokuVerifierTest.java RENAME TestWithStringThat=>void TestWithStringThatHasAlpabets FIELD
+RefactoringAction 1473942513369 SudokuVerifierTest.java RENAME TestWithStringThatHasAlpabets=>void TestWithStringThatHasAlpabetsIn() METHOD
+RefactoringAction 1473942519882 SudokuVerifierTest.java ADD String CorString/2 FIELD
+EditAction 1473942525777 SudokuVerifierTest.java 2006 6 9 4
