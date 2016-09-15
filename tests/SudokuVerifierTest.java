@@ -39,7 +39,7 @@ public class SudokuVerifierTest {
 	public void testcheckLines_True(){
 		SudokuVerifier SV=new SudokuVerifier();
 		String solution = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
-		boolean checklines = SV.checkColumns(solution);
+		boolean checklines = SV.checkLines(solution);
 		assertEquals("The lines are checked false despite being true", true, checklines);
 	}
 
