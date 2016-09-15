@@ -42,6 +42,7 @@ public class SudokuVerifier {
 					usedNumber.add(value);
 				}
 			}
+			usedNumber.clear();
 		}
 		return 0;
 	}
