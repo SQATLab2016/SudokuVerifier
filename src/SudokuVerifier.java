@@ -17,9 +17,12 @@ public class SudokuVerifier {
 		
 		//Checks if all sub-grids are valid
 		for(int i = 0; i<8; i = i + 3){
+			initializeChecker(checker);
 			for(int j = i; j<i+3; j++){
 				for(int k = j; k<j+21; k = k+9){
-					
+					currentNumber = Character.getNumericValue(candidateSolution.charAt(j));
+					if(checker[currentNumber-1]==false) checker[currentNumber-1]=true;
+					else return -3;
 				}
 			}
 		}
