@@ -7,8 +7,13 @@ public class SudokuVerifier {
 	
 	public int verify(String candidateSolution) {
 		
-		
-		
+		if (this.TestStringLenght(candidateSolution)){
+			return -1;
+		}
+		int spliceResult =this.SpliceStringToMap(candidateSolution); 
+		if (spliceResult != 0){
+			return spliceResult;
+		}
 		
 		
 		// returns 0 if the candidate solution is correct
