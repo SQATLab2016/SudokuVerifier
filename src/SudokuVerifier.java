@@ -72,10 +72,10 @@ public static int verify3x3(int[][] candidateSolution) {
 				BitSet block = new BitSet(9);
 				for(int i=0; i<row; i++){
 					for(int j=0; j<column; j++){
-						if(column.get(candidateSolution[j][i]-1))
+						if(block.get(candidateSolution[j][i]-1))
 							return 1;
 						else 
-							column.set(candidateSolution[j][i]-1);
+							block.set(candidateSolution[j][i]-1);
 					}	
 				}
 			}

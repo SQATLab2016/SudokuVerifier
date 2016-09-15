@@ -40,7 +40,7 @@ public class SudokuVerifierTest {
 		
 		//int result = rowNumber + rowOrder;
 		
-		assertEquals("Sudokus row OK", 0, rowOrder);	
+		assertEquals("Sudokus column OK", 0, rowOrder);	
 	}
 
 	@Test
@@ -50,6 +50,26 @@ public class SudokuVerifierTest {
 		
 		//int result = rowNumber + rowOrder;
 		
-		assertEquals("Sudokus row ER", 1, rowOrder);	
+		assertEquals("Sudokus column ER", 1, rowOrder);	
+	}
+	
+	@Test
+	public void test3x3OK() {
+		int[][] matrix = SudokuVerifier.toM2("417369825632158947958724316825437169791586432346912758289643571573291684164875293", 9);
+		int rowOrder = SudokuVerifier.verify3x3(matrix);
+		
+		//int result = rowNumber + rowOrder;
+		
+		assertEquals("Sudokus 3x3 OK", 0, rowOrder);	
+	}
+	
+	@Test
+	public void test3x3ER() {
+		int[][] matrix = SudokuVerifier.toM2("289613571573294684164875293825437169791586432346942758417369825632158947958721316", 9);
+		int rowOrder = SudokuVerifier.verify3x3(matrix);
+		
+		//int result = rowNumber + rowOrder;
+		
+		assertEquals("Sudokus 3x3 ER", 1, rowOrder);	
 	}
 }

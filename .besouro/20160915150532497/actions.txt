@@ -211,3 +211,13 @@ RefactoringAction 1473946384438 SudokuVerifier.java ADD static int verifyColumn(
 RefactoringAction 1473946388942 SudokuVerifier.java RENAME verifyColumn(int=>static int verify3x3(int METHOD
 EditAction 1473946390058 SudokuVerifier.java 1943 6 16 0
 EditAction 1473946591978 SudokuVerifier.java 2003 6 16 0
+CompilationAction 1473946592188 SudokuVerifier.java
+CompilationAction 1473946592188 SudokuVerifier.java
+CompilationAction 1473946621731 SudokuVerifier.java
+CompilationAction 1473946621731 SudokuVerifier.java
+RefactoringAction 1473946637932 SudokuVerifierTest.java ADD void testColumnER()/2 METHOD
+RefactoringAction 1473946641935 SudokuVerifierTest.java RENAME testColumnER()/2=>void test3x3ER() METHOD
+RefactoringAction 1473946644438 SudokuVerifierTest.java RENAME test3x3ER()=>void test3x3OK() METHOD
+RefactoringAction 1473946699975 SudokuVerifierTest.java ADD void test3x3OK()/2 METHOD
+RefactoringAction 1473946725487 SudokuVerifierTest.java RENAME test3x3OK()/2=>void test3x3ER() METHOD
+EditAction 1473946733795 SudokuVerifierTest.java 2387 7 21 7
