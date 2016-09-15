@@ -129,7 +129,7 @@ public class SudokuVerifier {
 		return AllOk;
 	}
 	private boolean TestStringLenght(String str){
-		if (str.length() != 81){
+		if (str.length() != rowCount*rowCount){
 			return false;
 		}
 		return true;
