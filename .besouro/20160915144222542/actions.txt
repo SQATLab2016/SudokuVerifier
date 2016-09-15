@@ -121,3 +121,4 @@ RefactoringAction 1473942051390 SudokuVerifierTest.java RENAME CorString/2=>Stri
 RefactoringAction 1473942052403 SudokuVerifierTest.java RENAME String=>String InString FIELD
 RefactoringAction 1473942054918 SudokuVerifierTest.java RENAME InString=>String IncorLinesString FIELD
 EditAction 1473942059741 SudokuVerifierTest.java 1683 5 7 3
+EditAction 1473942122756 SudokuVerifierTest.java 1821 5 9 4
