@@ -5,3 +5,4 @@
 1473941304546 test-addition 1 16 true
 1473941304547 test-addition 1 16 true
 1473941398920 production 2 63 false
+1473941537893 regression 2 110 true
