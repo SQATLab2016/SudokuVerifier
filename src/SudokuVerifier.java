@@ -7,17 +7,19 @@ public class SudokuVerifier {
 	
 	
 	public int verify(String candidateSolution) {
-		/*
-		 * its only started
-		 * // returns 0 if the candidate solution is correct
+		// returns 0 if the candidate solution is correct
 		char temporal;
 		int temp;
+		
+		
+		
+		
+		
 		for (int i = 0; i < 9; i++) { //colums
 			for (int j = 0; j < 9; j++) { //rows
 				temporal=candidateSolution.charAt(j+(9*i));
 	
 				if(Character.isDefined(temporal)){
-					temp=Integer.parseInt((char)temporal);
 					
 				}
 				
@@ -32,13 +34,50 @@ public class SudokuVerifier {
 				
 				
 				
-			}*/
+			}
 		
-		
+		}
 		
 		
 		return 0;
 		
 		//check
 	}
+	
+	public boolean verifyDigits(String candidateSolution){
+		
+		boolean ok=true;
+		for (int i = 0; i < 81; i++) {
+			
+			if(!Character.isDigit(candidateSolution.charAt(i))){
+				ok=false;
+			}
+			
+			
+		}
+		
+		return ok;
+	}
+	
+	
+//		public boolean verifyRow(String candidateSolution){
+//			boolean ok=true;
+//			int num=0;
+//			for (int i = 0; i < 81; i++) {
+//				//row
+//				
+//				for (int j = 0; j < 9; j++) {
+//					
+//					
+//				}
+//				
+//				
+//				
+//			}
+//			
+			
+			
+			return ok;
+		}
+		
 }

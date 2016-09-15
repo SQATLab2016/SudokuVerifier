@@ -1,0 +1,11 @@
+FileOpenedAction 1473939893834 SudokuVerifier.java 659 1 1 0
+RefactoringAction 1473940013913 SudokuVerifier.java ADD void veri FIELD
+RefactoringAction 1473940024017 SudokuVerifier.java RENAME veri=>boolean verify FIELD
+RefactoringAction 1473940027562 SudokuVerifier.java RENAME verify=>boolean verifyRow FIELD
+RefactoringAction 1473940030622 SudokuVerifier.java RENAME verifyRow=>boolean verifyRow() METHOD
+RefactoringAction 1473940035730 SudokuVerifier.java RENAME verifyRow()=>boolean verifyRow(String) METHOD
+RefactoringAction 1473940181170 SudokuVerifier.java ADD boolean verifyRow(String)/2 METHOD
+RefactoringAction 1473940184724 SudokuVerifier.java RENAME verifyRow(String)/2=>boolean verify(String)/2 METHOD
+RefactoringAction 1473940194320 SudokuVerifier.java RENAME verify(String)/2=>boolean verifyDigits(String) METHOD
+RefactoringAction 1473941006000 SudokuVerifier.java REMOVE verifyRow(String) METHOD
+EditAction 1473941007655 SudokuVerifier.java 1098 2 7 0
