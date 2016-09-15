@@ -30,7 +30,7 @@ public class SudokuVerifierTest {
 		boolean result = verifier.checkLenght("41736982563215894795872431682543716979158643234691275828964357157329168416487529");
 				
 		// Assert
-		assertEquals(-5, result);
+		assertEquals(true, result);
 	}
 	
 	@Test
@@ -42,7 +42,7 @@ public class SudokuVerifierTest {
 		boolean result = verifier.checkRows("417369825632158947958724316825437169791586432346912758289643571573291684164875393");
 				
 		// Assert
-		assertEquals(-3, result);
+		assertEquals(true, result);
 	}
 
 	@Test
@@ -54,7 +54,7 @@ public class SudokuVerifierTest {
 		boolean result = verifier.checkColumns("147369258258147369369258147147369258258147369369258147147369258258147369369258147");
 				
 		// Assert
-		assertEquals(-4, result);
+		assertEquals(true, result);
 	}
 	
 	@Test
@@ -66,7 +66,7 @@ public class SudokuVerifierTest {
 		boolean result = verifier.checkFormat("4173698256321589479-8724316825437169791586432346912758289643571573291684164875293");
 				
 		// Assert
-		assertEquals(-1, result);
+		assertEquals(true, result);
 	}
 	
 	@Test
@@ -78,6 +78,6 @@ public class SudokuVerifierTest {
 		boolean result = verifier.checkSubGrids("417369825642158947958724316825437169791586432346912758289643571573291684164875293");
 				
 		// Assert
-		assertEquals(-2, result);
+		assertEquals(true, result);
 	}
 }
