@@ -1,0 +1,9 @@
+FileOpenedAction 1473940051183 SudokuVerifierTest.java 1265 3 9 3
+UnitTestCaseAction 1473940065931 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473940065933 SudokuVerifierTest.java FAIL
+RefactoringAction 1473940154370 SudokuVerifierTest.java REMOVE testVerify_WrongFormat_Returns_Minus5() METHOD
+RefactoringAction 1473940154372 SudokuVerifierTest.java REMOVE testVerify_WrongBecauseOfRow_Returns_Minus3() METHOD
+RefactoringAction 1473940154373 SudokuVerifierTest.java REMOVE testVerify_CorrectSolution_Returns_0() METHOD
+RefactoringAction 1473940159907 SudokuVerifierTest.java ADD void testVerify_WrongFormat_Returns_Minus5() METHOD
+RefactoringAction 1473940159907 SudokuVerifierTest.java ADD void testVerify_WrongBecauseOfRow_Returns_Minus3() METHOD
+EditAction 1473940160995 SudokuVerifierTest.java 1269 2 6 2
