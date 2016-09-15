@@ -1,0 +1,27 @@
+FileOpenedAction 1473943989941 SudokuVerifier.java 398 1 3 0
+RefactoringAction 1473944056301 Square.java ADD Square.java CLASS
+FileOpenedAction 1473944056441 Square.java 30 0 0 0
+RefactoringAction 1473944203701 Square.java ADD int METHOD
+RefactoringAction 1473944218361 Square.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1473944254763 Square.java RENAME generateGame(int=>int METHOD
+RefactoringAction 1473944256273 Square.java RENAME generateS(int=>int METHOD
+RefactoringAction 1473944316253 Square.java ADD import java.util.Collections IMPORT
+RefactoringAction 1473944342133 Square.java ADD import java.awt.List IMPORT
+CompilationAction 1473944354015 Square.java
+CompilationAction 1473945172203 Square.java
+RefactoringAction 1473945191903 Square.java RENAME generateSquare(int=>int generateSquare() METHOD
+CompilationAction 1473945227433 Square.java
+RefactoringAction 1473945240923 Square.java RENAME generateSquare()=>int generateSquare(int METHOD
+RefactoringAction 1473945266433 Square.java RENAME generateSquare(int=>int generateSquare() METHOD
+RefactoringAction 1473945282453 Square.java RENAME generateSquare()=>int generateSquare(int) METHOD
+RefactoringAction 1473945284463 Square.java RENAME generateSquare(int)=>int generateSquare() METHOD
+RefactoringAction 1473945286473 Square.java RENAME generateSquare()=>int generateSquare(int) METHOD
+RefactoringAction 1473945407043 Square.java RENAME generateSquare(int)=>int sva(int) METHOD
+RefactoringAction 1473945410553 Square.java RENAME sva(int)=>int sa(int) METHOD
+RefactoringAction 1473945412063 Square.java RENAME sa(int)=>int save(int) METHOD
+RefactoringAction 1473945414083 Square.java RENAME save(int)=>int savenumbres(int) METHOD
+RefactoringAction 1473945417083 Square.java RENAME savenumbres(int)=>int savenumbers(int) METHOD
+RefactoringAction 1473945420593 Square.java RENAME savenumbers(int)=>int saveNumbers(int) METHOD
+RefactoringAction 1473945600694 Square.java REMOVE import java.util.Collections IMPORT
+RefactoringAction 1473945602694 Square.java REMOVE import java.awt.List IMPORT
+EditAction 1473945775494 Square.java 282 1 2 0
