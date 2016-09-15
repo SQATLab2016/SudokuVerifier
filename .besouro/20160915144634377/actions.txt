@@ -201,3 +201,18 @@ EditAction 1473945148151 SudokuVerifier.java 3406 11 34 0
 UnitTestCaseAction 1473945152244 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473945152245 SudokuVerifierTest.java FAIL
 EditAction 1473945221849 SudokuVerifier.java 3428 11 34 0
+UnitTestCaseAction 1473945227540 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473945227541 SudokuVerifierTest.java OK
+RefactoringAction 1473945240186 SudokuVerifierTest.java ADD void testGet FIELD
+RefactoringAction 1473945242199 SudokuVerifierTest.java RENAME testGet=>void testGetSubgrids FIELD
+RefactoringAction 1473945245713 SudokuVerifierTest.java RENAME testGetSubgrids=>void testGetSubgridsLastGrid FIELD
+RefactoringAction 1473945248226 SudokuVerifierTest.java RENAME testGetSubgridsLastGrid=>void testGetSubgridsLastGridCorrect() METHOD
+UnitTestCaseAction 1473945338893 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473945338894 SudokuVerifierTest.java OK
+RefactoringAction 1473945348062 SudokuVerifierTest.java ADD void testGet FIELD
+RefactoringAction 1473945351575 SudokuVerifierTest.java RENAME testGet=>void testGetSubgrids FIELD
+RefactoringAction 1473945358090 SudokuVerifierTest.java RENAME testGetSubgrids=>void testGetSubgridsGetAllSubgrids() METHOD
+UnitTestCaseAction 1473945525280 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473945525280 SudokuVerifierTest.java OK
+RefactoringAction 1473945547272 SudokuVerifier.java RENAME checkSudokuArray(String=>int checkSudokuArray(String METHOD
+EditAction 1473945549427 SudokuVerifier.java 3443 11 34 0

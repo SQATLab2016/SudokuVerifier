@@ -117,5 +117,29 @@ public class SudokuVerifierTest {
 		String correctSubgrid = "417632958";
 		assertEquals(correctSubgrid, verifierSubgrids[0]);
 	}
+	
+	@Test
+	public void testGetSubgridsLastGridCorrect() {
+		String testCandidate = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		SudokuVerifier verifier = new SudokuVerifier();
+		
+		verifier.verify(testCandidate);
+		
+		String[] verifierSubgrids = verifier.getSubgrids();
+		String correctSubgrid = "571684293";
+		assertEquals(correctSubgrid, verifierSubgrids[8]);
+	}
+	
+	@Test
+	public void testGetSubgridsGetAllSubgrids() {
+		String testCandidate = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		SudokuVerifier verifier = new SudokuVerifier();
+		
+		verifier.verify(testCandidate);
+		
+		String[] verifierSubgrids = verifier.getSubgrids();
+		String[] correctSubgrids = new String[]{"417632958", "825791346", "289573164", "369158724", "437586912", "643291875", "825947316", "169432758", "571684293"};
+		assertArrayEquals(correctSubgrids, verifierSubgrids);
+	}
 
 }

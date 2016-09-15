@@ -7,3 +7,6 @@
 1473942321621 refactoring 3 472 false
 1473942445410 refactoring 3 113 false
 1473942723910 refactoring 3 267 true
+1473945227541 refactoring 3 2333 false
+1473945338894 refactoring 3 98 true
+1473945525280 refactoring 3 177 false

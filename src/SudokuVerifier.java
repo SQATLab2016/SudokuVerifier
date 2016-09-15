@@ -114,7 +114,7 @@ public class SudokuVerifier {
 		return subgrids;
 	}
 	
-	private int checkSudokuArray(String[] sudokuArray) {
+	private int checkSudokuArray(String[] sudokuArray, int checkType) {
 		return 0;
 	}
 	
