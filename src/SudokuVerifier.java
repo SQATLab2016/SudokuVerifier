@@ -1,3 +1,4 @@
+import java.util.HashMap;
 import java.util.Map;
 
 public class SudokuVerifier {
@@ -11,7 +12,7 @@ public class SudokuVerifier {
 	
 	public int verify(String candidateSolution) {
 		
-		if (this.TestStringLenght(candidateSolution)){
+		if (!this.TestStringLenght(candidateSolution)){
 			return -1;
 		}
 		int spliceResult =this.SpliceStringToMap(candidateSolution); 

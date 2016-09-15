@@ -74,3 +74,9 @@ UnitTestCaseAction 1473941418358 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473941418359 SudokuVerifierTest.java FAIL
 RefactoringAction 1473941505445 SudokuVerifier.java ADD SudokuVerifier() METHOD
 EditAction 1473941508236 SudokuVerifier.java 1287 5 12 0
+CompilationAction 1473941509647 SudokuVerifier.java
+RefactoringAction 1473941511911 SudokuVerifier.java ADD import java.util.HashMap IMPORT
+CompilationAction 1473941513927 SudokuVerifier.java
+UnitTestCaseAction 1473941517508 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473941517509 SudokuVerifierTest.java FAIL
+EditAction 1473941531516 SudokuVerifier.java 1314 5 12 0
