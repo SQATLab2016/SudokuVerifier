@@ -9,3 +9,5 @@ RefactoringAction 1473940184724 SudokuVerifier.java RENAME verifyRow(String)/2=>
 RefactoringAction 1473940194320 SudokuVerifier.java RENAME verify(String)/2=>boolean verifyDigits(String) METHOD
 RefactoringAction 1473941006000 SudokuVerifier.java REMOVE verifyRow(String) METHOD
 EditAction 1473941007655 SudokuVerifier.java 1098 2 7 0
+CompilationAction 1473941008057 SudokuVerifier.java
+EditAction 1473941026858 SudokuVerifier.java 1108 2 7 0
