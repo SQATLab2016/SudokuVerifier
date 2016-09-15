@@ -51,7 +51,13 @@ public class SudokuVerifier {
 		for (int col=0; col<9; col++){
 			for (int row=0; row<9; row++)
 			{
-				
+				nt value = this.GetValueByCoordinates(row, col);
+				if (usedNumbers.contains(value)){
+					return -3;
+				}
+				else {
+					usedNumbers.add(value);
+				}
 			}
 		}
 		
