@@ -54,12 +54,12 @@ public class SudokuVerifier {
 	public static int verifyColumn(int[][] candidateSolution) {		
 		
 		for(int i=0; i<candidateSolution.length; i++){
-			BitSet filled = new BitSet(9);
+			BitSet column = new BitSet(9);
 			for(int j=0; j<candidateSolution[i].length; j++){
-				if(filled.get(candidateSolution[i][j]-1))
+				if(column.get(candidateSolution[j][i]-1))
 					return 1;
 				else 
-					filled.set(candidateSolution[i][j]-1);
+					column.set(candidateSolution[j][i]-1);
 			}
 		}
 		return 0;
