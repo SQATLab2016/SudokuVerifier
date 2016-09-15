@@ -46,6 +46,9 @@ public class SudokuVerifier {
 		}
 		return 0;
 	}
+	private int GetValueByCoordinates(int row, int col){
+		return this.sudokuMapping.get(row*this.rowMultiplayer+col);
+	}
 
 	private int SpliceStringToMap(String str){
 		int index = 0;

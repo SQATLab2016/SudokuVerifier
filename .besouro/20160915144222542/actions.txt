@@ -128,3 +128,13 @@ EditAction 1473942171398 SudokuVerifier.java 1812 6 17 0
 UnitTestCaseAction 1473942176140 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473942176141 SudokuVerifierTest.java FAIL
 EditAction 1473942240738 SudokuVerifier.java 1835 6 17 0
+UnitTestCaseAction 1473942244898 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473942244899 SudokuVerifierTest.java OK
+RefactoringAction 1473942280755 SudokuVerifier.java ADD int GetValue FIELD
+RefactoringAction 1473942283273 SudokuVerifier.java RENAME GetValue=>int GetValueByRow FIELD
+RefactoringAction 1473942285790 SudokuVerifier.java RENAME GetValueByRow=>int GetValueBy FIELD
+RefactoringAction 1473942289308 SudokuVerifier.java RENAME GetValueBy=>int GetValueByCoordinate FIELD
+RefactoringAction 1473942290336 SudokuVerifier.java RENAME GetValueByCoordinate=>int GetValueByCoordinates FIELD
+RefactoringAction 1473942291356 SudokuVerifier.java RENAME GetValueByCoordinates=>int GetValueByCoordinates() METHOD
+RefactoringAction 1473942294874 SudokuVerifier.java RENAME GetValueByCoordinates()=>int GetValueByCoordinates(int, int) METHOD
+EditAction 1473942305156 SudokuVerifier.java 1954 7 18 0
