@@ -53,9 +53,9 @@ public class SudokuVerifier {
 	
 	public static int verifyColum(int[][] candidateSolution) {		
 		
-		for(int i=0; i<9; i++){
+		for(int i=0; i<candidateSolution.length; i++){
 			BitSet filled = new BitSet(9);
-			for(int j=0; j<9; j++){
+			for(int j=0; j<candidateSolution[i].length; j++){
 				if(filled.get(candidateSolution[i][j]-1))
 					return 1;
 				else 
