@@ -37,10 +37,10 @@ public static int verifyRowOrder(String candidateSolution) {
 		for(int i=0; i<=9; i++){
 			boolean[] check = new boolean[9];
 			for(int j=0; j<=9; j++){
-				if (check[candidateSolution.charAt(i*j) - 1])
+				if (check[candidateSolution.charAt(i*j-1) - 1])
 					return 1;
 				else
-					check[candidateSolution.charAt(i*j) - 1] = true;
+					check[candidateSolution.charAt(i*j-1) - 1] = true;
 			}
 		}
 		return 0;
