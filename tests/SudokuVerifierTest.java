@@ -66,6 +66,6 @@ public class SudokuVerifierTest {
 		int result = verifier.verify("4173698256321589479-8724316825437169791586432346912758289643571573291684164875293");
 				
 		// Assert
-		assertEquals(-4, result);
+		assertEquals(-1, result);
 	}
 }

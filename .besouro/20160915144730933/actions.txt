@@ -44,3 +44,6 @@ RefactoringAction 1473942872711 SudokuVerifierTest.java RENAME testVerify_WrongB
 RefactoringAction 1473942876226 SudokuVerifierTest.java RENAME testVerify_WrongBecauseOfNon_Returns_Minus4()=>void testVerify_WrongBecauseOfNonPositiveNumber_Returns_Minus4() METHOD
 RefactoringAction 1473942880743 SudokuVerifierTest.java RENAME testVerify_WrongBecauseOfNonPositiveNumber_Returns_Minus4()=>void testVerify_WrongBecauseOfNonPositiveNumber_Returns_Minus1() METHOD
 EditAction 1473943088772 SudokuVerifierTest.java 1903 5 15 5
+UnitTestCaseAction 1473943089080 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473943089081 SudokuVerifierTest.java FAIL
+EditAction 1473943396363 SudokuVerifierTest.java 1903 5 15 5
