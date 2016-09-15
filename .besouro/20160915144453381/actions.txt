@@ -24,3 +24,9 @@ UnitTestCaseAction 1473941266881 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473941266882 SudokuVerifierTest.java FAIL
 RefactoringAction 1473941277733 SudokuVerifierTest.java REMOVE testVerify() METHOD
 EditAction 1473941281110 SudokuVerifierTest.java 559 1 2 1
+UnitTestCaseAction 1473941281773 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473941281774 SudokuVerifierTest.java OK
+RefactoringAction 1473941287759 SudokuVerifierTest.java ADD void testVerifyDigitsCorrectString()/2 METHOD
+RefactoringAction 1473941292294 SudokuVerifierTest.java RENAME testVerifyDigitsCorrectString()/2=>void testVerifyDigitsInCorrectString() METHOD
+RefactoringAction 1473941293361 SudokuVerifierTest.java RENAME testVerifyDigitsInCorrectString()=>void testVerifyDigitsIncorrectString() METHOD
+EditAction 1473941303855 SudokuVerifierTest.java 786 2 4 2
