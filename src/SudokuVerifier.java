@@ -29,7 +29,7 @@ public class SudokuVerifier {
 	}
 	
 	public static int verifyLength(int[][] candidateSolution) {		
-		
+		System.out.println(candidateSolution.length);
 		if (candidateSolution.length == 81) 
 			return 0;
 		else
