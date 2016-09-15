@@ -4,3 +4,6 @@
 1473941362563 test-first 3 961 true
 1473941496132 refactoring 3 133 true
 1473941820119 refactoring 3 323 true
+1473942321621 refactoring 3 501 true
+1473942445410 refactoring 3 123 true
+1473942723910 refactoring 3 278 true

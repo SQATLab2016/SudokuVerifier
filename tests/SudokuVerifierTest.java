@@ -69,5 +69,41 @@ public class SudokuVerifierTest {
 		String[] correctRows = new String[]{"417369825", "632158947", "958724316", "825437169", "791586432", "346912758", "289643571", "573291684", "164875293"};
 		assertArrayEquals(verifierGlobalRows, correctRows);
 	}
+	
+	@Test
+	public void testGetGlobalColumnsFirstRowCorrect() {
+		String testCandidate = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		SudokuVerifier verifier = new SudokuVerifier();
+		
+		verifier.verify(testCandidate);
+		
+		String[] verifierGlobalColumns = verifier.getGlobalColumns();
+		String correctColumn = "469873251";
+		assertEquals(correctColumn, verifierGlobalColumns[0]);
+	}
+	
+	@Test
+	public void testGetGlobalColumnsLastRowCorrect() {
+		String testCandidate = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		SudokuVerifier verifier = new SudokuVerifier();
+		
+		verifier.verify(testCandidate);
+		
+		String[] verifierGlobalColumns = verifier.getGlobalColumns();
+		String correctColumn = "576928143";
+		assertEquals(correctColumn, verifierGlobalColumns[8]);
+	}
+	
+	@Test
+	public void testGetGlobalColumnsGetAllColumns() {
+		String testCandidate = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		SudokuVerifier verifier = new SudokuVerifier();
+		
+		verifier.verify(testCandidate);
+		
+		String[] verifierGlobalColumns = verifier.getGlobalColumns();
+		String[] correctColumns = new String[]{"469873251", "135294876", "728516934", "317459628", "652381497", "984762315", "893147562", "241635789", "576928143"};
+		assertArrayEquals(correctColumns, verifierGlobalColumns);
+	}
 
 }
