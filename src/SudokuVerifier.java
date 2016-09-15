@@ -71,7 +71,7 @@ public static int verify3x3(int[][] candidateSolution) {
 			for(int column=0; column<9; column+=3){
 				BitSet block = new BitSet(9);
 				for(int i=row; i<row+3; i++){
-					for(int j=row; j<column+3; j++){
+					for(int j=column; j<column+3; j++){
 						if(block.get(candidateSolution[i][j]-1))
 							return 1;
 						else 
