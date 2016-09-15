@@ -64,8 +64,8 @@ public class SudokuVerifier {
 	}
 	private int TestColumns(){
 		List<Integer> usedNumbers = new ArrayList<Integer>();
-		for (int col=0; col<9; col++){
-			for (int row=0; row<9; row++)
+		for (int col=0; col<rowCount; col++){
+			for (int row=0; row<rowCount; row++)
 			{
 				int value = this.GetValueByCoordinates(row, col);
 				if (usedNumbers.contains(value)){
