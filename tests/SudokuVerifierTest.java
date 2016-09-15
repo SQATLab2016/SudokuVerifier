@@ -48,6 +48,11 @@ public class SudokuVerifierTest {
 	}
 
 	@Test
+	public void testForSubTables() {
+		fail("Not yet implemented");
+	}
+
+	@Test
 	public void testVerify() {
 		fail("Not yet implemented");
 	}
