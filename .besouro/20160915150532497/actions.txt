@@ -194,3 +194,6 @@ RefactoringAction 1473946051291 SudokuVerifierTest.java RENAME testRowOK()/2=>vo
 RefactoringAction 1473946054794 SudokuVerifierTest.java RENAME testColumn()/2=>void testColumnOK() METHOD
 RefactoringAction 1473946057298 SudokuVerifierTest.java RENAME testColumn()=>void testColumnER() METHOD
 EditAction 1473946069826 SudokuVerifierTest.java 1761 5 15 5
+UnitTestCaseAction 1473946071771 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473946071772 SudokuVerifierTest.java FAIL
+EditAction 1473946263522 SudokuVerifierTest.java 1760 5 12 4
