@@ -2,9 +2,20 @@
 public class SudokuVerifier {
 	
 	private String[] globalRows;
+	public String[] getGlobalRows() {
+		return globalRows;
+	}
+
 	private String[] globalColumns;
-	private String[] subgrids;
-	
+	public String[] getGlobalColumns() {
+		return globalColumns;
+	}
+
+	private String[] subgrids;	
+	public String[] getSubgrids() {
+		return subgrids;
+	}
+
 	public int verify(String candidateSolution) {
 		// returns 0 if the candidate solution is correct
 		

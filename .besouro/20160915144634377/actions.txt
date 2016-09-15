@@ -36,3 +36,9 @@ RefactoringAction 1473940343488 SudokuVerifierTest.java REMOVE testVerify FIELD
 UnitTestCaseAction 1473940346142 SudokuVerifierTest.java OK
 UnitTestSessionAction 1473940346143 SudokuVerifierTest.java OK
 EditAction 1473940396593 SudokuVerifier.java 2278 7 20 0
+UnitTestCaseAction 1473940400820 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473940400821 SudokuVerifierTest.java OK
+RefactoringAction 1473940423951 SudokuVerifier.java ADD String METHOD
+RefactoringAction 1473940434473 SudokuVerifier.java ADD String METHOD
+RefactoringAction 1473940447489 SudokuVerifier.java ADD String METHOD
+EditAction 1473940452688 SudokuVerifier.java 2459 10 23 0
