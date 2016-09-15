@@ -47,6 +47,13 @@ public class SudokuVerifier {
 		return 0;
 	}
 	private int TestRows(){
+		for (int row=0; row<9; row++){
+			for (int col=0; col<9; col++)
+			{
+				
+			}
+		}
+		
 		return 0;
 	}
 	private int GetValueByCoordinates(int row, int col){
