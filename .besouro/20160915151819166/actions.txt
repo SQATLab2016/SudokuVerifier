@@ -36,3 +36,4 @@ UnitTestCaseAction 1473943586708 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473943586709 SudokuVerifierTest.java FAIL
 RefactoringAction 1473943688443 SudokuVerifierTest.java RENAME testchecknumber_1_true()=>void testchecknumber_2_true() METHOD
 EditAction 1473943693455 SudokuVerifierTest.java 1272 4 13 3
+EditAction 1473943695687 SudokuVerifier.java 2969 5 50 0
