@@ -52,13 +52,12 @@ public class SudokuVerifier {
 		for(i=0;i<9; i++){Column1[i]=solution[i*9];}
 		for(i=0;i<9; i++){Column2[i]=solution[1+i*9];}
 		for(i=0;i<9; i++){Column3[i]=solution[2+i*9];}
-		for(i=0;i<9; i++){Column3[i]=solution[3+i*9];}
-		for(i=0;i<9; i++){Column4[i]=solution[4+i*9];}
-		for(i=0;i<9; i++){Column5[i]=solution[5+i*9];}
-		for(i=0;i<9; i++){Column6[i]=solution[6+i*9];}
-		for(i=0;i<9; i++){Column7[i]=solution[7+i*9];}
-		for(i=0;i<9; i++){Column8[i]=solution[8+i*9];}
-		for(i=0;i<9; i++){Column9[i]=solution[9+i*9];}
+		for(i=0;i<9; i++){Column4[i]=solution[3+i*9];}
+		for(i=0;i<9; i++){Column5[i]=solution[4+i*9];}
+		for(i=0;i<9; i++){Column6[i]=solution[5+i*9];}
+		for(i=0;i<9; i++){Column7[i]=solution[6+i*9];}
+		for(i=0;i<9; i++){Column8[i]=solution[7+i*9];}
+		for(i=0;i<9; i++){Column9[i]=solution[8+i*9];}
 		return check(Column1)&&check(Column2)&&check(Column3)&&check(Column4)&&check(Column5)&&check(Column6)&&check(Column7)&&check(Column8)&&check(Column9);
 	}
 	public int verify(String candidateSolution) {
