@@ -34,5 +34,9 @@ public class SudokuVerifierTest {
 		int result = sudoku.verify(ShortString);
 		assertEquals("Test returns something else than -1 with too short string", -1, result);
 	}
+	@Test
+	public void TestWithIncorrectLineString(){
+		
+	}
 
 }
