@@ -30,3 +30,7 @@ RefactoringAction 1473941287759 SudokuVerifierTest.java ADD void testVerifyDigit
 RefactoringAction 1473941292294 SudokuVerifierTest.java RENAME testVerifyDigitsCorrectString()/2=>void testVerifyDigitsInCorrectString() METHOD
 RefactoringAction 1473941293361 SudokuVerifierTest.java RENAME testVerifyDigitsInCorrectString()=>void testVerifyDigitsIncorrectString() METHOD
 EditAction 1473941303855 SudokuVerifierTest.java 786 2 4 2
+UnitTestCaseAction 1473941304546 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473941304546 SudokuVerifierTest.java OK
+RefactoringAction 1473941334930 SudokuVerifier.java ADD boolean verifyRow(String) METHOD
+EditAction 1473941398044 SudokuVerifier.java 1070 3 11 0

@@ -60,24 +60,24 @@ public class SudokuVerifier {
 	}
 	
 	
-//		public boolean verifyRow(String candidateSolution){
-//			boolean ok=true;
-//			int num=0;
-//			for (int i = 0; i < 81; i++) {
-//				//row
-//				
-//				for (int j = 0; j < 9; j++) {
-//					
-//					
-//				}
-//				
-//				
-//				
-//			}
-//			
-//			
-//			
-//			return ok;
-//		}
-//		
+		public boolean verifyRow(String candidateSolution){
+			boolean ok=true;
+			int num=0;
+			for (int i = 0; i < 81; i=i+9) {
+				//row
+				
+				for (int j = 0; j < 9; j++) {
+					
+					
+				}
+				
+				
+				
+			}
+			
+			
+			
+			return ok;
+		}
+		
 }
