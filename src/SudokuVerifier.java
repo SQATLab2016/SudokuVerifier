@@ -17,13 +17,13 @@ public class SudokuVerifier {
 		if (!this.TestStringLenght(candidateSolution)){
 			return -1;
 		}
-		int SubGridTest = this.TestSubGrids();
-		if (SubGridTest != 0){
-			return SubGridTest;
-		}
 		int spliceResult =this.SpliceStringToMap(candidateSolution); 
 		if (spliceResult != 0){
 			return spliceResult;
+		}
+		int SubGridTest = this.TestSubGrids();
+		if (SubGridTest != 0){
+			return SubGridTest;
 		}
 		int LineTestResult = this.TestRows();
 		if (LineTestResult != 0){
