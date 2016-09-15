@@ -80,10 +80,10 @@ public class SudokuVerifier {
 					}
 					
 				}
-				System.out.println("row"+ row);
+//				System.out.println("row"+ row);
 				
 				if (!row) ok=false;
-				System.out.println(ok);
+//				System.out.println(ok);
 
 			}
 			
