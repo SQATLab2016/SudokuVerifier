@@ -9,7 +9,7 @@ public class SudokuVerifier {
 			return -1;
 		}
 		
-		if (checkCandidateForInvalidChars(candidateSolution) == -1) {
+		if (checkCandidateForInvalidChars(candidateSolution) == false) {
 			return -1;
 		}
 		
@@ -69,11 +69,11 @@ public class SudokuVerifier {
 		return 0;
 	}
 	
-	private int checkCandidateForInvalidChars(String candidateSolution) {
+	private boolean checkCandidateForInvalidChars(String candidateSolution) {
 		if (candidateSolution.matches("[0-9]+")) {
-			return 0;
+			return true;
 		}
-		else return -1;
+		else return false;
 	}
 	
 	private boolean checkCandidateSolutionLength(String candidateSolution) {
