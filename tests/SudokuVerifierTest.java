@@ -36,7 +36,7 @@ public class SudokuVerifierTest {
 	
 	@Test
 	public void testGetGlobalRowsOneCorrectRow() {
-		String testCandidate = "4173698256321589479587243168254371697915864323469127582896435715732916841648752935";
+		String testCandidate = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		SudokuVerifier verifier = new SudokuVerifier();
 		
 		verifier.verify(testCandidate);
