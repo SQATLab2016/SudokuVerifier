@@ -10,10 +10,7 @@ public class SudokuVerifier {
 		char currentChar;
 		
 		// Checks if every char is a positive number
-		for(int i=0; i<81; i++){
-			currentChar = 'a';
-			if(!Character.isDigit(currentChar) && currentChar==0) return -1;
-		}
+
 		
 		// Checks if all rows are valid
 		for(int i=0; i<81; i = i + 9){
