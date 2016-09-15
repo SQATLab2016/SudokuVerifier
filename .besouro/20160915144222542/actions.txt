@@ -191,3 +191,17 @@ RefactoringAction 1473943533462 SudokuVerifier.java RENAME TestR()=>int Test() M
 CompilationAction 1473943555394 SudokuVerifier.java
 CompilationAction 1473943555395 SudokuVerifier.java
 EditAction 1473943559913 SudokuVerifier.java 2330 8 15 0
+CompilationAction 1473943561240 SudokuVerifier.java
+CompilationAction 1473943561241 SudokuVerifier.java
+CompilationAction 1473943561242 SudokuVerifier.java
+CompilationAction 1473943569146 SudokuVerifier.java
+CompilationAction 1473943569148 SudokuVerifier.java
+CompilationAction 1473943569328 SudokuVerifier.java
+CompilationAction 1473943569329 SudokuVerifier.java
+CompilationAction 1473943595207 SudokuVerifier.java
+CompilationAction 1473943595208 SudokuVerifier.java
+UnitTestCaseAction 1473943606753 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473943606754 SudokuVerifierTest.java OK
+RefactoringAction 1473943763797 SudokuVerifier.java ADD int TestSubGrids FIELD
+RefactoringAction 1473943765315 SudokuVerifier.java RENAME TestSubGrids=>int TestSubGrids() METHOD
+EditAction 1473943774453 SudokuVerifier.java 2440 9 24 0

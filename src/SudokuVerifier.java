@@ -21,11 +21,14 @@ public class SudokuVerifier {
 		if (spliceResult != 0){
 			return spliceResult;
 		}
-		int LineTestResult = this.Test();
+		int LineTestResult = this.TestRows();
 		if (LineTestResult != 0){
 			return LineTestResult;
 		}
-		int ColumnTest = this.te
+		int ColumnTest = this.TestColumns();
+		if (ColumnTest != 0){
+			return ColumnTest;
+		}
 		
 		// returns 0 if the candidate solution is correct
 		return 0;
@@ -63,6 +66,9 @@ public class SudokuVerifier {
 			usedNumbers.clear();
 		}
 		
+		return 0;
+	}
+	private int TestSubGrids(){
 		return 0;
 	}
 	private int GetValueByCoordinates(int row, int col){
