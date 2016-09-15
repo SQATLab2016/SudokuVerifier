@@ -27,7 +27,7 @@ public class SudokuVerifierTest {
 	@Test
 	public void testColumn() {
 		int[][] matrix = SudokuVerifier.toM2("417369825632158947958724316825437169791586432346912758289643571573291684164875293", 9);
-		int rowOrder = SudokuVerifier.verifyRow(matrix);
+		int rowOrder = SudokuVerifier.verifyColumn(matrix);
 		
 		//int result = rowNumber + rowOrder;
 		
