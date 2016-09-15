@@ -37,8 +37,8 @@ public class SudokuVerifierTest {
 	@Test
 	public void testcheck_2lines(){
 		SudokuVerifier SV = new SudokuVerifier();
-		String[] test = {"1","2","3","4","4","6","7","8","9"};
-		String[] test2 = {"1","2","3","4","4","6","7","8","9"};
+		String[] test = {"1","2","3","4","5","6","7","8","9"};
+		String[] test2 = {"1","2","3","4","5","6","7","8","9"};
 		assertEquals("the lines are not checked", true, SV.check(test)&&SV.check(test2));
 		
 	}
