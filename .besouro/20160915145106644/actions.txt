@@ -1,0 +1,28 @@
+FileOpenedAction 1473940266824 SudokuVerifier.java 1444 3 21 0
+RefactoringAction 1473940309474 SudokuVerifier.java RENAME check(String)=>boolean check() METHOD
+RefactoringAction 1473940310504 SudokuVerifier.java RENAME check()=>boolean check(String METHOD
+RefactoringAction 1473940449271 SudokuVerifier.java ADD boolean checknumber FIELD
+RefactoringAction 1473940452801 SudokuVerifier.java RENAME checknumber=>boolean checknumber() METHOD
+RefactoringAction 1473940462383 SudokuVerifier.java RENAME checknumber()=>boolean checknumber(String METHOD
+RefactoringAction 1473940471923 SudokuVerifier.java RENAME checknumber(String=>boolean checknumber(String METHOD
+CompilationAction 1473940841137 SudokuVerifier.java
+CompilationAction 1473940841137 SudokuVerifier.java
+CompilationAction 1473940841137 SudokuVerifier.java
+CompilationAction 1473940841147 SudokuVerifier.java
+CompilationAction 1473940841147 SudokuVerifier.java
+CompilationAction 1473940841147 SudokuVerifier.java
+CompilationAction 1473940841367 SudokuVerifier.java
+CompilationAction 1473940841367 SudokuVerifier.java
+CompilationAction 1473940841367 SudokuVerifier.java
+EditAction 1473941228192 SudokuVerifierTest.java 577 2 1 0
+CompilationAction 1473941229902 SudokuVerifierTest.java
+CompilationAction 1473941229912 SudokuVerifierTest.java
+CompilationAction 1473941229912 SudokuVerifierTest.java
+CompilationAction 1473941375484 SudokuVerifier.java
+CompilationAction 1473941375484 SudokuVerifier.java
+CompilationAction 1473941375484 SudokuVerifier.java
+CompilationAction 1473941407364 SudokuVerifierTest.java
+CompilationAction 1473941407374 SudokuVerifierTest.java
+CompilationAction 1473941407374 SudokuVerifierTest.java
+CompilationAction 1473941407554 SudokuVerifierTest.java
+CompilationAction 1473941684824 SudokuVerifierTest.java
