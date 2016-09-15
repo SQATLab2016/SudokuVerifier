@@ -80,7 +80,7 @@ public class SudokuVerifier {
 		List<Integer> usedNumbers = new ArrayList<Integer>();
 		for (int x = row; x<(row+3); x++){
 			for (int y = col; y<(col+3); y++){
-				int value = this.GetValueByCoordinates(row, col);
+				int value = this.GetValueByCoordinates(x, y);
 				if (usedNumbers.contains(value)){
 					return -4;
 				}
