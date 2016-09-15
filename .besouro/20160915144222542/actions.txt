@@ -56,3 +56,6 @@ RefactoringAction 1473941083667 SudokuVerifierTest.java ADD String ShortString/2
 RefactoringAction 1473941095183 SudokuVerifierTest.java RENAME ShortString/2=>String String FIELD
 RefactoringAction 1473941096193 SudokuVerifierTest.java RENAME String=>String longString FIELD
 EditAction 1473941096340 SudokuVerifierTest.java 894 1 0 0
+RefactoringAction 1473941143780 SudokuVerifierTest.java ADD void SetUp() METHOD
+RefactoringAction 1473941147742 SudokuVerifierTest.java ADD import org.junit.Before IMPORT
+EditAction 1473941148740 SudokuVerifierTest.java 958 2 0 0

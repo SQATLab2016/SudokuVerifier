@@ -1,5 +1,6 @@
 import static org.junit.Assert.*;
 
+import org.junit.Before;
 import org.junit.Test;
 
 public class SudokuVerifierTest {
@@ -12,6 +13,11 @@ public class SudokuVerifierTest {
 	public static final String ShortString = "1234567899123456788912345677891234566789123455678912344567891233456";
 	public static final String longString = "1234567899123456788912345677891234566789123455678912344567891233456789123455678912344567891233456";
 
+	@Before
+	public void SetUp(){
+		
+	}
+	
 	@Test
 	public void TestNumberFormattingCorrectInput(){
 		
