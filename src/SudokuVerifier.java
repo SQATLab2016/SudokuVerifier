@@ -8,7 +8,7 @@ public class SudokuVerifier {
 	private Map<Integer, Integer> sudokuMapping;
 	public static final int AllOk = 0;
 	public static final int FailedNumbers = -1;
-	public static final int FailedSubGrids = -2;
+	public static final int FailedSubGrid = -2;
 	public static final int FailedRow = -3;
 	public static final int FailedColumn = -4;
 	int rowMultiplayer = 42;
@@ -95,7 +95,7 @@ public class SudokuVerifier {
 			for (int y = col; y<(col+3); y++){
 				int value = this.GetValueByCoordinates(x, y);
 				if (usedNumbers.contains(value)){
-					return FailedGrids;
+					return FailedSubGrid;
 				}
 				else {
 					usedNumbers.add(value);
@@ -138,7 +138,7 @@ public class SudokuVerifier {
 			int returnValue = Integer.parseInt(singleChar);
 			return returnValue;
 		} catch (NumberFormatException e){
-			return -1;
+			return FailedNumbers;
 		}
 	}
 }
