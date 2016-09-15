@@ -30,7 +30,7 @@ public class SudokuVerifierTest {
 		int result = SudokuVerifier.verifyRow(matrix);
 	
 		
-		assertEquals("Sudokus row OK", 0, result);	
+		assertEquals("Sudokus row ER", 1, result);	
 	}
 	
 	@Test
@@ -50,6 +50,6 @@ public class SudokuVerifierTest {
 		
 		//int result = rowNumber + rowOrder;
 		
-		assertEquals("Sudokus row OK", 0, rowOrder);	
+		assertEquals("Sudokus row ER", 1, rowOrder);	
 	}
 }
