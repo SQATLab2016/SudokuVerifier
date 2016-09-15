@@ -105,5 +105,17 @@ public class SudokuVerifierTest {
 		String[] correctColumns = new String[]{"469873251", "135294876", "728516934", "317459628", "652381497", "984762315", "893147562", "241635789", "576928143"};
 		assertArrayEquals(correctColumns, verifierGlobalColumns);
 	}
+	
+	@Test
+	public void testGetSubgridsFirstGridCorrect() {
+		String testCandidate = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		SudokuVerifier verifier = new SudokuVerifier();
+		
+		verifier.verify(testCandidate);
+		
+		String[] verifierSubgrids = verifier.getSubgrids();
+		String correctSubgrid = "469135728";
+		assertEquals(correctSubgrid, verifierSubgrids[0]);
+	}
 
 }

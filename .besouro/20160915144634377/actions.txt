@@ -172,3 +172,10 @@ EditAction 1473943750609 SudokuVerifier.java 3156 11 27 0
 CompilationAction 1473943752060 SudokuVerifier.java
 CompilationAction 1473943752061 SudokuVerifier.java
 EditAction 1473944057298 SudokuVerifier.java 3182 11 32 0
+RefactoringAction 1473944071136 SudokuVerifierTest.java ADD void test FIELD
+RefactoringAction 1473944074150 SudokuVerifierTest.java RENAME test=>void testGet FIELD
+RefactoringAction 1473944077162 SudokuVerifierTest.java RENAME testGet=>void testGetSubgrids FIELD
+RefactoringAction 1473944083177 SudokuVerifierTest.java RENAME testGetSubgrids=>void testGetSubgridsFirstGrid FIELD
+RefactoringAction 1473944087191 SudokuVerifierTest.java RENAME testGetSubgridsFirstGrid=>void testGetSubgridsFirstGridCorrect FIELD
+RefactoringAction 1473944088203 SudokuVerifierTest.java RENAME testGetSubgridsFirstGridCorrect=>void testGetSubgridsFirstGridCorrect() METHOD
+EditAction 1473944315501 SudokuVerifier.java 3229 11 32 0

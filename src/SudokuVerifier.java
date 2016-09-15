@@ -94,10 +94,11 @@ public class SudokuVerifier {
 		int rowCounter = 0;
 		
 		for(int i = 0; i < 3; i++) {
-			for(int j = 0; j < 9; j++) {
-				tempString.append(getThreeCharsFromRow(globalRows[rowCounter], i, (i+1) * i));
-				rowCounter++;
-			}			
+			for(int j = 0; j < 3; j++) {
+				tempString.append(getThreeCharsFromRow(globalRows[j], i, (i+1) * i));
+			}
+			subgrids[rowCounter] = tempString.toString();
+			tempString.setLength(0);
 		}
 		
 		//Implement
