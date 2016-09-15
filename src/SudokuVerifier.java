@@ -124,7 +124,7 @@ public class SudokuVerifier {
 			}
 		}
 		
-		return 0;
+		return AllOk;
 	}
 	private boolean TestStringLenght(String str){
 		if (str.length() != 81){
