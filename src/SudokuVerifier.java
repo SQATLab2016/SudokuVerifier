@@ -58,7 +58,7 @@ public class SudokuVerifier {
 			}
 			usedNumbers.clear();
 		}
-		return 0;
+		return AllOk;
 	}
 	private int TestColumns(){
 		List<Integer> usedNumbers = new ArrayList<Integer>();
@@ -76,7 +76,7 @@ public class SudokuVerifier {
 			usedNumbers.clear();
 		}
 		
-		return 0;
+		return AllOk;
 	}
 	private int TestSubGrids(){
 		for (int row = 0; row<9; row +=3){
