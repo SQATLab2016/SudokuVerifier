@@ -82,7 +82,7 @@ public class SudokuVerifier {
 		for (int row = 0; row<9; row +=3){
 			for (int col = 0; col<9; col +=3){
 				int result = this.TestSingleSubGrid(row, col);
-				if (result != 0){
+				if (result != AllOk){
 					return result;
 				}
 			}
@@ -95,7 +95,7 @@ public class SudokuVerifier {
 			for (int y = col; y<(col+3); y++){
 				int value = this.GetValueByCoordinates(x, y);
 				if (usedNumbers.contains(value)){
-					return -4;
+					return FailedGrid;
 				}
 				else {
 					usedNumbers.add(value);
