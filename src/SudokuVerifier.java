@@ -18,7 +18,9 @@ public class SudokuVerifier {
 		//Checks if all sub-grids are valid
 		for(int i = 0; i<8; i = i + 3){
 			for(int j = i; j<i+3; j++){
-				for(int k = j; )
+				for(int k = j; k<j+21; k = k+9){
+					
+				}
 			}
 		}
 		
@@ -27,7 +29,6 @@ public class SudokuVerifier {
 			initializeChecker(checker);
 			for(int j=i; j<i+9; j++){
 				currentNumber = Character.getNumericValue(candidateSolution.charAt(j));
-				//currentNumber = (int) candidateSolution.charAt(j) - '0';
 				if(checker[currentNumber-1]==false) checker[currentNumber-1]=true;
 				else return -3;
 			}
@@ -38,7 +39,6 @@ public class SudokuVerifier {
 			initializeChecker(checker);
 			for(int j = i; j < 81; j = j + 9){
 				currentNumber = Character.getNumericValue(candidateSolution.charAt(j));
-				//currentNumber = (int) candidateSolution.charAt(j) - '0';
 				if(checker[currentNumber-1]==false) checker[currentNumber-1]=true;
 				else return -4;
 			}
