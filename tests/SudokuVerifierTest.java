@@ -16,11 +16,11 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test
-	public void testchecknumber_1_true() {
+	public void testchecknumber_2_true() {
 		SudokuVerifier SV =new SudokuVerifier();
 		String[] test = {"1","2","3","4","5","6","7","8","9"};
 		boolean checknumber = SV.checknumber(test,"1");
-		assertEquals( "There is not only 1 '1'", true, checknumber);
+		assertEquals( "There is not only 1 '2'", true, checknumber);
 	} 	
 	
 	@Test
