@@ -65,3 +65,8 @@ EditAction 1473941272133 SudokuVerifierTest.java 1130 2 3 1
 UnitTestCaseAction 1473941282375 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473941282377 SudokuVerifierTest.java FAIL
 EditAction 1473941308225 SudokuVerifierParametrizedTest.java 144 1 0 0
+UnitTestCaseAction 1473941312130 SudokuVerifierParametrizedTest.java OK
+UnitTestSessionAction 1473941312131 SudokuVerifierParametrizedTest.java OK
+RefactoringAction 1473941334235 SudokuVerifierTest.java ADD void Test FIELD
+RefactoringAction 1473941339251 SudokuVerifierTest.java RENAME Test=>void TestTooLongString() METHOD
+EditAction 1473941414843 SudokuVerifierTest.java 1329 3 5 2

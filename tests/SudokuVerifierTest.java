@@ -22,7 +22,12 @@ public class SudokuVerifierTest {
 	@Test
 	public void TestNumberFormattingCorrectInput(){
 		int result = sudoku.verify(CorString);
-		assertEquals("Test returns -1 with correct string", 0, result);
+		assertEquals("Verifier returns something other than 0 with correct string", 0, result);
+	}
+	@Test
+	public  void TestTooLongString(){
+		int result = sudoku.verify(longString);
+		assertEquals("Test returns something else than -1 with too long string", -1, result);
 	}
 
 }
