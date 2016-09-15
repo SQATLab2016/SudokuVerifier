@@ -128,3 +128,4 @@ RefactoringAction 1473946473566 SudokuVerifier.java ADD static void öain() METHO
 RefactoringAction 1473946479128 SudokuVerifier.java RENAME main=><initializer /1> null
 RefactoringAction 1473946482654 SudokuVerifier.java RENAME main()=>static void main(String METHOD
 EditAction 1473946603229 SudokuVerifierTest.java 1535 5 16 4
+EditAction 1473946604587 SudokuVerifier.java 3103 6 50 0
