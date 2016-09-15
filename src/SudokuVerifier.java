@@ -5,7 +5,7 @@ public class SudokuVerifier {
 		
 		if(checkLenght(candidateSolution))return -5;
 		if(checkFormat(candidateSolution))return -1;
-		//if(checkSubGrids(candidateSolution))return -2;
+		if(checkSubGrids(candidateSolution))return -2;
 		if(checkRows(candidateSolution))return -3;
 		if(checkColumns(candidateSolution))return -4;
 		
