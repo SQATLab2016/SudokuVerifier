@@ -65,7 +65,7 @@ public class SudokuVerifier {
 		
 		for(int i = 0; i < 9; i++) {
 			if(i == 0) tempString = candidateSolution.substring(i, i * 9 - 1);
-			else tempString = candidateSolution.substring(i * 9, i * 9 + 8);
+			else tempString = candidateSolution.substring(i * 9, i * 9 + 9);
 			globalRows[i] = tempString;
 		}
 		//Implement
