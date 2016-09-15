@@ -103,6 +103,7 @@ public class SudokuVerifier {
 					currentRow++;
 				}
 				subgrids[subgridCounter] = tempString.toString();
+				subgridCounter++;
 				tempString.setLength(0);
 			}
 			currentRow = 0;
