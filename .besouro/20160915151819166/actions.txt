@@ -22,3 +22,7 @@ RefactoringAction 1473942981789 SudokuVerifierTest.java RENAME testcheckLines_Tr
 EditAction 1473943260394 SudokuVerifierTest.java 1266 4 13 3
 CompilationAction 1473943261985 SudokuVerifierTest.java
 EditAction 1473943262020 SudokuVerifier.java 2990 5 50 0
+CompilationAction 1473943263629 SudokuVerifierTest.java
+UnitTestCaseAction 1473943267773 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473943267774 SudokuVerifierTest.java FAIL
+EditAction 1473943375263 SudokuVerifierTest.java 1272 4 13 3
