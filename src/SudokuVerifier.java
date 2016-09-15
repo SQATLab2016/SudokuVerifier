@@ -13,7 +13,7 @@ public class SudokuVerifier {
 	public static final int FailedColumn = -4;
 	private int rowCount = 9;
 	private int SubGridSize = 3;
-	int rowMultiplayer = 42;
+	private int rowMultiplayer = 42;
 	
 	public SudokuVerifier(){
 		this.sudokuMapping = new HashMap<Integer, Integer>();
