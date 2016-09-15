@@ -16,11 +16,11 @@ public class SudokuVerifierTest {
 
 	@Test
 	public void testRow() {
-		int rowNumber = SudokuVerifier.verifyRow("417369825632158947958724316825437169791586432346912758289643571573291684164875293");
+		//int rowNumber = SudokuVerifier.verifyRow("417369825632158947958724316825437169791586432346912758289643571573291684164875293");
 		int rowOrder = SudokuVerifier.verifyRowOrder("417369825632158947958724316825437169791586432346912758289643571573291684164875293");
 		
-		int result = rowNumber + rowOrder;
+		//int result = rowNumber + rowOrder;
 		
-		assertEquals("Sudokus row OK", 0, result);	
+		assertEquals("Sudokus row OK", 0, rowOrder);	
 	}
 }
