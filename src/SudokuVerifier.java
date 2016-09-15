@@ -83,8 +83,9 @@ public class SudokuVerifier {
 				
 				
 				if (!row) ok=false;
+				System.out.println(ok);
+
 			}
-			
 			
 			
 			return ok;
