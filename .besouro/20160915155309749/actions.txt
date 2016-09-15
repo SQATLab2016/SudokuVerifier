@@ -25,3 +25,23 @@ RefactoringAction 1473945420593 Square.java RENAME savenumbers(int)=>int saveNum
 RefactoringAction 1473945600694 Square.java REMOVE import java.util.Collections IMPORT
 RefactoringAction 1473945602694 Square.java REMOVE import java.awt.List IMPORT
 EditAction 1473945775494 Square.java 282 1 2 0
+RefactoringAction 1473945836584 Row.java ADD Row.java CLASS
+FileOpenedAction 1473945836714 Row.java 27 0 0 0
+RefactoringAction 1473945957714 Column.java ADD Column.java CLASS
+FileOpenedAction 1473945957854 Column.java 30 0 0 0
+RefactoringAction 1473946010356 Column.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1473946020856 Column.java RENAME positions=>ArrayList<Integer> colunm FIELD
+RefactoringAction 1473946022356 Column.java RENAME colunm=>ArrayList<Integer> colu FIELD
+RefactoringAction 1473946024356 Column.java RENAME colu=>ArrayList<Integer> column FIELD
+RefactoringAction 1473946065366 Column.java RENAME column=>void saveNumbers(int) METHOD
+RefactoringAction 1473946073386 Column.java RENAME saveNumbers(int)=>void create(int) METHOD
+RefactoringAction 1473946079906 Column.java RENAME create(int)=>void createCol(int) METHOD
+RefactoringAction 1473946081916 Column.java RENAME createCol(int)=>void createColumn(int) METHOD
+RefactoringAction 1473946085926 Column.java RENAME createColumn(int)=>void createColumn() METHOD
+RefactoringAction 1473946339574 Column.java RENAME createColumn()=>ArrayList<Integer> column FIELD
+RefactoringAction 1473946388584 Column.java ADD void saveNumbers(int) METHOD
+RefactoringAction 1473946396094 Column.java RENAME saveNumbers(int)=>void inserNumbers(int) METHOD
+RefactoringAction 1473946399104 Column.java RENAME inserNumbers(int)=>void insertNumbers(int) METHOD
+RefactoringAction 1473946404614 Column.java RENAME insertNumbers(int)=>void insertNumbersColum(int) METHOD
+RefactoringAction 1473946408124 Column.java RENAME insertNumbersColum(int)=>void insertNumbersColumn(int) METHOD
+EditAction 1473946466586 Column.java 243 1 1 0
