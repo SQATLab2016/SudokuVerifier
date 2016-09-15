@@ -16,15 +16,15 @@ public class SudokuVerifier {
 	public boolean checkLines(String candidateSolution){
 		 String [] solution =candidateSolution.split("");
 		 int i = 0;
-		 String[] Line1 = new String[8];
-		 String[] Line2 = new String[8];
-		 String[] Line3 = new String[8];
-		 String[] Line4 = new String[8];
-		 String[] Line5 = new String[8];
-		 String[] Line6 = new String[8];
-		 String[] Line7 = new String[8];
-		 String[] Line8 = new String[8];
-		 String[] Line9 = new String[8];
+		 String[] Line1 = new String[9];
+		 String[] Line2 = new String[9];
+		 String[] Line3 = new String[9];
+		 String[] Line4 = new String[9];
+		 String[] Line5 = new String[9];
+		 String[] Line6 = new String[9];
+		 String[] Line7 = new String[9];
+		 String[] Line8 = new String[9];
+		 String[] Line9 = new String[9];
 		for(i=0;i<9; i++){Line1[i]=solution[i];}
 		for(i=0;i<9; i++){Line2[i]=solution[i+9];}
 		for(i=0;i<9; i++){Line3[i]=solution[i+18];}
@@ -34,7 +34,7 @@ public class SudokuVerifier {
 		for(i=0;i<9; i++){Line7[i]=solution[i+54];}
 		for(i=0;i<9; i++){Line8[i]=solution[i+63];}
 		for(i=0;i<9; i++){Line9[i]=solution[i+72];}
-		return check(Line1)&&check(Line2)&&check(Line3)&&check(Line4)&&check(Line5)&&check(Line6)&&check(Line7)&&check(Line8)&&check(Line9);
+		return check(Line1);//&&check(Line2)&&check(Line3)&&check(Line4)&&check(Line5)&&check(Line6)&&check(Line7)&&check(Line8)&&check(Line9);
 		
  }  
 	public boolean checkColumns(String candidateSolution){
