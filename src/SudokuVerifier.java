@@ -84,7 +84,7 @@ public class SudokuVerifier {
 			globalColumns[i] = tempString.toString();
 			tempString.setLength(0);
 		}
-		//Implement
+
 		return globalColumns;
 	}
 	

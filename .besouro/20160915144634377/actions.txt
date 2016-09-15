@@ -179,3 +179,4 @@ RefactoringAction 1473944083177 SudokuVerifierTest.java RENAME testGetSubgrids=>
 RefactoringAction 1473944087191 SudokuVerifierTest.java RENAME testGetSubgridsFirstGrid=>void testGetSubgridsFirstGridCorrect FIELD
 RefactoringAction 1473944088203 SudokuVerifierTest.java RENAME testGetSubgridsFirstGridCorrect=>void testGetSubgridsFirstGridCorrect() METHOD
 EditAction 1473944315501 SudokuVerifier.java 3229 11 32 0
+EditAction 1473944322539 SudokuVerifier.java 3216 11 32 0
