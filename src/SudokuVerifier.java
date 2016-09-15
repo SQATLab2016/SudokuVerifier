@@ -66,7 +66,7 @@ public class SudokuVerifier {
 			for (int column=0; column<9; column++){
 				char value = str.charAt(index);
 				int cellValue = this.GetNumberFromString(value);
-				if (cellValue <= 0 && cellValue > 9){
+				if (cellValue <= 0 || cellValue > 9){
 					return -1;
 				}
 				else {
