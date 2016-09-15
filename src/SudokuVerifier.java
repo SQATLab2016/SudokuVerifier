@@ -2,8 +2,12 @@ import java.util.Map;
 
 public class SudokuVerifier {
 	
-	Map<Integer, Integer> sudokuMapping;
+	private Map<Integer, Integer> sudokuMapping;
 	int rowMultiplayer = 42;
+	
+	public SudokuVerifier(){
+		this.sudokuMapping = new HashMap<Integer, Integer>();
+	}
 	
 	public int verify(String candidateSolution) {
 		
