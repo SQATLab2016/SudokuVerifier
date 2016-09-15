@@ -36,7 +36,7 @@ public class SudokuVerifier {
 		for(i=54;i<63; i++){Line7[i-54]=solution[i];}
 		for(i=63;i<72; i++){Line8[i-63]=solution[i];}
 		for(i=72;i<81; i++){Line9[i-72]=solution[i];}
-		return check(Line1)&&check(Line2)&&check(Line3)&&check(Line4)&&check(Line5)&&check(Line5)&&check(Line7)&&check(Line8)&&check(Line9);
+		return check(Line1)&&check(Line2)&&check(Line3)&&check(Line4)&&check(Line5)&&check(Line6)&&check(Line7)&&check(Line8)&&check(Line9);
 		
  }  
 	public boolean checkColumns(String candidateSolution){
