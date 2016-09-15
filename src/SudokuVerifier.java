@@ -59,8 +59,8 @@ public class SudokuVerifier {
 		for(int i = 0; i<8; i = i + 3){
 			initializeChecker(checker);
 			for(int j = i; j<i+3; j++){
-				for(int k = j; k<j+21; k = k+6){
-					currentNumber = Character.getNumericValue(candidateSolution.charAt(j));
+				for(int k = j; k<j+21; k = k+9){
+					currentNumber = Character.getNumericValue(candidateSolution.charAt(k));
 					if(checker[currentNumber-1]==false) checker[currentNumber-1]=true;
 					else return true;
 				}
@@ -70,7 +70,7 @@ public class SudokuVerifier {
 			initializeChecker(checker);
 			for(int j = i; j<i+3; j++){
 				for(int k = j; k<j+21; k = k+9){
-					currentNumber = Character.getNumericValue(candidateSolution.charAt(j));
+					currentNumber = Character.getNumericValue(candidateSolution.charAt(k));
 					if(checker[currentNumber-1]==false) checker[currentNumber-1]=true;
 					else return true;
 				}
@@ -80,7 +80,7 @@ public class SudokuVerifier {
 			initializeChecker(checker);
 			for(int j = i; j<i+3; j++){
 				for(int k = j; k<j+21; k = k+9){
-					currentNumber = Character.getNumericValue(candidateSolution.charAt(j));
+					currentNumber = Character.getNumericValue(candidateSolution.charAt(k));
 					if(checker[currentNumber-1]==false) checker[currentNumber-1]=true;
 					else return true;
 				}
