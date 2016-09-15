@@ -5,7 +5,7 @@ public class SudokuVerifier {
 		// returns 0 if the candidate solution is correct
 		
 		//check that candidate solution has exactly 9*9 chars
-		if (candidateSolution.length() != 81) {
+		if (checkCandidateSolutionLength(candidateSolution) == false) {
 			return -1;
 		}
 		
@@ -46,7 +46,8 @@ public class SudokuVerifier {
 		
 		for(int i = 0; i < 9; i++) {
 			if(i == 0) tempString = candidateSolution.substring(i, i * 9 - 1);
-			
+			else tempString = candidateSolution.substring(i * 9, i * 9 + 9);
+			globalRows[i] = tempString;
 		}
 		//Implement
 		return globalRows;
@@ -73,5 +74,12 @@ public class SudokuVerifier {
 			return 0;
 		}
 		else return -1;
+	}
+	
+	private boolean checkCandidateSolutionLength(String candidateSolution) {
+		if (candidateSolution.length() != 81) {
+			return false;
+		}
+		else return true;
 	}
 }
