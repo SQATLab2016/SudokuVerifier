@@ -1,0 +1,100 @@
+FileOpenedAction 1473943989941 SudokuVerifier.java 398 1 3 0
+RefactoringAction 1473944056301 Square.java ADD Square.java CLASS
+FileOpenedAction 1473944056441 Square.java 30 0 0 0
+RefactoringAction 1473944203701 Square.java ADD int METHOD
+RefactoringAction 1473944218361 Square.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1473944254763 Square.java RENAME generateGame(int=>int METHOD
+RefactoringAction 1473944256273 Square.java RENAME generateS(int=>int METHOD
+RefactoringAction 1473944316253 Square.java ADD import java.util.Collections IMPORT
+RefactoringAction 1473944342133 Square.java ADD import java.awt.List IMPORT
+CompilationAction 1473944354015 Square.java
+CompilationAction 1473945172203 Square.java
+RefactoringAction 1473945191903 Square.java RENAME generateSquare(int=>int generateSquare() METHOD
+CompilationAction 1473945227433 Square.java
+RefactoringAction 1473945240923 Square.java RENAME generateSquare()=>int generateSquare(int METHOD
+RefactoringAction 1473945266433 Square.java RENAME generateSquare(int=>int generateSquare() METHOD
+RefactoringAction 1473945282453 Square.java RENAME generateSquare()=>int generateSquare(int) METHOD
+RefactoringAction 1473945284463 Square.java RENAME generateSquare(int)=>int generateSquare() METHOD
+RefactoringAction 1473945286473 Square.java RENAME generateSquare()=>int generateSquare(int) METHOD
+RefactoringAction 1473945407043 Square.java RENAME generateSquare(int)=>int sva(int) METHOD
+RefactoringAction 1473945410553 Square.java RENAME sva(int)=>int sa(int) METHOD
+RefactoringAction 1473945412063 Square.java RENAME sa(int)=>int save(int) METHOD
+RefactoringAction 1473945414083 Square.java RENAME save(int)=>int savenumbres(int) METHOD
+RefactoringAction 1473945417083 Square.java RENAME savenumbres(int)=>int savenumbers(int) METHOD
+RefactoringAction 1473945420593 Square.java RENAME savenumbers(int)=>int saveNumbers(int) METHOD
+RefactoringAction 1473945600694 Square.java REMOVE import java.util.Collections IMPORT
+RefactoringAction 1473945602694 Square.java REMOVE import java.awt.List IMPORT
+EditAction 1473945775494 Square.java 282 1 2 0
+RefactoringAction 1473945836584 Row.java ADD Row.java CLASS
+FileOpenedAction 1473945836714 Row.java 27 0 0 0
+RefactoringAction 1473945957714 Column.java ADD Column.java CLASS
+FileOpenedAction 1473945957854 Column.java 30 0 0 0
+RefactoringAction 1473946010356 Column.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1473946020856 Column.java RENAME positions=>ArrayList<Integer> colunm FIELD
+RefactoringAction 1473946022356 Column.java RENAME colunm=>ArrayList<Integer> colu FIELD
+RefactoringAction 1473946024356 Column.java RENAME colu=>ArrayList<Integer> column FIELD
+RefactoringAction 1473946065366 Column.java RENAME column=>void saveNumbers(int) METHOD
+RefactoringAction 1473946073386 Column.java RENAME saveNumbers(int)=>void create(int) METHOD
+RefactoringAction 1473946079906 Column.java RENAME create(int)=>void createCol(int) METHOD
+RefactoringAction 1473946081916 Column.java RENAME createCol(int)=>void createColumn(int) METHOD
+RefactoringAction 1473946085926 Column.java RENAME createColumn(int)=>void createColumn() METHOD
+RefactoringAction 1473946339574 Column.java RENAME createColumn()=>ArrayList<Integer> column FIELD
+RefactoringAction 1473946388584 Column.java ADD void saveNumbers(int) METHOD
+RefactoringAction 1473946396094 Column.java RENAME saveNumbers(int)=>void inserNumbers(int) METHOD
+RefactoringAction 1473946399104 Column.java RENAME inserNumbers(int)=>void insertNumbers(int) METHOD
+RefactoringAction 1473946404614 Column.java RENAME insertNumbers(int)=>void insertNumbersColum(int) METHOD
+RefactoringAction 1473946408124 Column.java RENAME insertNumbersColum(int)=>void insertNumbersColumn(int) METHOD
+EditAction 1473946466586 Column.java 243 1 1 0
+RefactoringAction 1473946529708 Column.java ADD String Repalce FIELD
+RefactoringAction 1473946533218 Column.java RENAME Repalce=>String repe FIELD
+RefactoringAction 1473946536228 Column.java RENAME repe=>String r FIELD
+RefactoringAction 1473946538738 Column.java RENAME r=>String repla FIELD
+RefactoringAction 1473946541248 Column.java RENAME repla=>String replaceNu FIELD
+RefactoringAction 1473946542258 Column.java RENAME replaceNu=>String replaceNub FIELD
+RefactoringAction 1473946545268 Column.java RENAME replaceNub=>String replaceNunber FIELD
+RefactoringAction 1473946551278 Column.java RENAME replaceNunber=>String replaceNumber FIELD
+RefactoringAction 1473946552788 Column.java RENAME replaceNumber=>String replaceNumber() METHOD
+RefactoringAction 1473946570808 Column.java RENAME replaceNumber()=>String replaceNumber(int) METHOD
+RefactoringAction 1473946572318 Column.java RENAME replaceNumber(int)=>String replaceNumber() METHOD
+RefactoringAction 1473946586328 Column.java RENAME replaceNumber()=>String replaceNumber(int) METHOD
+RefactoringAction 1473946589838 Column.java RENAME replaceNumber(int)=>String replaceNumber() METHOD
+RefactoringAction 1473946592348 Column.java RENAME replaceNumber()=>String replaceNumber(int) METHOD
+RefactoringAction 1473946605878 Column.java RENAME replaceNumber(int)=>String replaceNumber(int, int) METHOD
+RefactoringAction 1473946708938 Column.java RENAME insertNumbersColumn(int)=>void insertNumbersColumn(int, int) METHOD
+RefactoringAction 1473946740458 Column.java RENAME insertNumbersColumn(int, int)=>void insertNumbersColumn FIELD
+RefactoringAction 1473946756510 Column.java RENAME replaceNumber(int, int)=>String replaceNumber(int) METHOD
+RefactoringAction 1473946964197 Column.java RENAME insertNumbersColumn(int)=>void insertNumbersColumn(int, int) METHOD
+RefactoringAction 1473947007737 Column.java RENAME replaceNumber(int)=>String replaceNumber(int, int) METHOD
+RefactoringAction 1473947346142 Row.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1473947351162 Row.java RENAME column=>ArrayList<Integer> ro FIELD
+RefactoringAction 1473947353172 Row.java RENAME ro=>ArrayList<Integer> row FIELD
+RefactoringAction 1473947364182 Row.java RENAME insertNumbersColumn(int, int)=>void insertNumbersR(int, int) METHOD
+RefactoringAction 1473947365192 Row.java RENAME insertNumbersR(int, int)=>void insertNumbersROW(int, int) METHOD
+RefactoringAction 1473947366202 Row.java RENAME insertNumbersROW(int, int)=>void insertNumbersRO(int, int) METHOD
+RefactoringAction 1473947367212 Row.java RENAME insertNumbersRO(int, int)=>void insertNumbersR(int, int) METHOD
+RefactoringAction 1473947368222 Row.java RENAME insertNumbersR(int, int)=>void insertNumbersRow(int, int) METHOD
+RefactoringAction 1473947375232 Row.java RENAME replaceNumber(int, int)=>void replaceNumberR(int, int) METHOD
+RefactoringAction 1473947377242 Row.java RENAME replaceNumberR(int, int)=>void replaceNumberRow(int, int) METHOD
+EditAction 1473947438972 Row.java 338 2 2 0
+RefactoringAction 1473947491942 Board.java ADD Board.java CLASS
+FileOpenedAction 1473947492152 Board.java 29 0 0 0
+RefactoringAction 1473947516602 Board.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1473947530612 Board.java RENAME column=>ArrayList<ArrayList> bor FIELD
+RefactoringAction 1473947534612 Board.java RENAME bor=>ArrayList<ArrayList> boar FIELD
+RefactoringAction 1473947535622 Board.java RENAME boar=>ArrayList<ArrayList> board FIELD
+EditAction 1473947581273 Board.java 127 0 0 0
+RefactoringAction 1473947651623 Board.java ADD void insertNumbersRow(int, int) METHOD
+RefactoringAction 1473947658633 Board.java RENAME insertNumbersRow(int, int)=>void insertRow(int, int) METHOD
+RefactoringAction 1473947675653 Board.java RENAME insertRow(int, int)=>void insertRow(A, int) METHOD
+RefactoringAction 1473947677163 Board.java RENAME insertRow(A, int)=>void insertRow(Arr, int) METHOD
+RefactoringAction 1473947679663 Board.java RENAME insertRow(Arr, int)=>void insertRow(ArrayList<E>, int) METHOD
+RefactoringAction 1473947685663 Board.java RENAME insertRow(ArrayList<E>, int)=>void insertRow(ArrayList<RO>, int) METHOD
+RefactoringAction 1473947686673 Board.java RENAME insertRow(ArrayList<RO>, int)=>void insertRow(ArrayList<>, int) METHOD
+RefactoringAction 1473947694183 Board.java RENAME insertRow(ArrayList<>, int)=>void insertRow() METHOD
+RefactoringAction 1473947698193 Board.java RENAME insertRow()=>void insertRow(ArrayList<Integer>, int) METHOD
+RefactoringAction 1473947707693 Board.java RENAME insertRow(ArrayList<Integer>, int)=>void insertRow(ArrayList<Integer>) METHOD
+RefactoringAction 1473947775213 Board.java ADD void insertRow(ArrayList<Integer>)/2 METHOD
+RefactoringAction 1473947781723 Board.java RENAME insertRow(ArrayList<Integer>)/2=>void insertCO(ArrayList<Integer>) METHOD
+RefactoringAction 1473947782723 Board.java RENAME insertCO(ArrayList<Integer>)=>void insertC(ArrayList<Integer>) METHOD
+RefactoringAction 1473947785233 Board.java RENAME insertC(ArrayList<Integer>)=>void insertColumn(ArrayList<Integer>) METHOD
+EditAction 1473947802193 Board.java 315 2 2 0
