@@ -30,3 +30,13 @@ CompilationAction 1473940450529 SudokuVerifier.java
 CompilationAction 1473940450530 SudokuVerifier.java
 CompilationAction 1473940450531 SudokuVerifier.java
 EditAction 1473940491485 SudokuVerifier.java 818 3 4 0
+CompilationAction 1473940492990 SudokuVerifier.java
+CompilationAction 1473940492991 SudokuVerifier.java
+CompilationAction 1473940492991 SudokuVerifier.java
+CompilationAction 1473940502879 SudokuVerifier.java
+CompilationAction 1473940503046 SudokuVerifier.java
+CompilationAction 1473940704974 SudokuVerifier.java
+RefactoringAction 1473940724910 SudokuVerifier.java ADD boolean TestStringLenght() METHOD
+RefactoringAction 1473940726926 SudokuVerifier.java RENAME TestStringLenght()=>boolean TestStringLenght(string) METHOD
+RefactoringAction 1473940739033 SudokuVerifier.java RENAME TestStringLenght(string)=>boolean TestStringLenght(String) METHOD
+EditAction 1473940760240 SudokuVerifier.java 1013 4 8 0

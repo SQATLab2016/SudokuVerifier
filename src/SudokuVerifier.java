@@ -32,10 +32,19 @@ public class SudokuVerifier {
 		
 		return 0;
 	}
+	private boolean TestStringLenght(String str){
+		if (str.length() != 81){
+			return false;
+		}
+		return true;
+	}
 	private int GetNumberFromString(char str){
-		string singleChar = String.valueOf(str);
-		int returnValue = Integer.parseInt()
-		
-		return -1;
+		String singleChar = String.valueOf(str);
+		try {
+			int returnValue = Integer.parseInt(singleChar);
+			return returnValue;
+		} catch (NumberFormatException e){
+			return -1;
+		}
 	}
 }
