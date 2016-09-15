@@ -1,3 +1,4 @@
+import java.util.BitSet;
 
 public class SudokuVerifier {
 	
@@ -35,12 +36,9 @@ public static int verifyRowOrder(String candidateSolution) {
 		
 
 		for(int i=1; i<=9; i++){
-			boolean[] check = new boolean[9];
+			BitSet filled = new BitSet(9);
 			for(int j=1; j<=9; j++){
-				if (check[(int) (candidateSolution.charAt(i*j-1) - 1)])
-					return 1;
-				else
-					check[candidateSolution.charAt(i*j-1) - 1] = true;
+				filled.set(candidateSolution.charAt(i*j));
 			}
 		}
 		return 0;
