@@ -20,28 +20,28 @@ public class SudokuVerifier {
 	public int verify(String candidateSolution) {
 		
 		if (!this.TestStringLenght(candidateSolution)){
-			return -1;
+			return FailedNumbers;
 		}
 		int spliceResult =this.SpliceStringToMap(candidateSolution); 
-		if (spliceResult != 0){
+		if (spliceResult != AllOk){
 			return spliceResult;
 		}
 		int SubGridTest = this.TestSubGrids();
-		if (SubGridTest != 0){
+		if (SubGridTest != AllOk){
 			return SubGridTest;
 		}
 		int LineTestResult = this.TestRows();
-		if (LineTestResult != 0){
+		if (LineTestResult != AllOk){
 			return LineTestResult;
 		}
 		int ColumnTest = this.TestColumns();
-		if (ColumnTest != 0){
+		if (ColumnTest != AllOk){
 			return ColumnTest;
 		}
 		
 		
 		// returns 0 if the candidate solution is correct
-		return 0;
+		return AllOk;
 	}
 	private int TestRows() {
 		List<Integer> usedNumbers = new ArrayList<Integer>();
