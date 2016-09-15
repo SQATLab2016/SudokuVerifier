@@ -24,3 +24,5 @@ CompilationAction 1473941985480 SudokuVerifierTest.java
 RefactoringAction 1473941992549 SudokuVerifier.java ADD static int verifyRow(String)/2 METHOD
 RefactoringAction 1473941995553 SudokuVerifier.java RENAME verifyRow(String)/2=>static int verifyRowOrder(String) METHOD
 EditAction 1473942011135 SudokuVerifier.java 865 4 8 0
+CompilationAction 1473942011355 SudokuVerifierTest.java
+EditAction 1473942379223 SudokuVerifier.java 834 4 5 0
