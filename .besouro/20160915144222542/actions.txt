@@ -52,3 +52,7 @@ RefactoringAction 1473941031970 SudokuVerifierTest.java ADD String CorString FIE
 RefactoringAction 1473941055061 SudokuVerifierTest.java ADD String IncorString FIELD
 RefactoringAction 1473941073117 SudokuVerifierTest.java ADD String ShortString FIELD
 EditAction 1473941077017 SudokuVerifierTest.java 752 1 0 0
+RefactoringAction 1473941083667 SudokuVerifierTest.java ADD String ShortString/2 FIELD
+RefactoringAction 1473941095183 SudokuVerifierTest.java RENAME ShortString/2=>String String FIELD
+RefactoringAction 1473941096193 SudokuVerifierTest.java RENAME String=>String longString FIELD
+EditAction 1473941096340 SudokuVerifierTest.java 894 1 0 0
