@@ -43,7 +43,8 @@ public class SudokuVerifierTest {
 	@Test
 	public void TestWithIncorrectLineString(){
 		int result = sudoku.verify(IncorLinesString);
-		assertTrue(-2 == result || -4 == result, result);
+		assertTrue(-, result);
+		assertTrue(2 == result || -4 == result);
 	}
 	@Test
 	public void TestWithStringThatHasAlpabetsIn(){
