@@ -4,14 +4,33 @@ public class SudokuVerifier {
 	
 	public static int verify(String candidateSolution) {		
 		
-		
+		toM2()
 		return 0;
 		
 	}
 	
-	public static int verifyLength(String candidateSolution) {		
+	public static int[][] toM2(String candidateSolution, int N) { //Converts a string into a matrix
 		
-		if (candidateSolution.length() == 81) 
+		int[] arr = new int[candidateSolution.length()];
+
+	    for (int i = 0; i < candidateSolution.length(); i++){
+	        arr[i] = candidateSolution.charAt(i) - '0';
+	    }
+
+		int M = (arr.length + N - 1) / N;
+		    int[][] mat = new int[M][];
+		    int start = 0;
+		    for (int r = 0; r < M; r++) {
+		    	int L = Math.min(N, arr.length - start);
+		    	mat[r] = java.util.Arrays.copyOfRange(arr, start, start + L);
+		    	start += L;
+		    }
+		    return mat;
+	}
+	
+	public static int verifyLength(char[] candidateSolution) {		
+		
+		if (candidateSolution.length == 81) 
 			return 0;
 		else
 			return 1;
@@ -32,9 +51,9 @@ public class SudokuVerifier {
 		
 	}
 	
-public static int verifyRowOrder(String candidateSolution) {		
+public static int verifyRowOrder(char[] candidateSolution) {		
 		
-	System.out.print(candidateSolution.charAt(2*1-1));
+	System.out.print(candidateSolution[1*2]);
 	
 		for(int i=1; i<9; i++){
 			BitSet filled = new BitSet(9);

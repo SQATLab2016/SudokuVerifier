@@ -112,3 +112,12 @@ EditAction 1473944558017 SudokuVerifier.java 949 4 8 0
 UnitTestCaseAction 1473944558732 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473944558732 SudokuVerifierTest.java FAIL
 EditAction 1473944564897 SudokuVerifier.java 949 4 8 0
+UnitTestCaseAction 1473944565943 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473944565943 SudokuVerifierTest.java FAIL
+RefactoringAction 1473944872908 SudokuVerifier.java RENAME verifyLength(String)=>static int verifyLength(char) METHOD
+RefactoringAction 1473944874911 SudokuVerifier.java RENAME verifyLength(char)=>static int verifyLength(char METHOD
+RefactoringAction 1473944899427 SudokuVerifier.java RENAME verifyRowOrder(String)=>static int verifyRowOrder(char) METHOD
+RefactoringAction 1473944901931 SudokuVerifier.java RENAME verifyRowOrder(char)=>static int verifyRowOrder(char METHOD
+RefactoringAction 1473945072492 SudokuVerifier.java ADD static int METHOD
+RefactoringAction 1473945136545 SudokuVerifier.java RENAME toM2(int=>static int METHOD
+EditAction 1473945330442 SudokuVerifier.java 1510 5 14 0
