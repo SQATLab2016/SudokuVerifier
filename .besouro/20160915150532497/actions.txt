@@ -121,3 +121,21 @@ RefactoringAction 1473944901931 SudokuVerifier.java RENAME verifyRowOrder(char)=
 RefactoringAction 1473945072492 SudokuVerifier.java ADD static int METHOD
 RefactoringAction 1473945136545 SudokuVerifier.java RENAME toM2(int=>static int METHOD
 EditAction 1473945330442 SudokuVerifier.java 1510 5 14 0
+CompilationAction 1473945330701 SudokuVerifier.java
+CompilationAction 1473945330701 SudokuVerifier.java
+CompilationAction 1473945330701 SudokuVerifier.java
+CompilationAction 1473945330701 SudokuVerifierTest.java
+CompilationAction 1473945330701 SudokuVerifierTest.java
+CompilationAction 1473945345306 SudokuVerifier.java
+CompilationAction 1473945345307 SudokuVerifier.java
+CompilationAction 1473945345461 SudokuVerifier.java
+CompilationAction 1473945386202 SudokuVerifier.java
+CompilationAction 1473945386367 SudokuVerifier.java
+RefactoringAction 1473945393556 SudokuVerifier.java RENAME verifyRowOrder(char=>static int verifyRowOrder(int METHOD
+RefactoringAction 1473945395061 SudokuVerifier.java RENAME verifyRowOrder(int=>static int verifyRowOrder(int METHOD
+CompilationAction 1473945422738 SudokuVerifier.java
+CompilationAction 1473945422900 SudokuVerifierTest.java
+CompilationAction 1473945422900 SudokuVerifierTest.java
+RefactoringAction 1473945512616 SudokuVerifier.java RENAME verifyLength(char=>static int verifyLength(int) METHOD
+RefactoringAction 1473945514621 SudokuVerifier.java RENAME verifyLength(int)=>static int verifyLength(int METHOD
+EditAction 1473945517241 SudokuVerifier.java 1545 5 16 0

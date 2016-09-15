@@ -4,7 +4,7 @@ public class SudokuVerifier {
 	
 	public static int verify(String candidateSolution) {		
 		
-		toM2()
+		int[][] candidateSolutionM = toM2(candidateSolution,9);
 		return 0;
 		
 	}
@@ -28,7 +28,7 @@ public class SudokuVerifier {
 		    return mat;
 	}
 	
-	public static int verifyLength(char[] candidateSolution) {		
+	public static int verifyLength(int[][] candidateSolution) {		
 		
 		if (candidateSolution.length == 81) 
 			return 0;
@@ -51,17 +51,17 @@ public class SudokuVerifier {
 		
 	}
 	
-public static int verifyRowOrder(char[] candidateSolution) {		
+public static int verifyRowOrder(int[][] candidateSolution) {		
 		
 	System.out.print(candidateSolution[1*2]);
 	
-		for(int i=1; i<9; i++){
+		for(int i=0; i<9; i++){
 			BitSet filled = new BitSet(9);
-			for(int j=1; j<9; j++){
-				if(filled.get(candidateSolution.charAt(i*j-1)-1))
+			for(int j=0; j<9; j++){
+				if(filled.get(candidateSolution[i][j]-1))
 					return 1;
 				else 
-					filled.set(candidateSolution.charAt(i*j-1)-1);
+					filled.set(candidateSolution[i][j]-1);
 			}
 		}
 		return 0;
