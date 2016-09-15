@@ -252,3 +252,16 @@ CompilationAction 1473945974087 SudokuVerifierTest.java
 UnitTestCaseAction 1473945984117 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473945984118 SudokuVerifierTest.java FAIL
 EditAction 1473946025648 SudokuVerifierTest.java 2764 8 15 7
+UnitTestCaseAction 1473946028520 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473946028520 SudokuVerifierTest.java OK
+RefactoringAction 1473946068751 SudokuVerifier.java ADD int AllOk FIELD
+RefactoringAction 1473946074304 SudokuVerifier.java ADD int AllOk/2 FIELD
+RefactoringAction 1473946078330 SudokuVerifier.java REMOVE AllOk/2 FIELD
+RefactoringAction 1473946102847 SudokuVerifier.java ADD int FailedSubGrids FIELD
+RefactoringAction 1473946110389 SudokuVerifier.java ADD int Failed FIELD
+RefactoringAction 1473946112905 SudokuVerifier.java RENAME Failed=>int FailedRow FIELD
+RefactoringAction 1473946121450 SudokuVerifier.java ADD int Failed FIELD
+RefactoringAction 1473946124971 SudokuVerifier.java RENAME Failed=>int FailedColumn FIELD
+RefactoringAction 1473946147012 SudokuVerifier.java ADD int Failed FIELD
+RefactoringAction 1473946151028 SudokuVerifier.java RENAME Failed=>int FailedNumbers FIELD
+EditAction 1473946158953 SudokuVerifier.java 3291 10 30 0
