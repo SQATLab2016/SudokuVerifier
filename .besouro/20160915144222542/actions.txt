@@ -116,3 +116,8 @@ RefactoringAction 1473942032846 SudokuVerifierTest.java RENAME TestWithIncorrect
 RefactoringAction 1473942034852 SudokuVerifierTest.java RENAME TestWithIncorrectL=>void TestWithIncorrectLine FIELD
 RefactoringAction 1473942040364 SudokuVerifierTest.java RENAME TestWithIncorrectLine=>void TestWithIncorrectLineString() METHOD
 EditAction 1473942041131 SudokuVerifierTest.java 1552 5 7 3
+RefactoringAction 1473942046877 SudokuVerifierTest.java ADD String CorString/2 FIELD
+RefactoringAction 1473942051390 SudokuVerifierTest.java RENAME CorString/2=>String String FIELD
+RefactoringAction 1473942052403 SudokuVerifierTest.java RENAME String=>String InString FIELD
+RefactoringAction 1473942054918 SudokuVerifierTest.java RENAME InString=>String IncorLinesString FIELD
+EditAction 1473942059741 SudokuVerifierTest.java 1683 5 7 3
