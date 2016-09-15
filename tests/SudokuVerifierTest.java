@@ -20,7 +20,8 @@ public class SudokuVerifierTest {
 		SudokuVerifier SV =new SudokuVerifier();
 		String[] test = {"1","2","3","4","5","6","7","8","9"};
 		boolean checknumber = SV.checknumber(test,"1");
-		assertEquals( "There is not only 1 '2'", true, checknumber);
+		boolean checknumber2 = SV.checknumber(test,"2");
+		assertEquals( "There is not only 1 '2'", true, checknumber2);
 	} 	
 	
 	@Test
@@ -37,7 +38,7 @@ public class SudokuVerifierTest {
 		SudokuVerifier SV=new SudokuVerifier();
 		String solution = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		boolean checklines = SV.checkLines(solution);
-		assertEquals("The lines are checked false while being true", true, checklines);
+		assertEquals("The lines are checked false despite being true", true, checklines);
 	}
 
 	
