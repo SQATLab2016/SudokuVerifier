@@ -115,7 +115,7 @@ public class SudokuVerifier {
 				char value = str.charAt(index);
 				int cellValue = this.GetNumberFromString(value);
 				if (cellValue <= 0 || cellValue > 9){
-					return -1;
+					return FailedNumbers;
 				}
 				else {
 					this.sudokuMapping.put((row*this.rowMultiplayer+column), cellValue);
