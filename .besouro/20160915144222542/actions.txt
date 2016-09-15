@@ -157,3 +157,6 @@ CompilationAction 1473942532029 SudokuVerifierTest.java
 EditAction 1473942566182 SudokuVerifierTest.java 2019 6 9 4
 EditAction 1473942632097 SudokuVerifierTest.java 2162 6 11 5
 EditAction 1473942637040 SudokuVerifier.java 2067 8 20 0
+UnitTestCaseAction 1473942638613 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473942638614 SudokuVerifierTest.java FAIL
+EditAction 1473942648544 SudokuVerifierTest.java 2163 6 11 5
