@@ -43,3 +43,10 @@ EditAction 1473943817877 SudokuVerifierTest.java 1326 4 14 3
 UnitTestCaseAction 1473943819955 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473943819956 SudokuVerifierTest.java FAIL
 EditAction 1473943841805 SudokuVerifierTest.java 1339 4 14 3
+UnitTestCaseAction 1473943843795 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473943843797 SudokuVerifierTest.java FAIL
+RefactoringAction 1473943865646 SudokuVerifierTest.java RENAME testchecknumber_2_true()=>void testchecknumber_1_true() METHOD
+RefactoringAction 1473943885167 SudokuVerifierTest.java RENAME testcheckTrue()=>void testcheck() METHOD
+RefactoringAction 1473943887178 SudokuVerifierTest.java RENAME testcheck()=>void testcheckFqlse() METHOD
+RefactoringAction 1473943890190 SudokuVerifierTest.java RENAME testcheckFqlse()=>void testcheckFalse() METHOD
+EditAction 1473943937684 SudokuVerifierTest.java 1275 4 13 3
