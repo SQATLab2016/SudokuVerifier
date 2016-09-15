@@ -76,3 +76,10 @@ RefactoringAction 1473947368222 Row.java RENAME insertNumbersR(int, int)=>void i
 RefactoringAction 1473947375232 Row.java RENAME replaceNumber(int, int)=>void replaceNumberR(int, int) METHOD
 RefactoringAction 1473947377242 Row.java RENAME replaceNumberR(int, int)=>void replaceNumberRow(int, int) METHOD
 EditAction 1473947438972 Row.java 338 2 2 0
+RefactoringAction 1473947491942 Board.java ADD Board.java CLASS
+FileOpenedAction 1473947492152 Board.java 29 0 0 0
+RefactoringAction 1473947516602 Board.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1473947530612 Board.java RENAME column=>ArrayList<ArrayList> bor FIELD
+RefactoringAction 1473947534612 Board.java RENAME bor=>ArrayList<ArrayList> boar FIELD
+RefactoringAction 1473947535622 Board.java RENAME boar=>ArrayList<ArrayList> board FIELD
+EditAction 1473947581273 Board.java 127 0 0 0
