@@ -3,7 +3,7 @@ public class SudokuVerifier {
 	
 	private String[] globalRows;
 	public String[] getGlobalRows() {
-		return globalRows;
+		return this.globalRows;
 	}
 
 	private String[] globalColumns;
