@@ -105,6 +105,7 @@ public class SudokuVerifier {
 				globalRows[subgridCounter] = tempString.toString();
 				tempString.setLength(0);
 			}
+			currentColumn += 3;
 		}
 		
 		//Implement
