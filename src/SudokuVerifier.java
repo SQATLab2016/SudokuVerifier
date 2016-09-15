@@ -67,13 +67,17 @@ public class SudokuVerifier {
 	
 public static int verify3x3(int[][] candidateSolution) {		
 		
-		for(int i=0; i<candidateSolution.length; i++){
-			BitSet column = new BitSet(9);
-			for(int j=0; j<candidateSolution[i].length; j++){
-				if(column.get(candidateSolution[j][i]-1))
-					return 1;
-				else 
-					column.set(candidateSolution[j][i]-1);
+		for(int row=0; row<9; row+=3){
+			for(int column=0; column<9; column+=3){
+				BitSet block = new BitSet(9);
+				for(int i=0; i<row; i++){
+					for(int j=0; j<column; j++){
+						if(column.get(candidateSolution[j][i]-1))
+							return 1;
+						else 
+							column.set(candidateSolution[j][i]-1);
+					}	
+				}
 			}
 		}
 		return 0;
