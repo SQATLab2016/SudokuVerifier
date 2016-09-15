@@ -37,7 +37,7 @@ public static int verifyRowOrder(String candidateSolution) {
 		for(int i=1; i<=9; i++){
 			boolean[] check = new boolean[9];
 			for(int j=1; j<=9; j++){
-				if (check[candidateSolution.charAt(i*j-1) - 1])
+				if (check[(int) (candidateSolution.charAt(i*j-1) - 1)])
 					return 1;
 				else
 					check[candidateSolution.charAt(i*j-1) - 1] = true;
