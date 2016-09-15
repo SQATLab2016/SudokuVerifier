@@ -77,6 +77,11 @@ public class SudokuVerifier {
 		return 0;
 	}
 	private int TestSingleSubGrid(int row, int col){
+		for (int x = row; x<(row+3); x++){
+			for (int y = col; y<(col+3); y++){
+				
+			}
+		}
 		return 0;
 	}
 	private int GetValueByCoordinates(int row, int col){
