@@ -15,3 +15,4 @@ EditAction 1473940121576 SudokuVerifierTest.java 1318 3 12 3
 RefactoringAction 1473940133545 SudokuVerifierTest.java ADD void test FIELD
 RefactoringAction 1473940135562 SudokuVerifierTest.java RENAME test=>void testVerify FIELD
 EditAction 1473940219170 SudokuVerifier.java 2162 7 20 0
+EditAction 1473940222268 SudokuVerifierTest.java 1347 3 12 3

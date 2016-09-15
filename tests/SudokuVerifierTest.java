@@ -34,7 +34,8 @@ public class SudokuVerifierTest {
 		assertEquals("String has invalid chars", -1, result);
 	}
 	
-	
+	@Test
+	public void testVerify
 	
 
 }
