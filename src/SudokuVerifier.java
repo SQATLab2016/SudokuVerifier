@@ -114,7 +114,7 @@ public class SudokuVerifier {
 		}
 		
 		
-	/*	
+	
 		public boolean verifySubGrid(String candidateSolution){
 			boolean ok=true;
 			 int[][] array2 = new int[3][3];
@@ -122,5 +122,5 @@ public class SudokuVerifier {
 			
 			return ok;
 
-		}*/
+		}
 }
