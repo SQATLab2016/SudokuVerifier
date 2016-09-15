@@ -34,7 +34,8 @@ public class SudokuVerifier {
 	
 public static int verifyRowOrder(String candidateSolution) {		
 		
-
+	System.out.print(candidateSolution.charAt(0));
+	
 		for(int i=1; i<8; i++){
 			BitSet filled = new BitSet(9);
 			for(int j=1; j<8; j++){
