@@ -21,15 +21,16 @@ public class SudokuVerifier {
 		if (spliceResult != 0){
 			return spliceResult;
 		}
-		int LineTestResult = this.TestLines();
+		int LineTestResult = this.Test();
 		if (LineTestResult != 0){
 			return LineTestResult;
 		}
+		int ColumnTest = this.te
 		
 		// returns 0 if the candidate solution is correct
 		return 0;
 	}
-	private int TestLines() {
+	private int TestRows() {
 		List<Integer> usedNumbers = new ArrayList<Integer>();
 		for (int row=0; row<9; row++){
 			for (int col=0; col<9; col++)
@@ -46,7 +47,7 @@ public class SudokuVerifier {
 		}
 		return 0;
 	}
-	private int TestRows(){
+	private int TestColumns(){
 		List<Integer> usedNumbers = new ArrayList<Integer>();
 		for (int col=0; col<9; col++){
 			for (int row=0; row<9; row++)

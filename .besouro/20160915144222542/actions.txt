@@ -184,3 +184,10 @@ RefactoringAction 1473943394653 SudokuVerifierTest.java RENAME IncorrecrColumnsS
 RefactoringAction 1473943394878 SudokuVerifierTest.java RENAME IncorrecrRowString=>String IncorrecrColumnsString FIELD
 EditAction 1473943415419 SudokuVerifierTest.java 2467 7 13 6
 EditAction 1473943445152 SudokuVerifierTest.java 2525 7 13 6
+UnitTestCaseAction 1473943484893 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473943484893 SudokuVerifierTest.java FAIL
+RefactoringAction 1473943531443 SudokuVerifier.java RENAME TestLines()=>int TestR() METHOD
+RefactoringAction 1473943533462 SudokuVerifier.java RENAME TestR()=>int Test() METHOD
+CompilationAction 1473943555394 SudokuVerifier.java
+CompilationAction 1473943555395 SudokuVerifier.java
+EditAction 1473943559913 SudokuVerifier.java 2330 8 15 0
