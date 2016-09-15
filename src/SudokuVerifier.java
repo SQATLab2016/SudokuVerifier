@@ -34,7 +34,7 @@ public class SudokuVerifier {
 		for (int row=0; row<9; row++){
 			for (int col=0; col<9; col++)
 			{
-				int value = this.sudokuMapping.get(row*this.rowMultiplayer+col);
+				int value = this.GetValueByCoordinates(row, col);
 				if (usedNumber.contains(value)){
 					return -2;
 				}
@@ -44,6 +44,9 @@ public class SudokuVerifier {
 			}
 			usedNumber.clear();
 		}
+		return 0;
+	}
+	private int TestRows(){
 		return 0;
 	}
 	private int GetValueByCoordinates(int row, int col){

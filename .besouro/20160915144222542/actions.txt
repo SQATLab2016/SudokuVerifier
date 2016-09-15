@@ -138,3 +138,7 @@ RefactoringAction 1473942290336 SudokuVerifier.java RENAME GetValueByCoordinate=
 RefactoringAction 1473942291356 SudokuVerifier.java RENAME GetValueByCoordinates=>int GetValueByCoordinates() METHOD
 RefactoringAction 1473942294874 SudokuVerifier.java RENAME GetValueByCoordinates()=>int GetValueByCoordinates(int, int) METHOD
 EditAction 1473942305156 SudokuVerifier.java 1954 7 18 0
+RefactoringAction 1473942367566 SudokuVerifier.java ADD int Test FIELD
+RefactoringAction 1473942369585 SudokuVerifier.java RENAME Test=>int TestRows FIELD
+RefactoringAction 1473942371103 SudokuVerifier.java RENAME TestRows=>int TestRows() METHOD
+EditAction 1473942389713 SudokuVerifier.java 1979 8 19 0
