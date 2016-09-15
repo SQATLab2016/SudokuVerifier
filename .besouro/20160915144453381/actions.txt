@@ -34,3 +34,6 @@ UnitTestCaseAction 1473941304546 SudokuVerifierTest.java OK
 UnitTestSessionAction 1473941304546 SudokuVerifierTest.java OK
 RefactoringAction 1473941334930 SudokuVerifier.java ADD boolean verifyRow(String) METHOD
 EditAction 1473941398044 SudokuVerifier.java 1070 3 11 0
+UnitTestCaseAction 1473941398920 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473941398920 SudokuVerifierTest.java OK
+EditAction 1473941427782 SudokuVerifierTest.java 787 2 4 2
