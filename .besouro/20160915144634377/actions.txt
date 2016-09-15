@@ -88,3 +88,35 @@ EditAction 1473941330855 SudokuVerifier.java 2585 10 26 0
 UnitTestCaseAction 1473941337017 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473941337018 SudokuVerifierTest.java FAIL
 EditAction 1473941357617 SudokuVerifier.java 2585 10 26 0
+UnitTestCaseAction 1473941362562 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473941362563 SudokuVerifierTest.java OK
+RefactoringAction 1473941376227 SudokuVerifierTest.java ADD void test FIELD
+RefactoringAction 1473941377735 SudokuVerifierTest.java RENAME test=>void testGet FIELD
+RefactoringAction 1473941378747 SudokuVerifierTest.java RENAME testGet=>void testGetGlo FIELD
+RefactoringAction 1473941379761 SudokuVerifierTest.java RENAME testGetGlo=>void testGetGlobal FIELD
+RefactoringAction 1473941381276 SudokuVerifierTest.java RENAME testGetGlobal=>void testGetGlobalRows FIELD
+RefactoringAction 1473941388291 SudokuVerifierTest.java RENAME testGetGlobalRowsOneCorrectRow()=>void testGetGlobalRowsFirstCorrectRow() METHOD
+RefactoringAction 1473941392805 SudokuVerifierTest.java RENAME testGetGlobalRowsFirstCorrectRow()=>void testGetGlobalRowsFirstRow() METHOD
+RefactoringAction 1473941395319 SudokuVerifierTest.java RENAME testGetGlobalRowsFirstRow()=>void testGetGlobalRowsFirstRowCorrect() METHOD
+CompilationAction 1473941395822 SudokuVerifierTest.java
+CompilationAction 1473941395823 SudokuVerifierTest.java
+CompilationAction 1473941395824 SudokuVerifierTest.java
+RefactoringAction 1473941399341 SudokuVerifierTest.java RENAME testGetGlobalRows=>void testGetGlobalRowsLast FIELD
+RefactoringAction 1473941400356 SudokuVerifierTest.java RENAME testGetGlobalRowsLast=>void testGetGlobalRowsLastRow FIELD
+RefactoringAction 1473941402368 SudokuVerifierTest.java RENAME testGetGlobalRowsLastRow=>void testGetGlobalRowsLastRowCorrect FIELD
+RefactoringAction 1473941403382 SudokuVerifierTest.java RENAME testGetGlobalRowsLastRowCorrect=>void testGetGlobalRowsLastRowCorrect() METHOD
+CompilationAction 1473941493449 SudokuVerifierTest.java
+CompilationAction 1473941493450 SudokuVerifierTest.java
+CompilationAction 1473941493451 SudokuVerifierTest.java
+UnitTestCaseAction 1473941496131 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473941496132 SudokuVerifierTest.java OK
+RefactoringAction 1473941570299 SudokuVerifierTest.java ADD void test FIELD
+RefactoringAction 1473941571313 SudokuVerifierTest.java RENAME test=>void testGet FIELD
+RefactoringAction 1473941573819 SudokuVerifierTest.java RENAME testGet=>void testGetGlobal FIELD
+RefactoringAction 1473941578830 SudokuVerifierTest.java RENAME testGetGlobal=>void testGetGlobalRowsCheck FIELD
+RefactoringAction 1473941580342 SudokuVerifierTest.java RENAME testGetGlobalRowsCheck=>void testGetGlobalRowsCheckAll FIELD
+RefactoringAction 1473941582854 SudokuVerifierTest.java RENAME testGetGlobalRowsCheckAll=>void testGetGlobalRowsCheckAllRows FIELD
+RefactoringAction 1473941583866 SudokuVerifierTest.java RENAME testGetGlobalRowsCheckAllRows=>void testGetGlobalRowsCheckAllRows() METHOD
+UnitTestCaseAction 1473941820118 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473941820119 SudokuVerifierTest.java OK
+EditAction 1473941848828 SudokuVerifier.java 2572 10 26 0

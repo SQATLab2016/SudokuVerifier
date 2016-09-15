@@ -69,7 +69,7 @@ public class SudokuVerifier {
 			globalRows[i] = tempString;
 			tempString = "";
 		}
-		//Implement
+
 		return globalRows;
 	}
 	

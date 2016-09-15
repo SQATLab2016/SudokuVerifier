@@ -1,3 +1,6 @@
-1473940085401 refactoring 3 90 false
-1473940346143 refactoring 3 260 false
-1473940400821 refactoring 2A 54 false
+1473940085401 refactoring 3 90 true
+1473940346143 refactoring 3 260 true
+1473940400821 refactoring 2A 54 true
+1473941362563 test-first 3 961 true
+1473941496132 refactoring 3 133 true
+1473941820119 refactoring 3 323 true

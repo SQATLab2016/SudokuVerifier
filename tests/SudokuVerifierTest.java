@@ -35,7 +35,7 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test
-	public void testGetGlobalRowsOneCorrectRow() {
+	public void testGetGlobalRowsFirstRowCorrect() {
 		String testCandidate = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		SudokuVerifier verifier = new SudokuVerifier();
 		
@@ -44,6 +44,30 @@ public class SudokuVerifierTest {
 		String[] verifierGlobalRows = verifier.getGlobalRows();
 		String correctRow = "417369825";
 		assertEquals(correctRow, verifierGlobalRows[0]);
+	}
+	
+	@Test
+	public void testGetGlobalRowsLastRowCorrect() {
+		String testCandidate = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		SudokuVerifier verifier = new SudokuVerifier();
+		
+		verifier.verify(testCandidate);
+		
+		String[] verifierGlobalRows = verifier.getGlobalRows();
+		String correctRow = "164875293";
+		assertEquals(correctRow, verifierGlobalRows[8]);
+	}
+	
+	@Test
+	public void testGetGlobalRowsCheckAllRows() {
+		String testCandidate = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		SudokuVerifier verifier = new SudokuVerifier();
+		
+		verifier.verify(testCandidate);
+		
+		String[] verifierGlobalRows = verifier.getGlobalRows();
+		String[] correctRows = new String[]{"417369825", "632158947", "958724316", "825437169", "791586432", "346912758", "289643571", "573291684", "164875293"};
+		assertArrayEquals(verifierGlobalRows, correctRows);
 	}
 
 }
