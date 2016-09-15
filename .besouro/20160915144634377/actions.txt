@@ -26,3 +26,13 @@ RefactoringAction 1473940294636 SudokuVerifier.java RENAME globalCo=>String glob
 RefactoringAction 1473940297653 SudokuVerifier.java ADD String s FIELD
 RefactoringAction 1473940300177 SudokuVerifier.java RENAME s=>String subgrids FIELD
 EditAction 1473940300964 SudokuVerifier.java 2249 7 20 0
+CompilationAction 1473940302389 SudokuVerifierTest.java
+CompilationAction 1473940302390 SudokuVerifierTest.java
+CompilationAction 1473940302391 SudokuVerifierTest.java
+CompilationAction 1473940338037 SudokuVerifierTest.java
+CompilationAction 1473940338038 SudokuVerifierTest.java
+CompilationAction 1473940338048 SudokuVerifierTest.java
+RefactoringAction 1473940343488 SudokuVerifierTest.java REMOVE testVerify FIELD
+UnitTestCaseAction 1473940346142 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473940346143 SudokuVerifierTest.java OK
+EditAction 1473940396593 SudokuVerifier.java 2278 7 20 0

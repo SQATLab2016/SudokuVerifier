@@ -1,9 +1,9 @@
 
 public class SudokuVerifier {
 	
-	private String globalRows;
-	private String globalColumns;
-	private String subgrids;
+	private String[] globalRows;
+	private String[] globalColumns;
+	private String[] subgrids;
 	
 	public int verify(String candidateSolution) {
 		// returns 0 if the candidate solution is correct
@@ -19,24 +19,24 @@ public class SudokuVerifier {
 		
 		
 		//split candidate string to global rows -> string array
-		String[] globalRows = splitCandidateToGlobalRows(candidateSolution);
+		this.globalRows = splitCandidateToGlobalRows(candidateSolution);
 		
 		//use global rows to create global columns -> string array
-		String[] globalColumns = createGlobalColumnsFromGlobalRows(globalRows);
+		this.globalColumns = createGlobalColumnsFromGlobalRows(this.globalRows);
 		
 		//use candidate string to create subgrids -> string array
-		String[] subgrids = createSubgridsFromCandidate(candidateSolution);
+		this.subgrids = createSubgridsFromCandidate(candidateSolution);
 		
-		if (checkSudokuArray(globalRows) != 0) {
-			return checkSudokuArray(globalRows);
+		if (checkSudokuArray(this.globalRows) != 0) {
+			return checkSudokuArray(this.globalRows);
 		}
 		
-		if (checkSudokuArray(globalColumns) != 0) {
-			return checkSudokuArray(globalColumns);
+		if (checkSudokuArray(this.globalColumns) != 0) {
+			return checkSudokuArray(this.globalColumns);
 		}
 		
-		if (checkSudokuArray(subgrids) != 0) {
-			return checkSudokuArray(subgrids);
+		if (checkSudokuArray(this.subgrids) != 0) {
+			return checkSudokuArray(this.subgrids);
 		}
 		
 		return 0;
