@@ -22,6 +22,9 @@ public class SudokuVerifier {
 			return spliceResult;
 		}
 		int LineTestResult = this.TestLines();
+		if (LineTestResult != 0){
+			return LineTestResult;
+		}
 		
 		// returns 0 if the candidate solution is correct
 		return 0;
