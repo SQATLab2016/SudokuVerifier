@@ -166,3 +166,9 @@ EditAction 1473945668281 SudokuVerifierTest.java 907 2 6 2
 UnitTestCaseAction 1473945669593 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473945669593 SudokuVerifierTest.java FAIL
 EditAction 1473945673570 SudokuVerifierTest.java 906 2 6 2
+RefactoringAction 1473945681232 SudokuVerifier.java REMOVE verifyRow(String) METHOD
+RefactoringAction 1473945683735 SudokuVerifier.java RENAME verifyRowOrder(int=>static int verifyRowO(int METHOD
+RefactoringAction 1473945684738 SudokuVerifier.java RENAME verifyRowO(int=>static int verifyRow(int METHOD
+RefactoringAction 1473945693246 SudokuVerifier.java ADD static int verifyRow(int METHOD
+RefactoringAction 1473945699251 SudokuVerifier.java RENAME verifyRow(int=>static int verifyColum(int METHOD
+EditAction 1473945714405 SudokuVerifier.java 1514 5 14 0
