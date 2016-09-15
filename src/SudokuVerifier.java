@@ -7,7 +7,7 @@ public class SudokuVerifier {
 	
 	private Map<Integer, Integer> sudokuMapping;
 	public static final int AllOk = 0;
-	public static final int FailedNumbers = -1
+	public static final int FailedNumbers = -1;
 	public static final int FailedSubGrids = -2;
 	public static final int FailedRow = -3;
 	public static final int FailedColumn = -4;
