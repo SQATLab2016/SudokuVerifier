@@ -80,7 +80,7 @@ public class SudokuVerifier {
 		//check
 		
 		}
-	return -5; //return -5 means that the solution isn't 81 caracters long
+	return -5; //return -5 means that the solution isn't 81 characters long
 		
 	}
 
