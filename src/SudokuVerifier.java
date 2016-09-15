@@ -30,25 +30,26 @@ public class SudokuVerifier {
 		return 0;
 	}
 	private int TestLines() {
-		List<Integer> usedNumber = new ArrayList<Integer>();
+		List<Integer> usedNumbers = new ArrayList<Integer>();
 		for (int row=0; row<9; row++){
 			for (int col=0; col<9; col++)
 			{
 				int value = this.GetValueByCoordinates(row, col);
-				if (usedNumber.contains(value)){
+				if (usedNumbers.contains(value)){
 					return -2;
 				}
 				else {
-					usedNumber.add(value);
+					usedNumbers.add(value);
 				}
 			}
-			usedNumber.clear();
+			usedNumbers.clear();
 		}
 		return 0;
 	}
 	private int TestRows(){
-		for (int row=0; row<9; row++){
-			for (int col=0; col<9; col++)
+		List<Integer> usedNumbers = new ArrayList<Integer>();
+		for (int col=0; col<9; col++){
+			for (int row=0; row<9; row++)
 			{
 				
 			}
