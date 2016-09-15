@@ -139,3 +139,6 @@ CompilationAction 1473945422900 SudokuVerifierTest.java
 RefactoringAction 1473945512616 SudokuVerifier.java RENAME verifyLength(char=>static int verifyLength(int) METHOD
 RefactoringAction 1473945514621 SudokuVerifier.java RENAME verifyLength(int)=>static int verifyLength(int METHOD
 EditAction 1473945517241 SudokuVerifier.java 1545 5 16 0
+CompilationAction 1473945517433 SudokuVerifierTest.java
+CompilationAction 1473945517433 SudokuVerifierTest.java
+EditAction 1473945520171 SudokuVerifierTest.java 986 2 5 2
