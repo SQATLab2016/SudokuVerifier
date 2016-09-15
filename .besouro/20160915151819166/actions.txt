@@ -51,3 +51,6 @@ RefactoringAction 1473943887178 SudokuVerifierTest.java RENAME testcheck()=>void
 RefactoringAction 1473943890190 SudokuVerifierTest.java RENAME testcheckFqlse()=>void testcheckFalse() METHOD
 EditAction 1473943937684 SudokuVerifierTest.java 1275 4 13 3
 EditAction 1473943939408 SudokuVerifier.java 2972 5 50 0
+UnitTestCaseAction 1473943941388 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473943941389 SudokuVerifierTest.java FAIL
+EditAction 1473943978410 SudokuVerifier.java 2969 5 50 0
