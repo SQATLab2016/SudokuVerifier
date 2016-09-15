@@ -56,3 +56,6 @@ UnitTestCaseAction 1473943687681 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473943687681 SudokuVerifierTest.java FAIL
 RefactoringAction 1473943955454 SudokuVerifier.java ADD import java.util.BitSet IMPORT
 EditAction 1473943998339 SudokuVerifier.java 814 4 7 0
+UnitTestCaseAction 1473944002198 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473944002199 SudokuVerifierTest.java FAIL
+EditAction 1473944023442 SudokuVerifier.java 816 4 7 0
