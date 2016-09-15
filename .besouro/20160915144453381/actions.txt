@@ -79,3 +79,17 @@ EditAction 1473943121604 SudokuVerifier.java 1619 3 11 0
 UnitTestCaseAction 1473943122278 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473943122278 SudokuVerifierTest.java FAIL
 EditAction 1473943144236 SudokuVerifierTest.java 1231 4 6 3
+CompilationAction 1473943144378 SudokuVerifierTest.java
+UnitTestCaseAction 1473943146278 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473943146278 SudokuVerifierTest.java FAIL
+CompilationAction 1473943165112 SudokuVerifierTest.java
+UnitTestCaseAction 1473943165624 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473943165624 SudokuVerifierTest.java FAIL
+RefactoringAction 1473943179308 SudokuVerifier.java ADD boolean verifyRow(String)/2 METHOD
+RefactoringAction 1473943206496 SudokuVerifier.java RENAME verifyRow(String)/2=>boolean verifyColumns(String) METHOD
+RefactoringAction 1473943544476 SudokuVerifierTest.java ADD void testVerifyRowCorrectString()/2 METHOD
+RefactoringAction 1473943544476 SudokuVerifierTest.java ADD void testVerifyRowIncorrectString()/2 METHOD
+RefactoringAction 1473943547485 SudokuVerifierTest.java RENAME testVerifyRowCorrectString()/2=>void testVerifyRCorrectString() METHOD
+RefactoringAction 1473943549494 SudokuVerifierTest.java RENAME testVerifyRCorrectString()=>void testVerifyColumnCorrectString() METHOD
+RefactoringAction 1473943553505 SudokuVerifierTest.java RENAME testVerifyRowIncorrectString()/2=>void testVerifyColumnIncorrectString() METHOD
+EditAction 1473943611122 SudokuVerifierTest.java 1692 6 12 6
