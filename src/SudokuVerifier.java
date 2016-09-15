@@ -34,15 +34,15 @@ public class SudokuVerifier {
 public static int verifyRowOrder(String candidateSolution) {		
 		
 
-		for(int i; i<=9; i++){
-			for(int j; j<=9; j++){
-				String row = candidateSolution.substring(i,i+9);
-				int intRow = Integer.parseInt(row);
-		
-				if (intRow != 45) //check rows
-						
+		for(int i=1; i<=9; i++){
+			boolean[] check = new boolean[9];
+			for(int j=1; j<=9; j++){
+				if (check[candidateSolution.charAt(i*j-1) - 1])
+					return 1;
+				else
+					check[candidateSolution.charAt(i*j-1) - 1] = true;
 			}
-			
 		}
+		return 0;
 	}
 }
