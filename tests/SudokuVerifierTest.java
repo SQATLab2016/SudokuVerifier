@@ -53,13 +53,13 @@ public class SudokuVerifierTest {
 	@Test
 	public void TestIncorrectColumns(){
 		int result = sudoku.verify(IncorrecrColumnsString);
-		assertTrue(result == -3 || result == -4);
+		assertTrue(result == SudokuVerifier.FailedColumn || result == SudokuVerifier.FailedSubGrid);
 		
 	}
 	@Test
 	public void TestIncorrectSubGrids(){
 		int result = sudoku.verify(InCorSubGridString);
-		assertEquals("A string with incorrect subgrids were given and something else than -4 was returned", -4, result);
+		assertEquals("A string with incorrect subgrids were given and something else than -4 was returned", SudokuVerifier.FailedSubGrid, result);
 	}
 
 }
