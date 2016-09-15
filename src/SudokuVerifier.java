@@ -119,7 +119,9 @@ public class SudokuVerifier {
 			boolean ok=true;
 			 int[][] array2 = new int[3][3];
 			
-			
+			for
+			 
+			 
 			return ok;
 
 		}
