@@ -116,7 +116,7 @@ public class SudokuVerifier {
 			for (int column=0; column<rowCount; column++){
 				char value = str.charAt(index);
 				int cellValue = this.GetNumberFromString(value);
-				if (cellValue <= 0 || cellValue > rowCount){
+				if (cellValue <= AllOk || cellValue > rowCount){
 					return FailedNumbers;
 				}
 				else {

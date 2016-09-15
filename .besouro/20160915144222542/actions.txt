@@ -310,3 +310,6 @@ EditAction 1473946817136 SudokuVerifier.java 3545 10 30 0
 EditAction 1473946844992 SudokuVerifier.java 3559 10 30 0
 EditAction 1473946876386 SudokuVerifier.java 3574 10 30 0
 EditAction 1473946890617 SudokuVerifier.java 3581 10 30 0
+UnitTestCaseAction 1473946895164 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473946895165 SudokuVerifierTest.java OK
+EditAction 1473947050582 SudokuVerifier.java 3585 10 30 0
