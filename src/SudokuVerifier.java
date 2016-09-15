@@ -34,7 +34,7 @@ public class SudokuVerifier {
 		for(i=0;i<9; i++){Line7[i]=solution[i+54];}
 		for(i=0;i<9; i++){Line8[i]=solution[i+63];}
 		for(i=0;i<9; i++){Line9[i]=solution[i+72];}
-		System.out.println(Line1);
+		for(i=0;i<9;i++){System.out.println(Line1[i]);}
 		return check(Line1);//&&check(Line2)&&check(Line3)&&check(Line4)&&check(Line5)&&check(Line6)&&check(Line7)&&check(Line8)&&check(Line9);
 		
  }  
