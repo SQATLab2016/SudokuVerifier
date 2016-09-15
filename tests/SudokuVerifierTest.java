@@ -22,7 +22,7 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test
-	public void testVerify_WrongLenght_Returns_Minus5() {
+	public void testVerify_WrongLenght_Returns_true() {
 		// Arrange
 		SudokuVerifier verifier = new SudokuVerifier();
 				
@@ -34,7 +34,7 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test
-	public void testVerify_WrongBecauseOfRow_Returns_Minus3() {
+	public void testVerify_WrongBecauseOfRow_Returns_true() {
 		// Arrange
 		SudokuVerifier verifier = new SudokuVerifier();
 				
@@ -46,7 +46,7 @@ public class SudokuVerifierTest {
 	}
 
 	@Test
-	public void testVerify_WrongBecauseOfColumn_Returns_Minus4() {
+	public void testVerify_WrongBecauseOfColumn_Returns_true() {
 		// Arrange
 		SudokuVerifier verifier = new SudokuVerifier();
 				
@@ -58,7 +58,7 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test
-	public void testVerify_WrongBecauseOfFormat_Returns_Minus1() {
+	public void testVerify_WrongBecauseOfFormat_Returns_true() {
 		// Arrange
 		SudokuVerifier verifier = new SudokuVerifier();
 				
@@ -70,7 +70,7 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test
-	public void testVerify_WrongBecauseOfInvalidSubgrid_Returns_Minus2() {
+	public void testVerify_WrongBecauseOfInvalidSubgrid_Returns_true() {
 		// Arrange
 		SudokuVerifier verifier = new SudokuVerifier();
 				
@@ -79,5 +79,65 @@ public class SudokuVerifierTest {
 				
 		// Assert
 		assertEquals(true, result);
+	}
+	
+	@Test
+	public void testVerify_CorrectLenght_Returns_false() {
+		// Arrange
+		SudokuVerifier verifier = new SudokuVerifier();
+				
+		// Act
+		boolean result = verifier.checkLenght("417369825632158947958724316825437169791586432346912758289643571573291684164875293");
+				
+		// Assert
+		assertEquals(false, result);
+	}
+	
+	@Test
+	public void testVerify_CorrectBecauseOfRow_Returns_false() {
+		// Arrange
+		SudokuVerifier verifier = new SudokuVerifier();
+				
+		// Act
+		boolean result = verifier.checkRows("417369825632158947958724316825437169791586432346912758289643571573291684164875293");
+				
+		// Assert
+		assertEquals(false, result);
+	}
+
+	@Test
+	public void testVerify_CorrectBecauseOfColumn_Returns_false() {
+		// Arrange
+		SudokuVerifier verifier = new SudokuVerifier();
+				
+		// Act
+		boolean result = verifier.checkColumns("417369825632158947958724316825437169791586432346912758289643571573291684164875293");
+				
+		// Assert
+		assertEquals(false, result);
+	}
+	
+	@Test
+	public void testVerify_CorrectBecauseOfFormat_Returns_false() {
+		// Arrange
+		SudokuVerifier verifier = new SudokuVerifier();
+				
+		// Act
+		boolean result = verifier.checkFormat("417369825632158947958724316825437169791586432346912758289643571573291684164875293");
+				
+		// Assert
+		assertEquals(false, result);
+	}
+	
+	@Test
+	public void testVerify_CorrectBecauseOfInvalidSubgrid_Returns_false() {
+		// Arrange
+		SudokuVerifier verifier = new SudokuVerifier();
+				
+		// Act
+		boolean result = verifier.checkSubGrids("417369825632158947958724316825437169791586432346912758289643571573291684164875293");
+				
+		// Assert
+		assertEquals(false, result);
 	}
 }

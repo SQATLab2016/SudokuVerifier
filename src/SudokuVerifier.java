@@ -5,7 +5,7 @@ public class SudokuVerifier {
 		
 		if(checkLenght(candidateSolution))return -5;
 		if(checkFormat(candidateSolution))return -1;
-		if(checkSubGrids(candidateSolution))return -2;
+		//if(checkSubGrids(candidateSolution))return -2;
 		if(checkRows(candidateSolution))return -3;
 		if(checkColumns(candidateSolution))return -4;
 		
@@ -59,7 +59,7 @@ public class SudokuVerifier {
 		for(int i = 0; i<8; i = i + 3){
 			initializeChecker(checker);
 			for(int j = i; j<i+3; j++){
-				for(int k = j; k<j+21; k = k+9){
+				for(int k = j; k<j+21; k = k+6){
 					currentNumber = Character.getNumericValue(candidateSolution.charAt(j));
 					if(checker[currentNumber-1]==false) checker[currentNumber-1]=true;
 					else return true;
