@@ -62,15 +62,18 @@ public class SudokuVerifier {
 	
 		public boolean verifyRow(String candidateSolution){
 			boolean ok=true;
-			int candidateSol= Integer.parseInt(candidateSolution);
-			int numTemp1=0, numTemp2=0;;
+			int numTemp1=0;
 			for (int i = 0; i < 81; i=i+9) {
 				//row
+//				System.out.println("int fila "+ i);
 				boolean row= true;
 				
 				for (int j = 0; j < 9; j++) {
 					numTemp1= Integer.parseInt( ""+candidateSolution.charAt(i+j));
+//					System.out.println("numTemp1 "+ numTemp1);
 					for (int j2 = 0; j2 < 9; j2++) {
+//						System.out.println("numTemp2 "+ Integer.parseInt( ""+candidateSolution.charAt(i+j2)));
+
 						if (j!=j2 && numTemp1==Integer.parseInt( ""+candidateSolution.charAt(i+j2))) {
 							row=false;
 						}

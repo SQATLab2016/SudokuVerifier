@@ -53,3 +53,12 @@ RefactoringAction 1473942733265 SudokuVerifierTest.java RENAME testVerifyRCorrec
 RefactoringAction 1473942736777 SudokuVerifierTest.java RENAME testVerifyDigitsIncorrectString()/2=>void testVerifyIncorrectString() METHOD
 RefactoringAction 1473942738303 SudokuVerifierTest.java RENAME testVerifyIncorrectString()=>void testVerifyRowIncorrectString() METHOD
 EditAction 1473942770456 SudokuVerifierTest.java 1230 4 8 4
+UnitTestCaseAction 1473942771445 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473942771446 SudokuVerifierTest.java FAIL
+CompilationAction 1473942915283 SudokuVerifier.java
+CompilationAction 1473942932962 SudokuVerifier.java
+UnitTestCaseAction 1473942933595 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473942933596 SudokuVerifierTest.java OK
+UnitTestCaseAction 1473942954705 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473942954705 SudokuVerifierTest.java OK
+EditAction 1473942974515 SudokuVerifier.java 1559 3 11 0
