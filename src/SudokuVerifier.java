@@ -38,21 +38,21 @@ public class SudokuVerifier {
 		for(i=72;i<81; i++){Line9[i-72]=solution[i];}
 		return check(Line1)&&check(Line2)&&check(Line3)&&check(Line4)&&check(Line5)&&check(Line5)&&check(Line7)&&check(Line8)&&check(Line9);
 		
-}
+ }  
 	
 	public int verify(String candidateSolution) {
 		// returns 0 if the candidate solution is correct
 		if (candidateSolution.length()==81){
-			if (candidateSolution.checkLines()==true){
-				
+			if (checkLines(candidateSolution)==true){
+				return 0;
 				
 			}
-			else return 
+			else return -3;
 			
 		
 			
 			
-		return 0;
+		
 		
 		//check
 		

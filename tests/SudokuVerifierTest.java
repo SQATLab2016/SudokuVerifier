@@ -1,6 +1,8 @@
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+import org.junit.Assert.*;
+
 
 public class SudokuVerifierTest {
 
@@ -9,14 +11,27 @@ public class SudokuVerifierTest {
 
 	@Test
 	public void testVerify() {
+		
 		fail("Not yet implemented");
 	}
 	
 	@Test
-	public void testchecknumber() {
-		String[] test = ("1","2","3","4","5","6","7","8","9");
-		boolean check =checknumber(test,"1");
-		assertment(check==true, "There is 1 '1'");
+	public void testchecknumber_1_true() {
+		SudokuVerifier SV =new SudokuVerifier();
+		String[] test = {"1","2","3","4","5","6","7","8","9"};
+		boolean check = SV.checknumber(test,"1");
+		assertEquals( "There is not only 1 '1'", true, check);
+	} 	
+	
+	@Test
+	public void testcheckTrue(){
+		SudokuVerifier SV=new SudokuVerifier();
+		String[] test = {"1","2","3","4","5","6","7","8","9"};
+		boolean check = SV.check(test);
+		assertEquals("The string given isn't valid", true, check);
 	}
+	
+
+	
 
 }

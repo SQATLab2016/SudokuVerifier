@@ -1,0 +1,8 @@
+FileOpenedAction 1473941899281 SudokuVerifierTest.java 736 2 5 1
+RefactoringAction 1473942003074 SudokuVerifierTest.java ADD void testcheck FIELD
+RefactoringAction 1473942004606 SudokuVerifierTest.java RENAME testcheck=>void testcheck() METHOD
+RefactoringAction 1473942014692 SudokuVerifierTest.java RENAME testcheck()=>void testcheckTrue() METHOD
+RefactoringAction 1473942018215 SudokuVerifierTest.java RENAME testchecknumber()=>void testchecknumber_() METHOD
+RefactoringAction 1473942020242 SudokuVerifierTest.java RENAME testchecknumber_()=>void testchecknumber_1() METHOD
+RefactoringAction 1473942023273 SudokuVerifierTest.java RENAME testchecknumber_1()=>void testchecknumber_1_true() METHOD
+EditAction 1473942206513 SudokuVerifier.java 1830 4 28 0
