@@ -43,7 +43,8 @@ public class SudokuVerifierTest {
 	}
 	@Test
 	public void TestWithStringThatHasAlpabetsIn(){
-		
+		int rsult = sudoku.verify(AlphaString);
+		assertEquals("A string with aplhabets were given and something else than -1 was returned",-1, rsult);
 	}
 
 }

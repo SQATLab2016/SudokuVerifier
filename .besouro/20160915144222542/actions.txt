@@ -155,3 +155,4 @@ CompilationAction 1473942527237 SudokuVerifierTest.java
 RefactoringAction 1473942531910 SudokuVerifierTest.java RENAME CorString/2=>String AlphaString FIELD
 CompilationAction 1473942532029 SudokuVerifierTest.java
 EditAction 1473942566182 SudokuVerifierTest.java 2019 6 9 4
+EditAction 1473942632097 SudokuVerifierTest.java 2162 6 11 5
