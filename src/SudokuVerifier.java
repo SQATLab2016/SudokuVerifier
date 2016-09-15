@@ -95,7 +95,7 @@ public class SudokuVerifier {
 			for (int y = col; y<(col+3); y++){
 				int value = this.GetValueByCoordinates(x, y);
 				if (usedNumbers.contains(value)){
-					return FailedGrid;
+					return FailedGrids;
 				}
 				else {
 					usedNumbers.add(value);
