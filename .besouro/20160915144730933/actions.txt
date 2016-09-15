@@ -23,3 +23,9 @@ EditAction 1473940676262 SudokuVerifierTest.java 1265 3 9 3
 UnitTestCaseAction 1473940676553 SudokuVerifierTest.java OK
 UnitTestSessionAction 1473940676554 SudokuVerifierTest.java OK
 EditAction 1473941277160 SudokuVerifierTest.java 1265 3 9 3
+UnitTestCaseAction 1473941278154 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473941278155 SudokuVerifierTest.java OK
+RefactoringAction 1473941471258 SudokuVerifierTest.java ADD void testVerify_WrongBecauseOfRow_Returns_Minus3()/2 METHOD
+RefactoringAction 1473941477776 SudokuVerifierTest.java RENAME testVerify_WrongBecauseOfRow_Returns_Minus3()/2=>void testVerify_WrongBecauseOfColumn_Returns_Minus3() METHOD
+RefactoringAction 1473941481294 SudokuVerifierTest.java RENAME testVerify_WrongBecauseOfColumn_Returns_Minus3()=>void testVerify_WrongBecauseOfColumn_Returns_Minus4() METHOD
+EditAction 1473941597534 SudokuVerifierTest.java 1578 4 12 4

@@ -45,5 +45,16 @@ public class SudokuVerifierTest {
 		assertEquals(-3, result);
 	}
 
+	@Test
+	public void testVerify_WrongBecauseOfColumn_Returns_Minus4() {
+		// Arrange
+		SudokuVerifier verifier = new SudokuVerifier();
+				
+		// Act
+		int result = verifier.verify("417369825637158947958724316825437169791586432346912758289643571573291684164875293");
+				
+		// Assert
+		assertEquals(-4, result);
+	}
 
 }
