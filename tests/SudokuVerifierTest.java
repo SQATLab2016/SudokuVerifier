@@ -42,7 +42,7 @@ public class SudokuVerifierTest {
 		verifier.verify(testCandidate);
 		
 		String correctRow = "417369825";
-		assertEquals(correctRow, verifier.getGlobalRows()[0]);
+		assertEquals(correctRow, verifier.getGlobalRows());
 	}
 
 }
