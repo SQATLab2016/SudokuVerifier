@@ -1,0 +1,155 @@
+FileOpenedAction 1473940051183 SudokuVerifierTest.java 1265 3 9 3
+UnitTestCaseAction 1473940065931 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473940065933 SudokuVerifierTest.java FAIL
+RefactoringAction 1473940154370 SudokuVerifierTest.java REMOVE testVerify_WrongFormat_Returns_Minus5() METHOD
+RefactoringAction 1473940154372 SudokuVerifierTest.java REMOVE testVerify_WrongBecauseOfRow_Returns_Minus3() METHOD
+RefactoringAction 1473940154373 SudokuVerifierTest.java REMOVE testVerify_CorrectSolution_Returns_0() METHOD
+RefactoringAction 1473940159907 SudokuVerifierTest.java ADD void testVerify_WrongFormat_Returns_Minus5() METHOD
+RefactoringAction 1473940159907 SudokuVerifierTest.java ADD void testVerify_WrongBecauseOfRow_Returns_Minus3() METHOD
+EditAction 1473940160995 SudokuVerifierTest.java 1269 2 6 2
+UnitTestCaseAction 1473940326818 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473940326819 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473940641966 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473940641967 SudokuVerifierTest.java FAIL
+RefactoringAction 1473940646022 SudokuVerifierTest.java REMOVE testVerify_WrongFormat_Returns_Minus5() METHOD
+RefactoringAction 1473940646024 SudokuVerifierTest.java REMOVE testVerify_WrongBecauseOfRow_Returns_Minus3() METHOD
+RefactoringAction 1473940648538 SudokuVerifierTest.java ADD void testVerify_CorrectSolution_Returns_0() METHOD
+RefactoringAction 1473940648538 SudokuVerifierTest.java ADD void testVerify_WrongFormat_Returns_Minus5() METHOD
+RefactoringAction 1473940648539 SudokuVerifierTest.java ADD void testVerify_WrongBecauseOfRow_Returns_Minus3() METHOD
+EditAction 1473940649922 SudokuVerifierTest.java 1265 3 9 3
+UnitTestCaseAction 1473940652713 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473940652713 SudokuVerifierTest.java FAIL
+EditAction 1473940676262 SudokuVerifierTest.java 1265 3 9 3
+UnitTestCaseAction 1473940676553 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473940676554 SudokuVerifierTest.java OK
+EditAction 1473941277160 SudokuVerifierTest.java 1265 3 9 3
+UnitTestCaseAction 1473941278154 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473941278155 SudokuVerifierTest.java OK
+RefactoringAction 1473941471258 SudokuVerifierTest.java ADD void testVerify_WrongBecauseOfRow_Returns_Minus3()/2 METHOD
+RefactoringAction 1473941477776 SudokuVerifierTest.java RENAME testVerify_WrongBecauseOfRow_Returns_Minus3()/2=>void testVerify_WrongBecauseOfColumn_Returns_Minus3() METHOD
+RefactoringAction 1473941481294 SudokuVerifierTest.java RENAME testVerify_WrongBecauseOfColumn_Returns_Minus3()=>void testVerify_WrongBecauseOfColumn_Returns_Minus4() METHOD
+EditAction 1473941597534 SudokuVerifierTest.java 1578 4 12 4
+UnitTestCaseAction 1473941597884 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473941597884 SudokuVerifierTest.java FAIL
+EditAction 1473941832226 SudokuVerifierTest.java 1578 4 12 4
+UnitTestCaseAction 1473941833350 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473941833351 SudokuVerifierTest.java FAIL
+EditAction 1473941885958 SudokuVerifierTest.java 1578 4 12 4
+UnitTestCaseAction 1473941886301 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473941886302 SudokuVerifierTest.java FAIL
+EditAction 1473942849367 SudokuVerifier.java 1339 2 9 0
+RefactoringAction 1473942864154 SudokuVerifierTest.java ADD void testVerify_WrongBecauseOfColumn_Returns_Minus4()/2 METHOD
+RefactoringAction 1473942871695 SudokuVerifierTest.java RENAME testVerify_WrongBecauseOfColumn_Returns_Minus4()/2=>void testVerify_WrongBecauseOfN_Returns_Minus4() METHOD
+RefactoringAction 1473942872711 SudokuVerifierTest.java RENAME testVerify_WrongBecauseOfN_Returns_Minus4()=>void testVerify_WrongBecauseOfNon_Returns_Minus4() METHOD
+RefactoringAction 1473942876226 SudokuVerifierTest.java RENAME testVerify_WrongBecauseOfNon_Returns_Minus4()=>void testVerify_WrongBecauseOfNonPositiveNumber_Returns_Minus4() METHOD
+RefactoringAction 1473942880743 SudokuVerifierTest.java RENAME testVerify_WrongBecauseOfNonPositiveNumber_Returns_Minus4()=>void testVerify_WrongBecauseOfNonPositiveNumber_Returns_Minus1() METHOD
+EditAction 1473943088772 SudokuVerifierTest.java 1903 5 15 5
+UnitTestCaseAction 1473943089080 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473943089081 SudokuVerifierTest.java FAIL
+EditAction 1473943396363 SudokuVerifierTest.java 1903 5 15 5
+UnitTestCaseAction 1473943396630 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473943396631 SudokuVerifierTest.java FAIL
+EditAction 1473943431950 SudokuVerifier.java 1341 2 9 0
+UnitTestCaseAction 1473943432228 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473943432228 SudokuVerifierTest.java FAIL
+EditAction 1473943454592 SudokuVerifier.java 1315 2 9 0
+UnitTestCaseAction 1473943454872 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473943454872 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473943461489 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473943461490 SudokuVerifierTest.java FAIL
+EditAction 1473943490567 SudokuVerifier.java 1195 2 8 0
+UnitTestCaseAction 1473943492687 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473943492687 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473943519549 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473943519549 SudokuVerifierTest.java FAIL
+EditAction 1473943529836 SudokuVerifier.java 1339 2 9 0
+UnitTestCaseAction 1473943581320 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473943581321 SudokuVerifierTest.java OK
+EditAction 1473944343642 SudokuVerifier.java 1477 2 1 0
+CompilationAction 1473944343885 SudokuVerifier.java
+EditAction 1473944566695 SudokuVerifier.java 1379 2 10 0
+EditAction 1473944590119 SudokuVerifier.java 1574 2 10 0
+EditAction 1473944814305 SudokuVerifier.java 2214 2 12 0
+RefactoringAction 1473944858760 SudokuVerifierTest.java ADD void testVerify_WrongBecauseOfNonPositiveNumber_Returns_Minus1()/2 METHOD
+RefactoringAction 1473944888776 SudokuVerifierTest.java RENAME testVerify_WrongBecauseOfNonPositiveNumber_Returns_Minus1()/2=>void testVerify_WrongBecauseOfIn_Returns_Minus1() METHOD
+RefactoringAction 1473944892791 SudokuVerifierTest.java RENAME testVerify_WrongBecauseOfIn_Returns_Minus1()=>void testVerify_WrongBecauseOfInvalidSubgrid_Returns_Minus1() METHOD
+RefactoringAction 1473944898304 SudokuVerifierTest.java RENAME testVerify_WrongBecauseOfInvalidSubgrid_Returns_Minus1()=>void testVerify_WrongBecauseOfInvalidSubgrid_Returns_Minus2() METHOD
+EditAction 1473944926205 SudokuVerifierTest.java 2226 6 18 6
+EditAction 1473944933202 SudokuVerifierTest.java 2226 6 18 6
+UnitTestCaseAction 1473944934096 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473944934096 SudokuVerifierTest.java FAIL
+RefactoringAction 1473944992254 SudokuVerifier.java ADD void check FIELD
+RefactoringAction 1473944995270 SudokuVerifier.java RENAME check=>void checkColums FIELD
+RefactoringAction 1473944996795 SudokuVerifier.java RENAME checkColums=>void checkColums() METHOD
+RefactoringAction 1473945015836 SudokuVerifier.java RENAME checkColums()=>void checkColums(String) METHOD
+RefactoringAction 1473945063448 SudokuVerifier.java ADD void checkColums(String)/2 METHOD
+RefactoringAction 1473945063449 SudokuVerifier.java ADD void checkColums(String)/3 METHOD
+RefactoringAction 1473945063450 SudokuVerifier.java ADD void checkColums(String)/4 METHOD
+RefactoringAction 1473945063451 SudokuVerifier.java ADD void checkColums(String)/5 METHOD
+RefactoringAction 1473945063452 SudokuVerifier.java ADD void checkColums(String)/6 METHOD
+RefactoringAction 1473945067970 SudokuVerifier.java RENAME checkColums(String)/6=>void checkRows(String) METHOD
+RefactoringAction 1473945071991 SudokuVerifier.java RENAME checkColums(String)/5=>void checkSub(String) METHOD
+RefactoringAction 1473945074009 SudokuVerifier.java RENAME checkSub(String)=>void checkSubGrids(String) METHOD
+RefactoringAction 1473945078534 SudokuVerifier.java RENAME checkColums(String)/4=>void checkFormat(String) METHOD
+RefactoringAction 1473945086053 SudokuVerifier.java RENAME checkFormat(String)=>void checkLenght(String) METHOD
+RefactoringAction 1473945091572 SudokuVerifier.java RENAME checkColums(String)/3=>void checkFormat(String) METHOD
+EditAction 1473945119230 SudokuVerifier.java 3147 8 24 0
+CompilationAction 1473945119502 SudokuVerifier.java
+CompilationAction 1473945119503 SudokuVerifier.java
+CompilationAction 1473945119503 SudokuVerifier.java
+CompilationAction 1473945119503 SudokuVerifier.java
+CompilationAction 1473945119503 SudokuVerifier.java
+CompilationAction 1473945119503 SudokuVerifier.java
+CompilationAction 1473945119503 SudokuVerifier.java
+RefactoringAction 1473945391934 SudokuVerifier.java REMOVE checkColums(String)/2 METHOD
+CompilationAction 1473945455982 SudokuVerifier.java
+CompilationAction 1473945455983 SudokuVerifier.java
+CompilationAction 1473945455983 SudokuVerifier.java
+CompilationAction 1473945455984 SudokuVerifier.java
+RefactoringAction 1473945679578 SudokuVerifier.java RENAME checkColums(String)=>boolean checkColumns(String) METHOD
+EditAction 1473945696469 SudokuVerifier.java 2966 7 26 0
+RefactoringAction 1473945957580 SudokuVerifierTest.java RENAME testVerify_WrongFormat_Returns_Minus5()=>void testVerify_WrongLenght_Returns_Minus5() METHOD
+RefactoringAction 1473945966095 SudokuVerifierTest.java RENAME testVerify_WrongBecauseOfNonPositiveNumber_Returns_Minus1()=>void testVerify_WrongBecauseOfFormat_Returns_Minus1() METHOD
+EditAction 1473946023143 SudokuVerifierTest.java 2261 6 18 6
+EditAction 1473946048719 SudokuVerifierTest.java 2271 6 18 6
+UnitTestCaseAction 1473946051619 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473946051619 SudokuVerifierTest.java FAIL
+EditAction 1473946066838 SudokuVerifierTest.java 2271 6 18 6
+UnitTestCaseAction 1473946068548 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473946068548 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473946341303 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473946341303 SudokuVerifierTest.java OK
+RefactoringAction 1473946378419 SudokuVerifierTest.java ADD void testVerify_WrongLenght_Returns_Minus5()/2 METHOD
+RefactoringAction 1473946378421 SudokuVerifierTest.java ADD void testVerify_WrongBecauseOfRow_Returns_Minus3()/2 METHOD
+RefactoringAction 1473946378422 SudokuVerifierTest.java ADD void testVerify_WrongBecauseOfColumn_Returns_Minus4()/2 METHOD
+RefactoringAction 1473946378422 SudokuVerifierTest.java ADD void testVerify_WrongBecauseOfFormat_Returns_Minus1()/2 METHOD
+RefactoringAction 1473946378423 SudokuVerifierTest.java ADD void testVerify_WrongBecauseOfInvalidSubgrid_Returns_Minus2()/2 METHOD
+RefactoringAction 1473946391438 SudokuVerifierTest.java RENAME testVerify_WrongLenght_Returns_Minus5()/2=>void testVerify_CorrectLenght_Returns_Minus5() METHOD
+RefactoringAction 1473946441575 SudokuVerifierTest.java RENAME testVerify_CorrectLenght_Returns_Minus5()=>void testVerify_CorrectLenght_Returns_false() METHOD
+RefactoringAction 1473946444089 SudokuVerifierTest.java RENAME testVerify_WrongBecauseOfRow_Returns_Minus3()/2=>void testVerify_WrongBecauseOfRow_Returns_false() METHOD
+RefactoringAction 1473946448110 SudokuVerifierTest.java RENAME testVerify_WrongBecauseOfColumn_Returns_Minus4()/2=>void testVerify_WrongBecauseOfColumn_Returns_false() METHOD
+RefactoringAction 1473946453123 SudokuVerifierTest.java RENAME testVerify_WrongBecauseOfFormat_Returns_Minus1()/2=>void testVerify_WrongBecauseOfFormat_Returns_false() METHOD
+RefactoringAction 1473946456639 SudokuVerifierTest.java RENAME testVerify_WrongBecauseOfInvalidSubgrid_Returns_Minus2()/2=>void testVerify_WrongBecauseOfInvalidSubgrid_Returns_false() METHOD
+RefactoringAction 1473946466155 SudokuVerifierTest.java RENAME testVerify_WrongLenght_Returns_Minus5()=>void testVerify_WrongLenght_Returns_tr() METHOD
+RefactoringAction 1473946467172 SudokuVerifierTest.java RENAME testVerify_WrongLenght_Returns_tr()=>void testVerify_WrongLenght_Returns_true() METHOD
+RefactoringAction 1473946473188 SudokuVerifierTest.java RENAME testVerify_WrongBecauseOfRow_Returns_Minus3()=>void testVerify_WrongBecauseOfRow_Returns_true() METHOD
+RefactoringAction 1473946477701 SudokuVerifierTest.java RENAME testVerify_WrongBecauseOfColumn_Returns_Minus4()=>void testVerify_WrongBecauseOfColumn_Returns_true() METHOD
+RefactoringAction 1473946481716 SudokuVerifierTest.java RENAME testVerify_WrongBecauseOfFormat_Returns_Minus1()=>void testVerify_WrongBecauseOfFormat_Returns_true() METHOD
+RefactoringAction 1473946485731 SudokuVerifierTest.java RENAME testVerify_WrongBecauseOfInvalidSubgrid_Returns_Minus2()=>void testVerify_WrongBecauseOfInvalidSubgrid_Returns_true() METHOD
+RefactoringAction 1473946500746 SudokuVerifierTest.java RENAME testVerify_WrongBecauseOfRow_Returns_false()=>void testVerify_CorrectBecauseOfRow_Returns_false() METHOD
+RefactoringAction 1473946503759 SudokuVerifierTest.java RENAME testVerify_WrongBecauseOfColumn_Returns_false()=>void testVerify_CorrectBecauseOfColumn_Returns_false() METHOD
+RefactoringAction 1473946505775 SudokuVerifierTest.java RENAME testVerify_WrongBecauseOfFormat_Returns_false()=>void testVerify_CorrectBecauseOfFormat_Returns_false() METHOD
+RefactoringAction 1473946509289 SudokuVerifierTest.java RENAME testVerify_WrongBecauseOfInvalidSubgrid_Returns_false()=>void testVerify_CorrectBecauseOfInvalidSubgrid_Returns_false() METHOD
+EditAction 1473946511093 SudokuVerifierTest.java 3897 11 33 11
+UnitTestCaseAction 1473946512936 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473946512936 SudokuVerifierTest.testVerify_CorrectBecauseOfInvalidSubgrid_Returns_false FAIL
+UnitTestCaseAction 1473946527766 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473946527766 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473946546226 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473946546226 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473946549964 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473946549964 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473946613161 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473946613162 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473946699467 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473946699467 SudokuVerifierTest.java OK
