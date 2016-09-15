@@ -26,7 +26,7 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test
-	public void testCheckCandidateForIllegalChars_StringWithIllegalChars() {
+	public void testVerify_StringWithIllegalChars() {
 		String testCandidate = "4173698256321589479587243168254371697915864323469127582896435715732916841648752-3";
 		SudokuVerifier verifier = new SudokuVerifier();
 		
@@ -34,8 +34,7 @@ public class SudokuVerifierTest {
 		assertEquals("String has invalid chars", -1, result);
 	}
 	
-	@Test
-	public void testVerify
+	
 	
 
 }

@@ -1,2 +1,14 @@
 FileOpenedAction 1473939994631 SudokuVerifier.java 1963 7 19 0
 EditAction 1473940065154 SudokuVerifier.java 2149 7 20 0
+CompilationAction 1473940066712 SudokuVerifierTest.java
+CompilationAction 1473940066714 SudokuVerifierTest.java
+CompilationAction 1473940066715 SudokuVerifierTest.java
+RefactoringAction 1473940073444 SudokuVerifierTest.java REMOVE testVerify FIELD
+CompilationAction 1473940084949 SudokuVerifierTest.java
+CompilationAction 1473940084950 SudokuVerifierTest.java
+CompilationAction 1473940084951 SudokuVerifierTest.java
+UnitTestCaseAction 1473940085399 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473940085401 SudokuVerifierTest.java OK
+RefactoringAction 1473940118980 SudokuVerifierTest.java RENAME testCheckCandidateForIllegalChars_StringWithIllegalChars()=>void testVe_StringWithIllegalChars() METHOD
+RefactoringAction 1473940120497 SudokuVerifierTest.java RENAME testVe_StringWithIllegalChars()=>void testVerify_StringWithIllegalChars() METHOD
+EditAction 1473940121576 SudokuVerifierTest.java 1318 3 12 3
