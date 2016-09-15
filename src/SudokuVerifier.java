@@ -117,9 +117,9 @@ public class SudokuVerifier {
 	private int checkSudokuArray(String[] sudokuArray) {
 		for(int i = 0; i < 9; i++) {
 			for(int j = 1; i < 10; j++) {
-				if(sudokuArray[i].indexOf(Character.forDigit(j, 10)) == -1) {
-					return -1; 
-				}
+				int value = Character.digit(sudokuArray[i].charAt(j - 0), 10);
+				if (value == j) break;
+				return -1;
 			}
 		}
 		return 0;
