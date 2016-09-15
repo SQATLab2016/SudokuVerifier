@@ -9,6 +9,7 @@ public class SudokuVerifierTest {
 // An incorrect Sudoku string: 123456789912345678891234567789123456678912345567891234456789123345678912234567891
 	
 	public static final String CorString =			"417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+	public static final String CorString =			"417369825632158947958724316825437169791586432346912758289643571573291684364875291";
 	public static final String AlphaString =		"417369abc632158947958724316825437169791586432346912758289643571573291684164875293";
 	public static final String IncorLinesString =	"414369825632158947958724316825437169791586432346912758289643571573291684164875293";
 	public static final String IncorString = 		"123456789912345678891234567789123456678912345567891234456789123345678912234567891";
@@ -45,6 +46,10 @@ public class SudokuVerifierTest {
 	public void TestWithStringThatHasAlpabetsIn(){
 		int rsult = sudoku.verify(AlphaString);
 		assertEquals("A string with aplhabets were given and something else than -1 was returned", -1, rsult);
+	}
+	@Test
+	public void TestIncorrectRows(){
+		
 	}
 
 }

@@ -167,3 +167,10 @@ EditAction 1473942983610 SudokuVerifier.java 2127 8 21 0
 EditAction 1473942995853 SudokuVerifier.java 2281 8 21 0
 CompilationAction 1473942997251 SudokuVerifier.java
 EditAction 1473943004724 SudokuVerifier.java 2305 8 21 0
+CompilationAction 1473943005981 SudokuVerifier.java
+CompilationAction 1473943016430 SudokuVerifier.java
+RefactoringAction 1473943274810 SudokuVerifierTest.java ADD void TestIncorrec FIELD
+RefactoringAction 1473943275823 SudokuVerifierTest.java RENAME TestIncorrec=>void TestIncorrect FIELD
+RefactoringAction 1473943278338 SudokuVerifierTest.java RENAME TestIncorrect=>void TestIncorrectRows() METHOD
+RefactoringAction 1473943286851 SudokuVerifierTest.java ADD String CorString/2 FIELD
+EditAction 1473943302868 SudokuVerifierTest.java 2337 7 11 5
