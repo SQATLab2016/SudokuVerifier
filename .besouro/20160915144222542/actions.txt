@@ -221,3 +221,4 @@ RefactoringAction 1473944409453 SudokuVerifierTest.java RENAME IncorSubString=>S
 EditAction 1473944409655 SudokuVerifierTest.java 2880 8 15 7
 EditAction 1473945044719 SudokuVerifierTest.java 2874 8 15 7
 EditAction 1473945334407 SudokuVerifierTest.java 2904 8 15 7
+EditAction 1473945442483 SudokuVerifier.java 3080 10 30 0

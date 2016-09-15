@@ -17,6 +17,10 @@ public class SudokuVerifier {
 		if (!this.TestStringLenght(candidateSolution)){
 			return -1;
 		}
+		int SubGridTest = this.TestSubGrids();
+		if (SubGridTest != 0){
+			return SubGridTest;
+		}
 		int spliceResult =this.SpliceStringToMap(candidateSolution); 
 		if (spliceResult != 0){
 			return spliceResult;
@@ -29,10 +33,7 @@ public class SudokuVerifier {
 		if (ColumnTest != 0){
 			return ColumnTest;
 		}
-		int SubGridTest = this.TestSubGrids();
-		if (ColumnTest != 0){
-			return SubGridTest;
-		}
+		
 		
 		// returns 0 if the candidate solution is correct
 		return 0;
