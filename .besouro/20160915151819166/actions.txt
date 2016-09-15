@@ -133,3 +133,10 @@ UnitTestCaseAction 1473946606417 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473946606418 SudokuVerifierTest.java FAIL
 RefactoringAction 1473946612454 SudokuVerifier.java REMOVE main(String METHOD
 EditAction 1473946619650 SudokuVerifier.java 2929 5 49 0
+UnitTestCaseAction 1473946621686 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473946621687 SudokuVerifierTest.java FAIL
+RefactoringAction 1473946861994 SudokuVerifier.java ADD boolean checkLines(String)/2 METHOD
+RefactoringAction 1473946867009 SudokuVerifier.java REMOVE checkLines(String)/2 METHOD
+RefactoringAction 1473946874051 SudokuVerifier.java ADD boolean checkLines(String)/2 METHOD
+RefactoringAction 1473946875566 SudokuVerifier.java REMOVE checkLines(String)/2 METHOD
+EditAction 1473946943629 SudokuVerifier.java 3048 5 30 0
