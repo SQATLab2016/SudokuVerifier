@@ -120,3 +120,4 @@ RefactoringAction 1473941583866 SudokuVerifierTest.java RENAME testGetGlobalRows
 UnitTestCaseAction 1473941820118 SudokuVerifierTest.java OK
 UnitTestSessionAction 1473941820119 SudokuVerifierTest.java OK
 EditAction 1473941848828 SudokuVerifier.java 2572 10 26 0
+EditAction 1473942155103 SudokuVerifier.java 2818 10 28 0

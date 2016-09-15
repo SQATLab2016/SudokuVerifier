@@ -75,6 +75,15 @@ public class SudokuVerifier {
 	
 	private String[] createGlobalColumnsFromGlobalRows(String[] globalRows) {
 		String[] globalColumns = new String[9];
+		StringBuilder tempString = new StringBuilder();
+		
+		for(int i = 0; i < 9; i++) {
+			for(int j = 0; j < 9; j++) {
+				tempString.append(globalRows[j].charAt(i));
+			}
+			globalColumns[i] = tempString.toString();
+			tempString.setLength(0);
+		}
 		//Implement
 		return globalColumns;
 	}
