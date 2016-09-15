@@ -36,9 +36,9 @@ public static int verifyRowOrder(String candidateSolution) {
 		
 	System.out.print(candidateSolution.charAt(1*8-1));
 	
-		for(int i=1; i<8; i++){
+		for(int i=1; i<9; i++){
 			BitSet filled = new BitSet(9);
-			for(int j=1; j<8; j++){
+			for(int j=1; j<9; j++){
 				if(filled.get(candidateSolution.charAt(i*j-1)-1))
 					return 1;
 				else 
