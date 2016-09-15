@@ -93,8 +93,8 @@ public class SudokuVerifier {
 	}
 	private int TestSingleSubGrid(int row, int col){
 		List<Integer> usedNumbers = new ArrayList<Integer>();
-		for (int x = row; x<(row+3); x++){
-			for (int y = col; y<(col+3); y++){
+		for (int x = row; x<(row+SubGridSize); x++){
+			for (int y = col; y<(col+SubGridSize); y++){
 				int value = this.GetValueByCoordinates(x, y);
 				if (usedNumbers.contains(value)){
 					return FailedSubGrid;
