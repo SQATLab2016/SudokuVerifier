@@ -29,7 +29,7 @@ public class SudokuVerifier {
 			return -1; 
 		}
 		
-		// Rule #2
+		// Rule #3
 	    for (int i = 0, offset = 0; i < 8; i++, offset += 8) {
 	        String row = candidateSolution.substring(offset, offset+8);
 	        if (!isValidArray(row)) {
@@ -37,7 +37,7 @@ public class SudokuVerifier {
 	        }
 	    }
 	    
-		// Rule #3
+		// Rule #4
 	    for (int i = 0; i < 9; i++) {
 		    String column = candidateSolution.substring(i,i+1) +
 		    		candidateSolution.substring(i+9,i+10) +
@@ -49,7 +49,7 @@ public class SudokuVerifier {
 		    		candidateSolution.substring(i+63,i+64) +
 		    		candidateSolution.substring(i+72);
 	        if (!isValidArray(column)) {
-	        	return -3;
+	        	return -4;
 	        }
 	    }
 
