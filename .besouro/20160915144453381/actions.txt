@@ -43,3 +43,13 @@ EditAction 1473941537157 SudokuVerifierTest.java 786 2 4 2
 UnitTestCaseAction 1473941537892 SudokuVerifierTest.java OK
 UnitTestSessionAction 1473941537893 SudokuVerifierTest.java OK
 EditAction 1473941570373 SudokuVerifierTest.java 786 2 4 2
+UnitTestCaseAction 1473941571589 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473941571590 SudokuVerifierTest.java OK
+RefactoringAction 1473942727735 SudokuVerifierTest.java ADD void testVerifyDigitsCorrectString()/2 METHOD
+RefactoringAction 1473942727735 SudokuVerifierTest.java ADD void testVerifyDigitsIncorrectString()/2 METHOD
+RefactoringAction 1473942731245 SudokuVerifierTest.java RENAME testVerifyDigitsCorrectString()/2=>void testVerifyWCorrectString() METHOD
+RefactoringAction 1473942732257 SudokuVerifierTest.java RENAME testVerifyWCorrectString()=>void testVerifyRCorrectString() METHOD
+RefactoringAction 1473942733265 SudokuVerifierTest.java RENAME testVerifyRCorrectString()=>void testVerifyRowCorrectString() METHOD
+RefactoringAction 1473942736777 SudokuVerifierTest.java RENAME testVerifyDigitsIncorrectString()/2=>void testVerifyIncorrectString() METHOD
+RefactoringAction 1473942738303 SudokuVerifierTest.java RENAME testVerifyIncorrectString()=>void testVerifyRowIncorrectString() METHOD
+EditAction 1473942770456 SudokuVerifierTest.java 1230 4 8 4
