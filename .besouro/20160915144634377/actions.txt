@@ -42,3 +42,12 @@ RefactoringAction 1473940423951 SudokuVerifier.java ADD String METHOD
 RefactoringAction 1473940434473 SudokuVerifier.java ADD String METHOD
 RefactoringAction 1473940447489 SudokuVerifier.java ADD String METHOD
 EditAction 1473940452688 SudokuVerifier.java 2459 10 23 0
+RefactoringAction 1473940469250 SudokuVerifierTest.java ADD void test FIELD
+RefactoringAction 1473940471264 SudokuVerifierTest.java RENAME test=>void testGet FIELD
+RefactoringAction 1473940472779 SudokuVerifierTest.java RENAME testGet=>void testGetG FIELD
+RefactoringAction 1473940474795 SudokuVerifierTest.java RENAME testGetG=>void testGetGlo FIELD
+RefactoringAction 1473940475810 SudokuVerifierTest.java RENAME testGetGlo=>void testGetGlobal FIELD
+RefactoringAction 1473940481326 SudokuVerifierTest.java RENAME testGetGlobal=>void testGetGlobalRows FIELD
+RefactoringAction 1473940483842 SudokuVerifierTest.java RENAME testGetGlobalRows=>void testGetGlobalRows() METHOD
+RefactoringAction 1473940610640 SudokuVerifierTest.java RENAME testGetGlobalRows()=>void testGetGlobalRowsOneCorrectRow() METHOD
+EditAction 1473940658583 SudokuVerifierTest.java 1665 4 17 4

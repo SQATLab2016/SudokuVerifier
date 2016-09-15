@@ -34,6 +34,15 @@ public class SudokuVerifierTest {
 		assertEquals("String has invalid chars", -1, result);
 	}
 	
-
+	@Test
+	public void testGetGlobalRowsOneCorrectRow() {
+		String testCandidate = "4173698256321589479587243168254371697915864323469127582896435715732916841648752935";
+		SudokuVerifier verifier = new SudokuVerifier();
+		
+		verifier.verify(testCandidate);
+		
+		String correctRow = "417369825";
+		assertEquals(correctRow, verifier.getGlobalRows()[0]);
+	}
 
 }
