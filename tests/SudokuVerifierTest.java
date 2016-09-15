@@ -50,7 +50,7 @@ public class SudokuVerifierTest {
 	@Test
 	public void TestIncorrectColumns(){
 		int result = sudoku.verify(IncorrecrColumnsString);
-		assertEquals("A string with incorrect ", -3, result);
+		assertEquals("A string with incorrect columns were given and something else than -3 was returned", -3, result);
 		
 	}
 

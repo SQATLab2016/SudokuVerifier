@@ -183,3 +183,4 @@ RefactoringAction 1473943393578 SudokuVerifierTest.java RENAME IncorrecrRowStrin
 RefactoringAction 1473943394653 SudokuVerifierTest.java RENAME IncorrecrColumnsString=>String IncorrecrRowString FIELD
 RefactoringAction 1473943394878 SudokuVerifierTest.java RENAME IncorrecrRowString=>String IncorrecrColumnsString FIELD
 EditAction 1473943415419 SudokuVerifierTest.java 2467 7 13 6
+EditAction 1473943445152 SudokuVerifierTest.java 2525 7 13 6
