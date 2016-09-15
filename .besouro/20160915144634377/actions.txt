@@ -155,3 +155,17 @@ RefactoringAction 1473942902152 SudokuVerifier.java RENAME createSubgridsFromCan
 RefactoringAction 1473943000555 SudokuVerifier.java RENAME createSubgridsFromGlobalRowsAndColumns(String)=>String METHOD
 RefactoringAction 1473943015119 SudokuVerifier.java RENAME createSubgridsFromGlobalRowsAndColumns(String=>String METHOD
 EditAction 1473943017282 SudokuVerifier.java 2915 10 29 0
+CompilationAction 1473943018703 SudokuVerifier.java
+RefactoringAction 1473943345922 SudokuVerifier.java RENAME createSubgridsFromGlobalRowsAndColumns(String=>String METHOD
+RefactoringAction 1473943348439 SudokuVerifier.java RENAME createSubgridsFromGlobalRowsAndColumns(String=>String METHOD
+RefactoringAction 1473943641527 SudokuVerifier.java ADD String get FIELD
+RefactoringAction 1473943646539 SudokuVerifier.java RENAME get=>String getRowFirst FIELD
+RefactoringAction 1473943649554 SudokuVerifier.java RENAME getRowFirst=>String getRowFirstThreeChars FIELD
+RefactoringAction 1473943650569 SudokuVerifier.java RENAME getRowFirstThreeChars=>String getRowFirstThreeChars() METHOD
+RefactoringAction 1473943660597 SudokuVerifier.java RENAME getRowFirstThreeChars()=>String getRowFirstThreeChars(String) METHOD
+RefactoringAction 1473943690199 SudokuVerifier.java RENAME getRowFirstThreeChars(String)=>String getThreeChars(String) METHOD
+RefactoringAction 1473943693723 SudokuVerifier.java RENAME getThreeChars(String)=>String getThreeCharsFromRow(String) METHOD
+RefactoringAction 1473943702239 SudokuVerifier.java RENAME getThreeCharsFromRow(String)=>String getThreeCharsFromRow(String, int, int) METHOD
+CompilationAction 1473943716474 SudokuVerifier.java
+CompilationAction 1473943716475 SudokuVerifier.java
+EditAction 1473943750609 SudokuVerifier.java 3156 11 27 0

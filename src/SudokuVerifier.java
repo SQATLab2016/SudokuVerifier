@@ -40,7 +40,7 @@ public class SudokuVerifier {
 		this.globalColumns = createGlobalColumnsFromGlobalRows(this.globalRows);
 		
 		//use candidate string to create subgrids -> string array
-		this.subgrids = createSubgridsFromGlobalRowsAndColumns(candidateSolution);
+		this.subgrids = createSubgridsFromGlobalRows(this.globalRows);
 		
 		if (checkSudokuArray(this.globalRows) != 0) {
 			return checkSudokuArray(this.globalRows);
@@ -88,10 +88,17 @@ public class SudokuVerifier {
 		return globalColumns;
 	}
 	
-	private String[] createSubgridsFromGlobalRowsAndColumns(String[] globalRows, String[] globalColumns) {
+	private String[] createSubgridsFromGlobalRows(String[] globalRows) {
 		String[] subgrids = new String[9];
 		StringBuilder tempString = new StringBuilder();
 		
+		for(int k = 0; k < 9; k++) {
+			for(int i = 0; i < 3; i++) {
+				for(int j = 0; j < 3; j++) {
+					tempString.append(globalRows[j].substring(i, endIndex))
+				}
+			}
+		}
 		
 		//Implement
 		return subgrids;
@@ -113,5 +120,9 @@ public class SudokuVerifier {
 			return false;
 		}
 		else return true;
+	}
+	
+	private String getThreeCharsFromRow(String row, int begin, int end) {
+		return row.substring(begin,end + 1);
 	}
 }
