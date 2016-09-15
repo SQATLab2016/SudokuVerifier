@@ -101,3 +101,7 @@ CompilationAction 1473941812050 SudokuVerifier.java
 CompilationAction 1473941826852 SudokuVerifier.java
 CompilationAction 1473941826853 SudokuVerifier.java
 EditAction 1473941854418 SudokuVerifier.java 1754 6 16 0
+RefactoringAction 1473941902099 SudokuVerifierTest.java ADD void Test FIELD
+RefactoringAction 1473941926118 SudokuVerifierTest.java RENAME TestNumberFormattingCorrectInput()=>void TestCorrectInput() METHOD
+RefactoringAction 1473941927633 SudokuVerifierTest.java RENAME TestCorrectInput()=>void TestWithCorrectInput() METHOD
+EditAction 1473941928076 SudokuVerifierTest.java 1343 3 5 2
