@@ -10,7 +10,7 @@ public class SudokuVerifier {
 		for(int i=0; i<81; i = i + 9){
 			initializeChecker(checker);
 			for(int j=i; j<i+9; j++){
-				currentNumber = (int) candidateSolution.charAt(j);
+				currentNumber = (int) candidateSolution.charAt(j) - '0';
 				if(checker[currentNumber-1]==false) checker[currentNumber-1]=true;
 				else return -3;
 			}
