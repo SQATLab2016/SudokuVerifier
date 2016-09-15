@@ -169,3 +169,6 @@ RefactoringAction 1473943702239 SudokuVerifier.java RENAME getThreeCharsFromRow(
 CompilationAction 1473943716474 SudokuVerifier.java
 CompilationAction 1473943716475 SudokuVerifier.java
 EditAction 1473943750609 SudokuVerifier.java 3156 11 27 0
+CompilationAction 1473943752060 SudokuVerifier.java
+CompilationAction 1473943752061 SudokuVerifier.java
+EditAction 1473944057298 SudokuVerifier.java 3182 11 32 0

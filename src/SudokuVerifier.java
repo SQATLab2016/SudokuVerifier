@@ -91,13 +91,13 @@ public class SudokuVerifier {
 	private String[] createSubgridsFromGlobalRows(String[] globalRows) {
 		String[] subgrids = new String[9];
 		StringBuilder tempString = new StringBuilder();
+		int rowCounter = 0;
 		
-		for(int k = 0; k < 9; k++) {
-			for(int i = 0; i < 3; i++) {
-				for(int j = 0; j < 3; j++) {
-					tempString.append(globalRows[j].substring(i, endIndex))
-				}
-			}
+		for(int i = 0; i < 3; i++) {
+			for(int j = 0; j < 9; j++) {
+				tempString.append(getThreeCharsFromRow(globalRows[rowCounter], i, (i+1) * i));
+				rowCounter++;
+			}			
 		}
 		
 		//Implement
