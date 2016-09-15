@@ -24,6 +24,13 @@ public class SudokuVerifier {
 		// returns 0 if the candidate solution is correct
 		return 0;
 	}
+	private int TestLines() {
+		for (int i=0; i<9; i++){
+			
+		}
+		return 0;
+	}
+
 	private int SpliceStringToMap(String str){
 		int index = 0;
 		for (int row=0; row<9; row++){
