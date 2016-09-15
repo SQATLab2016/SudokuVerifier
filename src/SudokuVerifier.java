@@ -42,15 +42,15 @@ public class SudokuVerifier {
 		//use candidate string to create subgrids -> string array
 		this.subgrids = createSubgridsFromGlobalRows(this.globalRows);
 		
-		if (checkSudokuArray(this.globalRows, 1) != 0) {
+		if (checkSudokuArray(this.globalRows) != 0) {
 			return -3;
 		}
 		
-		if (checkSudokuArray(this.globalColumns, 2) != 0) {
+		if (checkSudokuArray(this.globalColumns) != 0) {
 			return -4;
 		}
 		
-		if (checkSudokuArray(this.subgrids, 3) != 0) {
+		if (checkSudokuArray(this.subgrids) != 0) {
 			return -2;
 		}
 		
@@ -114,11 +114,10 @@ public class SudokuVerifier {
 		return subgrids;
 	}
 	
-	private int checkSudokuArray(String[] sudokuArray, int checkType) {
+	private int checkSudokuArray(String[] sudokuArray) {
 		for(int i = 0; i < 9; i++) {
 			for(int j = 1; i < 10; j++) {
-				char number = Character.forDigit(j, 10);
-				if(sudokuArray[i].indexOf(j + 48) == -1) return -1;
+				if(sudokuArray[i].indexOf(Character.forDigit(j, 10)) == -1) return -1; 
 			}
 		}
 		return 0;
