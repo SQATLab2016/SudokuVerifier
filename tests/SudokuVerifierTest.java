@@ -21,7 +21,7 @@ public class SudokuVerifierTest {
 		String[] test = {"1","2","3","4","5","6","7","8","9"};
 		boolean checknumber = SV.checknumber(test,"1");
 		boolean checknumber2 = SV.checknumber(test,"2");
-		assertEquals( "There is not only 1 '2'", true, checknumber2);
+		assertEquals( "There is not only 1 '2'", true, checknumber&&checknumber2);
 	} 	
 	
 	@Test
