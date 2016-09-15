@@ -214,3 +214,8 @@ EditAction 1473944100202 SudokuVerifier.java 2896 10 29 0
 RefactoringAction 1473944328343 SudokuVerifierTest.java ADD void TestInc FIELD
 RefactoringAction 1473944333857 SudokuVerifierTest.java RENAME TestInc=>void TestIncorrectSubGrids() METHOD
 EditAction 1473944372444 SudokuVerifierTest.java 2742 8 15 7
+RefactoringAction 1473944390412 SudokuVerifierTest.java ADD String CorString/2 FIELD
+RefactoringAction 1473944403426 SudokuVerifierTest.java RENAME CorString/2=>String String FIELD
+RefactoringAction 1473944407939 SudokuVerifierTest.java RENAME String=>String IncorSubString FIELD
+RefactoringAction 1473944409453 SudokuVerifierTest.java RENAME IncorSubString=>String IncorSubGridsString FIELD
+EditAction 1473944409655 SudokuVerifierTest.java 2880 8 15 7
