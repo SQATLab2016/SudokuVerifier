@@ -52,9 +52,7 @@ public class SudokuVerifier {
 	}
 	
 public static int verifyRowOrder(int[][] candidateSolution) {		
-		
-	System.out.print(candidateSolution[1*2]);
-	
+			
 		for(int i=0; i<9; i++){
 			BitSet filled = new BitSet(9);
 			for(int j=0; j<9; j++){
