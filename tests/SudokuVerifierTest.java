@@ -34,6 +34,14 @@ public class SudokuVerifierTest {
 		assertEquals("The string given isn't valid but got verified", false, check);
 	}
 	
+	@Test
+	public void testcheck_2lines(){
+		SudokuVerifier SV = new SudokuVerifier();
+		String[] test = {"1","2","3","4","4","6","7","8","9"};
+		String[] test2 = {"1","2","3","4","4","6","7","8","9"};
+		assertEquals("the lines are not checked", true, SV.check(test)&&SV.check(test2));
+		
+	}
 	
 	@Test
 	public void testcheckLines_True(){
