@@ -216,3 +216,6 @@ UnitTestCaseAction 1473945525280 SudokuVerifierTest.java OK
 UnitTestSessionAction 1473945525280 SudokuVerifierTest.java OK
 RefactoringAction 1473945547272 SudokuVerifier.java RENAME checkSudokuArray(String=>int checkSudokuArray(String METHOD
 EditAction 1473945549427 SudokuVerifier.java 3443 11 34 0
+CompilationAction 1473945550730 SudokuVerifier.java
+CompilationAction 1473945635219 SudokuVerifier.java
+EditAction 1473945859864 SudokuVerifier.java 3482 11 35 0

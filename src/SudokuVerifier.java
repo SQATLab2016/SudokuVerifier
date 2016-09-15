@@ -42,16 +42,16 @@ public class SudokuVerifier {
 		//use candidate string to create subgrids -> string array
 		this.subgrids = createSubgridsFromGlobalRows(this.globalRows);
 		
-		if (checkSudokuArray(this.globalRows) != 0) {
-			return checkSudokuArray(this.globalRows);
+		if (checkSudokuArray(this.globalRows, 1) != 0) {
+			return -3;
 		}
 		
-		if (checkSudokuArray(this.globalColumns) != 0) {
-			return checkSudokuArray(this.globalColumns);
+		if (checkSudokuArray(this.globalColumns, 2) != 0) {
+			return -4;
 		}
 		
-		if (checkSudokuArray(this.subgrids) != 0) {
-			return checkSudokuArray(this.subgrids);
+		if (checkSudokuArray(this.subgrids, 3) != 0) {
+			return -2;
 		}
 		
 		return 0;
@@ -115,6 +115,11 @@ public class SudokuVerifier {
 	}
 	
 	private int checkSudokuArray(String[] sudokuArray, int checkType) {
+		for(int i = 0; i < 9; i++) {
+			for(int j = 1; i < 10; j++) {
+				if(sudokuArray[i].indexOf(j) == -1) return -1;
+			}
+		}
 		return 0;
 	}
 	
