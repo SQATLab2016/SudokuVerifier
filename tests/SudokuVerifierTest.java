@@ -9,9 +9,9 @@ public class SudokuVerifierTest {
 
 	@Test
 	public void testLength() {
-		int result = SudokuVerifier.verify("123456789912345678891234567789123456678912345567891234456789123345678912234567891");
+		int result = SudokuVerifier.verifyLength("123456789912345678891234567789123456678912345567891234456789123345678912234567891");
 		
-		assertEquals("Sudokus length", 1, result);	
+		assertEquals("Sudokus length", 0, result);	
 	}
 
 	@Test

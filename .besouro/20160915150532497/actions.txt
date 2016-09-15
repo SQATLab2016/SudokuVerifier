@@ -2,3 +2,9 @@ FileOpenedAction 1473941132747 SudokuVerifierTest.java 737 2 4 2
 UnitTestCaseAction 1473941188498 SudokuVerifierTest.java OK
 UnitTestSessionAction 1473941188499 SudokuVerifierTest.java OK
 EditAction 1473941334402 SudokuVerifierTest.java 737 2 4 2
+UnitTestCaseAction 1473941334802 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473941334803 SudokuVerifierTest.java OK
+RefactoringAction 1473941538754 SudokuVerifier.java ADD static int verify(String)/2 METHOD
+RefactoringAction 1473941546265 SudokuVerifier.java RENAME verify(String)/2=>static int verifyLeng(String) METHOD
+RefactoringAction 1473941547772 SudokuVerifier.java RENAME verifyLeng(String)=>static int verifyLength(String) METHOD
+EditAction 1473941624056 SudokuVerifierTest.java 743 2 4 2
