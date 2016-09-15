@@ -232,3 +232,6 @@ RefactoringAction 1473946041328 SudokuVerifierTest.java RENAME testVerifyCorrect
 UnitTestCaseAction 1473946097289 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473946097290 SudokuVerifierTest.java FAIL
 EditAction 1473946271009 SudokuVerifier.java 3488 11 35 0
+UnitTestCaseAction 1473946280622 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473946280623 SudokuVerifierTest.java FAIL
+EditAction 1473946407472 SudokuVerifier.java 3515 11 35 0
