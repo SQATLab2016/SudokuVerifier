@@ -91,14 +91,20 @@ public class SudokuVerifier {
 	private String[] createSubgridsFromGlobalRows(String[] globalRows) {
 		String[] subgrids = new String[9];
 		StringBuilder tempString = new StringBuilder();
-		int rowCounter = 0;
+		
+		int currentRow = 0;
+		int currentColumn = 0;
+		int subgridCounter = 0;
 		
 		for(int i = 0; i < 3; i++) {
 			for(int j = 0; j < 3; j++) {
-				tempString.append(getThreeCharsFromRow(globalRows[j], i, i+2));
+				for(int k = 0; k < 3; k++) {
+					tempString.append(getThreeCharsFromRow(globalRows[currentRow], currentColumn, currentColumn + 2));
+					currentRow++;
+				}
+				globalRows[subgridCounter] = tempString.toString();
+				tempString.setLength(0);
 			}
-			subgrids[rowCounter] = tempString.toString();
-			tempString.setLength(0);
 		}
 		
 		//Implement

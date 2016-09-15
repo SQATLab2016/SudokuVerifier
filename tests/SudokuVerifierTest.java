@@ -114,7 +114,7 @@ public class SudokuVerifierTest {
 		verifier.verify(testCandidate);
 		
 		String[] verifierSubgrids = verifier.getSubgrids();
-		String correctSubgrid = "469135728";
+		String correctSubgrid = "417632958";
 		assertEquals(correctSubgrid, verifierSubgrids[0]);
 	}
 
