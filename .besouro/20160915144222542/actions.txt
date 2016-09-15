@@ -23,3 +23,4 @@ RefactoringAction 1473940008301 SudokuVerifier.java RENAME GetNumberFromChar(cha
 RefactoringAction 1473940009826 SudokuVerifier.java RENAME GetNumberFromCh(char)=>int GetNumberFrom(char) METHOD
 RefactoringAction 1473940011350 SudokuVerifier.java RENAME GetNumberFrom(char)=>int GetNumberFromString(char) METHOD
 EditAction 1473940018463 SudokuVerifier.java 444 3 4 0
+EditAction 1473940237506 SudokuVerifier.java 622 3 5 0
