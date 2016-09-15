@@ -94,3 +94,17 @@ RefactoringAction 1473945078534 SudokuVerifier.java RENAME checkColums(String)/4
 RefactoringAction 1473945086053 SudokuVerifier.java RENAME checkFormat(String)=>void checkLenght(String) METHOD
 RefactoringAction 1473945091572 SudokuVerifier.java RENAME checkColums(String)/3=>void checkFormat(String) METHOD
 EditAction 1473945119230 SudokuVerifier.java 3147 8 24 0
+CompilationAction 1473945119502 SudokuVerifier.java
+CompilationAction 1473945119503 SudokuVerifier.java
+CompilationAction 1473945119503 SudokuVerifier.java
+CompilationAction 1473945119503 SudokuVerifier.java
+CompilationAction 1473945119503 SudokuVerifier.java
+CompilationAction 1473945119503 SudokuVerifier.java
+CompilationAction 1473945119503 SudokuVerifier.java
+RefactoringAction 1473945391934 SudokuVerifier.java REMOVE checkColums(String)/2 METHOD
+CompilationAction 1473945455982 SudokuVerifier.java
+CompilationAction 1473945455983 SudokuVerifier.java
+CompilationAction 1473945455983 SudokuVerifier.java
+CompilationAction 1473945455984 SudokuVerifier.java
+RefactoringAction 1473945679578 SudokuVerifier.java RENAME checkColums(String)=>boolean checkColumns(String) METHOD
+EditAction 1473945696469 SudokuVerifier.java 2966 7 26 0
