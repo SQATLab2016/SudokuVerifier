@@ -205,3 +205,6 @@ UnitTestSessionAction 1473943606754 SudokuVerifierTest.java OK
 RefactoringAction 1473943763797 SudokuVerifier.java ADD int TestSubGrids FIELD
 RefactoringAction 1473943765315 SudokuVerifier.java RENAME TestSubGrids=>int TestSubGrids() METHOD
 EditAction 1473943774453 SudokuVerifier.java 2440 9 24 0
+RefactoringAction 1473943968641 SudokuVerifier.java ADD int TestSingleSubGrid() METHOD
+RefactoringAction 1473943973659 SudokuVerifier.java RENAME TestSingleSubGrid()=>int TestSingleSubGrid(int, int) METHOD
+EditAction 1473943981376 SudokuVerifier.java 2600 10 27 0

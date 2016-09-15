@@ -29,6 +29,10 @@ public class SudokuVerifier {
 		if (ColumnTest != 0){
 			return ColumnTest;
 		}
+		int SubGridTest = this.TestSubGrids();
+		if (ColumnTest != 0){
+			return SubGridTest;
+		}
 		
 		// returns 0 if the candidate solution is correct
 		return 0;
@@ -69,6 +73,10 @@ public class SudokuVerifier {
 		return 0;
 	}
 	private int TestSubGrids(){
+		
+		return 0;
+	}
+	private int TestSingleSubGrid(int row, int col){
 		return 0;
 	}
 	private int GetValueByCoordinates(int row, int col){
