@@ -64,4 +64,18 @@ public class SudokuVerifier {
 		}
 		return 0;
 	}
+	
+public static int verify3x3(int[][] candidateSolution) {		
+		
+		for(int i=0; i<candidateSolution.length; i++){
+			BitSet column = new BitSet(9);
+			for(int j=0; j<candidateSolution[i].length; j++){
+				if(column.get(candidateSolution[j][i]-1))
+					return 1;
+				else 
+					column.set(candidateSolution[j][i]-1);
+			}
+		}
+		return 0;
+	}
 }

@@ -205,3 +205,8 @@ EditAction 1473946339893 SudokuVerifierTest.java 1759 5 15 5
 UnitTestCaseAction 1473946341634 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473946341634 SudokuVerifierTest.java FAIL
 EditAction 1473946365218 SudokuVerifierTest.java 1759 5 15 5
+UnitTestCaseAction 1473946366370 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473946366370 SudokuVerifierTest.java OK
+RefactoringAction 1473946384438 SudokuVerifier.java ADD static int verifyColumn(int METHOD
+RefactoringAction 1473946388942 SudokuVerifier.java RENAME verifyColumn(int=>static int verify3x3(int METHOD
+EditAction 1473946390058 SudokuVerifier.java 1943 6 16 0
