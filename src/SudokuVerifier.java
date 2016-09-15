@@ -19,7 +19,7 @@ public class SudokuVerifier {
 		if (spliceResult != 0){
 			return spliceResult;
 		}
-		
+		int LineTestResult = this.TestLines();
 		
 		// returns 0 if the candidate solution is correct
 		return 0;
