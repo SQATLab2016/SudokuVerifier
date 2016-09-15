@@ -51,10 +51,21 @@ public class SudokuVerifierTest {
 		SudokuVerifier verifier = new SudokuVerifier();
 				
 		// Act
-		int result = verifier.verify("417369825637158947958724316825437169791586432346912758289643571573291684164875293");
+		int result = verifier.verify("147369258258147369369258147147369258258147369369258147147369258258147369369258147");
 				
 		// Assert
 		assertEquals(-4, result);
 	}
-
+	
+	@Test
+	public void testVerify_WrongBecauseOfNonPositiveNumber_Returns_Minus1() {
+		// Arrange
+		SudokuVerifier verifier = new SudokuVerifier();
+				
+		// Act
+		int result = verifier.verify("4173698256321589479-8724316825437169791586432346912758289643571573291684164875293");
+				
+		// Assert
+		assertEquals(-4, result);
+	}
 }
