@@ -15,7 +15,7 @@ public class SudokuVerifierTest {
 
 	@Before
 	public void SetUp(){
-		
+		SudokuVerifier sudoku = new SudokuVerifier();
 	}
 	
 	@Test
