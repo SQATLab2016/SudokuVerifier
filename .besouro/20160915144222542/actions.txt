@@ -105,3 +105,9 @@ RefactoringAction 1473941902099 SudokuVerifierTest.java ADD void Test FIELD
 RefactoringAction 1473941926118 SudokuVerifierTest.java RENAME TestNumberFormattingCorrectInput()=>void TestCorrectInput() METHOD
 RefactoringAction 1473941927633 SudokuVerifierTest.java RENAME TestCorrectInput()=>void TestWithCorrectInput() METHOD
 EditAction 1473941928076 SudokuVerifierTest.java 1343 3 5 2
+CompilationAction 1473941929393 SudokuVerifierTest.java
+CompilationAction 1473941929394 SudokuVerifierTest.java
+CompilationAction 1473941929395 SudokuVerifierTest.java
+RefactoringAction 1473941947156 SudokuVerifierTest.java RENAME Test=>void TestTooShpo FIELD
+RefactoringAction 1473941950168 SudokuVerifierTest.java RENAME TestTooShpo=>void TestTooShortString FIELD
+EditAction 1473941977635 SudokuVerifierTest.java 1495 4 7 3
