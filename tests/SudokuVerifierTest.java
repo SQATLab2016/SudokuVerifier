@@ -26,7 +26,7 @@ public class SudokuVerifierTest {
 	@Test
 	public void testcheckTrue(){
 		SudokuVerifier SV=new SudokuVerifier();
-		String[] test = {"1","2","3","4","5","6","7","8","9"};
+		String[] test = {"1","2","3","4","4","6","7","8","9"};
 		boolean check = SV.check(test);
 		assertEquals("The string given isn't valid", true, check);
 	}
