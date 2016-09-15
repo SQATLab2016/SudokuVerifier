@@ -1,0 +1,9 @@
+1473941188499 regression 1 55 false
+1473941334803 regression 1 0 true
+1473941646852 regression 2 108 false
+1473944049026 refactoring 3 2388 true
+1473945652127 refactoring 3 1526 true
+1473945658743 refactoring 2A 1 false
+1473945982182 test-last 1 313 false
+1473946366370 test-addition 1 367 false
+1473947109945 test-first 3 725 true
