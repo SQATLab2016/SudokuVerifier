@@ -47,8 +47,7 @@ public class SudokuVerifierTest {
 	public void testcheckLines_True(){
 		SudokuVerifier SV=new SudokuVerifier();
 		String solution = "123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789";
-		boolean checklines = SV.checkLines(solution);
-		assertEquals("The lines are checked false despite being true", true, checklines);
+		assertEquals("The lines are checked false despite being true", true, SV.checkLines(solution));
 	}
 
 	
