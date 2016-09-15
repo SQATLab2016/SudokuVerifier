@@ -25,6 +25,7 @@ public class SudokuVerifier {
 		return 0;
 	}
 	private int TestLines() {
+		List<Integer> usedNumber = new ArrayList<Integer>();
 		for (int i=0; i<9; i++){
 			
 		}
