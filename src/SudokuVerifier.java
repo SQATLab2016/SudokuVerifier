@@ -21,6 +21,11 @@ public class SudokuVerifier {
 		//Checks if all columns are valid
 		for(int i = 0; i < 9; i++){
 			initializeChecker(checker);
+			for(int j = i; j < 81; j = j + 9){
+				currentNumber = (int) candidateSolution.charAt(j) - '0';
+				if(checker[currentNumber-1]==false) checker[currentNumber-1]=true;
+				else return -4;
+			}
 		}
 		
 		// returns 0 if the candidate solution is correct
