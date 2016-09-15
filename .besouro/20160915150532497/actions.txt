@@ -19,3 +19,4 @@ UnitTestSessionAction 1473941660906 SudokuVerifierTest.java FAIL
 RefactoringAction 1473941685359 SudokuVerifier.java ADD static int verifyLength(String)/2 METHOD
 RefactoringAction 1473941693368 SudokuVerifier.java RENAME verifyLength(String)/2=>static int verifyRow(String) METHOD
 EditAction 1473941894384 SudokuVerifier.java 560 3 5 0
+EditAction 1473941985273 SudokuVerifierTest.java 798 2 5 2

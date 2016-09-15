@@ -16,8 +16,10 @@ public class SudokuVerifierTest {
 
 	@Test
 	public void testRow() {
-		int result = SudokuVerifier.verify("17369825632158947958724316825437169791586432346912758289643571573291684164875293");
+		int rowNumber = SudokuVerifier.verifyRow("17369825632158947958724316825437169791586432346912758289643571573291684164875293");
 		
-		assertEquals("Sudokus length", 1, result);	
+		int result = rowNumber + rowOrder;
+		
+		assertEquals("Sudokus row OK", 0, result);	
 	}
 }
