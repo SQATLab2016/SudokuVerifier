@@ -219,3 +219,16 @@ EditAction 1473945549427 SudokuVerifier.java 3443 11 34 0
 CompilationAction 1473945550730 SudokuVerifier.java
 CompilationAction 1473945635219 SudokuVerifier.java
 EditAction 1473945859864 SudokuVerifier.java 3482 11 35 0
+RefactoringAction 1473945887909 SudokuVerifierTest.java ADD void test FIELD
+RefactoringAction 1473945889421 SudokuVerifierTest.java RENAME test=>void testVe FIELD
+RefactoringAction 1473945891435 SudokuVerifierTest.java RENAME testVe=>void testVerify FIELD
+RefactoringAction 1473945897450 SudokuVerifierTest.java RENAME testVerify=>void testVerifyIncorrectSudokuString FIELD
+RefactoringAction 1473945898965 SudokuVerifierTest.java RENAME testVerifyIncorrectSudokuString=>void testVerifyIncorrectSudokuString() METHOD
+UnitTestCaseAction 1473946020024 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473946020025 SudokuVerifierTest.java OK
+RefactoringAction 1473946034801 SudokuVerifierTest.java ADD void testVerify FIELD
+RefactoringAction 1473946039816 SudokuVerifierTest.java RENAME testVerify=>void testVerifyCorrectSudokuString FIELD
+RefactoringAction 1473946041328 SudokuVerifierTest.java RENAME testVerifyCorrectSudokuString=>void testVerifyCorrectSudokuString() METHOD
+UnitTestCaseAction 1473946097289 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473946097290 SudokuVerifierTest.java FAIL
+EditAction 1473946271009 SudokuVerifier.java 3488 11 35 0
