@@ -351,3 +351,56 @@ UnitTestCaseAction 1474033574210 SudokuVerifierParametrizedTest.java OK
 UnitTestSessionAction 1474033574211 SudokuVerifierParametrizedTest.java OK
 EditAction 1474033603037 SudokuVerifier.java 1669 5 21 0
 EditAction 1474033670482 SudokuVerifier.java 1739 5 21 0
+RefactoringAction 1474033697088 SudokuVerifier.java ADD A cell FIELD
+RefactoringAction 1474033697090 SudokuVerifier.java ADD in a FIELD
+RefactoringAction 1474033697091 SudokuVerifier.java ADD Sudoku game FIELD
+RefactoringAction 1474033697092 SudokuVerifier.java ADD can only FIELD
+RefactoringAction 1474033697092 SudokuVerifier.java ADD store positive FIELD
+RefactoringAction 1474033697093 SudokuVerifier.java ADD All digits FIELD
+RefactoringAction 1474033697094 SudokuVerifier.java ADD appear only/2 FIELD
+RefactoringAction 1474033697095 SudokuVerifier.java ADD once in FIELD
+RefactoringAction 1474033697096 SudokuVerifier.java ADD a sub FIELD
+RefactoringAction 1474033697097 SudokuVerifier.java ADD i.e.they cannot FIELD
+RefactoringAction 1474033697098 SudokuVerifier.java ADD A digit FIELD
+RefactoringAction 1474033697099 SudokuVerifier.java ADD can appear FIELD
+RefactoringAction 1474033697100 SudokuVerifier.java ADD only once FIELD
+RefactoringAction 1474033697101 SudokuVerifier.java ADD in the FIELD
+RefactoringAction 1474033697102 SudokuVerifier.java ADD rows of FIELD
+RefactoringAction 1474033697102 SudokuVerifier.java ADD the global FIELD
+RefactoringAction 1474033697103 SudokuVerifier.java ADD A digit/2 FIELD
+RefactoringAction 1474033697104 SudokuVerifier.java ADD can appear/2 FIELD
+RefactoringAction 1474033697105 SudokuVerifier.java ADD only once/2 FIELD
+RefactoringAction 1474033697106 SudokuVerifier.java ADD in the/2 FIELD
+RefactoringAction 1474033697107 SudokuVerifier.java ADD columns of/2 FIELD
+RefactoringAction 1474033697108 SudokuVerifier.java ADD the global/2 FIELD
+RefactoringAction 1474033710785 SudokuVerifier.java REMOVE digits FIELD
+RefactoringAction 1474033710787 SudokuVerifier.java REMOVE digit FIELD
+RefactoringAction 1474033710788 SudokuVerifier.java REMOVE once FIELD
+RefactoringAction 1474033710790 SudokuVerifier.java REMOVE digit/2 FIELD
+RefactoringAction 1474033710792 SudokuVerifier.java REMOVE once/2 FIELD
+RefactoringAction 1474033710793 SudokuVerifier.java REMOVE game FIELD
+RefactoringAction 1474033710795 SudokuVerifier.java REMOVE global FIELD
+RefactoringAction 1474033710796 SudokuVerifier.java REMOVE global/2 FIELD
+RefactoringAction 1474033710798 SudokuVerifier.java REMOVE cell FIELD
+RefactoringAction 1474033710800 SudokuVerifier.java REMOVE cannot FIELD
+RefactoringAction 1474033710801 SudokuVerifier.java REMOVE appear FIELD
+RefactoringAction 1474033710802 SudokuVerifier.java REMOVE appear/2 FIELD
+RefactoringAction 1474033710805 SudokuVerifier.java REMOVE verifyNumber(int, int, int METHOD
+RefactoringAction 1474033710806 SudokuVerifier.java REMOVE only FIELD
+RefactoringAction 1474033710808 SudokuVerifier.java REMOVE only/2 FIELD
+RefactoringAction 1474033710809 SudokuVerifier.java REMOVE sub FIELD
+RefactoringAction 1474033710811 SudokuVerifier.java REMOVE the FIELD
+RefactoringAction 1474033710813 SudokuVerifier.java REMOVE the/2 FIELD
+RefactoringAction 1474033710814 SudokuVerifier.java REMOVE verifyHorizontal(int, int, int METHOD
+RefactoringAction 1474033710816 SudokuVerifier.java REMOVE verifyVertical(int, int, int METHOD
+RefactoringAction 1474033710817 SudokuVerifier.java REMOVE of FIELD
+RefactoringAction 1474033710819 SudokuVerifier.java REMOVE of/2 FIELD
+RefactoringAction 1474033710821 SudokuVerifier.java REMOVE a FIELD
+RefactoringAction 1474033710822 SudokuVerifier.java REMOVE positive FIELD
+RefactoringAction 1474033710824 SudokuVerifier.java REMOVE in FIELD
+RefactoringAction 1474033710825 SudokuVerifier.java REMOVE verifyBox(int, int, int METHOD
+RefactoringAction 1474033717867 SudokuVerifier.java ADD int verifyNumber(int, int, int METHOD
+RefactoringAction 1474033717869 SudokuVerifier.java ADD boolean verifyHorizontal(int, int, int METHOD
+RefactoringAction 1474033717870 SudokuVerifier.java ADD boolean verifyVertical(int, int, int METHOD
+RefactoringAction 1474033717872 SudokuVerifier.java ADD boolean verifyBox(int, int, int METHOD
+EditAction 1474033722909 SudokuVerifier.java 2032 5 21 0
