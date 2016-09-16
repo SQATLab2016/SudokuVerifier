@@ -9,3 +9,6 @@ FileOpenedAction 1474028777362 GildedRoseTest.java 3016 7 37 6
 FileOpenedAction 1474028793146 GildedRoseTest.java 3016 7 37 6
 EditAction 1474028943491 SudokuVerifier.java 162 1 1 0
 EditAction 1474028944784 SudokuVerifierTest.java 669 2 5 1
+UnitTestCaseAction 1474028945965 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474028945966 SudokuVerifierTest.java FAIL
+EditAction 1474028961583 SudokuVerifierTest.java 669 2 5 1

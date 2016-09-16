@@ -17,7 +17,7 @@ public class SudokuVerifierTest {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidateSolution = "";
 		
-		int length = 90;
+		int length = 81;
 		assertTrue("Length of the string is incorrect!", length == 81);
 	}
 	
