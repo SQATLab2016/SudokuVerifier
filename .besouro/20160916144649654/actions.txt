@@ -59,3 +59,4 @@ RefactoringAction 1474031349154 SudokuVerifier.java RENAME digitsOnlyOnce=>int d
 RefactoringAction 1474031353167 SudokuVerifier.java RENAME digitsOnlyOnceInSubgrid=>int digitsOnlyOnceInSubgrid() METHOD
 RefactoringAction 1474031406684 SudokuVerifier.java RENAME digitsOnlyOnceInSubgrid()=>int digitsOnlyOnceInSubgrid(String) METHOD
 EditAction 1474032422719 SudokuVerifier.java 821 3 6 0
+CompilationAction 1474032424178 SudokuVerifier.java
