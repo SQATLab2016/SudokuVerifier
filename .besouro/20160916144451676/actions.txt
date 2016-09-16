@@ -165,3 +165,5 @@ RefactoringAction 1474032417374 SudokuVerifier.java RENAME checkSequence=>int ch
 RefactoringAction 1474032424888 SudokuVerifier.java RENAME checkStringSequence()=>int checkStringSequence(String) METHOD
 EditAction 1474032649587 SudokuVerifier.java 1231 5 11 0
 EditAction 1474032693216 SudokuVerifier.java 1259 5 11 0
+RefactoringAction 1474032765953 SudokuVerifierParametrizedTest.java ADD void testCheckStringSequenceForDublicates() METHOD
+EditAction 1474032784866 SudokuVerifierParametrizedTest.java 1723 5 11 4

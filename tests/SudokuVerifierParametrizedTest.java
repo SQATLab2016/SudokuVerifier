@@ -39,6 +39,11 @@ public class SudokuVerifierParametrizedTest {
 	} 
 	
 	
+	@Test 
+	public void testCheckStringSequenceForDublicates()
+	{
+		SudokuVerifier verifier = new SudokuVerifier();		
+	}
 	
 	@Test
 	public void testCandidateStringOnlyNumeric()
