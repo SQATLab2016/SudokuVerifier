@@ -29,7 +29,7 @@ public class SudokuVerifier {
 			StringBuilder tmp = new StringBuilder(sequence);
 			tmp.deleteCharAt(indx);
 			
-			if(verifyOnlyOnce(c, tmp.toString()) == -1)
+			if(verifyCharNotInString(c, tmp.toString()) == -1)
 				return -1;
 		}
 			
@@ -59,10 +59,11 @@ public class SudokuVerifier {
 		for(int indx = 0; indx != 9; indx++) {
 			String row = candidateSolution.substring(indx*9, indx*9+9);
 			res = checkStringSequence(row);
+			if(res != -1)
+				return -3;
 		}	
 				
-		if(res == -1)
-			return -3;
+		
 		
 		return 0;
 	}

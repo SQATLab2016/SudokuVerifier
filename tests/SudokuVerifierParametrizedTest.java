@@ -44,7 +44,7 @@ public class SudokuVerifierParametrizedTest {
 	
 		String candidateSolution = "12345679";
 		
-		assertEquals(0, verifier.verifyOnlyOnce('8', candidateSolution));
+		assertEquals(0, verifier.verifyCharNotInString('8', candidateSolution));
 	}
 	
 	@Test	
@@ -53,7 +53,7 @@ public class SudokuVerifierParametrizedTest {
 	
 		String candidateSolution = "12356789";
 		
-		assertEquals(-1, verifier.verifyOnlyOnce('3', candidateSolution));
+		assertEquals(-1, verifier.verifyCharNotInString('3', candidateSolution));
 	} 
 	
 	
