@@ -74,3 +74,6 @@ UnitTestCaseAction 1474031881468 SudokuVerifierTest.java OK
 UnitTestSessionAction 1474031881468 SudokuVerifierTest.java OK
 RefactoringAction 1474031892511 SudokuVerifierTest.java RENAME testSudoku()=>void testVerify() METHOD
 EditAction 1474031897845 SudokuVerifierTest.java 1361 3 12 3
+UnitTestCaseAction 1474031898114 SudokuVerifierTest.java OK
+UnitTestSessionAction 1474031898114 SudokuVerifierTest.java OK
+EditAction 1474031908759 SudokuVerifierTest.java 1361 3 12 3

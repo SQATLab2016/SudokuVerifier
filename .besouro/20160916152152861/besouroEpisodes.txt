@@ -55,3 +55,7 @@
 1474031881522 test-first 3 3368 true
 1474031881523 test-first 3 3368 true
 1474031881524 test-first 3 3368 true
+1474031898114 refactoring 1B 5 true
+1474031898115 refactoring 2B 5 true
+1474031898116 refactoring 3 5 true
+1474031898117 regression 1 5 true
