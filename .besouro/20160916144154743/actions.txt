@@ -1,0 +1,8 @@
+FileOpenedAction 1474026115011 SudokuVerifier.java 162 1 1 0
+RefactoringAction 1474027230754 SudokuVerifierTest.java ADD import stata IMPORT
+RefactoringAction 1474027236270 SudokuVerifierTest.java REMOVE import stata IMPORT
+RefactoringAction 1474027245796 SudokuVerifierTest.java ADD import org.hamcrest.CoreMatc IMPORT
+RefactoringAction 1474027250316 SudokuVerifierTest.java RENAME import org.hamcrest.CoreMatc=>import org.hamcrest.CoreMatchers IMPORT
+RefactoringAction 1474027254831 SudokuVerifierTest.java REMOVE import org.hamcrest.CoreMatchers IMPORT
+RefactoringAction 1474027260872 SudokuVerifierTest.java ADD import org.hamcrest.CoreMatchers.* IMPORT
+EditAction 1474027477425 SudokuVerifier.java 611 1 3 0
