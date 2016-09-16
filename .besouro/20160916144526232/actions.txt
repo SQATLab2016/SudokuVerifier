@@ -248,3 +248,4 @@ RefactoringAction 1474030998089 SudokuVerifier.java ADD boolean validNum FIELD
 RefactoringAction 1474030999602 SudokuVerifier.java RENAME validNum=>boolean validNumber FIELD
 RefactoringAction 1474031001613 SudokuVerifier.java RENAME validNumber=>boolean validNumber() METHOD
 EditAction 1474031007616 SudokuVerifier.java 1572 5 20 0
+EditAction 1474031363332 SudokuVerifier.java 1636 5 21 0
