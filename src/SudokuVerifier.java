@@ -29,8 +29,10 @@ public class SudokuVerifier {
 			res = checkStringSequence(row);
 		}	
 				
+		if(res == -1)
+			return -3;
 		
-		return res;
+		return 0;
 	}
 
 	public int checkStringSequence(String sequence)	{
