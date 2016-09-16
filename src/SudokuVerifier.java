@@ -7,4 +7,25 @@ public class SudokuVerifier {
 		
 		//check
 	}
+	
+	private boolean validNumberOfChar(String possSol) {
+		String[] fields = possSol.split("");
+		
+		
+		
+		
+		return false;
+	}
+
+	public static void main(String[] args) {
+		
+		String a = "abcd";
+		System.out.println(a.substring(2, 3));
+		
+/*
+		assertThat(result, anyOf(is(-2), is(-3)));
+		assertTrue
+*/
+	}
+
 }

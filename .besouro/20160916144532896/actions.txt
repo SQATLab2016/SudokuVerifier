@@ -1,0 +1,24 @@
+FileOpenedAction 1474026333122 SudokuVerifier.java 162 1 1 0
+RefactoringAction 1474026607362 SudokuVerifier.java ADD boolean check FIELD
+RefactoringAction 1474026608895 SudokuVerifier.java REMOVE check FIELD
+RefactoringAction 1474026614415 SudokuVerifier.java ADD boolean valid FIELD
+RefactoringAction 1474026616435 SudokuVerifier.java RENAME valid=>boolean validNumber FIELD
+RefactoringAction 1474026617461 SudokuVerifier.java RENAME validNumber=>boolean validNumberOf FIELD
+RefactoringAction 1474026618980 SudokuVerifier.java RENAME validNumberOf=>boolean validNumberOfChar FIELD
+RefactoringAction 1474026620000 SudokuVerifier.java RENAME validNumberOfChar=>boolean validNumberOfChar() METHOD
+RefactoringAction 1474026635045 SudokuVerifier.java RENAME validNumberOfChar()=>boolean validNumberOfChar(String) METHOD
+RefactoringAction 1474026841867 SudokuVerifier.java ADD import sun.applet.Main IMPORT
+RefactoringAction 1474026848575 SudokuVerifier.java ADD static void main(String METHOD
+RefactoringAction 1474027198461 SudokuVerifierTest.java ADD void testVerify() METHOD
+RefactoringAction 1474027198477 SudokuVerifierTest.java ADD import org.junit.Assert.* IMPORT
+RefactoringAction 1474027198571 SudokuVerifierTest.java ADD SudokuVerifierTest.java CLASS
+FileOpenedAction 1474027198883 SudokuVerifierTest.java 178 1 1 0
+CompilationAction 1474027200021 SudokuVerifierTest.java
+RefactoringAction 1474027212267 SudokuVerifierTest.java ADD import org.ha IMPORT
+RefactoringAction 1474027213313 SudokuVerifierTest.java REMOVE import org.ha IMPORT
+RefactoringAction 1474027216417 SudokuVerifierTest.java ADD import org.hamcrest.Core IMPORT
+RefactoringAction 1474027218476 SudokuVerifierTest.java REMOVE import org.hamcrest.Core IMPORT
+RefactoringAction 1474027222080 SudokuVerifierTest.java ADD import org.hamcrest.CoreMatchers.* IMPORT
+RefactoringAction 1474027344089 SudokuVerifier.java REMOVE main(String METHOD
+RefactoringAction 1474027395656 SudokuVerifier.java ADD static void main(String METHOD
+EditAction 1474027491587 SudokuVerifier.java 466 3 5 0
