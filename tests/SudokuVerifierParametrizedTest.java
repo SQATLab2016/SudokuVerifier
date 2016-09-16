@@ -24,7 +24,7 @@ public class SudokuVerifierParametrizedTest {
 	public void testVerifyRowsRuleFollowed()	{		
 		SudokuVerifier verifier = new SudokuVerifier();
 		
-		String rowsRule = "122456789"+
+		String rowsRule = "123456789"+
 						  "123456789"+
 						  "123456789"+
 						  "123456789"+
