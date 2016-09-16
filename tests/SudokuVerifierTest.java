@@ -33,5 +33,7 @@ public class SudokuVerifierTest {
 	public void testPositiveDigits() {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidateSolution = correctSudoku;
+		int result = verifier.verify(candidateSolution);
+		assertTrue(result == 0);
 	}
 }
