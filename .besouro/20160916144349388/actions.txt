@@ -38,3 +38,6 @@ RefactoringAction 1474029028585 SudokuVerifierTest.java RENAME testVerify_should
 RefactoringAction 1474029031599 SudokuVerifierTest.java RENAME testVerify_should_fail_with_numbers()=>void testVerify_should_fail_with_() METHOD
 RefactoringAction 1474029033108 SudokuVerifierTest.java RENAME testVerify_should_fail_with_()=>void testVerify_should_fail_with_zero() METHOD
 EditAction 1474029091905 SudokuVerifierTest.java 907 2 6 2
+CompilationAction 1474029093411 SudokuVerifierTest.java
+CompilationAction 1474029115138 SudokuVerifierTest.java
+EditAction 1474029115161 SudokuVerifier.java 846 1 6 0

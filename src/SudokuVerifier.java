@@ -23,7 +23,11 @@ public class SudokuVerifier {
 		}
 		
 		//Check rows
-		//for(int x=0;x<9;)
+		for(int x=0;x<9;x++){
+			for(int y=0;y<9;y++){
+				int checkedDigit = sudokuTable[x][y];
+			}
+		}
 		
 		// returns 0 if the candidate solution is correct
 		return 0;
