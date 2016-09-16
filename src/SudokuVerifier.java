@@ -4,7 +4,7 @@ public class SudokuVerifier {
 	public static final int LENGTH = 81;
 
 	public int verify(String candidateSolution) {
-		int[][] sudoku = new int[10][10];
+		int[][] sudoku = new int[9][9];
 		char[] arrayChars;
 		int sudokuRowSize = 0;
 		int sudokuColumnSize = 0;
@@ -52,7 +52,7 @@ public class SudokuVerifier {
 	}
 
 	public int[] gridToArrayConverter(int[][] arrayToConvert) {
-		int[] result = new int[10];
+		int[] result = new int[9];
 
 		return result;
 	}
