@@ -195,3 +195,7 @@ RefactoringAction 1474032935896 SudokuVerifierTest.java ADD void testVerifyR2()/
 RefactoringAction 1474032943930 SudokuVerifierTest.java RENAME testVerifyR2()/2=>void testVerify() METHOD
 RefactoringAction 1474032946942 SudokuVerifierTest.java RENAME testVerify()=>void testVerifyTrue() METHOD
 EditAction 1474032955329 SudokuVerifierTest.java 1139 3 12 3
+UnitTestCaseAction 1474032957173 SudokuVerifierTest.java OK
+UnitTestSessionAction 1474032957174 SudokuVerifierTest.java OK
+RefactoringAction 1474033019303 SudokuVerifierParametrizedTest.java ADD import org.hamcrest.CoreMatchers.* IMPORT
+EditAction 1474033960286 SudokuVerifierParametrizedTest.java 624 1 9 0
