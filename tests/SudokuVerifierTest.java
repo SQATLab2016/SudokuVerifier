@@ -35,12 +35,12 @@ public class SudokuVerifierTest {
 		assertEquals("81 numbers", 1, result);
 	}
 	
-	@Test
-	public void testFirstRowNumbers(){
-		SudokuVerifier verifier = new SudokuVerifier();
-		int result = verifier.checkDuplicates("417369825632158947958724316825437169791586432346912758289643571573291684164875293");
-		assertEquals("length of the first row:", 9, result);
-	}
+	//@Test
+	//public void testFirstRowNumbers(){
+		//SudokuVerifier verifier = new SudokuVerifier();
+		//int result = verifier.checkDuplicates("417369825632158947958724316825437169791586432346912758289643571573291684164875293");
+		//assertEquals("length of the first row:", 9, result);
+	//}
 	
 	@Test
 	public void testFirstRowDuplicates(){
