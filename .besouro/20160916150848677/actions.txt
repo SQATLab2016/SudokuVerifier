@@ -18,3 +18,7 @@ RefactoringAction 1474031163725 SudokuVerifierParametrizedTest.java RENAME main(
 RefactoringAction 1474031170233 SudokuVerifierParametrizedTest.java RENAME main(String)=>static void main(String METHOD
 RefactoringAction 1474031340285 SudokuVerifierParametrizedTest.java REMOVE main(String METHOD
 EditAction 1474031340721 SudokuVerifierParametrizedTest.java 176 1 1 0
+CompilationAction 1474032101468 SudokuVerifier.java
+CompilationAction 1474032101471 SudokuVerifier.java
+CompilationAction 1474032101982 SudokuVerifier.java
+CompilationAction 1474032101983 SudokuVerifier.java
