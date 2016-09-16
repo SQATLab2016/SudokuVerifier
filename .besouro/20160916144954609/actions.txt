@@ -34,3 +34,44 @@ RefactoringAction 1474027605846 SudokuVerifier.java RENAME OnlyConta=>boolean ha
 RefactoringAction 1474027608860 SudokuVerifier.java RENAME hasOnly=>boolean hasOnlyNumbers FIELD
 RefactoringAction 1474027613875 SudokuVerifier.java RENAME hasOnlyNumbers=>boolean hasOnlyNumbers(String) METHOD
 EditAction 1474027833739 SudokuVerifier.java 305 2 1 0
+CompilationAction 1474027835191 SudokuVerifier.java
+CompilationAction 1474027835194 SudokuVerifier.java
+CompilationAction 1474027835195 SudokuVerifier.java
+CompilationAction 1474027835196 SudokuVerifier.java
+CompilationAction 1474027835197 SudokuVerifier.java
+CompilationAction 1474027835198 SudokuVerifierTest.java
+CompilationAction 1474027835199 SudokuVerifierTest.java
+CompilationAction 1474027835200 SudokuVerifierTest.java
+CompilationAction 1474027835200 SudokuVerifierTest.java
+CompilationAction 1474027850342 SudokuVerifier.java
+CompilationAction 1474027850345 SudokuVerifier.java
+CompilationAction 1474027850347 SudokuVerifier.java
+CompilationAction 1474027850348 SudokuVerifier.java
+CompilationAction 1474027850488 SudokuVerifier.java
+CompilationAction 1474027850489 SudokuVerifier.java
+CompilationAction 1474027850490 SudokuVerifier.java
+CompilationAction 1474027850492 SudokuVerifier.java
+CompilationAction 1474027850493 SudokuVerifier.java
+CompilationAction 1474027860298 SudokuVerifier.java
+CompilationAction 1474027860300 SudokuVerifier.java
+CompilationAction 1474027860448 SudokuVerifier.java
+CompilationAction 1474027860449 SudokuVerifier.java
+CompilationAction 1474027860450 SudokuVerifier.java
+CompilationAction 1474027860451 SudokuVerifier.java
+CompilationAction 1474027988553 SudokuVerifier.java
+CompilationAction 1474027988556 SudokuVerifier.java
+CompilationAction 1474027988739 SudokuVerifier.java
+CompilationAction 1474027988740 SudokuVerifier.java
+CompilationAction 1474028010750 SudokuVerifier.java
+CompilationAction 1474028010901 SudokuVerifier.java
+CompilationAction 1474028010902 SudokuVerifier.java
+CompilationAction 1474028015994 SudokuVerifier.java
+CompilationAction 1474028016148 SudokuVerifier.java
+CompilationAction 1474028016149 SudokuVerifier.java
+CompilationAction 1474028100543 SudokuVerifier.java
+CompilationAction 1474028100545 SudokuVerifier.java
+CompilationAction 1474028100751 SudokuVerifierTest.java
+CompilationAction 1474028100751 SudokuVerifierTest.java
+CompilationAction 1474028100752 SudokuVerifierTest.java
+CompilationAction 1474028100753 SudokuVerifierTest.java
+EditAction 1474028114501 SudokuVerifier.java 347 2 2 0

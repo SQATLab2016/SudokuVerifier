@@ -10,10 +10,10 @@ public class SudokuVerifier {
 		//check
 	}
 	
-	private boolean hasOnlyNumbers(String candidateSolution){
-		if text.matches["0-9+"] && text.length() > 2){
+	private void hasOnlyNumbers(String candidateSolution){
+		if (candidateSolution.matches("[1-9+]") && candidateSolution.length() > 2){
 			
-			return 0;
+			return candidateSolution;
 		}
 		
 	}
