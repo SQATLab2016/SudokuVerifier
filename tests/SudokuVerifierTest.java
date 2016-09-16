@@ -9,7 +9,31 @@ public class SudokuVerifierTest {
 
 	@Test
 	public void testVerify() {
-		fail("Not yet implemented");
+		SudokuVerifier verifier = new SudokuVerifier();
+		String candidateSolution = "";
+		int result = verifier.verify(candidateSolution);
+		assertTrue(result == -2 || result == -3);
+		
+		//
 	}
 
+	@Test
+	public void test_RowColumnViolation() {
+		SudokuVerifier verifier = new SudokuVerifier();
+		String candidateSolution = "";
+		
+		String correctSolution = ""
+								+ "123456789"
+								+ "123456789"
+								+ "123456789"
+								+ "123456789"
+								+ "123456789"
+								+ "123456789"
+								+ "123456789";
+		
+		int result = verifier.verify(candidateSolution);
+		assertThat(result, anyOf(is(-2), is(-3)));
+		
+		//
+	}
 }
