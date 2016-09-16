@@ -20,6 +20,24 @@ public class SudokuVerifierParametrizedTest {
 
 	}
 
+	@Test 
+	public void testVerifyRowsRuleFollowed()	{		
+		SudokuVerifier verifier = new SudokuVerifier();
+		
+		String rowsRule = "122456789"+
+						  "123456789"+
+						  "123456789"+
+						  "123456789"+
+						  "123456789"+
+						  "123456789"+
+						  "123456789"+
+						  "123456789"+
+						  "123456789";
+						  
+		assertEquals(verifier.verify(rowsRule))
+		
+	}
+	
 	@Test	
 	public void testNumber8AtStringOnlyOnce() {
 		SudokuVerifier verifier = new SudokuVerifier();		
