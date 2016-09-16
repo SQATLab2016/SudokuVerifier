@@ -39,7 +39,7 @@ public class SudokuVerifierParametrizedTest {
 	}
 	
 	@Test	
-	public void testNumber8AtStringOnlyOnce() {
+	public void testNumber8NotAtString() {
 		SudokuVerifier verifier = new SudokuVerifier();		
 	
 		String candidateSolution = "12345679";
@@ -48,7 +48,7 @@ public class SudokuVerifierParametrizedTest {
 	}
 	
 	@Test	
-	public void testNumber3AtStringOnlyOnce() {
+	public void testNumber3AtString() {
 		SudokuVerifier verifier = new SudokuVerifier();		
 	
 		String candidateSolution = "12356789";

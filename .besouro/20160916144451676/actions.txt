@@ -210,3 +210,9 @@ UnitTestCaseAction 1474033740662 SudokuVerifierParametrizedTest.java FAIL
 UnitTestSessionAction 1474033740663 SudokuVerifierParametrizedTest.java FAIL
 EditAction 1474033845747 SudokuVerifierParametrizedTest.java 2442 7 19 7
 EditAction 1474033857396 SudokuVerifierParametrizedTest.java 2441 7 19 7
+RefactoringAction 1474033866119 SudokuVerifierParametrizedTest.java RENAME testNumber8AtStringOnlyOnce()=>void testNumber8NotStringOnlyOnce() METHOD
+RefactoringAction 1474033867630 SudokuVerifierParametrizedTest.java RENAME testNumber8NotStringOnlyOnce()=>void testNumber8NotAttringOnlyOnce() METHOD
+RefactoringAction 1474033869141 SudokuVerifierParametrizedTest.java RENAME testNumber8NotAttringOnlyOnce()=>void testNumber8NotAtStringOnlyOnce() METHOD
+RefactoringAction 1474033871653 SudokuVerifierParametrizedTest.java RENAME testNumber8NotAtStringOnlyOnce()=>void testNumber8NotAtString() METHOD
+RefactoringAction 1474033880166 SudokuVerifierParametrizedTest.java RENAME testNumber3AtStringOnlyOnce()=>void testNumber3AtString() METHOD
+EditAction 1474033885569 SudokuVerifierParametrizedTest.java 2428 7 19 7
