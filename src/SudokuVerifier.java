@@ -4,15 +4,22 @@ public class SudokuVerifier {
 	public int verify(String candidateSolution) {
 		// returns 0 if the candidate solution is correct
 		
-		if(VerifyDigitsArePositive(candidateSolution) == 1){
-			return -1;
+		if (VerifySudokuStringLengthIsCorrect(candidateSolution) == 1){
+			
+			if(VerifyDigitsArePositive(candidateSolution) == 1){
+				return -1;
+			} else {
+				return 0;
+			}
+			
 		} else {
-			return 0;
+			return -5;
 		}
 		
 		//check
 	}
 	
+	// Verifies that length of the string is correct
 	public int VerifySudokuStringLengthIsCorrect(String candidateSolution){
 		
 		int length = candidateSolution.length();
@@ -24,6 +31,7 @@ public class SudokuVerifier {
 		}
 	}
 	
+	// Verifies that there aren't negative digits in string
 	public int VerifyDigitsArePositive(String candidateSolution){
 		
 		if(candidateSolution.contains("-")){
