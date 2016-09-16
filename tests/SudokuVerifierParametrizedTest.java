@@ -56,7 +56,7 @@ public class SudokuVerifierParametrizedTest {
 		
 		String candidateSolution = "122456789";
 		
-		assertEquals(0, verifier.checkStringSequence(candidateSolution));
+		assertEquals(-1, verifier.checkStringSequence(candidateSolution));
 	}
 	
 	

@@ -177,3 +177,6 @@ RefactoringAction 1474032930787 SudokuVerifierParametrizedTest.java RENAME testC
 RefactoringAction 1474032933800 SudokuVerifierParametrizedTest.java RENAME testCheckStringSequenceForDublicate()=>void testCheckString() METHOD
 RefactoringAction 1474032942312 SudokuVerifierParametrizedTest.java RENAME testCheckString()=>void testCheckStringSequenceHasDublicate() METHOD
 EditAction 1474032945062 SudokuVerifierParametrizedTest.java 2064 6 16 6
+UnitTestCaseAction 1474032947530 SudokuVerifierParametrizedTest.java FAIL
+UnitTestSessionAction 1474032947531 SudokuVerifierParametrizedTest.java FAIL
+EditAction 1474032952099 SudokuVerifierParametrizedTest.java 2065 6 16 6
