@@ -21,7 +21,7 @@ public class SudokuVerifier {
 		char[] firstGrid = {candidateSolution.charAt(0),candidateSolution.charAt(1),candidateSolution.charAt(2),
 				candidateSolution.charAt(9),candidateSolution.charAt(10),candidateSolution.charAt(11),
 				candidateSolution.charAt(18),candidateSolution.charAt(19),candidateSolution.charAt(20)};
-		Arrays.sort(firstGrid);
+		//Arrays.sort(firstGrid);
 		System.out.println(firstGrid.toString());
 	    if(!numbers.equals(firstGrid)) return -2; 	
 		return 0;
