@@ -21,19 +21,6 @@ public class SudokuVerifier {
 		return res;
 	}
 	
-	private int verifyRows(String candidateSolution) {		
-		
-		int res = 0;
-		for(int indx = 0; indx != 9; indx++) {
-			String row = candidateSolution.substring(indx*9, indx*9+9);
-			res = checkStringSequence(row);
-		}	
-				
-		if(res == -1)
-			return -3;
-		
-		return 0;
-	}
 
 	public int checkStringSequence(String sequence)	{
 		
@@ -65,5 +52,18 @@ public class SudokuVerifier {
 			return -1;
 	}
 	
-	
+
+private int verifyRows(String candidateSolution) {		
+		
+		int res = 0;
+		for(int indx = 0; indx != 9; indx++) {
+			String row = candidateSolution.substring(indx*9, indx*9+9);
+			res = checkStringSequence(row);
+		}	
+				
+		if(res == -1)
+			return -3;
+		
+		return 0;
+	}
 }
