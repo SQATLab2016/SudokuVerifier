@@ -35,9 +35,5 @@ public class SudokuVerifierTest {
 		assertThat(result, anyOf(is(-2), is(-3)));
 	}
 	
-	@Test
-	public void testVerify() {
-		fail("Not yet implemented");
-	}
 
 }
