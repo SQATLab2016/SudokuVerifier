@@ -88,8 +88,8 @@ public class SudokuVerifierTest {
 	public void testVerifyFail6(){
 		SudokuVerifier n = new SudokuVerifier();
 		String candidateSolution = ""
-                + "123456789"
-                + "912345678"
+                + "113456789"
+                + "922345678"
                 + "891234567"
                 + "789123456"
                 + "678912345"
