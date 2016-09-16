@@ -21,6 +21,12 @@ public class SudokuVerifier {
 		return 0;	}
 	
 	public int checkDuplicates(String candidateSolution){
+		
+		for (int i=0 ; i<= 9 ; i++) {
+			String currentRow = candidateSolution.substring(i*9,(i+1)*9) ; 
+		} 
+				
+		
 		String FirstRow=candidateSolution.substring(0,9);
 		boolean containsOne=FirstRow.contains("1");
 		boolean containsTwo=FirstRow.contains("2");
