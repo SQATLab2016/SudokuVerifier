@@ -9,7 +9,6 @@ public class SudokuVerifier {
 		
 		//Insert to data structure
 		Integer[][] sudokuTable = new Integer[9][9];
-		Integer[] numberCounts = {0,0,0,0,0,0,0,0,0};
 		int stringIndex=0;
 		for(int i=0;i<9;i++){
 			for(int j=0;j<9;j++){
@@ -25,14 +24,19 @@ public class SudokuVerifier {
 			}
 		}
 		
-		//Check rows
+		//Check rows and columns
 		for(int x=0;x<9;x++){
 			String row="";
+			String column="";
 			for(int y=0;y<9;y++){
 				 row = row + String.valueOf(sudokuTable[x][y]);
+				 column = column+String.valueOf(sudokuTable[y][x]);
 			}
 			if(!isUniqueChars(row)){//regular expression that matched if there are repetitions of numbers
 				return -3;
+			}
+			if(!isUniqueChars(column)){//regular expression that matched if there are repetitions of numbers
+				return -4;
 			}
 		}
 		

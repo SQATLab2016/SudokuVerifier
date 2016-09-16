@@ -31,5 +31,11 @@ public class SudokuVerifierTest {
 		assertEquals("repetition in rows not checked. ", result, -3);
 	}
 	
-	
+	@Test
+	public void testVerify_String_with_repetition_in_column_should_fail_rule3(){
+		SudokuVerifier verifier = new SudokuVerifier();
+		int result = verifier.verify("417369825432158967958724316825437169791586432346912758289643571573291684164875293");
+		
+		assertEquals("repetition in rows not checked. ", result, -3);
+	}
 }
