@@ -10,7 +10,7 @@ public class SudokuVerifierTest {
 	@Test
 	public void testVerifyR1() {
 		SudokuVerifier verifier = new SudokuVerifier();
-		String candidateSolution ="41736982563215894795872431682543716979158643234691275828964357157329168416487529";
+		String candidateSolution ="123456789912345678891234567789123456678912345567891234456789123345678912234567891";
 		int result= verifier.verify(candidateSolution);
 		assertTrue(result == -2); 
 	}
