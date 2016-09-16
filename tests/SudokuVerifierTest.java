@@ -1,5 +1,5 @@
 import static org.junit.Assert.*;
-
+import static org.hamcrest.CoreMatchers.*;
 import org.junit.Test;
 
 public class SudokuVerifierTest {
@@ -12,4 +12,13 @@ public class SudokuVerifierTest {
 		fail("Not yet implemented");
 	}
 
+	@Test
+	public void TestVerifySudokuStringLengthIsCorrect(){
+		SudokuVerifier verifier = new SudokuVerifier();
+		String candidateSolution = "";
+		
+		int length = 90;
+		assertTrue("Length of the string is incorrect!", length == 81);
+	}
+	
 }
