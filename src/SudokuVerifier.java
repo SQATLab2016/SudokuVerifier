@@ -69,7 +69,7 @@ public class SudokuVerifier {
 					subGrids[i] = candidateSolution.substring(63,72);
 					break;
 				default:
-					subGrids[i] = candidateSolution.substring(72,81);
+					subGrids[i] = candidateSolution.substring(72);
 					break;
 			}
 		}
