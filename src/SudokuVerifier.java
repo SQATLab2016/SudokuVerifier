@@ -8,7 +8,7 @@ public class SudokuVerifier {
 		int check_row;
 		int[] check_col = new int[9];
 		int[] check_grid = new int[9];
-		for( int i=9 ; i<9 ; i++ ){
+		for( int i=0 ; i<9 ; i++ ){
 			check_col[i] = 1;
 			check_grid[i] = 1;
 		}
