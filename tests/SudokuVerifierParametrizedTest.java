@@ -17,9 +17,17 @@ public class SudokuVerifierParametrizedTest {
 		assertEquals("line not valid", false, ver.verifyHorizontal(3, line));
 	}
 	@Test
-	public void testHorizontalFail() {
+	public void testVerticalFail() {
 		SudokuVerifier ver = new SudokuVerifier();
-		int[][] line = {1,2,3,4,4,6,7,8,9};
-		assertEquals("line not valid", false, ver.verifyHorizontal(3, line));
+		int[][] line = {{1,2,3,4,4,6,7,8,9},
+					   {1,2,3,4,4,6,7,8,9},
+					   {1,2,3,4,4,6,7,8,9},
+					   {1,2,3,4,4,6,7,8,9},
+					   {1,2,3,4,4,6,7,8,9},
+					   {1,2,3,4,4,6,7,8,9},
+					   {1,2,3,4,4,6,7,8,9},
+					   {1,2,3,4,4,6,7,8,9},
+					   {1,2,3,4,4,6,7,8,9}};
+		assertEquals("line not valid", false, ver.verifyVertical(3, 2, line));
 	}
 }
