@@ -17,6 +17,7 @@ public class SudokuVerifierParametrizedTest {
 				rows[a][b]=row;
 				row++;
 			}
+			
 		}
 		int[] test;
 		for(int i=0; i<9 ; i++){
