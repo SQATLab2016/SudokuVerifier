@@ -23,14 +23,14 @@ public class SudokuVerifier {
 	
 	private int verifyRows(String candidateSolution) {		
 		
+		int res = 0;
 		for(int indx = 0; indx != 9; indx++) {
 			String row = candidateSolution.substring(indx*9, indx*9+9);
-			checkStringSequence(row);
+			res = checkStringSequence(row);
 		}	
+				
 		
-		
-		
-		return 0;
+		return res;
 	}
 
 	public int checkStringSequence(String sequence)	{
