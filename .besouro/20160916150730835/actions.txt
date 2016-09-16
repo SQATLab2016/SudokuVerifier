@@ -36,3 +36,21 @@ RefactoringAction 1474028412956 SudokuVerifier.java RENAME getRowEntries()=>char
 EditAction 1474028501529 SudokuVerifierTest.java 460 2 1 0
 EditAction 1474028510184 SudokuVerifier.java 792 5 9 0
 EditAction 1474028516140 SudokuVerifier.java 792 5 9 0
+FileOpenedAction 1474028587334 SudokuVerifierParametrizedTest.java 172 1 1 0
+RefactoringAction 1474028620255 SudokuVerifierTest.java ADD String row FIELD
+RefactoringAction 1474028656308 SudokuVerifierTest.java RENAME testNumberOfCharacters_LessCharacters()=>void testNumberOfCharacters_One() METHOD
+RefactoringAction 1474028658327 SudokuVerifierTest.java RENAME testNumberOfCharacters_One()=>void testNumberOfCharacters_OneRowMiss() METHOD
+RefactoringAction 1474028659344 SudokuVerifierTest.java RENAME testNumberOfCharacters_OneRowMiss()=>void testNumberOfCharacters_OneRowMissing() METHOD
+RefactoringAction 1474028697495 SudokuVerifierTest.java ADD int i FIELD
+RefactoringAction 1474028700513 SudokuVerifierTest.java REMOVE i FIELD
+RefactoringAction 1474028987615 SudokuVerifierTest.java ADD import org.junit.Before IMPORT
+RefactoringAction 1474029040104 SudokuVerifierTest.java ADD void validNumberOfChar() METHOD
+RefactoringAction 1474029050622 SudokuVerifierTest.java REMOVE validNumberOfChar() METHOD
+RefactoringAction 1474029055138 SudokuVerifierTest.java RENAME testNumberOfCharacters_OneRowMissing()=>void validNumberOfChar_OneRowMissing() METHOD
+RefactoringAction 1474029058153 SudokuVerifierTest.java RENAME validNumberOfChar_OneRowMissing()=>void testvalidNumberOfChar_OneRowMissing() METHOD
+RefactoringAction 1474029059169 SudokuVerifierTest.java RENAME testvalidNumberOfChar_OneRowMissing()=>void testValidNumberOfChar_OneRowMissing() METHOD
+RefactoringAction 1474029063186 SudokuVerifierTest.java ADD void init() METHOD
+RefactoringAction 1474029075713 SudokuVerifierTest.java REMOVE row FIELD
+RefactoringAction 1474029078738 SudokuVerifierTest.java ADD String row FIELD
+RefactoringAction 1474029109308 SudokuVerifierTest.java ADD SudokuVerifier sv FIELD
+EditAction 1474029244846 SudokuVerifierTest.java 719 3 4 1
