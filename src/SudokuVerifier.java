@@ -47,7 +47,7 @@ public class SudokuVerifier {
 		return rowEntries;
 	}
 	
-	private String[] getSubGrids(String possSol) {
+	public String[] getSubGrids(String possSol) {
 		String[] grids = new String[9];
 		for (int i=0; i<9; i++) {
 			String grid = "";

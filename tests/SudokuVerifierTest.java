@@ -115,7 +115,8 @@ public class SudokuVerifierTest {
 	
 	@Test
 	public void testGetSubGrids() {
-		String[] grids = sv.getS
+		String[] grids = sv.getSubGrids(corrSol);
+		assertEquals("417369825", grids[0]);
 	}
 	
 	

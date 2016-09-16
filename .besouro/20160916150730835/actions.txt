@@ -196,3 +196,10 @@ CompilationAction 1474033119334 SudokuVerifierTest.java
 RefactoringAction 1474033132700 SudokuVerifier.java ADD pu FIELD
 RefactoringAction 1474033133711 SudokuVerifier.java REMOVE String FIELD
 EditAction 1474033136616 SudokuVerifierTest.java 2762 14 17 10
+CompilationAction 1474033138364 SudokuVerifierTest.java
+CompilationAction 1474033138365 SudokuVerifierTest.java
+CompilationAction 1474033138366 SudokuVerifierTest.java
+CompilationAction 1474033139429 SudokuVerifierTest.java
+CompilationAction 1474033139430 SudokuVerifierTest.java
+CompilationAction 1474033139431 SudokuVerifierTest.java
+EditAction 1474033189439 SudokuVerifierTest.java 2818 14 19 11
