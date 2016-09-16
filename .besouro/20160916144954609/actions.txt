@@ -75,3 +75,19 @@ CompilationAction 1474028100751 SudokuVerifierTest.java
 CompilationAction 1474028100752 SudokuVerifierTest.java
 CompilationAction 1474028100753 SudokuVerifierTest.java
 EditAction 1474028114501 SudokuVerifier.java 347 2 2 0
+CompilationAction 1474028115853 SudokuVerifier.java
+CompilationAction 1474028135363 SudokuVerifier.java
+CompilationAction 1474028136369 SudokuVerifier.java
+RefactoringAction 1474028293396 SudokuVerifier.java RENAME hasOnlyNumbers(String)=>void hasOnlyNumbers() METHOD
+RefactoringAction 1474028315438 SudokuVerifier.java ADD String candidate FIELD
+RefactoringAction 1474028321961 SudokuVerifier.java RENAME candidate=>String candidateSolution FIELD
+CompilationAction 1474028327446 SudokuVerifier.java
+CompilationAction 1474028327654 SudokuVerifierTest.java
+CompilationAction 1474028327655 SudokuVerifierTest.java
+CompilationAction 1474028327655 SudokuVerifierTest.java
+CompilationAction 1474028327656 SudokuVerifierTest.java
+CompilationAction 1474028581357 SudokuVerifierTest.java
+CompilationAction 1474028581358 SudokuVerifierTest.java
+CompilationAction 1474028581360 SudokuVerifierTest.java
+CompilationAction 1474028581361 SudokuVerifierTest.java
+EditAction 1474028691768 SudokuVerifier.java 349 2 3 0

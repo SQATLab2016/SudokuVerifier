@@ -1,6 +1,9 @@
 
 public class SudokuVerifier {
 	
+	
+	String candidateSolution;
+	
 	public int verify(String candidateSolution) {
 		// returns 0 if the candidate solution is correct
 		
@@ -10,11 +13,12 @@ public class SudokuVerifier {
 		//check
 	}
 	
-	private void hasOnlyNumbers(String candidateSolution){
+	public int hasOnlyNumbers(){
 		if (candidateSolution.matches("[1-9+]") && candidateSolution.length() > 2){
 			
-			return candidateSolution;
+			return 1;
 		}
 		
-	}
+		return 0;	}
+	
 }
