@@ -36,7 +36,7 @@ public class SudokuVerifier {
 		return 0;		
 	}
 	
-	public int verifyOnlyOnce(char target, String candiateSolution)
+	public int verifyCharNotInString(char target, String candiateSolution)
 	{
 		if(candiateSolution.contains(Character.toString(target)))
 			return -1;

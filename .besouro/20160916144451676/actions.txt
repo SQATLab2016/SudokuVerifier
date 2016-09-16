@@ -216,3 +216,4 @@ RefactoringAction 1474033869141 SudokuVerifierParametrizedTest.java RENAME testN
 RefactoringAction 1474033871653 SudokuVerifierParametrizedTest.java RENAME testNumber8NotAtStringOnlyOnce()=>void testNumber8NotAtString() METHOD
 RefactoringAction 1474033880166 SudokuVerifierParametrizedTest.java RENAME testNumber3AtStringOnlyOnce()=>void testNumber3AtString() METHOD
 EditAction 1474033885569 SudokuVerifierParametrizedTest.java 2428 7 19 7
+EditAction 1474033917283 SudokuVerifier.java 1302 5 12 0
