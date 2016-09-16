@@ -82,6 +82,6 @@ public class SudokuVerifierTest {
                 + "345678912"
                 + "234567891";
 		int solution = n.verify(candidateSolution);
-		assertTrue("solution is incorrect", solution == -1 || solution == -2 || solution == -3 || solution == -4);
+		assertTrue("returned " +solution, solution == -1 || solution == -2 || solution == -3 || solution == -4);
 	}
 }
