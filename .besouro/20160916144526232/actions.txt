@@ -98,3 +98,10 @@ RefactoringAction 1474027457459 SudokuVerifierParametrizedTest.java ADD void tes
 RefactoringAction 1474027462973 SudokuVerifierParametrizedTest.java RENAME testVerticalFail()/2=>void testVerticalTrue() METHOD
 EditAction 1474027494836 SudokuVerifier.java 587 3 7 0
 EditAction 1474027528316 SudokuVerifierParametrizedTest.java 1372 4 12 4
+UnitTestCaseAction 1474027533371 SudokuVerifierParametrizedTest.java OK
+UnitTestSessionAction 1474027533372 SudokuVerifierParametrizedTest.java OK
+RefactoringAction 1474027550802 SudokuVerifier.java RENAME verifyHorizontal(int, int=>boolean verifyHorizontal(intint, int METHOD
+RefactoringAction 1474027551810 SudokuVerifier.java RENAME verifyHorizontal(intint, int=>boolean verifyHorizontal(int) METHOD
+RefactoringAction 1474027553322 SudokuVerifier.java RENAME verifyHorizontal(int)=>boolean verifyHorizontal(int, int, int METHOD
+RefactoringAction 1474027559835 SudokuVerifier.java RENAME verifyHorizontal(int, int, int=>boolean verifyHorizontal(int, int, int METHOD
+EditAction 1474027571448 SudokuVerifier.java 602 3 7 0
