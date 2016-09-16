@@ -26,6 +26,17 @@ public class SudokuVerifier {
 		return true;
 	}
 	public boolean verifyBox(int y, int x, int[][] sudoku){
+		int toTest = sudoku[y][x];
+		int xLimit = x/3 * 3;
+		int yLimit = y/3 * 3;
+		
+		for(int i = 0; i < 3; i++){
+			for(int j = 0; j < 3; j++){
+				
+			}
+		}
+		
+		return true;
 		
 	}
 }

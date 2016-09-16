@@ -123,3 +123,7 @@ RefactoringAction 1474027752926 SudokuVerifier.java RENAME verifyBox=>boolean ve
 RefactoringAction 1474027792441 SudokuVerifier.java RENAME verifyBox()=>boolean verifyBox(int, int) METHOD
 RefactoringAction 1474027795453 SudokuVerifier.java RENAME verifyBox(int, int)=>boolean verifyBox(int, int, int METHOD
 EditAction 1474027805721 SudokuVerifier.java 665 4 7 0
+CompilationAction 1474027807240 SudokuVerifier.java
+CompilationAction 1474027807241 SudokuVerifierParametrizedTest.java
+CompilationAction 1474027807242 SudokuVerifierParametrizedTest.java
+EditAction 1474028048157 SudokuVerifier.java 838 4 12 0
