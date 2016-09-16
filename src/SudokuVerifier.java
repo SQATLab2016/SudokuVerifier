@@ -13,8 +13,8 @@ public class SudokuVerifier {
 		}
 		for(int i = 0; i < sudoku.length; i++){
 			for(int j = 0; j < sudoku.length; j++){
-				if(!verifyNumber(i, j, sudoku)){
-					return 1;
+				if(verifyNumber(i, j, sudoku) != 0){
+					
 				}
 			}
 		}
@@ -23,15 +23,18 @@ public class SudokuVerifier {
 		//check
 	}
 	public int verifyNumber(int y, int x, int[][] sudoku){
-		if(verifyHorizontal(y, x, sudoku)){
-			if(verifyVertical(y, x, sudoku)){
-				if(verifyBox(y, x, sudoku)){
-					return true;
-				}
-			}
+		if(!verifyHorizontal(y, x, sudoku)){
+			return -4;
 		}
-		return false;
+		if(!verifyVertical(y, x, sudoku)){
+			return -3;
+		}
+		if(!verifyBox(y, x, sudoku)){
+			return -2;
+		}
+		return 0;
 	}
+	
 	public boolean verifyHorizontal(int y, int x, int[][] sudoku){
 		int toTest = sudoku[y][x];
 		for(int i = 0; i < sudoku.length; i++){
