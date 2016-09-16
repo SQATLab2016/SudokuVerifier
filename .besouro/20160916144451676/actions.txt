@@ -82,3 +82,4 @@ RefactoringAction 1474029826748 SudokuVerifier.java RENAME verifyOnlyOnce=>int v
 RefactoringAction 1474029834775 SudokuVerifier.java RENAME verifyOnlyOnce()=>int verifyOnlyOnce(String) METHOD
 EditAction 1474029873645 SudokuVerifier.java 878 4 9 0
 EditAction 1474029964621 SudokuVerifier.java 884 4 9 0
+EditAction 1474030351622 SudokuVerifier.java 1188 4 10 0

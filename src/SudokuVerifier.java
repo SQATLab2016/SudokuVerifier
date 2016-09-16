@@ -35,7 +35,18 @@ public class SudokuVerifier {
 	
 	private int verifyOnlyOnce(String candidateSolution) {
 		
-		
+		for(int indxChar = 0; indxChar != 9; indxChar++) {
+			char orig = candidateSolution.charAt(indxChar);
+			for(int indxTarget = 0; indxTarget != 9; indxChar++) {
+				if(indxChar != indxTarget) {
+					char c = candidateSolution.charAt(indxTarget);
+					if(orig == c)
+						return -1;
+				}
+			}
+				
+		}
+			
 		
 		return 0;
 	}
