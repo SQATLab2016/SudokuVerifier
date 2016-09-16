@@ -70,3 +70,14 @@ RefactoringAction 1474029146521 SudokuVerifier.java RENAME verifyColumsRows()=>i
 EditAction 1474029155628 SudokuVerifierParametrizedTest.java 1143 2 4 2
 RefactoringAction 1474029385968 SudokuVerifier.java ADD import java.util.Vector IMPORT
 EditAction 1474029390937 SudokuVerifier.java 779 3 5 0
+CompilationAction 1474029391055 SudokuVerifier.java
+CompilationAction 1474029391055 SudokuVerifier.java
+CompilationAction 1474029391055 SudokuVerifier.java
+CompilationAction 1474029446454 SudokuVerifier.java
+CompilationAction 1474029446454 SudokuVerifier.java
+CompilationAction 1474029446455 SudokuVerifier.java
+RefactoringAction 1474029823727 SudokuVerifier.java ADD int verify FIELD
+RefactoringAction 1474029825736 SudokuVerifier.java RENAME verify=>int verifyOnlyOnce FIELD
+RefactoringAction 1474029826748 SudokuVerifier.java RENAME verifyOnlyOnce=>int verifyOnlyOnce() METHOD
+RefactoringAction 1474029834775 SudokuVerifier.java RENAME verifyOnlyOnce()=>int verifyOnlyOnce(String) METHOD
+EditAction 1474029873645 SudokuVerifier.java 878 4 9 0

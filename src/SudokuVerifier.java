@@ -24,10 +24,20 @@ public class SudokuVerifier {
 	private int verifyColumsRows(String candidateSolution) {
 		Vector<String> parts = new Vector<String>();
 		
-		for(int indx = 0; indx != 9; indx++)
-			candidateSolution.substring(beginIndex, endIndex)		
+		for(int indx = 0; indx != 9; indx++) {
+			parts.add(candidateSolution.substring(indx*9, indx*9+9));
+		}
+		
+		
+		
 		return 0;
 	}
+	
+	private int verifyOnlyOnce(String candidateSolution) {
+		
+		return 0;
+	}
+	
 	
 	private int verifyPositiveNumeric(String canditateSolution)
 	{
