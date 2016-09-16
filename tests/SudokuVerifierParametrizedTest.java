@@ -28,5 +28,4 @@ public class SudokuVerifierParametrizedTest {
 		SudokuVerifier Sudoku = new SudokuVerifier();
 		assertEquals(result,Sudoku.get_number(origin));
 	}
-
 }
