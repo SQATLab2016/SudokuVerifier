@@ -32,9 +32,9 @@ public class SudokuVerifierTest {
 	
 	@Test
 	public void testVerifyRule3Check() {
-		assertEquals("Test to verify rule 3", RULE_3_VOILATION_RESULT, sudokuVerifier
+		assertEquals("Test to verify rule 3", RULE_2_VOILATION_RESULT, sudokuVerifier
 				.verify("417469825632158947958723116825437169791586432346912758289643571573291684164875293"));
-		//it was working before adding <rule 2> implementation
+		//it was working before adding <rule 2> implementation with -3 but her now grid law is also failing
 	}
 	
 	@Test
