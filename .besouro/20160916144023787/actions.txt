@@ -48,3 +48,16 @@ UnitTestCaseAction 1474028871014 SudokuVerifierTest.java OK
 UnitTestSessionAction 1474028871014 SudokuVerifierTest.java OK
 RefactoringAction 1474028881435 SudokuVerifierTest.java RENAME testVerify_NumberCheck()=>void testVerify_NumberCheckRule1() METHOD
 EditAction 1474028882433 SudokuVerifierTest.java 742 2 2 2
+RefactoringAction 1474028906660 SudokuVerifierTest.java RENAME sudokuVerifier=>int SudokuVerifier FIELD
+RefactoringAction 1474028909749 SudokuVerifierTest.java RENAME SudokuVerifier=>int RULE_ FIELD
+RefactoringAction 1474028910778 SudokuVerifierTest.java RENAME RULE_=>int RULE_1 FIELD
+RefactoringAction 1474028914382 SudokuVerifierTest.java RENAME RULE_1=>int RULE_1_RESULT FIELD
+RefactoringAction 1474028919015 SudokuVerifierTest.java RENAME RULE_1_RESULT=>int RULE_1__RESULT FIELD
+RefactoringAction 1474028922104 SudokuVerifierTest.java RENAME RULE_1__RESULT=>int RULE_1_VOILATION_RESULT FIELD
+RefactoringAction 1474028932400 SudokuVerifierTest.java ADD int RULE_1_VOILATION_RESULT/2 FIELD
+RefactoringAction 1474028934459 SudokuVerifierTest.java ADD int RULE_1_VOILATION_RESULT/3 FIELD
+RefactoringAction 1474028934459 SudokuVerifierTest.java ADD int RULE_1_VOILATION_RESULT/4 FIELD
+RefactoringAction 1474028938578 SudokuVerifierTest.java ADD int RULE_2_VOILATION_RESULT FIELD
+RefactoringAction 1474028938578 SudokuVerifierTest.java ADD int RULE_3_VOILATION_RESULT FIELD
+RefactoringAction 1474028938578 SudokuVerifierTest.java ADD int RULE_4_VOILATION_RESULT FIELD
+EditAction 1474028957968 SudokuVerifierTest.java 743 2 2 2
