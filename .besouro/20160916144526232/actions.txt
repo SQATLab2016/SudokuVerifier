@@ -200,3 +200,14 @@ RefactoringAction 1474030076386 SudokuVerifierTest.java RENAME testVerify()/2=>v
 RefactoringAction 1474030079397 SudokuVerifierTest.java RENAME testVeri()=>void testVerifyFail() METHOD
 CompilationAction 1474030079843 SudokuVerifierTest.java
 EditAction 1474030167251 SudokuVerifierTest.java 802 2 3 1
+CompilationAction 1474030168840 SudokuVerifierTest.java
+CompilationAction 1474030168842 SudokuVerifierTest.java
+CompilationAction 1474030181903 SudokuVerifierTest.java
+CompilationAction 1474030181905 SudokuVerifierTest.java
+CompilationAction 1474030182073 SudokuVerifierTest.java
+CompilationAction 1474030182074 SudokuVerifierTest.java
+CompilationAction 1474030243249 SudokuVerifierTest.java
+CompilationAction 1474030243250 SudokuVerifierTest.java
+UnitTestCaseAction 1474030247111 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474030247112 SudokuVerifierTest.java FAIL
+EditAction 1474030305444 SudokuVerifierTest.java 871 2 7 2
