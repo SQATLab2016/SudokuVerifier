@@ -1,0 +1,4 @@
+FileOpenedAction 1474028878731 SudokuVerifier.java 162 1 1 0
+FileOpenedAction 1474029323460 SudokuVerifierTest.java 390 1 1 0
+FileOpenedAction 1474029325979 SudokuVerifierParametrizedTest.java 172 1 1 0
+EditAction 1474031065522 SudokuVerifier.java 165 1 1 0
