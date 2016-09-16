@@ -10,3 +10,12 @@ RefactoringAction 1474026649257 SudokuVerifier.java RENAME verityVertical(int, i
 RefactoringAction 1474026652271 SudokuVerifier.java RENAME verityVertical(char, int=>boolean verityVertical(char, char METHOD
 EditAction 1474026661609 SudokuVerifier.java 369 2 4 0
 EditAction 1474026667310 SudokuVerifierParametrizedTest.java 294 1 0 0
+CompilationAction 1474026668678 SudokuVerifierParametrizedTest.java
+CompilationAction 1474026668679 SudokuVerifierParametrizedTest.java
+CompilationAction 1474026744177 SudokuVerifierParametrizedTest.java
+CompilationAction 1474026744178 SudokuVerifierParametrizedTest.java
+UnitTestCaseAction 1474026753858 SudokuVerifierParametrizedTest.java FAIL
+UnitTestSessionAction 1474026753860 SudokuVerifierParametrizedTest.java FAIL
+RefactoringAction 1474026822810 SudokuVerifier.java RENAME verityVertical(char, char=>boolean verityVertical(int, char METHOD
+RefactoringAction 1474026825322 SudokuVerifier.java RENAME verityVertical(int, char=>boolean verityVertical(int, int METHOD
+EditAction 1474026854805 SudokuVerifierParametrizedTest.java 315 1 3 1
