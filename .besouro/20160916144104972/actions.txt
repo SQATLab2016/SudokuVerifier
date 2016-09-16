@@ -28,3 +28,12 @@ EditAction 1474029064538 SudokuVerifierTest.java 862 2 6 2
 UnitTestCaseAction 1474029066364 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1474029066365 SudokuVerifierTest.java FAIL
 EditAction 1474029083391 SudokuVerifierTest.java 861 2 6 2
+UnitTestCaseAction 1474029085288 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474029085289 SudokuVerifierTest.java FAIL
+RefactoringAction 1474029234620 SudokuVerifierTest.java RENAME testVerify_String2_minus1()=>void testVerify_String2_minus2() METHOD
+RefactoringAction 1474029253187 SudokuVerifierTest.java ADD void testVerify FIELD
+RefactoringAction 1474029254703 SudokuVerifierTest.java RENAME testVerify=>void testVerify_ FIELD
+RefactoringAction 1474029258229 SudokuVerifierTest.java RENAME testVerify_=>void testVerify_throw FIELD
+RefactoringAction 1474029260245 SudokuVerifierTest.java RENAME testVerify_throw=>void testVerify_throwException FIELD
+RefactoringAction 1474029268761 SudokuVerifierTest.java RENAME testVerify_throwException=>void testVerify_throwException() METHOD
+EditAction 1474029355193 SudokuVerifierTest.java 1087 3 8 2
