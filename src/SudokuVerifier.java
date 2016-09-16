@@ -25,7 +25,6 @@ public class SudokuVerifier {
 		}
 		return 0;
 	}
-	
 	public int verifyNumber(int y, int x, int[][] sudoku){
 		if(!verifyHorizontal(y, x, sudoku)){
 			return -4;
