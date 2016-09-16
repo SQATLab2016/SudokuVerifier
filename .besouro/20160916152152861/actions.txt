@@ -19,3 +19,8 @@ RefactoringAction 1474029150336 SudokuVerifier.java RENAME C=>void VerifySudokuS
 RefactoringAction 1474029151348 SudokuVerifier.java RENAME VerifySudokuStringLengthIsCorrect=>void VerifySudokuStringLengthIsCorrect() METHOD
 RefactoringAction 1474029178932 SudokuVerifier.java RENAME VerifySudokuStringLengthIsCorrect()=>void VerifySudokuStringLengthIsCorrect(String) METHOD
 EditAction 1474029480729 SudokuVerifier.java 351 2 3 0
+UnitTestCaseAction 1474029481524 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474029481525 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1474029509642 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474029509642 SudokuVerifierTest.java FAIL
+EditAction 1474029907320 SudokuVerifier.java 353 2 3 0
