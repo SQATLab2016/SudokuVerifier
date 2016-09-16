@@ -8,9 +8,10 @@ public class SudokuVerifier {
 	
 	public int verify(String candidateSolution) {
 		
-		if (candidateSolution == correctSolution) {
-		
 		// Returns 0 if the candidate solution is correct	
+		if (candidateSolution == correctSolution) {
+			
+		}
 		return 0;
 		
 		// Return -1 if violating Rule #1: A cell in a Sudoku game can only store positive digits, i.e. 1...9.
