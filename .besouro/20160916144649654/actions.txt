@@ -13,3 +13,4 @@ RefactoringAction 1474027572224 SudokuVerifier.java RENAME onlyPositives()=>int 
 RefactoringAction 1474028119536 SudokuVerifierTest.java RENAME testVerify_IncorrectString()=>void testVerify_TooShortString() METHOD
 RefactoringAction 1474028611055 SudokuVerifierTest.java ADD void testVerify_negativeNumberinString() METHOD
 EditAction 1474028799571 SudokuVerifier.java 419 2 4 0
+EditAction 1474028818978 SudokuVerifierTest.java 1519 4 11 2
