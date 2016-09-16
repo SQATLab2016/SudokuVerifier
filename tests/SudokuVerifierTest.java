@@ -26,12 +26,14 @@ public class SudokuVerifierTest {
 		String candidateSolution = "";
 		
 		String correctSolution = ""
-							//	+ "123456789"
-							//	+ "123456789"
-							//	+ "123456789"
-							//	+ "123456789"
-							//	+ "123456789"
-							//	+ "123456789"
+								+ "123456789"
+								+ "123456789"
+								+ "123456789"
+								+ "123456789"
+								+ "123456789"
+								+ "123456789"
+								+ "123456789"
+								+ "123456789"
 								+ "123456789";
 		
 	//	int result = verifier.verify(candidateSolution );
