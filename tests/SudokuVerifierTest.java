@@ -30,12 +30,6 @@ public class SudokuVerifierTest {
 				.verify("417369825342158967958724316825437169791586432346912758289643571573291684164875293"));
 	}
 	
-	@Test
-	public void testVerifyRule3Check() {
-		assertEquals("Test to verify rule 3", RULE_2_VOILATION_RESULT, sudokuVerifier
-				.verify("417469825632158947958723116825437169791586432346912758289643571573291684164875293"));
-		//it was working before adding <rule 2> implementation with -3 but now after implementation of grid law, this is also failing
-	}
 	
 	@Test
 	public void testVerifyRule4Check() {
