@@ -7,7 +7,7 @@ public class SudokuVerifier {
 		
 	    String forCheck = candidateSolution;
 		while(!forCheck.isEmpty()){
-		  	if((forCheck.charAt(0)=='0'|| forCheck.charAt(0)=='1' ||
+		  	if(!(forCheck.charAt(0)=='0'|| forCheck.charAt(0)=='1' ||
 		  			forCheck.charAt(0)=='2'|| forCheck.charAt(0)=='3' ||
 		  			forCheck.charAt(0)=='4'|| forCheck.charAt(0)=='5' ||
 		  			forCheck.charAt(0)=='6'|| forCheck.charAt(0)=='7' ||
