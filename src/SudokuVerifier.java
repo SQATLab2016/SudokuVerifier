@@ -17,7 +17,7 @@ public class SudokuVerifier {
 		}
 		
 		
-/*		//check R1
+		//check R1
 		for(i=0;i<9;i++ ){
 			for(j=0;j<9;j++){
 				if(square[i][j]<'1'||square[i][j]>'9'){
@@ -26,10 +26,10 @@ public class SudokuVerifier {
 			}	
 		}
 		return 0;
-*/		
+		
 		
 		//check R2-sub_grid
-		Vector check = new Vector();
+/*		Vector check = new Vector();
 		for(i=0;i<3;i++){
 			for(j=0;j<3;j++){
 				for(a=i*3;a<(i+1)*3;a++){
@@ -53,7 +53,7 @@ public class SudokuVerifier {
 			}
 		}
 		return 0;
-		
+*/		
 /*		
 		//check R3-Row
 		Vector check = new Vector();
