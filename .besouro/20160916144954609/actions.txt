@@ -15,3 +15,22 @@ RefactoringAction 1474027178516 SudokuVerifierTest.java REMOVE verify(String) ME
 RefactoringAction 1474027185535 SudokuVerifierTest.java ADD int verify(String) METHOD
 RefactoringAction 1474027189559 SudokuVerifierTest.java ADD import org.hamcrest.CoreMatchers.* IMPORT
 EditAction 1474027190878 SudokuVerifierTest.java 646 2 1 0
+CompilationAction 1474027192534 SudokuVerifierTest.java
+CompilationAction 1474027192536 SudokuVerifierTest.java
+CompilationAction 1474027192537 SudokuVerifierTest.java
+CompilationAction 1474027192538 SudokuVerifierTest.java
+CompilationAction 1474027192539 SudokuVerifierTest.java
+CompilationAction 1474027211612 SudokuVerifierTest.java
+CompilationAction 1474027211614 SudokuVerifierTest.java
+CompilationAction 1474027211616 SudokuVerifierTest.java
+CompilationAction 1474027211618 SudokuVerifierTest.java
+CompilationAction 1474027211619 SudokuVerifierTest.java
+CompilationAction 1474027211795 SudokuVerifierTest.java
+CompilationAction 1474027211796 SudokuVerifierTest.java
+CompilationAction 1474027211796 SudokuVerifierTest.java
+CompilationAction 1474027211797 SudokuVerifierTest.java
+RefactoringAction 1474027600830 SudokuVerifier.java ADD boolean OnlyConta FIELD
+RefactoringAction 1474027605846 SudokuVerifier.java RENAME OnlyConta=>boolean hasOnly FIELD
+RefactoringAction 1474027608860 SudokuVerifier.java RENAME hasOnly=>boolean hasOnlyNumbers FIELD
+RefactoringAction 1474027613875 SudokuVerifier.java RENAME hasOnlyNumbers=>boolean hasOnlyNumbers(String) METHOD
+EditAction 1474027833739 SudokuVerifier.java 305 2 1 0
