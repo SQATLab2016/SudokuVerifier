@@ -16,7 +16,7 @@ public class SudokuVerifier {
 			for (int loop = 0; loop < arrayChars.length; loop++) {
 				try {
 					int number = Integer.parseInt("" + arrayChars[loop]);
-					if (number >= 0 && number <= 9) {
+					if (number > 0 && number <= 9) {
 						if (loop > 0 && loop % 9 == 0) {
 							sudokuColumnSize = 0;
 							sudokuRowSize++;

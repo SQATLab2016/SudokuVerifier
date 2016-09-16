@@ -37,3 +37,7 @@ RefactoringAction 1474028695595 SudokuVerifierTest.java RENAME testVerify_Number
 RefactoringAction 1474028697140 SudokuVerifierTest.java RENAME testVerify_NumberCheck=>void testVerify_NumberCheck() METHOD
 RefactoringAction 1474028747621 SudokuVerifierTest.java ADD SudokuVerifier sudokuVerifier FIELD
 EditAction 1474028752910 SudokuVerifierTest.java 680 3 2 1
+UnitTestCaseAction 1474028760557 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474028760557 SudokuVerifierTest.java FAIL
+RefactoringAction 1474028766656 SudokuVerifierTest.java REMOVE testVerify() METHOD
+EditAction 1474028821865 SudokuVerifierTest.java 739 2 2 2

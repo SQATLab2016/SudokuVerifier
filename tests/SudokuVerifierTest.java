@@ -9,17 +9,13 @@ public class SudokuVerifierTest {
 	SudokuVerifier sudokuVerifier = new SudokuVerifier();
 	
 	@Test
-	public void testVerify() {
-		fail("Not yet implemented");
-	}
-
-	@Test
 	public void testVerify_LengthVerify() {
 		assertEquals("",0,sudokuVerifier.verify("417369825632158947958724316825437169791586432346912758289643571573291684164875293"));
 	}
 	
 	@Test
 	public void testVerify_NumberCheck(){
+		assertEquals("",1,sudokuVerifier.verify("417369825032158947958720316825437169791586432346912758289643571573291684164875293"));
 		
 	}
 }
