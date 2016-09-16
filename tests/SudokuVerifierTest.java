@@ -14,13 +14,13 @@ public class SudokuVerifierTest {
 
 	@Test
 	public void testVerify_LengthVerify() {
-		assertEquals("", APPROVAL_RESULT, sudokuVerifier
+		assertEquals("Test to verify length", APPROVAL_RESULT, sudokuVerifier
 				.verify("417369825632158947958724316825437169791586432346912758289643571573291684164875293"));
 	}
 
 	@Test
 	public void testVerify_NumberCheckRule1() {
-		assertEquals("", RULE_1_VOILATION_RESULT, sudokuVerifier
+		assertEquals("Test to verify rule 1", RULE_1_VOILATION_RESULT, sudokuVerifier
 				.verify("417369825032158947958720316825437169791586432346912758289643571573291684164875293"));
 	}
 

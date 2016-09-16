@@ -67,3 +67,4 @@ RefactoringAction 1474029079649 SudokuVerifierTest.java RENAME APP_RESULT=>int A
 RefactoringAction 1474029081193 SudokuVerifierTest.java RENAME A_RESULT=>int AP_RESULT FIELD
 RefactoringAction 1474029083767 SudokuVerifierTest.java RENAME AP_RESULT=>int APPROVAL_RESULT FIELD
 EditAction 1474029093673 SudokuVerifierTest.java 835 2 2 2
+EditAction 1474029121909 SudokuVerifierTest.java 877 2 2 2
