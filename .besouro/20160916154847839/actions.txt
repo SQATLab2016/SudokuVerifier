@@ -1,0 +1,83 @@
+FileOpenedAction 1474030128078 SudokuVerifier.java 457 2 3 0
+FileOpenedAction 1474030146550 SudokuVerifierTest.java 1452 5 8 3
+UnitTestCaseAction 1474030159883 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474030159885 SudokuVerifierTest.java FAIL
+RefactoringAction 1474030177455 SudokuVerifier.java ADD boolean checkInputStringContainsOnlyPostiveInt(String) METHOD
+RefactoringAction 1474031669829 SudokuVerifierTest.java ADD void test/2 FIELD
+RefactoringAction 1474031678849 SudokuVerifierTest.java RENAME test/2=>void testCheck FIELD
+RefactoringAction 1474031685870 SudokuVerifierTest.java RENAME testCheck=>void testCheckInputStringContainsOnlyPostiveInt FIELD
+RefactoringAction 1474031689897 SudokuVerifierTest.java RENAME testCheckInputStringContainsOnlyPostiveInt=>void testCheckInputStringContainsOnlyPostiveInt() METHOD
+RefactoringAction 1474031691419 SudokuVerifierTest.java RENAME testCheckInputStringContainsOnlyPostiveInt()=>void testCheckInputStringContainsOnlyPostiveInt_ FIELD
+RefactoringAction 1474031721939 SudokuVerifierTest.java RENAME testCheckInputStringContainsOnlyPostiveInt_=>void testCheckInputStringContainsOnlyPostiveInt_coorect FIELD
+RefactoringAction 1474031724458 SudokuVerifierTest.java RENAME testCheckInputStringContainsOnlyPostiveInt_coorect=>void testCheckInputStringContainsOnlyPostiveInt_correct FIELD
+RefactoringAction 1474031727509 SudokuVerifierTest.java RENAME testCheckInputStringContainsOnlyPostiveInt_correct=>void testCheckInputStringContainsOnlyPostiveInt_correctS FIELD
+RefactoringAction 1474031729025 SudokuVerifierTest.java RENAME testCheckInputStringContainsOnlyPostiveInt_correctS=>void testCheckInputStringContainsOnlyPostiveInt_correct FIELD
+RefactoringAction 1474031731044 SudokuVerifierTest.java RENAME testCheckInputStringContainsOnlyPostiveInt_correct=>void testCheckInputStringContainsOnlyPostiveInt_correctInput FIELD
+EditAction 1474031808851 SudokuVerifierTest.java 1764 6 10 4
+CompilationAction 1474031809084 SudokuVerifierTest.java
+EditAction 1474031809091 SudokuVerifier.java 768 3 6 0
+UnitTestCaseAction 1474031809420 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474031809420 SudokuVerifierTest.java FAIL
+RefactoringAction 1474031830443 SudokuVerifierTest.java ADD void test/2 FIELD
+RefactoringAction 1474031840962 SudokuVerifierTest.java RENAME test/2=>void testCheckInputStringContainsOnlyPostiveInt_correctInput FIELD
+RefactoringAction 1474031842482 SudokuVerifierTest.java RENAME testCheckInputStringContainsOnlyPostiveInt_correctInput=>void testCheckInputStringContainsOnlyPostiveInt_correctInput_ FIELD
+RefactoringAction 1474031845999 SudokuVerifierTest.java RENAME testCheckInputStringContainsOnlyPostiveInt_correctInput_=>void testCheckInputStringContainsOnlyPostiveInt_ FIELD
+RefactoringAction 1474031852516 SudokuVerifierTest.java RENAME testCheckInputStringContainsOnlyPostiveInt_=>void testCheckInputStringContainsOnlyPostiveInt_notInt FIELD
+RefactoringAction 1474031856534 SudokuVerifierTest.java RENAME testCheckInputStringContainsOnlyPostiveInt_notInt=>void testCheckInputStringContainsOnlyPostiveInt_notInt() METHOD
+RefactoringAction 1474031874612 SudokuVerifierTest.java RENAME testCheckInputStringContainsOnlyPostiveInt_notInt()=>void testCheckInputStringContainsOnlyPostiveInt_containsnotInt() METHOD
+RefactoringAction 1474031876130 SudokuVerifierTest.java RENAME testCheckInputStringContainsOnlyPostiveInt_containsnotInt()=>void testCheckInputStringContainsOnlyPostiveInt_containsNotInt() METHOD
+RefactoringAction 1474031881149 SudokuVerifierTest.java RENAME testCheckInputStringContainsOnlyPostiveInt_containsNotInt()=>void testCheckInputStringContainsOnlyPostiveInt_containsChar() METHOD
+RefactoringAction 1474031885167 SudokuVerifierTest.java RENAME testCheckInputStringContainsOnlyPostiveInt_containsChar()=>void testCheckInputStringContainsOnlyPostiveInt_inputContainsChar() METHOD
+EditAction 1474031942901 SudokuVerifierTest.java 2082 7 12 5
+UnitTestCaseAction 1474031943200 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474031943201 SudokuVerifierTest.java FAIL
+EditAction 1474031992915 SudokuVerifierTest.java 2084 7 12 5
+UnitTestCaseAction 1474031994150 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474031994150 SudokuVerifierTest.java FAIL
+RefactoringAction 1474032451701 SudokuVerifierTest.java ADD void test/2 FIELD
+RefactoringAction 1474032460718 SudokuVerifierTest.java RENAME test/2=>void testRuel FIELD
+RefactoringAction 1474032462234 SudokuVerifierTest.java RENAME testRuel=>void tes FIELD
+RefactoringAction 1474032463247 SudokuVerifierTest.java RENAME tes=>void test/2 FIELD
+RefactoringAction 1474032468764 SudokuVerifierTest.java RENAME test/2=>void testRuel FIELD
+RefactoringAction 1474032469772 SudokuVerifierTest.java RENAME testRuel=>void testRu FIELD
+RefactoringAction 1474032482785 SudokuVerifierTest.java REMOVE testRu FIELD
+RefactoringAction 1474032485802 SudokuVerifierTest.java RENAME testVerify()=>void testVerify_() METHOD
+RefactoringAction 1474032489320 SudokuVerifierTest.java RENAME testVerify_()=>void testVerify_rule() METHOD
+RefactoringAction 1474032490336 SudokuVerifierTest.java RENAME testVerify_rule()=>void testVerify_rule1() METHOD
+RefactoringAction 1474032492845 SudokuVerifierTest.java RENAME testVerify_rule1()=>void testVerify_ruleOne_() METHOD
+RefactoringAction 1474032529867 SudokuVerifierTest.java RENAME testVerify_ruleOne_()=>void testVerify_ruleOne_correct() METHOD
+RefactoringAction 1474032531386 SudokuVerifierTest.java RENAME testVerify_ruleOne_correct()=>void testVerify_ruleOne_correctInput() METHOD
+EditAction 1474032614011 SudokuVerifier.java 896 3 7 0
+UnitTestCaseAction 1474032614324 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474032614324 SudokuVerifierTest.java FAIL
+RefactoringAction 1474032679487 SudokuVerifierTest.java ADD void testVerify_ruleOne_incorrectLength() METHOD
+RefactoringAction 1474032727107 SudokuVerifierTest.java RENAME testVerify_ruleOne_incorrectLength()=>void testVerify_ruleOne_incorrectLength_8() METHOD
+RefactoringAction 1474032728125 SudokuVerifierTest.java RENAME testVerify_ruleOne_incorrectLength_8()=>void testVerify_ruleOne_incorrectLength_80() METHOD
+EditAction 1474032761068 SudokuVerifierTest.java 2476 8 15 7
+UnitTestCaseAction 1474032761357 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474032761357 SudokuVerifierTest.java FAIL
+EditAction 1474032824103 SudokuVerifierTest.java 2480 8 15 7
+UnitTestCaseAction 1474032824380 SudokuVerifierTest.java OK
+UnitTestSessionAction 1474032824381 SudokuVerifierTest.java OK
+RefactoringAction 1474032884988 SudokuVerifierTest.java ADD void testVerify_ruleOne_containsChar() METHOD
+EditAction 1474032965615 SudokuVerifierTest.java 2717 9 17 8
+UnitTestCaseAction 1474032965924 SudokuVerifierTest.java OK
+UnitTestSessionAction 1474032965925 SudokuVerifierTest.java OK
+EditAction 1474033017769 SudokuVerifier.java 903 3 7 0
+UnitTestCaseAction 1474033018067 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474033018067 SudokuVerifierTest.java FAIL
+EditAction 1474033036776 SudokuVerifierTest.java 2722 9 17 8
+UnitTestCaseAction 1474033037112 SudokuVerifierTest.java OK
+UnitTestSessionAction 1474033037113 SudokuVerifierTest.java OK
+RefactoringAction 1474033359615 SudokuVerifier.java ADD String FIELD
+RefactoringAction 1474033364627 SudokuVerifier.java RENAME createSub=>String FIELD
+RefactoringAction 1474033369180 SudokuVerifier.java RENAME createSubGrids=>String METHOD
+RefactoringAction 1474033375194 SudokuVerifier.java RENAME createSubGrids()=>String METHOD
+EditAction 1474034003769 SudokuVerifier.java 1819 4 11 0
+EditAction 1474034076163 SudokuVerifier.java 1864 4 11 0
+RefactoringAction 1474034099623 SudokuVerifierTest.java ADD void testCreateSubGrids FIELD
+RefactoringAction 1474034104141 SudokuVerifierTest.java RENAME testCreateSubGrids=>void testCreateSubGrids() METHOD
+EditAction 1474034407562 SudokuVerifierTest.java 3508 10 29 9
+EditAction 1474034407636 SudokuVerifier.java 1861 4 11 0
+UnitTestCaseAction 1474034407907 SudokuVerifierTest.java OK
+UnitTestSessionAction 1474034407908 SudokuVerifierTest.java OK
