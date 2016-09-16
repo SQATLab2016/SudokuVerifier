@@ -7,6 +7,15 @@ public class SudokuVerifier {
 		
 		//check
 	}
+	public boolean verifyHorizontal(int x, int[] sudoku){
+		int toTest = sudoku[x];
+		for(int i = 0; i < sudoku.length; i++){
+			if(sudoku[i] == toTest && i != x){
+				return false;
+			}
+		}
+		return true;
+	}
 	public boolean verifyVertical(int x, int[] sudoku){
 		int toTest = sudoku[x];
 		for(int i = 0; i < sudoku.length; i++){

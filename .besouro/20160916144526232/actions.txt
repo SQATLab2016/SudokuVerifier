@@ -59,3 +59,4 @@ RefactoringAction 1474027094885 SudokuVerifierParametrizedTest.java RENAME testV
 RefactoringAction 1474027095896 SudokuVerifierParametrizedTest.java RENAME testHorizonalFail()=>void testHorizoFail() METHOD
 RefactoringAction 1474027098912 SudokuVerifierParametrizedTest.java RENAME testHorizoFail()=>void testHorizontalFail() METHOD
 EditAction 1474027098930 SudokuVerifierParametrizedTest.java 502 2 6 2
+EditAction 1474027104491 SudokuVerifier.java 572 3 7 0
