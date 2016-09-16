@@ -47,3 +47,7 @@ UnitTestSessionAction 1474028067868 SudokuVerifierTest.java FAIL
 UnitTestCaseAction 1474028218249 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1474028218250 SudokuVerifierTest.java FAIL
 EditAction 1474028239806 SudokuVerifierTest.java 1246 2 7 1
+UnitTestCaseAction 1474028241912 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474028241913 SudokuVerifierTest.java FAIL
+EditAction 1474028274497 SudokuVerifierTest.java 1266 2 7 1
+RefactoringAction 1474028275186 SudokuVerifierTest.java ADD SudokuVerifier verifier FIELD
