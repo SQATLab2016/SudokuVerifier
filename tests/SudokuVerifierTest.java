@@ -11,6 +11,7 @@ public class SudokuVerifierTest {
 // An incorrect Sudoku string: 123456789912345678891234567789123456678912345567891234456789123345678912234567891
 
 	private SudokuVerifier verifier;
+	private String candidateSolution;
 
 	@Test
 	public void test() {
@@ -25,7 +26,7 @@ public class SudokuVerifierTest {
 	@Test 
 	public void test_RowColumnViolation() {
 		verifier = new SudokuVerifier();
-		String candidateSolution = ""
+		candidateSolution = ""
 								+"123456789"
 								+"245678913"
 								+"345678912"

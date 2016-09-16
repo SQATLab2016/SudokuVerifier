@@ -51,3 +51,5 @@ UnitTestCaseAction 1474028241912 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1474028241913 SudokuVerifierTest.java FAIL
 EditAction 1474028274497 SudokuVerifierTest.java 1266 2 7 1
 RefactoringAction 1474028275186 SudokuVerifierTest.java ADD SudokuVerifier verifier FIELD
+EditAction 1474028283029 SudokuVerifierTest.java 1294 2 7 1
+RefactoringAction 1474028283714 SudokuVerifierTest.java ADD String candidateSolution FIELD
