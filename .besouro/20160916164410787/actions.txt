@@ -1,0 +1,3 @@
+FileOpenedAction 1474033450989 SudokuVerifier.java 865 1 1 0
+RefactoringAction 1474033532082 SudokuVerifier.java ADD String candidateSolution FIELD
+EditAction 1474033578988 SudokuVerifier.java 912 1 1 0
