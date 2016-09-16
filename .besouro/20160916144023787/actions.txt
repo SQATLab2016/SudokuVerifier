@@ -153,3 +153,19 @@ EditAction 1474033167972 SudokuVerifierTest.java 1329 4 4 4
 UnitTestCaseAction 1474033174792 SudokuVerifierTest.java OK
 UnitTestSessionAction 1474033174792 SudokuVerifierTest.java OK
 EditAction 1474033183154 SudokuVerifierTest.java 1327 4 4 4
+RefactoringAction 1474033219377 SudokuVerifierTest.java ADD void testVefi FIELD
+RefactoringAction 1474033221951 SudokuVerifierTest.java RENAME testVefi=>void testVef FIELD
+RefactoringAction 1474033222980 SudokuVerifierTest.java RENAME testVef=>void testVe FIELD
+RefactoringAction 1474033224525 SudokuVerifierTest.java RENAME testVe=>void testVerify FIELD
+RefactoringAction 1474033229673 SudokuVerifierTest.java RENAME testVerify=>void testVerify_ FIELD
+RefactoringAction 1474033231732 SudokuVerifierTest.java RENAME testVerify_=>void testVerify_E FIELD
+RefactoringAction 1474033236880 SudokuVerifierTest.java RENAME testVerify_E=>void testVerify_ FIELD
+RefactoringAction 1474033241513 SudokuVerifierTest.java RENAME testVerify_=>void testVerify_Verf FIELD
+RefactoringAction 1474033243572 SudokuVerifierTest.java RENAME testVerify_Verf=>void testVerify_ FIELD
+RefactoringAction 1474033247691 SudokuVerifierTest.java RENAME testVerify_=>void testVerify_Ver FIELD
+RefactoringAction 1474033249750 SudokuVerifierTest.java RENAME testVerify_Ver=>void testVerify_Verify FIELD
+RefactoringAction 1474033252324 SudokuVerifierTest.java RENAME testVerify_Verify=>void testVerify_VerifyEithe FIELD
+RefactoringAction 1474033254898 SudokuVerifierTest.java RENAME testVerify_VerifyEithe=>void testVerify_VerifyAll FIELD
+RefactoringAction 1474033256442 SudokuVerifierTest.java RENAME testVerify_VerifyAll=>void testVerify_VerifyAllRule FIELD
+RefactoringAction 1474033257472 SudokuVerifierTest.java RENAME testVerify_VerifyAllRule=>void testVerify_VerifyAllRule() METHOD
+EditAction 1474033346236 SudokuVerifierTest.java 1977 5 5 5
