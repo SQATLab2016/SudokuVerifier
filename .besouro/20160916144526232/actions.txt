@@ -1,0 +1,3 @@
+FileOpenedAction 1474026326480 SudokuVerifierParametrizedTest.java 197 1 1 0
+RefactoringAction 1474026379564 SudokuVerifier.java RENAME verityVertical(int, int, int=>boolean verityVertical(int, int, int METHOD
+EditAction 1474026380453 SudokuVerifier.java 382 2 4 0
