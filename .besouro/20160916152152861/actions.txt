@@ -114,3 +114,8 @@ UnitTestSessionAction 1474032430226 SudokuVerifierTest.java OK
 RefactoringAction 1474032781042 SudokuVerifierTest.java ADD void testVerify()/2 METHOD
 RefactoringAction 1474032783129 SudokuVerifierTest.java RENAME testVerify()/2=>void testVerify2() METHOD
 EditAction 1474032803319 SudokuVerifierTest.java 1705 4 16 4
+UnitTestCaseAction 1474032803589 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474032803589 SudokuVerifierTest.java FAIL
+RefactoringAction 1474032817180 SudokuVerifierTest.java ADD void TestVerifySudokuStringLengthIsCorrect()/2 METHOD
+RefactoringAction 1474032823219 SudokuVerifierTest.java RENAME TestVerifySudokuStringLengthIsCorrect()/2=>void TestVerifySudokuStringLengthIsCorrect2() METHOD
+EditAction 1474032847394 SudokuVerifierTest.java 2086 5 20 5

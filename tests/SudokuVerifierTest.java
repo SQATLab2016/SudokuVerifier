@@ -42,6 +42,16 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test
+	public void TestVerifySudokuStringLengthIsCorrect2(){
+		SudokuVerifier verifier = new SudokuVerifier();
+		String candidateSolution = "1234567899123456788912345677891234566789123455678912344567891233456789122345678911";
+		
+		int result = verifier.VerifySudokuStringLengthIsCorrect(candidateSolution);
+		
+		assertTrue("Length of the string is incorrect!", result == 1);
+	}
+	
+	@Test
 	public void TestVerifyDigitsArePositive(){
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidateSolution = "4444";
