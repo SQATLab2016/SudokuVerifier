@@ -100,3 +100,4 @@
 1474030540105 regression 2 8 true
 1474030679198 test-addition 1 58 true
 1474030679199 test-addition 1 58 true
+1474030691138 regression 1 2 true
