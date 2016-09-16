@@ -13,7 +13,7 @@ public class SudokuVerifierTest {
 	@Test
 	public void test() {
 		SudokuVerifier verifier = new SudokuVerifier();
-		String candidateSolution = "";
+		String candidateSolution = correctSudoku;
 		int result = verifier.verify(candidateSolution);
 		assertTrue(result == -2 || result == -3);
 	}
