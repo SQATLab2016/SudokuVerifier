@@ -2,6 +2,8 @@
 public class SudokuVerifier {
 
 	public int verify(String candidateSolution) {
+		int[][] sudoku = new int[9][9];
+		
 		if (candidateSolution.length() != 81) {
 			return 1;
 		} else {
