@@ -28,3 +28,9 @@ EditAction 1474028970239 SudokuVerifierTest.java 1661 4 13 3
 UnitTestCaseAction 1474028973727 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1474028973727 SudokuVerifierTest.java FAIL
 EditAction 1474028981561 SudokuVerifierTest.java 1660 4 13 3
+UnitTestCaseAction 1474028983786 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474028983787 SudokuVerifierTest.java FAIL
+RefactoringAction 1474029578413 SudokuVerifier.java ADD string asd FIELD
+RefactoringAction 1474029607940 SudokuVerifier.java REMOVE asd FIELD
+RefactoringAction 1474030094690 SudokuVerifierTest.java ADD void testVerify_ViolatingRule2() METHOD
+EditAction 1474030951960 SudokuVerifierTest.java 2223 5 17 4

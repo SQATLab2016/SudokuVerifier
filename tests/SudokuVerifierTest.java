@@ -52,12 +52,34 @@ public class SudokuVerifierTest {
 				+ "346912758"
 				+ "289643571"
 				+ "573291684"
-				+ "-164875293";
+				+ "-16487529";
 		//act
 		int result = verifier.verify(candidateSolution);
 		//assert
-		assertTrue("negative number displays a wrong return", result == 0);
+		assertTrue("negative number displays a wrong return", result == -1);
 	}
+	
+	@Test
+	public void testVerify_ViolatingRule2() {
+		//Arrange
+		SudokuVerifier verifier = new SudokuVerifier();
+		String candidateSolution = ""
+                + "123456789"
+                + "912345678"
+                + "891234567"
+                + "789123456"
+                + "678912345"
+                + "567891234"
+                + "456789123"
+                + "345678912"
+                + "234567891";
+		//act
+		int result = verifier.verify(candidateSolution);
+		//assert
+		assertTrue("Invalid subgrid returns a wrong result", result == -2);
+	}
+	
+
 	
 	@Test
 	public void testVerify() {
