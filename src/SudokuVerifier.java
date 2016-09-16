@@ -22,11 +22,11 @@ public class SudokuVerifier {
 	}
 	
 	private int verifyRows(String candidateSolution) {
-		Vector<String> parts = new Vector<String>();
+		Vector<String> rows = new Vector<String>();
 		
 		for(int indx = 0; indx != 9; indx++) {
-			parts.add(candidateSolution.substring(indx*9, indx*9+9));
-		}
+			rows.add(candidateSolution.substring(indx*9, indx*9+9));
+		}	
 		
 		
 		
