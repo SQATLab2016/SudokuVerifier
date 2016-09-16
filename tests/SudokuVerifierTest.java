@@ -39,9 +39,20 @@ public class SudokuVerifierTest {
 	 */
 	
 	@Test
-	public void testValidCharacters_CorrectChar() {
-		sv.has
-		fail();
+	public void testValidCharacters_CorrectChars() {
+		assertEquals(true, sv.containsOnlyValidCharacters(corrSol));
+	}
+	
+	@Test
+	public void testValidCharacters_LetterChars() {
+		String solWithLetters = corrSol.substring(0, 80).concat("a");
+		assertEquals(false, sv.containsOnlyValidCharacters(solWithLetters));
+	}
+	
+	@Test
+	public void testValidCharacters_SymbolChars() {
+		String solWithLetters = corrSol.substring(0, 80).concat("+");
+		assertEquals(false, sv.containsOnlyValidCharacters(solWithLetters));
 	}
 	
 	
@@ -78,6 +89,27 @@ public class SudokuVerifierTest {
 		String solOneCharMore = corrSol.concat("1");
 		
 		assertEquals(false, sv.hasValidNumberOfChars(solOneCharMore));
+	}
+	
+	
+	
+	/*
+	 * Test for rule 1
+	 */
+	
+	@Test
+	public void testVerify_IncorrectNr_LessChars() {
+		assertEquals("-1", sv.verify(corrSol.substring(0, 80)));
+	}
+	
+	@Test
+	public void testVerify_IncorrectNr_MoreChars() {
+		assertEquals("-1", sv.verify(corrSol.concat("1")));
+	}
+	
+	@Test
+	public void testVerify_InvalidChars() {
+		assertEquals("-1", sv.verify(corrSol.substring(0, 80).concat("%")));
 	}
 
 }
