@@ -53,3 +53,9 @@ EditAction 1474031240058 SudokuVerifierTest.java 2223 5 17 4
 UnitTestCaseAction 1474031242125 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1474031242127 SudokuVerifierTest.java FAIL
 EditAction 1474031249282 SudokuVerifierTest.java 2224 5 17 4
+RefactoringAction 1474031339129 SudokuVerifier.java ADD int di FIELD
+RefactoringAction 1474031344642 SudokuVerifier.java RENAME di=>int digitsOnlyOnce FIELD
+RefactoringAction 1474031349154 SudokuVerifier.java RENAME digitsOnlyOnce=>int digitsOnlyOnceInSubgrid FIELD
+RefactoringAction 1474031353167 SudokuVerifier.java RENAME digitsOnlyOnceInSubgrid=>int digitsOnlyOnceInSubgrid() METHOD
+RefactoringAction 1474031406684 SudokuVerifier.java RENAME digitsOnlyOnceInSubgrid()=>int digitsOnlyOnceInSubgrid(String) METHOD
+EditAction 1474032422719 SudokuVerifier.java 821 3 6 0
