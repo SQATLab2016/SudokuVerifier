@@ -194,3 +194,6 @@ RefactoringAction 1474033169579 SudokuVerifier.java ADD int checkNineRows FIELD
 RefactoringAction 1474033173091 SudokuVerifier.java RENAME checkNineRows=>int checkNineRows(String) METHOD
 EditAction 1474033217113 SudokuVerifier.java 1409 4 16 0
 EditAction 1474034572955 SudokuVerifier.java 1524 4 17 0
+UnitTestCaseAction 1474034640137 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474034640138 SudokuVerifierTest.java FAIL
+EditAction 1474034721158 SudokuVerifier.java 1493 4 6 0
