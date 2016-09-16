@@ -61,8 +61,8 @@ public class SudokuVerifier {
 		int xLimit = x/3 * 3;
 		int yLimit = y/3 * 3;
 		
-		for(int i = xLimit; i < xLimit+3; i++){
-			for(int j = yLimit; j < yLimit+3; j++){
+		for(int i = xLimit; i < yLimit+3; i++){
+			for(int j = yLimit; j < xLimit+3; j++){
 				if(sudoku[i][j] == toTest && sudoku[i][j] != sudoku[y][x]){
 					return false;
 				}
