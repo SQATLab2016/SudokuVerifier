@@ -63,7 +63,7 @@ public class SudokuVerifier {
 		
 		for(int i = 0; i < 3; i++){
 			for(int j = 0; j < 3; j++){
-				if(sudoku[yLimit +i][xLimit + j] == toTest && sudoku[i][j] != sudoku[y][x]){
+				if(sudoku[yLimit +i][xLimit + j] == toTest && sudoku[yLimit + i][xLimit + j] != sudoku[y][x]){
 					return false;
 				}
 			}
