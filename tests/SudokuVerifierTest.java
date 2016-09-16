@@ -26,6 +26,8 @@ public class SudokuVerifierTest {
 	@Test
 	public void testVerify_String_with_repetition_in_row_should_fail_rule3(){
 		SudokuVerifier verifier = new SudokuVerifier();
-		int result = verifier.verify("417364825632158947958724316825437169791586432346912758289643571573291684164875293")
+		int result = verifier.verify("417364825632158947958724316825437169791586432346912758289643571573291684164875293");
+		
+		assertEquals("repetition in rows not checked. ", result, -3);
 	}
 }
