@@ -7,3 +7,9 @@ RefactoringAction 1474031488646 SudokuVerifier.java ADD import java.awt.List IMP
 RefactoringAction 1474031493982 SudokuVerifier.java ADD import java.util.ArrayList IMPORT
 RefactoringAction 1474032081821 SudokuVerifier.java ADD import java.util.Vector IMPORT
 EditAction 1474033385030 SudokuVerifier.java 1814 1 11 0
+CompilationAction 1474033386710 SudokuVerifier.java
+CompilationAction 1474033471191 SudokuVerifier.java
+CompilationAction 1474033471346 SudokuVerifier.java
+CompilationAction 1474033533700 SudokuVerifier.java
+CompilationAction 1474033533855 SudokuVerifier.java
+EditAction 1474033671317 SudokuVerifier.java 1813 1 5 0

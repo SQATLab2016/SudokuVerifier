@@ -25,10 +25,11 @@ public class SudokuVerifier {
 				}
 			}	
 		}
+		return 0;
 		
 		
 		//check R2-sub_grid
-		Vector check = new Vector();
+/*		Vector check = new Vector();
 		for(i=0;i<3;i++){
 			for(j=0;j<3;j++){
 				for(a=i*3;a<(i+1)*3;a++){
@@ -51,9 +52,10 @@ public class SudokuVerifier {
 					}
 				}	
 			}
+			return 0;
 		}
-		
-		
+*/		
+/*		
 		//check R3-Row
 		Vector check = new Vector();
 		for(i=0;i<3;i++){
@@ -74,9 +76,10 @@ public class SudokuVerifier {
 					}
 				}		
 			}
+			return 0;
 		}
-		
-		
+*/			
+/*		
 		//check R4-Column
 		Vector check = new Vector();
 		for(i=0;i<3;i++){
@@ -97,12 +100,11 @@ public class SudokuVerifier {
 					}
 				}		
 			}
+			return 0;
 		}	
-				
+*/				
 		
-		
-		// returns 0 if the candidate solution is correct
-		return 0;
+	
 		
 		//check
 	}
