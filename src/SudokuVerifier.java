@@ -59,7 +59,7 @@ public class SudokuVerifier {
 		for(int indx = 0; indx != 9; indx++) {
 			String row = candidateSolution.substring(indx*9, indx*9+9);
 			res = checkStringSequence(row);
-			if(res != -1)
+			if(res == -1)
 				return -3;
 		}	
 				
