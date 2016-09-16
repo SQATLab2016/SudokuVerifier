@@ -1,0 +1,8 @@
+FileOpenedAction 1474026065218 SudokuVerifier.java 162 1 1 0
+RefactoringAction 1474027230575 SudokuVerifier.java ADD int get FIELD
+RefactoringAction 1474027232598 SudokuVerifier.java RENAME get=>int get_ FIELD
+RefactoringAction 1474027234629 SudokuVerifier.java RENAME get_=>int get_number FIELD
+RefactoringAction 1474027235655 SudokuVerifier.java RENAME get_number=>int get_number() METHOD
+RefactoringAction 1474027238684 SudokuVerifier.java RENAME get_number()=>int get_number(char) METHOD
+RefactoringAction 1474027402590 SudokuVerifier.java ADD StringLengthNotEqual_81Exception() METHOD
+EditAction 1474028774639 SudokuVerifier.java 1498 3 12 0
