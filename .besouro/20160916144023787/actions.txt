@@ -169,3 +169,5 @@ RefactoringAction 1474033254898 SudokuVerifierTest.java RENAME testVerify_Verify
 RefactoringAction 1474033256442 SudokuVerifierTest.java RENAME testVerify_VerifyAll=>void testVerify_VerifyAllRule FIELD
 RefactoringAction 1474033257472 SudokuVerifierTest.java RENAME testVerify_VerifyAllRule=>void testVerify_VerifyAllRule() METHOD
 EditAction 1474033346236 SudokuVerifierTest.java 1977 5 5 5
+UnitTestCaseAction 1474033353634 SudokuVerifierTest.java OK
+UnitTestSessionAction 1474033353634 SudokuVerifierTest.java OK
