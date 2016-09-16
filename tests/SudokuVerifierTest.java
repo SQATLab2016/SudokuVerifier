@@ -36,6 +36,6 @@ public class SudokuVerifierTest {
 		SudokuVerifier verifier = new SudokuVerifier();
 		int result = verifier.verify("417369825432158967958724316825437169791586432346912758289643571573291684164875293");
 		
-		assertEquals("repetition in rows not checked. ", result, -3);
+		assertEquals("repetition in columns not checked. ", result, -4);
 	}
 }
