@@ -32,7 +32,7 @@ public class SudokuVerifierTest {
 	public void testVerify_TooShortString() {
 		//Arrange
 		SudokuVerifier verifier = new SudokuVerifier();
-		String cadidateSolution = "1241524364";
+		String candidateSolution = "1241524364";
 		//act
 		int result = verifier.verify(candidateSolution);
 		//assert
@@ -53,6 +53,10 @@ public class SudokuVerifierTest {
 				+ "289643571"
 				+ "573291684"
 				+ "-164875293";
+		//act
+		int result = verifier.verify(candidateSolution);
+		//assert
+		assertTrue("negative number displays a wrong return", result == -1);
 	}
 	
 	@Test

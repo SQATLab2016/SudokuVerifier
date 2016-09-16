@@ -14,3 +14,14 @@ RefactoringAction 1474028119536 SudokuVerifierTest.java RENAME testVerify_Incorr
 RefactoringAction 1474028611055 SudokuVerifierTest.java ADD void testVerify_negativeNumberinString() METHOD
 EditAction 1474028799571 SudokuVerifier.java 419 2 4 0
 EditAction 1474028818978 SudokuVerifierTest.java 1519 4 11 2
+CompilationAction 1474028820524 SudokuVerifierTest.java
+UnitTestCaseAction 1474028825400 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474028825402 SudokuVerifierTest.java FAIL
+CompilationAction 1474028893435 SudokuVerifierTest.java
+UnitTestCaseAction 1474028894896 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474028894897 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1474028903217 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474028903218 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1474028910482 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474028910482 SudokuVerifierTest.java FAIL
+EditAction 1474028970239 SudokuVerifierTest.java 1661 4 13 3
