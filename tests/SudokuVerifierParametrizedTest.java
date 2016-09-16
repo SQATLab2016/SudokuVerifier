@@ -21,7 +21,7 @@ public class SudokuVerifierParametrizedTest {
 	}
 
 	@Test
-	public void testCanditateStringOnlyNumeric()
+	public void testCandidateStringOnlyNumeric()
 	{
 		// Arrange
 		SudokuVerifier verifier = new SudokuVerifier();
