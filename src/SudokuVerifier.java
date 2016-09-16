@@ -19,7 +19,7 @@ public class SudokuVerifier {
 	public boolean verifyVertical(int y, int x, int[][] sudoku){
 		int toTest = sudoku[y][x];
 		for(int i = 0; i < sudoku.length; i++){
-			if(sudoku[i] == toTest && i != x){
+			if(sudoku[x][i] == toTest && i != y){
 				return false;
 			}
 		}
