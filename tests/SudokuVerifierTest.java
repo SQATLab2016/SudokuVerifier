@@ -22,12 +22,12 @@ public class SudokuVerifierTest {
 	@Test
 	public void testVerify2() {
 		SudokuVerifier verifier = new SudokuVerifier();
-		String candidateSolution = "4173698256321589479587243168254371697915864323469127582896435715732916841648752933";
+		String candidateSolution = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		
 		int result = verifier.verify(candidateSolution);
 
 		
-		assertTrue("WrongLength!", result == 1 );
+		assertTrue("WrongLength!", result == 0 );
 		//fail("Not yet implemented");
 	}
 
