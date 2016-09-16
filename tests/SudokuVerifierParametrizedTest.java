@@ -26,7 +26,7 @@ public class SudokuVerifierParametrizedTest {
 	
 		String candidateSolution = "12345679";
 		
-		assertEquals("", 0, verifier.verifyOnlyOnce('8', candidateSolution));
+		assertEquals(0, verifier.verifyOnlyOnce('8', candidateSolution));
 	}
 	
 	@Test	
@@ -35,15 +35,30 @@ public class SudokuVerifierParametrizedTest {
 	
 		String candidateSolution = "12345679";
 		
-		assertEquals("", -1, verifier.verifyOnlyOnce('3', candidateSolution));
+		assertEquals(-1, verifier.verifyOnlyOnce('3', candidateSolution));
 	} 
 	
 	
 	@Test 
 	public void testCheckStringSequenceForDublicates()
 	{
-		SudokuVerifier verifier = new SudokuVerifier();		
+		SudokuVerifier verifier = new SudokuVerifier();
+		
+		String candidateSolution = "123456789";
+		
+		assertEquals(0, verifier.checkStringSequence(candidateSolution));
 	}
+	
+	@Test 
+	public void testCheckStringSequenceHasDublicate()
+	{
+		SudokuVerifier verifier = new SudokuVerifier();
+		
+		String candidateSolution = "122456789";
+		
+		assertEquals(0, verifier.checkStringSequence(candidateSolution));
+	}
+	
 	
 	@Test
 	public void testCandidateStringOnlyNumeric()

@@ -167,3 +167,13 @@ EditAction 1474032649587 SudokuVerifier.java 1231 5 11 0
 EditAction 1474032693216 SudokuVerifier.java 1259 5 11 0
 RefactoringAction 1474032765953 SudokuVerifierParametrizedTest.java ADD void testCheckStringSequenceForDublicates() METHOD
 EditAction 1474032784866 SudokuVerifierParametrizedTest.java 1723 5 11 4
+CompilationAction 1474032869960 SudokuVerifierParametrizedTest.java
+CompilationAction 1474032869961 SudokuVerifierParametrizedTest.java
+CompilationAction 1474032898036 SudokuVerifierParametrizedTest.java
+UnitTestCaseAction 1474032905998 SudokuVerifierParametrizedTest.java OK
+UnitTestSessionAction 1474032905998 SudokuVerifierParametrizedTest.java OK
+RefactoringAction 1474032922273 SudokuVerifierParametrizedTest.java ADD void testCheckStringSequenceForDublicates()/2 METHOD
+RefactoringAction 1474032930787 SudokuVerifierParametrizedTest.java RENAME testCheckStringSequenceForDublicates()/2=>void testCheckStringSequenceForDublicate() METHOD
+RefactoringAction 1474032933800 SudokuVerifierParametrizedTest.java RENAME testCheckStringSequenceForDublicate()=>void testCheckString() METHOD
+RefactoringAction 1474032942312 SudokuVerifierParametrizedTest.java RENAME testCheckString()=>void testCheckStringSequenceHasDublicate() METHOD
+EditAction 1474032945062 SudokuVerifierParametrizedTest.java 2064 6 16 6
