@@ -127,3 +127,11 @@ RefactoringAction 1474030675637 SudokuVerifier.java RENAME checkDuplicates()=>in
 RefactoringAction 1474030774342 SudokuVerifier.java ADD void substring(int, int) METHOD
 RefactoringAction 1474030782750 SudokuVerifier.java REMOVE substring(int, int) METHOD
 EditAction 1474031130475 SudokuVerifier.java 454 3 3 0
+CompilationAction 1474031131920 SudokuVerifier.java
+CompilationAction 1474031131921 SudokuVerifier.java
+CompilationAction 1474031131922 SudokuVerifier.java
+RefactoringAction 1474031278815 SudokuVerifierTest.java ADD void test81numbers()/2 METHOD
+RefactoringAction 1474031283838 SudokuVerifierTest.java RENAME test81numbers()/2=>void test() METHOD
+RefactoringAction 1474031287355 SudokuVerifierTest.java RENAME test()=>void testFirstRow() METHOD
+RefactoringAction 1474031290373 SudokuVerifierTest.java RENAME testFirstRow()=>void testFirstRowNumbers() METHOD
+EditAction 1474031290423 SudokuVerifierTest.java 1512 5 13 4
