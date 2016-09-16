@@ -43,7 +43,7 @@ public class SudokuVerifier {
 			tmp.append(orig);
 		}
 				
-		return tmp;
+		return tmp.toString();
 	}
 	
 	
