@@ -9,23 +9,38 @@ public class SudokuVerifier {
 	}
 	
 	private boolean validNumberOfChar(String possSol) {
-		String[] fields = possSol.split("");
-		
-		
-		
-		
-		return false;
+		if (possSol.length() != 81) {
+			return false;
+		} else {
+			return true;
+		}
 	}
+	
+	private String[] splitIntoRows(String possSol) {		
+		String[] rows = new String[9];
+		for (int i = 0; i < 9; i++) {
+			rows[i] = possSol.substring(i*9, i*10);
+		}		
+		return rows;
+	}
+	
+	private char getRowEntries(String row) {
+		return 'a';
+	}
+	
 
 	public static void main(String[] args) {
-		
+
 		String a = "abcd";
-		System.out.println(a.substring(2, 3));
+		//System.out.println(a.substring(2, 3));
 		
-/*
+		char entry = a.charAt(1);
+		System.out.println(entry);
+		
+		/*
 		assertThat(result, anyOf(is(-2), is(-3)));
 		assertTrue
-*/
+		*/
 	}
 
 }
