@@ -20,18 +20,6 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test
-	public void testVerify2() {
-		SudokuVerifier verifier = new SudokuVerifier();
-		String candidateSolution = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
-		
-		int result = verifier.verify(candidateSolution);
-
-		
-		assertTrue("WrongLength!", result == 0 );
-		//fail("Not yet implemented");
-	}
-
-	@Test
 	public void TestVerifySudokuStringLengthIsCorrect(){
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidateSolution = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
