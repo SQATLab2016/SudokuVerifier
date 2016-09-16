@@ -1,0 +1,5 @@
+FileOpenedAction 1474024553294 SudokuVerifier.java 162 1 1 0
+FileOpenedAction 1474026066002 SudokuVerifierTest.java 390 1 1 0
+FileOpenedAction 1474026088107 SudokuVerifierParametrizedTest.java 172 1 1 0
+EditAction 1474026184204 SudokuVerifierParametrizedTest.java 172 1 1 0
+RefactoringAction 1474026267524 SudokuVerifierTest.java ADD void test_RowColumnViolation() METHOD
