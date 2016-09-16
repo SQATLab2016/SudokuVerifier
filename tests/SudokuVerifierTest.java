@@ -21,18 +21,8 @@ public class SudokuVerifierTest {
 	@Test
 	public void test_RowColumnViolation() {
 		SudokuVerifier verifier = new SudokuVerifier();
-		String candidateSolution = ""
-				+ "123456789"
-				+ "345678912"
-				+ "123456789"
-				+ "123456789"
-				+ "123456789"
-				+ "123456789"
-				+ "123456789"
-				+ "123456789"
-				+ "123456789";
+		String candidateSolution = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		
-		String correctSolution = "417369825632158947958724316825437169791586432346912758289643571573291684164875293;
 		
 		int result = verifier.verify(candidateSolution);
 		assertThat(result, anyOf(is(-2), is(-3)));
