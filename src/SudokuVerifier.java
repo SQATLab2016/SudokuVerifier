@@ -54,4 +54,9 @@ public class SudokuVerifier {
 		return 0;
 		
 	}
+	
+	public int checkNineRows(String candidateSolution){
+		return 0;
+	}
+	
 }
