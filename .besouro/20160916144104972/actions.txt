@@ -94,3 +94,5 @@ UnitTestSessionAction 1474030545000 SudokuVerifierParametrizedTest.java FAIL
 RefactoringAction 1474030668240 SudokuVerifierParametrizedTest.java RENAME SudokuVerifierParametrizedTest(int, char)=>SudokuVerifierParametrizedTest(char) METHOD
 RefactoringAction 1474030672374 SudokuVerifierParametrizedTest.java RENAME SudokuVerifierParametrizedTest(char)=>SudokuVerifierParametrizedTest(char, int) METHOD
 EditAction 1474030677366 SudokuVerifierParametrizedTest.java 814 3 5 1
+UnitTestCaseAction 1474030679116 SudokuVerifierParametrizedTest.java OK
+UnitTestSessionAction 1474030679116 SudokuVerifierParametrizedTest.java OK
