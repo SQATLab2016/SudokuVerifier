@@ -41,5 +41,10 @@ public class SudokuVerifierTest {
 		String inputString = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		assertTrue("expects true when the input string is correct", test.checkInputStringContainsOnlyPostiveInt(inputString));
 	}
+	@Test
+	public void testCheckInputStringContainsOnlyPostiveInt_inputContainsChar(){
+		String inputString = "41736982563215894795872431682543716979158643234691275828964357157329168416487529a";
+		assertFalse("expect false when the input contains character", test.checkInputStringContainsOnlyPostiveInt(inputString));
+	}
 
 }
