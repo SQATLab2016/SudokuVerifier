@@ -7,7 +7,7 @@ public class SudokuVerifier {
 		
 	    String forCheck = candidateSolution;
 		while(!forCheck.isEmpty()){
-		  	if(!(forCheck.charAt(0)=='0'|| forCheck.charAt(0)=='1' ||
+		  	if(!(forCheck.charAt(0)=='1' ||
 		  			forCheck.charAt(0)=='2'|| forCheck.charAt(0)=='3' ||
 		  			forCheck.charAt(0)=='4'|| forCheck.charAt(0)=='5' ||
 		  			forCheck.charAt(0)=='6'|| forCheck.charAt(0)=='7' ||
@@ -16,7 +16,7 @@ public class SudokuVerifier {
 			
 		forCheck = forCheck.substring(1);
 		}
-		char[] numbers={0,1,2,3,4,5,6,7,8,9};
+		char[] numbers={1,2,3,4,5,6,7,8,9};
 		
 		char[] firstGrid = {candidateSolution.charAt(0),candidateSolution.charAt(1),candidateSolution.charAt(2),
 				candidateSolution.charAt(9),candidateSolution.charAt(10),candidateSolution.charAt(11),
@@ -24,7 +24,9 @@ public class SudokuVerifier {
 		Arrays.sort(firstGrid);
 		Arrays.sort(numbers);
 	    if(numbers.equals(firstGrid)) return -2; 	
-		return 0;
+		
+	    
+	    return 0;
 		
 	}
 }
