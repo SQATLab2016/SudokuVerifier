@@ -37,10 +37,10 @@ public class SudokuVerifier {
 		
 		// We should really iterate here...
 		for(int indxChar = 0; indxChar != 9; indxChar++) {
-			char orig = candidateSolution.charAt(indxChar);
+			char orig = candidateSolution.charAt(candidateSolution);
 			for(int indxTarget = 0; indxTarget != 9; indxChar++) {
 				if(indxChar != indxTarget) {
-					char c = candidateSolution.charAt(indxTarget);
+					char c = candidateSolution.charAt(candidateSolution);
 					if(orig == c)
 						return -1;
 				}
