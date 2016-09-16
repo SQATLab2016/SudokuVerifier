@@ -19,8 +19,16 @@ public class SudokuVerifier {
 			return -1;
 		}
 		else{
+			for(int i = 0; i <= 81; i++){
+				try {
+					int test = Integer.parseInt(solution[i]);
+				} catch(NumberFormatException ex){
+					return -1;
+				}
+			}
 			return 0;
 		}
+
 		
 	}
 }
