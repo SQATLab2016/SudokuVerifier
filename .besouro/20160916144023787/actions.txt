@@ -78,3 +78,8 @@ RefactoringAction 1474029743646 SudokuVerifierTest.java RENAME testVerify_Number
 RefactoringAction 1474029747249 SudokuVerifierTest.java RENAME testVerify()=>void testVerifyRule2Cher() METHOD
 RefactoringAction 1474029748794 SudokuVerifierTest.java RENAME testVerifyRule2Cher()=>void testVerifyRule2Check() METHOD
 EditAction 1474029756032 SudokuVerifierTest.java 1104 3 3 3
+RefactoringAction 1474030696479 SudokuVerifierTest.java ADD void testVerifyRule2Check()/2 METHOD
+RefactoringAction 1474030696479 SudokuVerifierTest.java ADD void testVerifyRule2Check()/3 METHOD
+RefactoringAction 1474030700083 SudokuVerifierTest.java RENAME testVerifyRule2Check()/3=>void testVerifyRule3Check() METHOD
+RefactoringAction 1474030702142 SudokuVerifierTest.java RENAME testVerifyRule2Check()/2=>void testVerifyRule4Check() METHOD
+EditAction 1474030756914 SudokuVerifierTest.java 1562 5 5 5

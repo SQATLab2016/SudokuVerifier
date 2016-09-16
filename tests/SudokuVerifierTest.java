@@ -27,6 +27,18 @@ public class SudokuVerifierTest {
 	@Test
 	public void testVerifyRule2Check() {
 		assertEquals("Test to verify rule 2", RULE_2_VOILATION_RESULT, sudokuVerifier
-				.verify("417369825032158947958720316825437169791586432346912758289643571573291684164875293"));
+				.verify("417369825632158947958724316825437169791586432346912758289643571573291684164875293"));
+	}
+	
+	@Test
+	public void testVerifyRule3Check() {
+		assertEquals("Test to verify rule 3", RULE_3_VOILATION_RESULT, sudokuVerifier
+				.verify("417369825632148957958724316825437169791586432346912758289643571573291684164875293"));
+	}
+	
+	@Test
+	public void testVerifyRule4Check() {
+		assertEquals("Test to verify rule 4", RULE_4_VOILATION_RESULT, sudokuVerifier
+				.verify("417369825632158947958724316825437169791586432346912758289643571573291684164875293"));
 	}
 }
