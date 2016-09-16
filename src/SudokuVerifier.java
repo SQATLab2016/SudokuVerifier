@@ -13,7 +13,7 @@ public class SudokuVerifier {
 	}
 	
 	public int hasOnlyNumbers(String candidateSolution){
-		if (candidateSolution.matches("[1-9]+") && candidateSolution.length() > 2){
+		if (candidateSolution.matches("[1-9]+") && candidateSolution.length() == 81){
 			
 			return 1;
 		}
