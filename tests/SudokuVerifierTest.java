@@ -15,7 +15,7 @@ public class SudokuVerifierTest {
 	@Test
 	public void TestVerifySudokuStringLengthIsCorrect(){
 		SudokuVerifier verifier = new SudokuVerifier();
-		String candidateSolution = "12345689";
+		String candidateSolution = "123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789";
 		
 		int result = verifier.VerifySudokuStringLengthIsCorrect(candidateSolution);
 		
