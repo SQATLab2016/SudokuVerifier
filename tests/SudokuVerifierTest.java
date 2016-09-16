@@ -58,6 +58,23 @@ public class SudokuVerifierTest {
 		String inputString = "4173698256321589479587243168254371697915864323469127582896435715732916841648752-9";
 		assertFalse("expect false when the input contains character", test.checkInputStringContainsOnlyPostiveInt(inputString));
 	}
+	@Test
+	public void testCreateSubGrids(){
+		String correctInputString = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		String[] correctArray = new String[9];
+		correctArray[0] = correctInputString.substring(0,9);
+		correctArray[1] = correctInputString.substring(9,18);
+		correctArray[2] = correctInputString.substring(18,27);
+		correctArray[3] = correctInputString.substring(27,36);
+		correctArray[4] = correctInputString.substring(36,45);
+		correctArray[5] = correctInputString.substring(45,54);
+		correctArray[6] = correctInputString.substring(54,63);
+		correctArray[7] = correctInputString.substring(63,72);
+		correctArray[8] = correctInputString.substring(72);
+		assertArrayEquals(correctArray, test.createSubGrids(correctInputString));
+
+
+	}
 
 	
 

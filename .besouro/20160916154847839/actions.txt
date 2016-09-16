@@ -75,3 +75,6 @@ RefactoringAction 1474033369180 SudokuVerifier.java RENAME createSubGrids=>Strin
 RefactoringAction 1474033375194 SudokuVerifier.java RENAME createSubGrids()=>String METHOD
 EditAction 1474034003769 SudokuVerifier.java 1819 4 11 0
 EditAction 1474034076163 SudokuVerifier.java 1864 4 11 0
+RefactoringAction 1474034099623 SudokuVerifierTest.java ADD void testCreateSubGrids FIELD
+RefactoringAction 1474034104141 SudokuVerifierTest.java RENAME testCreateSubGrids=>void testCreateSubGrids() METHOD
+EditAction 1474034407562 SudokuVerifierTest.java 3508 10 29 9
