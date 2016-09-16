@@ -182,3 +182,4 @@ RefactoringAction 1474032224055 SudokuVerifier.java RENAME import org.hamcrest.B
 RefactoringAction 1474032233573 SudokuVerifier.java RENAME import org.hamcrest.CoreMatcher.*=>import org.hamcrest.CoreMatchers.* IMPORT
 EditAction 1474032876543 SudokuVerifierTest.java 2688 13 17 10
 EditAction 1474032884081 SudokuVerifier.java 1516 7 15 0
+EditAction 1474032888116 SudokuVerifier.java 1516 7 15 0
