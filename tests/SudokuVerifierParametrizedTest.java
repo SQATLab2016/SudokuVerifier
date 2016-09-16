@@ -48,12 +48,12 @@ public class SudokuVerifierParametrizedTest {
 	}
 	
 	@Test	
-	public void testNumber3AtString() {
+	public void testNumber2AtString() {
 		SudokuVerifier verifier = new SudokuVerifier();		
 	
 		String candidateSolution = "12356789";
 		
-		assertEquals(-1, verifier.verifyCharNotInString('3', candidateSolution));
+		assertEquals(-1, verifier.verifyCharNotInString('2', candidateSolution));
 	} 
 	
 	
