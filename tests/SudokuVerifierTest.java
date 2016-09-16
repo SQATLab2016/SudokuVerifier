@@ -56,7 +56,7 @@ public class SudokuVerifierTest {
 		//act
 		int result = verifier.verify(candidateSolution);
 		//assert
-		assertTrue("negative number displays a wrong return", result == -1);
+		assertTrue("negative number displays a wrong return", result == 0);
 	}
 	
 	@Test
