@@ -23,7 +23,7 @@ public class SudokuVerifier {
 				candidateSolution.charAt(18),candidateSolution.charAt(19),candidateSolution.charAt(20)};
 		Arrays.sort(firstGrid);
 		Arrays.sort(numbers);
-	    !if(numbers.equals(firstGrid)) return -2; 	
+	    if(!numbers.equals(firstGrid)) return -2; 	
 		
 	    
 	    return 0;
