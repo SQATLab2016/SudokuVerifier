@@ -8,3 +8,6 @@ RefactoringAction 1474027260872 SudokuVerifierTest.java ADD import org.hamcrest.
 EditAction 1474027477425 SudokuVerifier.java 611 1 3 0
 RefactoringAction 1474027580418 SudokuVerifierTest.java RENAME testVerify()=>void testVerifyR1() METHOD
 EditAction 1474027734914 SudokuVerifierTest.java 542 1 0 0
+CompilationAction 1474027736343 SudokuVerifierTest.java
+CompilationAction 1474027812666 SudokuVerifierTest.java
+EditAction 1474027821792 SudokuVerifier.java 614 1 3 0

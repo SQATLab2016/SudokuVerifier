@@ -16,6 +16,7 @@ public class SudokuVerifier {
 			// returns 0 if the candidate solution is correct
 		forCheck = forCheck.substring(1);
 		}
+		
 			return 0;
 		
 		//check
