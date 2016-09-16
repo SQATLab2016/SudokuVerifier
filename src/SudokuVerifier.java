@@ -2,7 +2,7 @@
 public class SudokuVerifier {
 
 	public int verify(String candidateSolution) {
-		int[][] sudoku = new int[9][9];
+		int[][] sudoku = new int[10][10];
 		char[] arrayChars;
 		int sudokuRowSize = 0;
 		int sudokuColumnSize = 0;
