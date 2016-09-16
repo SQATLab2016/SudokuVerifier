@@ -22,4 +22,13 @@ public class SudokuVerifierTest {
 		assertTrue("Length of the string is incorrect!", result == 1);
 	}
 	
+	@Test
+	public void TestVerifyDigitsArePositive(){
+		SudokuVerifier verifier = new SudokuVerifier();
+		String candidateSolution = "4-4-3-4";
+		
+		int result = verifier.VerifyDigitsArePositive(candidateSolution);
+		
+		assertTrue("String includes negative digits!", result == 0);
+	}
 }

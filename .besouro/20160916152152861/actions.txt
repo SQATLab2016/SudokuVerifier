@@ -50,3 +50,4 @@ RefactoringAction 1474030481671 SudokuVerifier.java ADD int VerifyDigitsArePosit
 RefactoringAction 1474030483681 SudokuVerifier.java RENAME VerifyDigitsArePositive=>int VerifyDigitsArePositive() METHOD
 RefactoringAction 1474030490700 SudokuVerifier.java RENAME VerifyDigitsArePositive()=>int VerifyDigitsArePositive(String) METHOD
 EditAction 1474030837446 SudokuVerifier.java 504 3 4 0
+EditAction 1474030837800 SudokuVerifierTest.java 1092 3 9 2
