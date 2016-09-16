@@ -96,17 +96,3 @@
 1474030440786 test-addition 2 396 true
 1474030440787 test-addition 1 396 true
 1474030440788 test-addition 2 396 true
-1474030440789 test-addition 2 396 true
-1474030540105 regression 2 8 true
-1474030679198 test-addition 1 58 true
-1474030679199 test-addition 1 58 true
-1474030691138 regression 1 2 true
-1474031406810 test-last 1 552 false
-1474031406811 test-last 1 552 false
-1474031406812 test-last 1 552 false
-1474031406813 test-last 1 552 false
-1474031406814 test-last 1 552 false
-1474031406815 test-last 1 552 false
-1474031427176 regression 1 0 true
-1474031465860 test-addition 1 17 true
-1474031465861 test-addition 1 17 true
