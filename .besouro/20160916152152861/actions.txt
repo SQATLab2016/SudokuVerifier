@@ -70,3 +70,7 @@ RefactoringAction 1474031777202 SudokuVerifierTest.java ADD void assertTrue(Stri
 RefactoringAction 1474031783641 SudokuVerifierTest.java REMOVE assertTrue(String, int) METHOD
 EditAction 1474031881063 SudokuVerifier.java 589 3 4 0
 EditAction 1474031881169 SudokuVerifierTest.java 1361 3 12 3
+UnitTestCaseAction 1474031881468 SudokuVerifierTest.java OK
+UnitTestSessionAction 1474031881468 SudokuVerifierTest.java OK
+RefactoringAction 1474031892511 SudokuVerifierTest.java RENAME testSudoku()=>void testVerify() METHOD
+EditAction 1474031897845 SudokuVerifierTest.java 1361 3 12 3
