@@ -181,3 +181,4 @@ RefactoringAction 1474031948953 SudokuVerifier.java RENAME getSubGrids()=>char M
 RefactoringAction 1474032224055 SudokuVerifier.java RENAME import org.hamcrest.BaseMatcher.*=>import org.hamcrest.CoreMatcher.* IMPORT
 RefactoringAction 1474032233573 SudokuVerifier.java RENAME import org.hamcrest.CoreMatcher.*=>import org.hamcrest.CoreMatchers.* IMPORT
 EditAction 1474032876543 SudokuVerifierTest.java 2688 13 17 10
+EditAction 1474032884081 SudokuVerifier.java 1516 7 15 0
