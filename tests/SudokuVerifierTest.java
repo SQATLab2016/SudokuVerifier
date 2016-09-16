@@ -115,7 +115,7 @@ public class SudokuVerifierTest {
 	
 	@Test
 	public void testGetSubGrids() {
-		String[] grids = sv.get
+		String[] grids = sv.getS
 	}
 	
 	

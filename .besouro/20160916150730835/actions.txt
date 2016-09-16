@@ -190,3 +190,9 @@ RefactoringAction 1474033077955 SudokuVerifierTest.java RENAME test=>void testge
 RefactoringAction 1474033079971 SudokuVerifierTest.java RENAME testgetSubGrids=>void testGetSubGrids FIELD
 RefactoringAction 1474033083986 SudokuVerifierTest.java RENAME testGetSubGrids=>void testGetSubGrids() METHOD
 EditAction 1474033117597 SudokuVerifierTest.java 2761 14 17 10
+CompilationAction 1474033119332 SudokuVerifierTest.java
+CompilationAction 1474033119333 SudokuVerifierTest.java
+CompilationAction 1474033119334 SudokuVerifierTest.java
+RefactoringAction 1474033132700 SudokuVerifier.java ADD pu FIELD
+RefactoringAction 1474033133711 SudokuVerifier.java REMOVE String FIELD
+EditAction 1474033136616 SudokuVerifierTest.java 2762 14 17 10
