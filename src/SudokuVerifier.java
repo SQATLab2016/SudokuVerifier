@@ -21,11 +21,11 @@ public class SudokuVerifier {
 		return res;
 	}
 	
-	private int verifyRows(String candidateSolution) {
-		Vector<String> rows = new Vector<String>();
+	private int verifyRows(String candidateSolution) {		
 		
 		for(int indx = 0; indx != 9; indx++) {
-			rows.add(candidateSolution.substring(indx*9, indx*9+9));
+			String row = candidateSolution.substring(indx*9, indx*9+9);
+			checkStringSequence(row);
 		}	
 		
 		

@@ -113,3 +113,7 @@
 1474032905999 test-last 1 672 false
 1474032906000 test-last 1 672 false
 1474032906001 test-last 1 672 false
+1474032954216 test-addition 2 31 true
+1474032954217 test-addition 1 31 true
+1474032954218 test-addition 2 31 true
+1474032954219 test-addition 1 31 true
