@@ -52,7 +52,7 @@ public class SudokuVerifierTest {
 				+ "346912758"
 				+ "289643571"
 				+ "573291684"
-				+ "-16487529";
+				+ "-164875293";
 		//act
 		int result = verifier.verify(candidateSolution);
 		//assert

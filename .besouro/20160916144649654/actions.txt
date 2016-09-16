@@ -35,3 +35,10 @@ RefactoringAction 1474029607940 SudokuVerifier.java REMOVE asd FIELD
 RefactoringAction 1474030094690 SudokuVerifierTest.java ADD void testVerify_ViolatingRule2() METHOD
 EditAction 1474030951960 SudokuVerifierTest.java 2223 5 17 4
 EditAction 1474030955388 SudokuVerifier.java 576 2 4 0
+UnitTestCaseAction 1474030957066 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474030957067 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1474031063148 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474031063149 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1474031174625 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474031174626 SudokuVerifierTest.java FAIL
+EditAction 1474031198949 SudokuVerifierTest.java 2224 5 17 4

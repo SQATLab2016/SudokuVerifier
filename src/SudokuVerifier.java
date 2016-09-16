@@ -5,10 +5,9 @@ public class SudokuVerifier {
 		// returns 0 if the candidate solution is correct
 		if (onlyPositives(candidateSolution) == -1){
 			return -1;
-		}
-		
+		}else {
 		return 0;
-		
+		}
 		//check
 	}
 	public int onlyPositives(String candidateSolution){
@@ -19,7 +18,7 @@ public class SudokuVerifier {
 			return -1;
 		}
 		else{
-			for(int i = 0; i <= 81; i++){
+			for(int i = 0; i < 81; i++){
 				try {
 					int test = Integer.parseInt(solution[i]);
 				} catch(NumberFormatException ex){
