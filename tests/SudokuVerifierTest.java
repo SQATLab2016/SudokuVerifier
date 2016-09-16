@@ -23,11 +23,21 @@ public class SudokuVerifierTest {
 	@Test 
 	public void test_RowColumnViolation() {
 		SudokuVerifier verifier = new SudokuVerifier();
-		String candidateSolution = "";
-		
+		String candidateSolution = ""
+								+"123456789"
+								+"245678913"
+								+"345678912"
+								+"456789123"
+								+"567891234"
+								+"678912345"
+								+"789123456"
+								+"891234567"
+								+"989123456";
+								
+								
+								
+								
 		String correctSolution = ""
-								+ "123456789"
-								+ "123456789"
 								+ "123456789"
 								+ "123456789"
 								+ "123456789"
