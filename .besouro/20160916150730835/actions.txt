@@ -1,0 +1,235 @@
+FileOpenedAction 1474027651075 SudokuVerifier.java 466 3 5 0
+FileOpenedAction 1474027668738 SudokuVerifierTest.java 390 1 1 0
+FileOpenedAction 1474027718177 SudokuVerifierParametrizedTest.java 172 1 1 0
+RefactoringAction 1474027730104 SudokuVerifier.java REMOVE validNumberOfChar(String) METHOD
+RefactoringAction 1474027730107 SudokuVerifier.java REMOVE main(String METHOD
+EditAction 1474027746090 SudokuVerifierTest.java 390 1 1 0
+FileOpenedAction 1474027750205 SudokuVerifierTest.java 390 1 1 0
+FileOpenedAction 1474027750973 SudokuVerifier.java 166 1 1 0
+RefactoringAction 1474027759493 SudokuVerifier.java ADD boolean validNumberOfChar(String) METHOD
+RefactoringAction 1474027759499 SudokuVerifier.java ADD static void main(String METHOD
+EditAction 1474027768819 SudokuVerifier.java 466 3 5 0
+UnitTestCaseAction 1474027771040 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474027771041 SudokuVerifierTest.java FAIL
+RefactoringAction 1474027837897 SudokuVerifierTest.java ADD void test FIELD
+RefactoringAction 1474027842918 SudokuVerifierTest.java RENAME test=>void testNumber FIELD
+RefactoringAction 1474027853438 SudokuVerifierTest.java RENAME testNumber=>void testNumberOf FIELD
+RefactoringAction 1474027855960 SudokuVerifierTest.java RENAME testNumberOf=>void testNumberOfCharacters FIELD
+RefactoringAction 1474027863481 SudokuVerifierTest.java RENAME testNumberOfCharacters=>void testNumberOfCharacters_ FIELD
+RefactoringAction 1474027873003 SudokuVerifierTest.java RENAME testNumberOfCharacters_=>void testNumberOfCharacters_Less FIELD
+RefactoringAction 1474027875529 SudokuVerifierTest.java RENAME testNumberOfCharacters_Less=>void testNumberOfCharacters_LessCharacters FIELD
+RefactoringAction 1474027877048 SudokuVerifierTest.java RENAME testNumberOfCharacters_LessCharacters=>void testNumberOfCharacters_LessCharacters() METHOD
+RefactoringAction 1474028255236 SudokuVerifier.java ADD String FIELD
+RefactoringAction 1474028255238 SudokuVerifier.java ADD int i FIELD
+RefactoringAction 1474028265802 SudokuVerifier.java RENAME rows=>split FIELD
+RefactoringAction 1474028280899 SudokuVerifier.java RENAME splitToRows()=>void splitRows() METHOD
+RefactoringAction 1474028285445 SudokuVerifier.java RENAME splitRows()=>void splitIntoRows() METHOD
+RefactoringAction 1474028291492 SudokuVerifier.java RENAME splitIntoRows()=>void splitIntoRows(String) METHOD
+RefactoringAction 1474028316555 SudokuVerifier.java REMOVE main(String METHOD
+RefactoringAction 1474028384761 SudokuVerifier.java ADD static void main(String METHOD
+RefactoringAction 1474028402350 SudokuVerifier.java ADD char R FIELD
+RefactoringAction 1474028403369 SudokuVerifier.java REMOVE R FIELD
+RefactoringAction 1474028404901 SudokuVerifier.java ADD char get FIELD
+RefactoringAction 1474028408419 SudokuVerifier.java RENAME get=>char getRowEntries FIELD
+RefactoringAction 1474028409439 SudokuVerifier.java RENAME getRowEntries=>char getRowEntries() METHOD
+RefactoringAction 1474028412956 SudokuVerifier.java RENAME getRowEntries()=>char getRowEntries(String) METHOD
+EditAction 1474028501529 SudokuVerifierTest.java 460 2 1 0
+EditAction 1474028510184 SudokuVerifier.java 792 5 9 0
+EditAction 1474028516140 SudokuVerifier.java 792 5 9 0
+FileOpenedAction 1474028587334 SudokuVerifierParametrizedTest.java 172 1 1 0
+RefactoringAction 1474028620255 SudokuVerifierTest.java ADD String row FIELD
+RefactoringAction 1474028656308 SudokuVerifierTest.java RENAME testNumberOfCharacters_LessCharacters()=>void testNumberOfCharacters_One() METHOD
+RefactoringAction 1474028658327 SudokuVerifierTest.java RENAME testNumberOfCharacters_One()=>void testNumberOfCharacters_OneRowMiss() METHOD
+RefactoringAction 1474028659344 SudokuVerifierTest.java RENAME testNumberOfCharacters_OneRowMiss()=>void testNumberOfCharacters_OneRowMissing() METHOD
+RefactoringAction 1474028697495 SudokuVerifierTest.java ADD int i FIELD
+RefactoringAction 1474028700513 SudokuVerifierTest.java REMOVE i FIELD
+RefactoringAction 1474028987615 SudokuVerifierTest.java ADD import org.junit.Before IMPORT
+RefactoringAction 1474029040104 SudokuVerifierTest.java ADD void validNumberOfChar() METHOD
+RefactoringAction 1474029050622 SudokuVerifierTest.java REMOVE validNumberOfChar() METHOD
+RefactoringAction 1474029055138 SudokuVerifierTest.java RENAME testNumberOfCharacters_OneRowMissing()=>void validNumberOfChar_OneRowMissing() METHOD
+RefactoringAction 1474029058153 SudokuVerifierTest.java RENAME validNumberOfChar_OneRowMissing()=>void testvalidNumberOfChar_OneRowMissing() METHOD
+RefactoringAction 1474029059169 SudokuVerifierTest.java RENAME testvalidNumberOfChar_OneRowMissing()=>void testValidNumberOfChar_OneRowMissing() METHOD
+RefactoringAction 1474029063186 SudokuVerifierTest.java ADD void init() METHOD
+RefactoringAction 1474029075713 SudokuVerifierTest.java REMOVE row FIELD
+RefactoringAction 1474029078738 SudokuVerifierTest.java ADD String row FIELD
+RefactoringAction 1474029109308 SudokuVerifierTest.java ADD SudokuVerifier sv FIELD
+EditAction 1474029244846 SudokuVerifierTest.java 719 3 4 1
+CompilationAction 1474029246575 SudokuVerifierTest.java
+UnitTestCaseAction 1474029246948 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474029246949 SudokuVerifierTest.java FAIL
+RefactoringAction 1474029262506 SudokuVerifierTest.java ADD void testValidNumberOfChar_OneRowMissing()/2 METHOD
+RefactoringAction 1474029268522 SudokuVerifierTest.java RENAME testValidNumberOfChar_OneRowMissing()/2=>void testValidNumberOfChar_OneCharMissing() METHOD
+RefactoringAction 1474029319211 SudokuVerifierTest.java ADD String row FIELD
+RefactoringAction 1474029319212 SudokuVerifierTest.java ADD SudokuVerifier sv FIELD
+RefactoringAction 1474029440800 SudokuVerifierTest.java REMOVE sv FIELD
+RefactoringAction 1474029440802 SudokuVerifierTest.java REMOVE row FIELD
+RefactoringAction 1474029444339 SudokuVerifierTest.java ADD String row FIELD
+RefactoringAction 1474029444341 SudokuVerifierTest.java ADD SudokuVerifier sv FIELD
+RefactoringAction 1474029521063 SudokuVerifierTest.java ADD String wrongSol FIELD
+RefactoringAction 1474029630808 SudokuVerifierTest.java ADD void testValidNumberOfChar_OneCharMissing()/2 METHOD
+RefactoringAction 1474029636324 SudokuVerifierTest.java RENAME testValidNumberOfChar_OneCharMissing()/2=>void testValidNumberOfChar_OneCharM() METHOD
+RefactoringAction 1474029637340 SudokuVerifierTest.java RENAME testValidNumberOfChar_OneCharM()=>void testValidNumberOfChar_OneCharMore() METHOD
+EditAction 1474029693119 SudokuVerifierTest.java 1289 6 9 3
+UnitTestCaseAction 1474029695177 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474029695178 SudokuVerifierTest.java FAIL
+RefactoringAction 1474029758996 SudokuVerifierTest.java RENAME row=>String String FIELD
+RefactoringAction 1474029763511 SudokuVerifierTest.java RENAME String=>String correctSol FIELD
+RefactoringAction 1474029766026 SudokuVerifierTest.java RENAME correctSol=>String corrSol FIELD
+RefactoringAction 1474029767541 SudokuVerifierTest.java RENAME corrSol=>String corSol FIELD
+RefactoringAction 1474029768557 SudokuVerifierTest.java RENAME corSol=>String corrSol FIELD
+RefactoringAction 1474029778098 SudokuVerifierTest.java RENAME row=>String String FIELD
+RefactoringAction 1474029781113 SudokuVerifierTest.java RENAME String=>String in FIELD
+RefactoringAction 1474029783628 SudokuVerifierTest.java RENAME in=>String inCSol FIELD
+RefactoringAction 1474029786646 SudokuVerifierTest.java RENAME inCSol=>String inCorrSol FIELD
+RefactoringAction 1474029789661 SudokuVerifierTest.java RENAME inCorrSol=>String inorrSol FIELD
+RefactoringAction 1474029825276 SudokuVerifierTest.java REMOVE testVerify() METHOD
+RefactoringAction 1474029825278 SudokuVerifierTest.java REMOVE testValidNumberOfChar_OneCharMissing() METHOD
+RefactoringAction 1474029825279 SudokuVerifierTest.java REMOVE testValidNumberOfChar_OneCharMore() METHOD
+RefactoringAction 1474029825281 SudokuVerifierTest.java REMOVE testValidNumberOfChar_OneRowMissing() METHOD
+RefactoringAction 1474029825282 SudokuVerifierTest.java REMOVE init() METHOD
+RefactoringAction 1474029827299 SudokuVerifierTest.java ADD void init() METHOD
+RefactoringAction 1474029827301 SudokuVerifierTest.java ADD void testVerify() METHOD
+RefactoringAction 1474029827302 SudokuVerifierTest.java ADD void testValidNumberOfChar_OneRowMissing() METHOD
+RefactoringAction 1474029827304 SudokuVerifierTest.java ADD void testValidNumberOfChar_OneCharMissing() METHOD
+RefactoringAction 1474029827305 SudokuVerifierTest.java ADD void testValidNumberOfChar_OneCharMore() METHOD
+RefactoringAction 1474029844314 SudokuVerifierTest.java REMOVE wrongSol FIELD
+EditAction 1474029880927 SudokuVerifierTest.java 1497 6 8 3
+UnitTestCaseAction 1474029883019 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474029883020 SudokuVerifierTest.java FAIL
+RefactoringAction 1474029895407 SudokuVerifierTest.java ADD void testValidNumberOfChar_OneRowMissing()/2 METHOD
+RefactoringAction 1474029940019 SudokuVerifierTest.java RENAME testValidNumberOfChar_OneRowMissing()/2=>void testValidNumberOfChar_() METHOD
+RefactoringAction 1474029943535 SudokuVerifierTest.java RENAME testValidNumberOfChar_()=>void testValidNumberOfChar_Correct() METHOD
+RefactoringAction 1474029945050 SudokuVerifierTest.java RENAME testValidNumberOfChar_Correct()=>void testValidNumberOfChar_CorrectNumber() METHOD
+EditAction 1474029978031 SudokuVerifierTest.java 1674 7 9 4
+UnitTestCaseAction 1474029980116 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474029980117 SudokuVerifierTest.java FAIL
+EditAction 1474029992070 SudokuVerifierTest.java 1684 7 10 4
+UnitTestCaseAction 1474029994364 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474029994365 SudokuVerifierTest.java FAIL
+EditAction 1474030000310 SudokuVerifierTest.java 1674 7 9 4
+UnitTestCaseAction 1474030002341 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474030002344 SudokuVerifierTest.java FAIL
+RefactoringAction 1474030107902 SudokuVerifier.java ADD boolean valid FIELD
+RefactoringAction 1474030109916 SudokuVerifier.java RENAME valid=>boolean validChar FIELD
+RefactoringAction 1474030117944 SudokuVerifier.java RENAME validChar=>boolean validCharacters FIELD
+RefactoringAction 1474030120457 SudokuVerifier.java RENAME validCharacters=>boolean validCharacters() METHOD
+RefactoringAction 1474030122970 SudokuVerifier.java RENAME validCharacters()=>boolean validCharacters(String) METHOD
+RefactoringAction 1474030508381 SudokuVerifierTest.java ADD void testValidCharacters_CorrectChar() METHOD
+RefactoringAction 1474030556036 SudokuVerifier.java RENAME validNumberOfChar(String)=>boolean isvalidNumberOfChar(String) METHOD
+RefactoringAction 1474030557051 SudokuVerifier.java RENAME isvalidNumberOfChar(String)=>boolean isValidNumberOfChar(String) METHOD
+RefactoringAction 1474030560566 SudokuVerifier.java RENAME validCharacters(String)=>boolean isValidCharacters(String) METHOD
+RefactoringAction 1474030564578 SudokuVerifier.java RENAME isValidCharacters(String)=>boolean containsValidCharacters(String) METHOD
+RefactoringAction 1474030566591 SudokuVerifier.java RENAME containsValidCharacters(String)=>boolean containsOnlyValidCharacters(String) METHOD
+RefactoringAction 1474030573108 SudokuVerifier.java RENAME isValidNumberOfChar(String)=>boolean isValidNumberOfChars(String) METHOD
+RefactoringAction 1474030575622 SudokuVerifier.java RENAME isValidNumberOfChars(String)=>boolean ValidNumberOfChars(String) METHOD
+RefactoringAction 1474030576630 SudokuVerifier.java RENAME ValidNumberOfChars(String)=>boolean hasValidNumberOfChars(String) METHOD
+EditAction 1474030643572 SudokuVerifierTest.java 1828 8 9 4
+CompilationAction 1474030645310 SudokuVerifierTest.java
+CompilationAction 1474030645311 SudokuVerifierTest.java
+CompilationAction 1474030645312 SudokuVerifierTest.java
+RefactoringAction 1474030690398 SudokuVerifierTest.java ADD void testValidCharacters_CorrectChar()/2 METHOD
+RefactoringAction 1474030696913 SudokuVerifierTest.java RENAME testValidCharacters_CorrectChar()/2=>void testValidCharactersChar() METHOD
+RefactoringAction 1474030699926 SudokuVerifierTest.java RENAME testValidCharactersChar()=>void testValidCharacters_InChar() METHOD
+RefactoringAction 1474030706440 SudokuVerifierTest.java RENAME testValidCharacters_InChar()=>void testValidCharacters_IncorreChar() METHOD
+RefactoringAction 1474030707453 SudokuVerifierTest.java RENAME testValidCharacters_IncorreChar()=>void testValidCharacters_IncorrectChar() METHOD
+RefactoringAction 1474030708966 SudokuVerifierTest.java RENAME testValidCharacters_IncorrectChar()=>void testValidCharacters_IncorrectChars() METHOD
+RefactoringAction 1474030710980 SudokuVerifierTest.java RENAME testValidCharacters_CorrectChar()=>void testValidCharacters_CorrectChars() METHOD
+RefactoringAction 1474030858785 SudokuVerifierTest.java RENAME testValidCharacters_IncorrectChars()=>void testValidCharacters_LetterChars() METHOD
+RefactoringAction 1474030866800 SudokuVerifierTest.java ADD void testValidCharacters_LetterChars()/2 METHOD
+RefactoringAction 1474030870820 SudokuVerifierTest.java RENAME testValidCharacters_LetterChars()/2=>void testValidCharacters_Chars() METHOD
+RefactoringAction 1474030873333 SudokuVerifierTest.java RENAME testValidCharacters_Chars()=>void testValidCharacters_SChars() METHOD
+RefactoringAction 1474030875347 SudokuVerifierTest.java RENAME testValidCharacters_SChars()=>void testValidCharacters_SymbolChars() METHOD
+CompilationAction 1474030903112 SudokuVerifierTest.java
+CompilationAction 1474030903113 SudokuVerifierTest.java
+CompilationAction 1474030903114 SudokuVerifierTest.java
+UnitTestCaseAction 1474030903470 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474030903471 SudokuVerifierTest.java FAIL
+RefactoringAction 1474031199469 SudokuVerifierTest.java ADD void testVerify()/2 METHOD
+RefactoringAction 1474031203483 SudokuVerifierTest.java RENAME testVerify()/2=>void testVerify_() METHOD
+RefactoringAction 1474031242499 SudokuVerifierTest.java RENAME testVerify_()=>void testVerify_Correct() METHOD
+RefactoringAction 1474031255025 SudokuVerifierTest.java RENAME testVerify_Correct()=>void testVerify_CorrectNr() METHOD
+RefactoringAction 1474031407687 SudokuVerifierTest.java RENAME testVerify_CorrectNr()=>void testVerify_IncorrectNr() METHOD
+RefactoringAction 1474031431728 SudokuVerifierTest.java ADD void testVerify_IncorrectNr()/2 METHOD
+RefactoringAction 1474031440741 SudokuVerifierTest.java RENAME testVerify_IncorrectNr()/2=>void testVerify_Invalid() METHOD
+RefactoringAction 1474031452757 SudokuVerifierTest.java RENAME testVerify_IncorrectNr()=>void testVerify_IncorrectNr_LessChar() METHOD
+RefactoringAction 1474031459273 SudokuVerifierTest.java ADD void testVerify_IncorrectNr_LessChar()/2 METHOD
+RefactoringAction 1474031463788 SudokuVerifierTest.java RENAME testVerify_IncorrectNr_LessChar()/2=>void testVerify_IncorrectNr_MoreChar() METHOD
+RefactoringAction 1474031497897 SudokuVerifierTest.java RENAME testVerify_Invalid()=>void testVerify_InvaliCd() METHOD
+RefactoringAction 1474031498910 SudokuVerifierTest.java RENAME testVerify_InvaliCd()=>void testVerify_InvaliCahd() METHOD
+RefactoringAction 1474031500424 SudokuVerifierTest.java RENAME testVerify_InvaliCahd()=>void testVerify_Invalid() METHOD
+RefactoringAction 1474031501939 SudokuVerifierTest.java RENAME testVerify_Invalid()=>void testVerify_InvalidChars() METHOD
+RefactoringAction 1474031506969 SudokuVerifierTest.java RENAME testVerify_IncorrectNr_MoreChar()=>void testVerify_IncorrectNr_MoreChars FIELD
+RefactoringAction 1474031510033 SudokuVerifierTest.java RENAME testVerify_IncorrectNr_LessChar()=>void testVerify_IncorrectNr_LessChasr() METHOD
+RefactoringAction 1474031511548 SudokuVerifierTest.java RENAME testVerify_IncorrectNr_LessChasr()=>void testVerify_IncorrectNr_LessChars() METHOD
+EditAction 1474031563994 SudokuVerifierTest.java 2661 13 17 10
+UnitTestCaseAction 1474031566204 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474031566205 SudokuVerifierTest.java FAIL
+RefactoringAction 1474031710646 SudokuVerifier.java ADD import org.hamcrest.Matchers.allOf IMPORT
+RefactoringAction 1474031717170 SudokuVerifier.java ADD import org.hamcrest.Matchers.* IMPORT
+RefactoringAction 1474031752710 SudokuVerifier.java ADD import org.j IMPORT
+RefactoringAction 1474031754223 SudokuVerifier.java RENAME import org.j=>import org.junit.* IMPORT
+RefactoringAction 1474031786756 SudokuVerifier.java ADD import org.hamcrest.BaseMatchers.* IMPORT
+RefactoringAction 1474031793771 SudokuVerifier.java RENAME import org.hamcrest.BaseMatchers.*=>import org.hamcrest.BaseMatcher.* IMPORT
+CompilationAction 1474031799731 SudokuVerifier.java
+EditAction 1474031845452 SudokuVerifierTest.java 2655 13 17 10
+UnitTestCaseAction 1474031847487 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474031847488 SudokuVerifierTest.java FAIL
+RefactoringAction 1474031938409 SudokuVerifier.java ADD char FIELD
+RefactoringAction 1474031942926 SudokuVerifier.java RENAME get=>char FIELD
+RefactoringAction 1474031943939 SudokuVerifier.java RENAME getSubGrids=>char METHOD
+RefactoringAction 1474031948953 SudokuVerifier.java RENAME getSubGrids()=>char METHOD
+RefactoringAction 1474032224055 SudokuVerifier.java RENAME import org.hamcrest.BaseMatcher.*=>import org.hamcrest.CoreMatcher.* IMPORT
+RefactoringAction 1474032233573 SudokuVerifier.java RENAME import org.hamcrest.CoreMatcher.*=>import org.hamcrest.CoreMatchers.* IMPORT
+EditAction 1474032876543 SudokuVerifierTest.java 2688 13 17 10
+EditAction 1474032884081 SudokuVerifier.java 1516 7 15 0
+EditAction 1474032888116 SudokuVerifier.java 1516 7 15 0
+RefactoringAction 1474032898647 SudokuVerifier.java REMOVE main(String METHOD
+RefactoringAction 1474032900162 SudokuVerifier.java ADD static void main(String METHOD
+RefactoringAction 1474033070429 SudokuVerifierTest.java ADD void test FIELD
+RefactoringAction 1474033077955 SudokuVerifierTest.java RENAME test=>void testgetSubGrids FIELD
+RefactoringAction 1474033079971 SudokuVerifierTest.java RENAME testgetSubGrids=>void testGetSubGrids FIELD
+RefactoringAction 1474033083986 SudokuVerifierTest.java RENAME testGetSubGrids=>void testGetSubGrids() METHOD
+EditAction 1474033117597 SudokuVerifierTest.java 2761 14 17 10
+CompilationAction 1474033119332 SudokuVerifierTest.java
+CompilationAction 1474033119333 SudokuVerifierTest.java
+CompilationAction 1474033119334 SudokuVerifierTest.java
+RefactoringAction 1474033132700 SudokuVerifier.java ADD pu FIELD
+RefactoringAction 1474033133711 SudokuVerifier.java REMOVE String FIELD
+EditAction 1474033136616 SudokuVerifierTest.java 2762 14 17 10
+CompilationAction 1474033138364 SudokuVerifierTest.java
+CompilationAction 1474033138365 SudokuVerifierTest.java
+CompilationAction 1474033138366 SudokuVerifierTest.java
+CompilationAction 1474033139429 SudokuVerifierTest.java
+CompilationAction 1474033139430 SudokuVerifierTest.java
+CompilationAction 1474033139431 SudokuVerifierTest.java
+EditAction 1474033189439 SudokuVerifierTest.java 2818 14 19 11
+UnitTestCaseAction 1474033196904 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474033196905 SudokuVerifierTest.java FAIL
+EditAction 1474033286513 SudokuVerifier.java 1799 7 19 0
+UnitTestCaseAction 1474034074102 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474034074103 SudokuVerifierTest.java FAIL
+EditAction 1474034144358 SudokuVerifierTest.java 2821 14 19 11
+UnitTestCaseAction 1474034146499 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474034146500 SudokuVerifierTest.java FAIL
+EditAction 1474034185176 SudokuVerifierTest.java 2818 14 19 11
+UnitTestCaseAction 1474034187240 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474034187241 SudokuVerifierTest.java FAIL
+RefactoringAction 1474034270652 SudokuVerifierTest.java ADD void test FIELD
+RefactoringAction 1474034274168 SudokuVerifierTest.java RENAME test=>void testVerify FIELD
+RefactoringAction 1474034275683 SudokuVerifierTest.java RENAME testVerify=>void testVerify_ FIELD
+RefactoringAction 1474034292199 SudokuVerifierTest.java RENAME testVerify_=>void testVerify_Double FIELD
+RefactoringAction 1474034309716 SudokuVerifierTest.java RENAME testVerify_Double=>void testVerify_ FIELD
+RefactoringAction 1474034314732 SudokuVerifierTest.java RENAME testVerify_=>void testVerify_DigitAppe FIELD
+RefactoringAction 1474034316248 SudokuVerifierTest.java RENAME testVerify_DigitAppe=>void testVerify_DigitAppears FIELD
+RefactoringAction 1474034320262 SudokuVerifierTest.java RENAME testVerify_DigitAppears=>void testVerify_DigitAppearsTwice FIELD
+RefactoringAction 1474034321778 SudokuVerifierTest.java RENAME testVerify_DigitAppearsTwice=>void testVerify_DigitAppearsTwice() METHOD
+RefactoringAction 1474034466499 SudokuVerifier.java ADD void areDigitsAppearingOnlyOnce() METHOD
+RefactoringAction 1474034477013 SudokuVerifier.java RENAME areDigitsAppearingOnlyOnce()=>void areDigitsInGrifdAppearingOnlyOnce() METHOD
+RefactoringAction 1474034478027 SudokuVerifier.java RENAME areDigitsInGrifdAppearingOnlyOnce()=>void areDigitsInGridAppearingOnlyOnce() METHOD
+RefactoringAction 1474034486554 SudokuVerifier.java RENAME areDigitsInGridAppearingOnlyOnce()=>void areDigitsInGridAppearingOnlyOnce(String) METHOD
+RefactoringAction 1474034509587 SudokuVerifier.java RENAME areDigitsInGridAppearingOnlyOnce(String)=>void areDigitsInGridValid(String) METHOD
+RefactoringAction 1474035058124 SudokuVerifier.java RENAME areDigitsInGridValid(String)=>boolean digitsInGridValid(String) METHOD
+RefactoringAction 1474035062640 SudokuVerifier.java RENAME digitsInGridValid(String)=>boolean digitsInGridareValid(String) METHOD
+RefactoringAction 1474035064157 SudokuVerifier.java RENAME digitsInGridareValid(String)=>boolean digitsInGridAreValid(String) METHOD
+EditAction 1474035383857 SudokuVerifierTest.java 2929 15 20 11
+FileOpenedAction 1474035489831 SudokuVerifierTest.java 2929 15 20 11
