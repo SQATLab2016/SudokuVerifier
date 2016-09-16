@@ -39,7 +39,9 @@ public class SudokuVerifier {
 			char c = sequence.charAt(indx);
 			StringBuilder tmp = new StringBuilder(sequence);
 			tmp.deleteCharAt(indx);
-			verifyOnlyOnce(c, tmp.toString());
+			
+			if(verifyOnlyOnce(c, tmp.toString()) == -1)
+				return -1;
 		}
 			
 		return 0;		
