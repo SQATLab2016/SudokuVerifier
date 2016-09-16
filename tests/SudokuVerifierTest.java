@@ -12,7 +12,9 @@ public class SudokuVerifierTest {
 		SudokuVerifier verifier = new SudokuVerifier();
 		int result = verifier.verify("41736982563215894795872431682543716979158643234691275828964357157329168416487529");
 		
-		assertEquals("Character count is not checked. ", result, -5);
+		assertEquals("Character count is not checked. ", result, -1);
 	}
+	
+	
 
 }

@@ -20,3 +20,11 @@ EditAction 1474026919888 SudokuVerifier.java 285 1 2 0
 UnitTestCaseAction 1474026923294 SudokuVerifierTest.java OK
 UnitTestSessionAction 1474026923295 SudokuVerifierTest.java OK
 EditAction 1474028153673 SudokuVerifier.java 660 1 5 0
+RefactoringAction 1474028193167 SudokuVerifierTest.java ADD void testVerify FIELD
+RefactoringAction 1474028195682 SudokuVerifierTest.java RENAME testVerify=>void testVerify_ FIELD
+RefactoringAction 1474028198195 SudokuVerifierTest.java RENAME testVerify_=>void testVerify_should FIELD
+RefactoringAction 1474028204214 SudokuVerifierTest.java RENAME testVerify_should=>void testVerify_should_verify_number FIELD
+RefactoringAction 1474028205228 SudokuVerifierTest.java RENAME testVerify_should_verify_number=>void testVerify_should_verify_numbers FIELD
+RefactoringAction 1474028219744 SudokuVerifierTest.java RENAME testVerify_should_verify_numbers=>void testVerify_should_verify_numbers() METHOD
+RefactoringAction 1474028333417 SudokuVerifierTest.java REMOVE testVerify_should_verify_numbers() METHOD
+EditAction 1474028658673 SudokuVerifierTest.java 629 1 3 1

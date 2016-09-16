@@ -4,7 +4,7 @@ public class SudokuVerifier {
 	public int verify(String candidateSolution) {
 		//Check the length of numbers
 		if(candidateSolution.length()!=81){
-			return -5; //-5 will be any other error
+			return -1; //-5 will be any other error EDIT -1 is used to check the format of string
 		}
 		
 		//Insert to data structure
