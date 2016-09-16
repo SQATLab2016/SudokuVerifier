@@ -1,9 +1,17 @@
 import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
 
 public class SudokuVerifier {
 	
 	public int verify(String candidateSolution) {
     
+		
+		
+		
+		
+		
 		
 	    String forCheck = candidateSolution;
 		while(!forCheck.isEmpty()){
@@ -23,12 +31,20 @@ public class SudokuVerifier {
 				candidateSolution.charAt(18),candidateSolution.charAt(19),candidateSolution.charAt(20)};
 		Arrays.sort(firstGrid);
 		Arrays.sort(numbers);
-	    if(!numbers.equals(firstGrid)) {
+		
+		
+		Set<String> stringSet = new HashSet<> (Arrays.asList(firstGrid));
+		String[] filteredArray = stringSet.toArray(new String[0]);
+
+		if(!numbers.equals(firstGrid)) {
 	    	
 	    return -2; 	
 	    }
 	    
 	    return 0;
+	
 		
 	}
+	
+	
 }
