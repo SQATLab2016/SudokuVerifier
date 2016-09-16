@@ -20,7 +20,7 @@ public class SudokuVerifierTest {
 		int solution = n.verify(fail);
 		assertTrue("solution is incorrect", solution == -1 || solution == -2 || solution == -3 || solution == -4);
 	}
-
+	@Test
 	public void testVerifyFail2(){
 		SudokuVerifier n = new SudokuVerifier();
 		String candidateSolution = ""

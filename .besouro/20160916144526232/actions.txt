@@ -231,3 +231,6 @@ RefactoringAction 1474030620384 SudokuVerifierTest.java ADD String candidateSolu
 RefactoringAction 1474030638415 SudokuVerifierTest.java ADD void testVerifyFail2() METHOD
 RefactoringAction 1474030643438 SudokuVerifierTest.java REMOVE candidateSolution FIELD
 EditAction 1474030675997 SudokuVerifierTest.java 1400 3 11 3
+UnitTestCaseAction 1474030679197 SudokuVerifierTest.java OK
+UnitTestSessionAction 1474030679198 SudokuVerifierTest.java OK
+EditAction 1474030688987 SudokuVerifierTest.java 1406 3 11 3
