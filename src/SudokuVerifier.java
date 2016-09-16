@@ -51,9 +51,9 @@ public class SudokuVerifier {
 		String[] grids = new String[9];
 		for (int i=0; i<9; i++) {
 			String grid = "";
-			grid.concat(   possSol.substring(i*9, i*9 + 3)
-					     + possSol.substring((i+1)*9, (i+1)*9 + 3)
-					     + possSol.substring((i+2)*9, (i+2)*9 + 3)
+			grid.concat(   possSol.substring((i/3)*9 + i*3, (i/3)*9 + i*3 + 3)
+					     + possSol.substring(((i/3)+1)*9 + i*3, ((i/3)+1)*9 + i*3 + 3)
+					     + possSol.substring(((i/3)+2)*9 + i*3, ((i/3)+2)*9 + i*3 + 3)
 					   );
 			grids[i] = grid;
 		}

@@ -183,3 +183,10 @@ RefactoringAction 1474032233573 SudokuVerifier.java RENAME import org.hamcrest.C
 EditAction 1474032876543 SudokuVerifierTest.java 2688 13 17 10
 EditAction 1474032884081 SudokuVerifier.java 1516 7 15 0
 EditAction 1474032888116 SudokuVerifier.java 1516 7 15 0
+RefactoringAction 1474032898647 SudokuVerifier.java REMOVE main(String METHOD
+RefactoringAction 1474032900162 SudokuVerifier.java ADD static void main(String METHOD
+RefactoringAction 1474033070429 SudokuVerifierTest.java ADD void test FIELD
+RefactoringAction 1474033077955 SudokuVerifierTest.java RENAME test=>void testgetSubGrids FIELD
+RefactoringAction 1474033079971 SudokuVerifierTest.java RENAME testgetSubGrids=>void testGetSubGrids FIELD
+RefactoringAction 1474033083986 SudokuVerifierTest.java RENAME testGetSubGrids=>void testGetSubGrids() METHOD
+EditAction 1474033117597 SudokuVerifierTest.java 2761 14 17 10

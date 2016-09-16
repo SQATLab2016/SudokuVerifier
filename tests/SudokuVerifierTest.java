@@ -113,6 +113,12 @@ public class SudokuVerifierTest {
 	}
 	
 	
+	@Test
+	public void testGetSubGrids() {
+		String[] grids = sv.get
+	}
+	
+	
 	/*
 	 * Test for rule 2
 	 */
