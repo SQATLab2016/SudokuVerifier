@@ -6,3 +6,5 @@ RefactoringAction 1474027250316 SudokuVerifierTest.java RENAME import org.hamcre
 RefactoringAction 1474027254831 SudokuVerifierTest.java REMOVE import org.hamcrest.CoreMatchers IMPORT
 RefactoringAction 1474027260872 SudokuVerifierTest.java ADD import org.hamcrest.CoreMatchers.* IMPORT
 EditAction 1474027477425 SudokuVerifier.java 611 1 3 0
+RefactoringAction 1474027580418 SudokuVerifierTest.java RENAME testVerify()=>void testVerifyR1() METHOD
+EditAction 1474027734914 SudokuVerifierTest.java 542 1 0 0
