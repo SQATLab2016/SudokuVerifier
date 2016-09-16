@@ -12,6 +12,7 @@ public class SudokuVerifierTest {
 
 	private SudokuVerifier verifier;
 	private String candidateSolution;
+	private String correctSolution;
 
 	@Test
 	public void test() {
@@ -25,9 +26,9 @@ public class SudokuVerifierTest {
 	
 	@Test 
 	public void test_RowColumnViolation() {
-		verifier = new SudokuVerifier();
-		candidateSolution = ""
-								+"123456789"
+		setVerifier(new SudokuVerifier());
+		setCandidateSolution(
+								"123456789"
 								+"245678913"
 								+"345678912"
 								+"456789123"
@@ -35,12 +36,12 @@ public class SudokuVerifierTest {
 								+"678912345"
 								+"789123456"
 								+"891234567"
-								+"989123456";
+								+"989123456");
 								
 								
 								
 								
-		String correctSolution = ""
+		correctSolution = ""
 								+ "123456789"
 								+ "123456789"
 								+ "123456789"
@@ -53,6 +54,22 @@ public class SudokuVerifierTest {
 	//	assertThat(result, anyOf(is(-2), is(-3)));
 		
 		
+	}
+
+	public SudokuVerifier getVerifier() {
+		return verifier;
+	}
+
+	public void setVerifier(SudokuVerifier verifier) {
+		this.verifier = verifier;
+	}
+
+	public String getCandidateSolution() {
+		return candidateSolution;
+	}
+
+	public void setCandidateSolution(String candidateSolution) {
+		this.candidateSolution = candidateSolution;
 	}
 	
 

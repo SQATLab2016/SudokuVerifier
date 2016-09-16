@@ -53,3 +53,15 @@ EditAction 1474028274497 SudokuVerifierTest.java 1266 2 7 1
 RefactoringAction 1474028275186 SudokuVerifierTest.java ADD SudokuVerifier verifier FIELD
 EditAction 1474028283029 SudokuVerifierTest.java 1294 2 7 1
 RefactoringAction 1474028283714 SudokuVerifierTest.java ADD String candidateSolution FIELD
+UnitTestCaseAction 1474028299622 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474028299624 SudokuVerifierTest.java FAIL
+RefactoringAction 1474028323250 SudokuVerifierTest.java ADD SudokuVerifier getVerifier() METHOD
+RefactoringAction 1474028323252 SudokuVerifierTest.java ADD void setVerifier(SudokuVerifier) METHOD
+RefactoringAction 1474028331788 SudokuVerifierTest.java ADD String getCandidateSolution() METHOD
+RefactoringAction 1474028331790 SudokuVerifierTest.java ADD void setCandidateSolution(String) METHOD
+UnitTestCaseAction 1474028335732 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474028335733 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1474028359199 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474028359200 SudokuVerifierTest.java FAIL
+EditAction 1474028375531 SudokuVerifierTest.java 1651 6 11 1
+RefactoringAction 1474028376364 SudokuVerifierTest.java ADD String correctSolution FIELD
