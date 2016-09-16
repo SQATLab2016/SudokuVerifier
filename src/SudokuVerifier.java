@@ -22,7 +22,7 @@ public class SudokuVerifier {
 	
 	public int checkDuplicates(String candidateSolution){
 		String FirstRow=candidateSolution.substring(0,9);
-		boolean containOne= FirstRow.contains("1");{
+		boolean containOne=FirstRow.contains("1");{
 			return 1;
 		}
 		
