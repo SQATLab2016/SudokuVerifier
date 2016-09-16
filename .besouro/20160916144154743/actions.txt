@@ -176,3 +176,4 @@ UnitTestSessionAction 1474032698859 SudokuVerifierTest.java OK
 RefactoringAction 1474032709667 SudokuVerifierTest.java ADD void testVerifyR1()/2 METHOD
 RefactoringAction 1474032713681 SudokuVerifierTest.java REMOVE testVerifyR1()/2 METHOD
 EditAction 1474032757806 SudokuVerifierTest.java 646 1 4 1
+EditAction 1474032762164 SudokuVerifierTest.java 646 1 4 1
