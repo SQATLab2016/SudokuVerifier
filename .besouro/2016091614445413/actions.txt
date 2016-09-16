@@ -1,0 +1,8 @@
+FileOpenedAction 1474026294091 SudokuVerifierTest.java 390 1 1 0
+RefactoringAction 1474026327147 SudokuVerifierTest.java ADD void test_RowColumnViolation() METHOD
+RefactoringAction 1474026472072 SudokuVerifierTest.java ADD void test() METHOD
+RefactoringAction 1474027166267 SudokuVerifierTest.java ADD import org.hamcrest IMPORT
+RefactoringAction 1474027172445 SudokuVerifierTest.java RENAME import org.hamcrest=>import org.hamcrest.Core IMPORT
+RefactoringAction 1474027178123 SudokuVerifierTest.java RENAME import org.hamcrest.Core=>import org.hamcrest.CoreMatchers IMPORT
+RefactoringAction 1474027181243 SudokuVerifierTest.java RENAME import org.hamcrest.CoreMatchers=>import org.hamcrest.CoreMatchers.* IMPORT
+EditAction 1474027187062 SudokuVerifierTest.java 1039 3 10 2
