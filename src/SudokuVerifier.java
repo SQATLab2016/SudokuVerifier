@@ -9,11 +9,14 @@ public class SudokuVerifier {
 		
 		//Insert to data structure
 		Integer[][] sudokuTable = new Integer[9][9];
+		Integer[] numberCounts = {0,0,0,0,0,0,0,0,0};
 		int stringIndex=0;
 		for(int i=0;i<9;i++){
 			for(int j=0;j<9;j++){
 				//Rule 1: check if all are positive digits
-				Integer digit = Integer.getInteger(String.valueOf(candidateSolution.charAt(stringIndex)));
+				char chaarat = candidateSolution.charAt(stringIndex);
+				String charString= String.valueOf(chaarat);
+				Integer digit = Integer.valueOf(charString);
 				if(digit<1 || digit >9){
 					return -1;
 				}
@@ -24,8 +27,12 @@ public class SudokuVerifier {
 		
 		//Check rows
 		for(int x=0;x<9;x++){
+			String row="";
 			for(int y=0;y<9;y++){
-				int checkedDigit = sudokuTable[x][y];
+				 row = row + String.valueOf(sudokuTable[x][y]);
+			}
+			if(row.matches("(?:([1245679])(?!\\1))+")){//regular expression that matched if there are repetitions of numbers
+				return -3;
 			}
 		}
 		
@@ -34,4 +41,6 @@ public class SudokuVerifier {
 		
 		//check
 	}
+	
+	
 }
