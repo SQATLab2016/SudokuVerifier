@@ -33,11 +33,12 @@ public class SudokuVerifier {
 		return 0;
 	}
 
-	private int verifyOnlyOnce(char target, String candiateSolution)
+	public int verifyOnlyOnce(char target, String candiateSolution)
 	{
-		if(candiateSolution.contains(Character.toString(target)));
+		if(candiateSolution.contains(Character.toString(target)))
 			return -1;
-		return 0;
+		else				
+			return 0;
 	}
 	
 	private int verifyPositiveNumeric(String candidateSolution)

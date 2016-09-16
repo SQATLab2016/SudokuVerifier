@@ -25,9 +25,9 @@ public class SudokuVerifierParametrizedTest {
 	public void testNumberAtStringOnlyOnce() {
 		SudokuVerifier verifier = new SudokuVerifier();		
 	
-		String candidateSolution = "123456789";
+		String candidateSolution = "12345679";
 		
-		assertEquals("", 0, verifier.verifyOnlyOnce(candidateSolution));
+		assertEquals("", 0, verifier.verifyOnlyOnce('8', candidateSolution));
 	}
 	
 	
