@@ -23,9 +23,18 @@ public class SudokuVerifier {
 	public int checkDuplicates(String candidateSolution){
 		String FirstRow=candidateSolution.substring(0,9);
 		boolean containsOne=FirstRow.contains("1");
+		boolean containsTwo=FirstRow.contains("2");
+		boolean containsThree=FirstRow.contains("3");
+		boolean containsFour=FirstRow.contains("4");
+		boolean containsFive=FirstRow.contains("5");
+		boolean containsSix=FirstRow.contains("6");
+		boolean containsSeven=FirstRow.contains("7");
+		boolean containsEight=FirstRow.contains("8");
+		boolean containsNine=FirstRow.contains("9");
 		if (containsOne == false){
 			return 1;
-		}
+		}else if
+		
 		return 0;
 		
 	}
