@@ -32,7 +32,7 @@ public class SudokuVerifierTest {
 	public void test81numbers(){
 		SudokuVerifier verifier = new SudokuVerifier();
 		int result = verifier.hasOnlyNumbers("417369825632158947958724316825437169791586432346912758289643571573291684164875293");
-		assertEquals("Contains a character", 0, result);
+		assertEquals("81 numbers", 1, result);
 	}
 	
 	

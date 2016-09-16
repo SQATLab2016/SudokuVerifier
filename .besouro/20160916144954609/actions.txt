@@ -118,3 +118,4 @@ RefactoringAction 1474030334575 SudokuVerifierTest.java RENAME testOnlyNumbersFa
 RefactoringAction 1474030338592 SudokuVerifierTest.java RENAME test()=>void test81() METHOD
 RefactoringAction 1474030342607 SudokuVerifierTest.java RENAME test81()=>void test81numbers() METHOD
 EditAction 1474030351757 SudokuVerifierTest.java 1260 4 10 3
+EditAction 1474030373831 SudokuVerifierTest.java 1250 4 10 3
