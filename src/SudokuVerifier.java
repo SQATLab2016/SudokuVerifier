@@ -35,7 +35,7 @@ public class SudokuVerifier {
 		}
 		return 0;
 	}
-	
+	//Verify Columns
 	public boolean verifyHorizontal(int y, int x, int[][] sudoku){
 		int toTest = sudoku[y][x];
 		for(int i = 0; i < sudoku.length; i++){
@@ -45,6 +45,7 @@ public class SudokuVerifier {
 		}
 		return true;
 	}
+	//Verify Rows
 	public boolean verifyVertical(int y, int x, int[][] sudoku){
 		int toTest = sudoku[y][x];
 		for(int i = 0; i < sudoku.length; i++){
@@ -54,6 +55,7 @@ public class SudokuVerifier {
 		}
 		return true;
 	}
+	//Verify 3x3
 	public boolean verifyBox(int y, int x, int[][] sudoku){
 		int toTest = sudoku[y][x];
 		int xLimit = x/3 * 3;
@@ -61,6 +63,7 @@ public class SudokuVerifier {
 		
 		for(int i = 0; i < 3; i++){
 			for(int j = 0; j < 3; j++){
+				//If the same number
 				if((xLimit + j == x && yLimit + i == y))
 					continue;
 				if(sudoku[yLimit +i][xLimit + j] == toTest){
