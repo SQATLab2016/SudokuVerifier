@@ -33,7 +33,23 @@ public class SudokuVerifier {
 		boolean containsNine=FirstRow.contains("9");
 		if (containsOne == false){
 			return 1;
-		}else if
+		}else if (containsTwo == false){
+			return 1;
+		}else if (containsThree == false){
+			return 1;
+		}else if (containsFour == false){
+			return 1;
+		}else if (containsFive == false){
+			return 1;
+		}else if (containsSix == false){
+			return 1;
+		}else if (containsSeven == false){
+			return 1;
+		}else if (containsEight == false){
+			return 1;
+		}else if (containsNine == false){
+			return 1;
+		}
 		
 		return 0;
 		
