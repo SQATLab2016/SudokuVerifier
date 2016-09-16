@@ -8,11 +8,19 @@ public class SudokuVerifier {
 		//check
 	}
 	
-	public boolean validNumberOfChar(String possSol) {
+	public boolean hasValidNumberOfChars(String possSol) {
 		if (possSol.length() != 81) {
 			return false;
 		} else {
 			return true;
+		}
+	}
+	
+	public boolean containsOnlyValidCharacters(String possSol) {
+		if (possSol.matches("\\d*")) {
+			return true;
+		} else {
+			return false;
 		}
 	}
 	
@@ -33,8 +41,6 @@ public class SudokuVerifier {
 	public static void main(String[] args) {
 
 		String a = "abcd";
-		//System.out.println(a.substring(2, 3));
-		
 		char entry = a.charAt(2);
 		System.out.println(entry);
 		

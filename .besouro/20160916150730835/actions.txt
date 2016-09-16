@@ -107,3 +107,20 @@ EditAction 1474029992070 SudokuVerifierTest.java 1684 7 10 4
 UnitTestCaseAction 1474029994364 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1474029994365 SudokuVerifierTest.java FAIL
 EditAction 1474030000310 SudokuVerifierTest.java 1674 7 9 4
+UnitTestCaseAction 1474030002341 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474030002344 SudokuVerifierTest.java FAIL
+RefactoringAction 1474030107902 SudokuVerifier.java ADD boolean valid FIELD
+RefactoringAction 1474030109916 SudokuVerifier.java RENAME valid=>boolean validChar FIELD
+RefactoringAction 1474030117944 SudokuVerifier.java RENAME validChar=>boolean validCharacters FIELD
+RefactoringAction 1474030120457 SudokuVerifier.java RENAME validCharacters=>boolean validCharacters() METHOD
+RefactoringAction 1474030122970 SudokuVerifier.java RENAME validCharacters()=>boolean validCharacters(String) METHOD
+RefactoringAction 1474030508381 SudokuVerifierTest.java ADD void testValidCharacters_CorrectChar() METHOD
+RefactoringAction 1474030556036 SudokuVerifier.java RENAME validNumberOfChar(String)=>boolean isvalidNumberOfChar(String) METHOD
+RefactoringAction 1474030557051 SudokuVerifier.java RENAME isvalidNumberOfChar(String)=>boolean isValidNumberOfChar(String) METHOD
+RefactoringAction 1474030560566 SudokuVerifier.java RENAME validCharacters(String)=>boolean isValidCharacters(String) METHOD
+RefactoringAction 1474030564578 SudokuVerifier.java RENAME isValidCharacters(String)=>boolean containsValidCharacters(String) METHOD
+RefactoringAction 1474030566591 SudokuVerifier.java RENAME containsValidCharacters(String)=>boolean containsOnlyValidCharacters(String) METHOD
+RefactoringAction 1474030573108 SudokuVerifier.java RENAME isValidNumberOfChar(String)=>boolean isValidNumberOfChars(String) METHOD
+RefactoringAction 1474030575622 SudokuVerifier.java RENAME isValidNumberOfChars(String)=>boolean ValidNumberOfChars(String) METHOD
+RefactoringAction 1474030576630 SudokuVerifier.java RENAME ValidNumberOfChars(String)=>boolean hasValidNumberOfChars(String) METHOD
+EditAction 1474030643572 SudokuVerifierTest.java 1828 8 9 4

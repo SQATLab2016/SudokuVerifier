@@ -34,6 +34,15 @@ public class SudokuVerifierTest {
 	
 	
 	
+	/*
+	 * Test for valid characters (numbers from 1-9)
+	 */
+	
+	@Test
+	public void testValidCharacters_CorrectChar() {
+		sv.has
+		fail();
+	}
 	
 	
 	/*
@@ -42,7 +51,7 @@ public class SudokuVerifierTest {
 	
 	@Test
 	public void testValidNumberOfChar_CorrectNumber() {
-		assertEquals(true, sv.validNumberOfChar(corrSol));
+		assertEquals(true, sv.hasValidNumberOfChars(corrSol));
 	}
 	
 	@Test
@@ -52,7 +61,7 @@ public class SudokuVerifierTest {
 			sol.concat(row);
 		}
 		
-		assertEquals(false, sv.validNumberOfChar(sol));
+		assertEquals(false, sv.hasValidNumberOfChars(sol));
 	}
 	
 	@Test
@@ -60,7 +69,7 @@ public class SudokuVerifierTest {
 		// remove last character from wrong solution
 		String solOneCharMissing = corrSol.substring(0, 80);
 		
-		assertEquals(false, sv.validNumberOfChar(solOneCharMissing));
+		assertEquals(false, sv.hasValidNumberOfChars(solOneCharMissing));
 	}
 	
 	@Test
@@ -68,7 +77,7 @@ public class SudokuVerifierTest {
 		// add character to wrong solution
 		String solOneCharMore = corrSol.concat("1");
 		
-		assertEquals(false, sv.validNumberOfChar(solOneCharMore));
+		assertEquals(false, sv.hasValidNumberOfChars(solOneCharMore));
 	}
 
 }
