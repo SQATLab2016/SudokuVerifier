@@ -52,4 +52,20 @@ public class SudokuVerifierTest {
 		int solution = n.verify(candidateSolution);
 		assertTrue("solution is incorrect", solution == -1 || solution == -2 || solution == -3 || solution == -4);
 	}
+	@Test
+	public void testVerifyFail4(){
+		SudokuVerifier n = new SudokuVerifier();
+		String candidateSolution = ""
+                + "113456789"
+                + "922345678"
+                + "891234567"
+                + "789123456"
+                + "678912345"
+                + "567891234"
+                + "456789123"
+                + "345678912"
+                + "234567891";
+		int solution = n.verify(candidateSolution);
+		assertTrue("solution is incorrect", solution == -1 || solution == -2 || solution == -3 || solution == -4);
+	}
 }
