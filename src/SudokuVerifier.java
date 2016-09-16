@@ -24,17 +24,14 @@ public class SudokuVerifier {
 			
 		forCheck = forCheck.substring(1);
 		}
-		char[] numbers={1,2,3,4,5,6,7,8,9};
+		int[] numbers={1,2,3,4,5,6,7,8,9};
 		
 		char[] firstGrid = {candidateSolution.charAt(0),candidateSolution.charAt(1),candidateSolution.charAt(2),
 				candidateSolution.charAt(9),candidateSolution.charAt(10),candidateSolution.charAt(11),
 				candidateSolution.charAt(18),candidateSolution.charAt(19),candidateSolution.charAt(20)};
 		Arrays.sort(firstGrid);
 		Arrays.sort(numbers);
-		
-		
-		Set<String> stringSet = new HashSet<> (Arrays.asList(firstGrid));
-		String[] filteredArray = stringSet.toArray(new String[0]);
+		System.out.println(numbers.toString());
 
 		if(!numbers.equals(firstGrid)) {
 	    	

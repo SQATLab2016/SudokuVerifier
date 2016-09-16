@@ -117,3 +117,7 @@ RefactoringAction 1474030476448 SudokuVerifier.java REMOVE removeDuplicates(int 
 RefactoringAction 1474030563354 SudokuVerifier.java ADD import java.util.Set IMPORT
 RefactoringAction 1474030586260 SudokuVerifier.java ADD import java.util.HashSet IMPORT
 EditAction 1474030601840 SudokuVerifier.java 1206 1 10 0
+CompilationAction 1474030603300 SudokuVerifier.java
+UnitTestCaseAction 1474030734199 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474030734200 SudokuVerifierTest.java FAIL
+EditAction 1474030743694 SudokuVerifier.java 1112 1 9 0
