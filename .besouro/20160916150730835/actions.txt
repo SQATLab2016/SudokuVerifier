@@ -9,3 +9,28 @@ FileOpenedAction 1474027750973 SudokuVerifier.java 166 1 1 0
 RefactoringAction 1474027759493 SudokuVerifier.java ADD boolean validNumberOfChar(String) METHOD
 RefactoringAction 1474027759499 SudokuVerifier.java ADD static void main(String METHOD
 EditAction 1474027768819 SudokuVerifier.java 466 3 5 0
+UnitTestCaseAction 1474027771040 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474027771041 SudokuVerifierTest.java FAIL
+RefactoringAction 1474027837897 SudokuVerifierTest.java ADD void test FIELD
+RefactoringAction 1474027842918 SudokuVerifierTest.java RENAME test=>void testNumber FIELD
+RefactoringAction 1474027853438 SudokuVerifierTest.java RENAME testNumber=>void testNumberOf FIELD
+RefactoringAction 1474027855960 SudokuVerifierTest.java RENAME testNumberOf=>void testNumberOfCharacters FIELD
+RefactoringAction 1474027863481 SudokuVerifierTest.java RENAME testNumberOfCharacters=>void testNumberOfCharacters_ FIELD
+RefactoringAction 1474027873003 SudokuVerifierTest.java RENAME testNumberOfCharacters_=>void testNumberOfCharacters_Less FIELD
+RefactoringAction 1474027875529 SudokuVerifierTest.java RENAME testNumberOfCharacters_Less=>void testNumberOfCharacters_LessCharacters FIELD
+RefactoringAction 1474027877048 SudokuVerifierTest.java RENAME testNumberOfCharacters_LessCharacters=>void testNumberOfCharacters_LessCharacters() METHOD
+RefactoringAction 1474028255236 SudokuVerifier.java ADD String FIELD
+RefactoringAction 1474028255238 SudokuVerifier.java ADD int i FIELD
+RefactoringAction 1474028265802 SudokuVerifier.java RENAME rows=>split FIELD
+RefactoringAction 1474028280899 SudokuVerifier.java RENAME splitToRows()=>void splitRows() METHOD
+RefactoringAction 1474028285445 SudokuVerifier.java RENAME splitRows()=>void splitIntoRows() METHOD
+RefactoringAction 1474028291492 SudokuVerifier.java RENAME splitIntoRows()=>void splitIntoRows(String) METHOD
+RefactoringAction 1474028316555 SudokuVerifier.java REMOVE main(String METHOD
+RefactoringAction 1474028384761 SudokuVerifier.java ADD static void main(String METHOD
+RefactoringAction 1474028402350 SudokuVerifier.java ADD char R FIELD
+RefactoringAction 1474028403369 SudokuVerifier.java REMOVE R FIELD
+RefactoringAction 1474028404901 SudokuVerifier.java ADD char get FIELD
+RefactoringAction 1474028408419 SudokuVerifier.java RENAME get=>char getRowEntries FIELD
+RefactoringAction 1474028409439 SudokuVerifier.java RENAME getRowEntries=>char getRowEntries() METHOD
+RefactoringAction 1474028412956 SudokuVerifier.java RENAME getRowEntries()=>char getRowEntries(String) METHOD
+EditAction 1474028501529 SudokuVerifierTest.java 460 2 1 0
