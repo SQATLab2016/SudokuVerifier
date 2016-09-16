@@ -23,8 +23,12 @@ public class SudokuVerifierParametrizedTest {
 	@Test
 	public void testCanditateStringOnlyNumeric()
 	{
-		SudokuVerifier verifier = new SudokuVerifier();		
-		verifier.verify(INCORRECT_NONNUMERIC);
+		// Arrange
+		SudokuVerifier verifier = new SudokuVerifier();
+		
+		// Act
+		// Assert
+		assertEquals("Solution not valid in 1-9 positive range", verifier.verify(INCORRECT_NONNUMERIC), -1);
 	}
 	
 }
