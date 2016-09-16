@@ -14,7 +14,7 @@ public class SudokuVerifier {
 		for(int i = 0; i < sudoku.length; i++){
 			for(int j = 0; j < sudoku.length; j++){
 				if(verifyNumber(i, j, sudoku) != 0){
-					
+					return verifyNumber(i, j, sudoku);
 				}
 			}
 		}
