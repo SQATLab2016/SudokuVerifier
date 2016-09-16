@@ -17,11 +17,13 @@ public class SudokuVerifier {
 				if(digit<1 || digit >9){
 					return -1;
 				}
+				sudokuTable[i][j]= digit;
 				stringIndex++;
 			}
 		}
 		
-		//
+		//Check rows
+		//for(int x=0;x<9;)
 		
 		// returns 0 if the candidate solution is correct
 		return 0;

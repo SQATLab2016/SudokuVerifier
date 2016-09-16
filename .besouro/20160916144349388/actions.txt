@@ -28,3 +28,4 @@ RefactoringAction 1474028205228 SudokuVerifierTest.java RENAME testVerify_should
 RefactoringAction 1474028219744 SudokuVerifierTest.java RENAME testVerify_should_verify_numbers=>void testVerify_should_verify_numbers() METHOD
 RefactoringAction 1474028333417 SudokuVerifierTest.java REMOVE testVerify_should_verify_numbers() METHOD
 EditAction 1474028658673 SudokuVerifierTest.java 629 1 3 1
+EditAction 1474028660190 SudokuVerifier.java 768 1 5 0
