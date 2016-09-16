@@ -31,7 +31,7 @@ public class SudokuVerifier {
 				candidateSolution.charAt(18),candidateSolution.charAt(19),candidateSolution.charAt(20)};
 		Arrays.sort(firstGrid);
 		Arrays.sort(numbers);
-		System.out.println(Arrays.toString(numbers));
+		System.out.println(Arrays.toString(firstGird));
 
 		if(!numbers.equals(firstGrid)) {
 	    	
