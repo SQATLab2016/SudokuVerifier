@@ -13,5 +13,11 @@ public class SudokuVerifierTest {
 		String correct = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		assertEquals("line not valid", 0, n.verify(correct));
 	}
+	@Test
+	public void testVerify() {
+		SudokuVerifier n = new SudokuVerifier();
+		String correct = 123456789912345678891234567789123456678912345567891234456789123345678912234567891;
+		assertEquals("line not valid", 0, n.verify(correct));
+	}
 
 }

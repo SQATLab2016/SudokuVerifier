@@ -186,3 +186,7 @@ CompilationAction 1474029804333 SudokuVerifier.java
 CompilationAction 1474029810914 SudokuVerifier.java
 EditAction 1474029996228 SudokuVerifier.java 1538 5 20 0
 EditAction 1474030023570 SudokuVerifier.java 1572 5 20 0
+UnitTestCaseAction 1474030035209 SudokuVerifierTest.java OK
+UnitTestSessionAction 1474030035210 SudokuVerifierTest.java OK
+RefactoringAction 1474030044337 SudokuVerifierTest.java ADD void testVerify()/2 METHOD
+EditAction 1474030060673 SudokuVerifierTest.java 801 2 6 2
