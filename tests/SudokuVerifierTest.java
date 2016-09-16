@@ -16,7 +16,7 @@ public class SudokuVerifierTest {
 	@Test
 	public void testVerifyFail() {
 		SudokuVerifier n = new SudokuVerifier();
-		String fail = "1234567899123456788912345677891234566783323455678912344569123345678912234567891";
+		String fail = "123456789912345678891234567789123456678332345567891234456999123345678912234567891";
 		int solution = n.verify(fail);
 		assertTrue("solution is incorrect", solution == -1 || solution == -2 || solution == -3 || solution == -4);
 	}
