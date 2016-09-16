@@ -60,3 +60,5 @@ RefactoringAction 1474029405672 SudokuVerifierTest.java ADD String correctSudoku
 RefactoringAction 1474029405672 SudokuVerifierTest.java ADD String incorrectSudoku FIELD
 RefactoringAction 1474029416999 SudokuVerifierTest.java ADD void testPositiveDigits() METHOD
 EditAction 1474029429525 SudokuVerifier.java 382 1 1 0
+RefactoringAction 1474029860302 SudokuVerifier.java ADD import java.io.* IMPORT
+EditAction 1474029866860 SudokuVerifier.java 302 1 2 0
