@@ -124,7 +124,7 @@ public class SudokuVerifier {
 		
 		char[] eightRow = {candidateSolution.charAt(63),candidateSolution.charAt(64),candidateSolution.charAt(65),
 				candidateSolution.charAt(66),candidateSolution.charAt(67),candidateSolution.charAt(68),
-				candidateSolution.charAt(79),candidateSolution.charAt(70),candidateSolution.charAt(71)};
+				candidateSolution.charAt(69),candidateSolution.charAt(70),candidateSolution.charAt(71)};
 
 		Arrays.sort(eightRow);
 		
