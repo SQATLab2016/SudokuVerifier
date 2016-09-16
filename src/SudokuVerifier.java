@@ -7,7 +7,7 @@ public class SudokuVerifier {
 		int mark = 0;
 		for(int i = 0; i < sudoku[0].length; i++){
 			for(int j = 0; j < sudoku.length; j++){
-				sudoku[i][j] = candidateSolution.charAt(mark);
+				sudoku[i][j] = Character.getNumericValue(candidateSolution.charAt(mark));
 				mark++;
 			}
 		}
