@@ -51,3 +51,9 @@ RefactoringAction 1474028461180 SudokuVerifierParametrizedTest.java RENAME testC
 RefactoringAction 1474028462193 SudokuVerifierParametrizedTest.java RENAME testCandi=>void testCanditate FIELD
 RefactoringAction 1474028466706 SudokuVerifierParametrizedTest.java RENAME testCanditate=>void testCanditateStringOnlyNumeric() METHOD
 EditAction 1474028484077 SudokuVerifierParametrizedTest.java 870 2 3 1
+RefactoringAction 1474028516897 SudokuVerifierParametrizedTest.java ADD String INCORRECT_NONNUMERIC FIELD
+CompilationAction 1474028534631 SudokuVerifierParametrizedTest.java
+CompilationAction 1474028534631 SudokuVerifierParametrizedTest.java
+CompilationAction 1474028671573 SudokuVerifierParametrizedTest.java
+CompilationAction 1474028671575 SudokuVerifierParametrizedTest.java
+EditAction 1474028763426 SudokuVerifier.java 460 2 4 0
