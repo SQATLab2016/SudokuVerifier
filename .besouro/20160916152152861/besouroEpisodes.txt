@@ -64,3 +64,4 @@
 1474032305301 test-first 4 33 true
 1474032305302 test-last 1 33 false
 1474032368707 regression 2 19 true
+1474032430226 test-addition 1 55 true

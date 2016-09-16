@@ -109,3 +109,8 @@ RefactoringAction 1474032415953 SudokuVerifierTest.java RENAME testIfVerifyFails
 RefactoringAction 1474032416965 SudokuVerifierTest.java RENAME testIfVerifyFailsDueToW()=>void testIfVerifyFailsDueToWrong() METHOD
 RefactoringAction 1474032423979 SudokuVerifierTest.java REMOVE testIfVerifyFailsDueToWrong() METHOD
 EditAction 1474032429940 SudokuVerifierTest.java 1362 3 12 3
+UnitTestCaseAction 1474032430225 SudokuVerifierTest.java OK
+UnitTestSessionAction 1474032430226 SudokuVerifierTest.java OK
+RefactoringAction 1474032781042 SudokuVerifierTest.java ADD void testVerify()/2 METHOD
+RefactoringAction 1474032783129 SudokuVerifierTest.java RENAME testVerify()/2=>void testVerify2() METHOD
+EditAction 1474032803319 SudokuVerifierTest.java 1705 4 16 4
