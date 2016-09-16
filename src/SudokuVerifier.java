@@ -31,7 +31,7 @@ public class SudokuVerifier {
 			for(int y=0;y<9;y++){
 				 row = row + String.valueOf(sudokuTable[x][y]);
 			}
-			if(row.matches("(?:([1245679])(?!\\1))+")){//regular expression that matched if there are repetitions of numbers
+			if(!isUniqueChars(row)){//regular expression that matched if there are repetitions of numbers
 				return -3;
 			}
 		}
@@ -40,6 +40,18 @@ public class SudokuVerifier {
 		return 0;
 		
 		//check
+	}
+	
+	public static boolean isUniqueChars(String str)
+	{
+	    boolean[] char_set = new boolean[256];
+	    for (int i = 0; i < str.length(); i++)
+	    {
+	        int val = str.charAt(i);
+	        if (char_set[val]) return false;
+	        char_set[val] = true;
+	    }
+	    return true;
 	}
 	
 	

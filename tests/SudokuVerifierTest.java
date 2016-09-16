@@ -30,4 +30,6 @@ public class SudokuVerifierTest {
 		
 		assertEquals("repetition in rows not checked. ", result, -3);
 	}
+	
+	
 }
