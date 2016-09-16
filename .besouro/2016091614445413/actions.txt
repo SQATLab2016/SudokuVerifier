@@ -53,3 +53,10 @@ RefactoringAction 1474029065308 SudokuVerifierTest.java ADD void test_RowColumnV
 RefactoringAction 1474029068412 SudokuVerifierTest.java RENAME test_RowColumnViolation()/2=>void test()/2 METHOD
 RefactoringAction 1474029073576 SudokuVerifierTest.java RENAME test()/2=>void testPositiveDigits() METHOD
 EditAction 1474029087896 SudokuVerifierTest.java 1130 3 9 2
+UnitTestCaseAction 1474029093001 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474029093001 SudokuVerifierTest.java FAIL
+RefactoringAction 1474029399994 SudokuVerifierTest.java ADD import org.hamcrest.CoreMatchers.* IMPORT
+RefactoringAction 1474029405672 SudokuVerifierTest.java ADD String correctSudoku FIELD
+RefactoringAction 1474029405672 SudokuVerifierTest.java ADD String incorrectSudoku FIELD
+RefactoringAction 1474029416999 SudokuVerifierTest.java ADD void testPositiveDigits() METHOD
+EditAction 1474029429525 SudokuVerifier.java 382 1 1 0
