@@ -25,7 +25,7 @@ public class SudokuVerifierTest {
 	public void testOnlyNumbersFail(){
 		SudokuVerifier verifier = new SudokuVerifier();
 		int result = verifier.hasOnlyNumbers("417369825632158947958724316825437169791586k432346912758289643571573291684164875293");
-		assertEquals("Only contains numbers", 1, result);
+		assertEquals("Contains a character", 0, result);
 	}
 	
 	
