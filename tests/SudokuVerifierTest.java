@@ -11,7 +11,16 @@ public class SudokuVerifierTest {
 	
 	
 	String row = "123456789";
+	String wrongSol = "";
 	SudokuVerifier sv = new SudokuVerifier();
+	
+	public SudokuVerifierTest() {
+		for (int i=0; i<8; i++) {
+			wrongSol.concat(row);
+		}
+	}
+	
+	
 	
 	@Before
 	public void init() {
@@ -31,6 +40,22 @@ public class SudokuVerifierTest {
 		}
 		
 		assertEquals(false, sv.validNumberOfChar(sol));
+	}
+	
+	@Test
+	public void testValidNumberOfChar_OneCharMissing() {		
+		// remove last character from wrong solution
+		String solOneCharMissing = wrongSol.substring(0, 80);
+		
+		assertEquals(false, sv.validNumberOfChar(solOneCharMissing));
+	}
+	
+	@Test
+	public void testValidNumberOfChar_OneCharMore() {
+		// add character to wrong solution
+		String solOneCharMore = wrongSol.concat("1");
+		
+		assertEquals(false, sv.validNumberOfChar(solOneCharMore));
 	}
 
 }

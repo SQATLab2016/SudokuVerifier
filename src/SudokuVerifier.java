@@ -8,7 +8,7 @@ public class SudokuVerifier {
 		//check
 	}
 	
-	private boolean validNumberOfChar(String possSol) {
+	public boolean validNumberOfChar(String possSol) {
 		if (possSol.length() != 81) {
 			return false;
 		} else {
@@ -24,8 +24,9 @@ public class SudokuVerifier {
 		return rows;
 	}
 	
-	private char getRowEntries(String row) {
-		return 'a';
+	private char[] getRowEntries(String row) {
+		char[] rowEntries = new char[9];
+		return rowEntries;
 	}
 	
 
