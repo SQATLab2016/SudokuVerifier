@@ -127,3 +127,22 @@ EditAction 1474030787425 SudokuVerifier.java 1118 1 9 0
 UnitTestCaseAction 1474030789776 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1474030789777 SudokuVerifierTest.java FAIL
 EditAction 1474030801804 SudokuVerifier.java 1120 1 9 0
+CompilationAction 1474030803377 SudokuVerifier.java
+CompilationAction 1474030806050 SudokuVerifier.java
+CompilationAction 1474030806214 SudokuVerifier.java
+CompilationAction 1474030806215 SudokuVerifier.java
+CompilationAction 1474030806216 SudokuVerifier.java
+CompilationAction 1474030806217 SudokuVerifier.java
+CompilationAction 1474030808758 SudokuVerifier.java
+CompilationAction 1474030808760 SudokuVerifier.java
+CompilationAction 1474030808761 SudokuVerifier.java
+CompilationAction 1474030808762 SudokuVerifier.java
+CompilationAction 1474030808922 SudokuVerifier.java
+CompilationAction 1474030808923 SudokuVerifier.java
+CompilationAction 1474030808924 SudokuVerifier.java
+CompilationAction 1474030812081 SudokuVerifier.java
+CompilationAction 1474030812082 SudokuVerifier.java
+CompilationAction 1474030812083 SudokuVerifier.java
+UnitTestCaseAction 1474030813844 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474030813845 SudokuVerifierTest.java FAIL
+EditAction 1474030883933 SudokuVerifier.java 1107 1 8 0
