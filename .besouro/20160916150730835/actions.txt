@@ -162,3 +162,13 @@ RefactoringAction 1474031506969 SudokuVerifierTest.java RENAME testVerify_Incorr
 RefactoringAction 1474031510033 SudokuVerifierTest.java RENAME testVerify_IncorrectNr_LessChar()=>void testVerify_IncorrectNr_LessChasr() METHOD
 RefactoringAction 1474031511548 SudokuVerifierTest.java RENAME testVerify_IncorrectNr_LessChasr()=>void testVerify_IncorrectNr_LessChars() METHOD
 EditAction 1474031563994 SudokuVerifierTest.java 2661 13 17 10
+UnitTestCaseAction 1474031566204 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474031566205 SudokuVerifierTest.java FAIL
+RefactoringAction 1474031710646 SudokuVerifier.java ADD import org.hamcrest.Matchers.allOf IMPORT
+RefactoringAction 1474031717170 SudokuVerifier.java ADD import org.hamcrest.Matchers.* IMPORT
+RefactoringAction 1474031752710 SudokuVerifier.java ADD import org.j IMPORT
+RefactoringAction 1474031754223 SudokuVerifier.java RENAME import org.j=>import org.junit.* IMPORT
+RefactoringAction 1474031786756 SudokuVerifier.java ADD import org.hamcrest.BaseMatchers.* IMPORT
+RefactoringAction 1474031793771 SudokuVerifier.java RENAME import org.hamcrest.BaseMatchers.*=>import org.hamcrest.BaseMatcher.* IMPORT
+CompilationAction 1474031799731 SudokuVerifier.java
+EditAction 1474031845452 SudokuVerifierTest.java 2655 13 17 10

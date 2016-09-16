@@ -1,7 +1,17 @@
+import org.junit.*;
+import static org.hamcrest.BaseMatcher.*;
 
 public class SudokuVerifier {
 	
 	public int verify(String candidateSolution) {
+		// Rule 1 violated
+		if ( ! (hasValidNumberOfChars(candidateSolution) && containsOnlyValidCharacters(candidateSolution))) {
+			return -1;
+		}
+		
+		// Rule 2 violated
+		
+		
 		// returns 0 if the candidate solution is correct
 		return 0;
 		
@@ -44,9 +54,9 @@ public class SudokuVerifier {
 		char entry = a.charAt(2);
 		System.out.println(entry);
 		
-		/*
-		assertThat(result, anyOf(is(-2), is(-3)));
-		assertTrue
+		
+		assertThat("", anyOf(is(-2), is(-3)));
+		/*assertTrue
 		*/
 	}
 

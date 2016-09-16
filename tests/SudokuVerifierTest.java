@@ -99,17 +99,17 @@ public class SudokuVerifierTest {
 	
 	@Test
 	public void testVerify_IncorrectNr_LessChars() {
-		assertEquals("-1", sv.verify(corrSol.substring(0, 80)));
+		assertEquals(-1, sv.verify(corrSol.substring(0, 80)));
 	}
 	
 	@Test
 	public void testVerify_IncorrectNr_MoreChars() {
-		assertEquals("-1", sv.verify(corrSol.concat("1")));
+		assertEquals(-1, sv.verify(corrSol.concat("1")));
 	}
 	
 	@Test
 	public void testVerify_InvalidChars() {
-		assertEquals("-1", sv.verify(corrSol.substring(0, 80).concat("%")));
+		assertEquals(-1, sv.verify(corrSol.substring(0, 80).concat("%")));
 	}
 
 }
