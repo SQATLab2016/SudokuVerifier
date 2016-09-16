@@ -83,3 +83,4 @@ RefactoringAction 1474030696479 SudokuVerifierTest.java ADD void testVerifyRule2
 RefactoringAction 1474030700083 SudokuVerifierTest.java RENAME testVerifyRule2Check()/3=>void testVerifyRule3Check() METHOD
 RefactoringAction 1474030702142 SudokuVerifierTest.java RENAME testVerifyRule2Check()/2=>void testVerifyRule4Check() METHOD
 EditAction 1474030756914 SudokuVerifierTest.java 1562 5 5 5
+EditAction 1474030803402 SudokuVerifierTest.java 1562 5 5 5
