@@ -46,6 +46,6 @@ public class SudokuVerifierTest {
 	public void testFirstRowDuplicates(){
 		SudokuVerifier verifier = new SudokuVerifier();
 		int result = verifier.checkDuplicates("417369825632158947958724316825437169791586432346912758289643571573291684164875293");
-		assertEquals("No duplicates", 1, result);
+		assertEquals("No duplicates", 0, result);
 	}
 }
