@@ -24,5 +24,7 @@ public class SudokuVerifier {
 		String FirstRow=candidateSolution.substring(0,9);
 		boolean containsOne=FirstRow.contains("1");
 		
+		return 0;
+		
 	}
 }
