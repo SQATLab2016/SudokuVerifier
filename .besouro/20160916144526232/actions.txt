@@ -9,3 +9,4 @@ CompilationAction 1474026544792 SudokuVerifier.java
 RefactoringAction 1474026649257 SudokuVerifier.java RENAME verityVertical(int, int=>boolean verityVertical(char, int METHOD
 RefactoringAction 1474026652271 SudokuVerifier.java RENAME verityVertical(char, int=>boolean verityVertical(char, char METHOD
 EditAction 1474026661609 SudokuVerifier.java 369 2 4 0
+EditAction 1474026667310 SudokuVerifierParametrizedTest.java 294 1 0 0
