@@ -3,19 +3,23 @@ public class SudokuVerifier {
 	
 	public int verify(String candidateSolution) {
 		
+		int res = 0;
 		//check
 		
 		if(candidateSolution.length() != 81) {
 			return -1;
-		} else {
-			verifyColums(candidateSolution);			
+		} else {		
+			res = verifyNumbers(candidateSolution);			
 		}	
 		// returns 0 if the candidate solution is correct
-		return 0;
+		return res;
 	}
 	
-	private int verifyColums(String canditateSolution)
+	private int verifyNumbers(String canditateSolution)
 	{
+		
 		return 0;		
 	}
+	
+	
 }
