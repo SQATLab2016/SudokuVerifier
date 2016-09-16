@@ -1,0 +1,17 @@
+FileOpenedAction 1474026594836 SudokuVerifierParametrizedTest.java 172 1 1 0
+RefactoringAction 1474026772330 SudokuVerifierTest.java ADD void FirstColumn FIELD
+RefactoringAction 1474026774353 SudokuVerifierTest.java RENAME FirstColumn=>void FirstColumnCorrect FIELD
+RefactoringAction 1474026778394 SudokuVerifierTest.java RENAME FirstColumnCorrect=>void FirstColumnCorrect() METHOD
+RefactoringAction 1474026819024 SudokuVerifierTest.java RENAME FirstColumnCorrect()=>void test_FirstColumnCorrect() METHOD
+RefactoringAction 1474027160878 SudokuVerifierTest.java ADD int verify(String) METHOD
+RefactoringAction 1474027163899 SudokuVerifierTest.java ADD import or IMPORT
+RefactoringAction 1474027165409 SudokuVerifierTest.java REMOVE import or IMPORT
+RefactoringAction 1474027166931 SudokuVerifierTest.java ADD import org.hamcr IMPORT
+RefactoringAction 1474027168444 SudokuVerifierTest.java RENAME import org.hamcr=>import org.hamcrest IMPORT
+RefactoringAction 1474027173464 SudokuVerifierTest.java RENAME import org.hamcrest=>import org.hamcrest.Core IMPORT
+RefactoringAction 1474027175485 SudokuVerifierTest.java RENAME import org.hamcrest.Core=>import org.hamcrest.CoreMa IMPORT
+RefactoringAction 1474027177496 SudokuVerifierTest.java RENAME import org.hamcrest.CoreMa=>import org.hamcrest.CoreMatchers IMPORT
+RefactoringAction 1474027178516 SudokuVerifierTest.java REMOVE verify(String) METHOD
+RefactoringAction 1474027185535 SudokuVerifierTest.java ADD int verify(String) METHOD
+RefactoringAction 1474027189559 SudokuVerifierTest.java ADD import org.hamcrest.CoreMatchers.* IMPORT
+EditAction 1474027190878 SudokuVerifierTest.java 646 2 1 0
