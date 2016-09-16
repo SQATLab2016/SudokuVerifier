@@ -38,8 +38,8 @@ public class SudokuVerifierTest {
 	@Test
 	public void testFirstRowNumbers(){
 		SudokuVerifier verifier = new SudokuVerifier();
-		int result = verifier.hasOnlyNumbers("417369825632158947958724316825437169791586432346912758289643571573291684164875293");
-		assertEquals("81 numbers", 1, result);
+		int result = verifier.checkDuplicates("417369825632158947958724316825437169791586432346912758289643571573291684164875293");
+		assertEquals("81 numbers", 9, result);
 	}
 	
 }
