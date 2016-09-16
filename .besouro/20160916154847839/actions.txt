@@ -29,3 +29,6 @@ RefactoringAction 1474031876130 SudokuVerifierTest.java RENAME testCheckInputStr
 RefactoringAction 1474031881149 SudokuVerifierTest.java RENAME testCheckInputStringContainsOnlyPostiveInt_containsNotInt()=>void testCheckInputStringContainsOnlyPostiveInt_containsChar() METHOD
 RefactoringAction 1474031885167 SudokuVerifierTest.java RENAME testCheckInputStringContainsOnlyPostiveInt_containsChar()=>void testCheckInputStringContainsOnlyPostiveInt_inputContainsChar() METHOD
 EditAction 1474031942901 SudokuVerifierTest.java 2082 7 12 5
+UnitTestCaseAction 1474031943200 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474031943201 SudokuVerifierTest.java FAIL
+EditAction 1474031992915 SudokuVerifierTest.java 2084 7 12 5
