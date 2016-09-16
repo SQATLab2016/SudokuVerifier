@@ -28,7 +28,7 @@ public class SudokuVerifierParametrizedTest {
 		
 		// Act
 		// Assert
-		assertEquals("Solution not valid in 1-9 positive range", verifier.verify(INCORRECT_NONNUMERIC), 0);
+		assertEquals("Solution not valid in 1-9 positive range", verifier.verify(INCORRECT_NONNUMERIC), -1);
 	}
 	
 }
