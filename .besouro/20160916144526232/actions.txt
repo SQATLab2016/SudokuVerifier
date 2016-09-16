@@ -404,3 +404,4 @@ RefactoringAction 1474033717869 SudokuVerifier.java ADD boolean verifyHorizontal
 RefactoringAction 1474033717870 SudokuVerifier.java ADD boolean verifyVertical(int, int, int METHOD
 RefactoringAction 1474033717872 SudokuVerifier.java ADD boolean verifyBox(int, int, int METHOD
 EditAction 1474033722909 SudokuVerifier.java 2032 5 21 0
+EditAction 1474033746239 SudokuVerifier.java 2032 5 21 0

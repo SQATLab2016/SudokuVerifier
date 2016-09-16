@@ -1,6 +1,11 @@
 
 public class SudokuVerifier {
-	
+	/*
+		R1: A cell in a Sudoku game can only store positive digits, i.e. 1...9.
+		R2: All digits appear only once in a sub-grid, i.e. they cannot repeat.
+		R3: A digit can appear only once in the rows of the global grid.
+		R4: A digit can appear only once in the columns of the global grid.
+	*/
 	public int verify(String candidateSolution) {
 		// returns 0 if the candidate solution is correct
 		int[][] sudoku = new int[9][9];
@@ -20,12 +25,7 @@ public class SudokuVerifier {
 		}
 		return 0;
 	}
-	/*
-		R1: A cell in a Sudoku game can only store positive digits, i.e. 1...9.
-		R2: All digits appear only once in a sub-grid, i.e. they cannot repeat.
-		R3: A digit can appear only once in the rows of the global grid.
-		R4: A digit can appear only once in the columns of the global grid.
-	*/
+	
 	public int verifyNumber(int y, int x, int[][] sudoku){
 		if(!verifyHorizontal(y, x, sudoku)){
 			return -4;
