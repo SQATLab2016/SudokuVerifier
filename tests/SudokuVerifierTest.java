@@ -27,7 +27,7 @@ public class SudokuVerifierTest {
 		int result = verifier.verify(candidateSolution);
 
 		
-		assertTrue("WrongLength!", result == -5 );
+		assertTrue("WrongLength!", result == 1 );
 		//fail("Not yet implemented");
 	}
 
