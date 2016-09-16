@@ -1,0 +1,15 @@
+FileOpenedAction 1474026409874 SudokuVerifierTest.java 390 2 1 0
+RefactoringAction 1474026775377 SudokuVerifierTest.java ADD void testVerify_IncorrectString() METHOD
+RefactoringAction 1474027176281 SudokuVerifierTest.java ADD import or IMPORT
+RefactoringAction 1474027177794 SudokuVerifierTest.java REMOVE import or IMPORT
+RefactoringAction 1474027182824 SudokuVerifierTest.java ADD import org.hamcrest.core IMPORT
+RefactoringAction 1474027187340 SudokuVerifierTest.java RENAME import org.hamcrest.core=>import org.hamcrest.CoreMa IMPORT
+RefactoringAction 1474027189862 SudokuVerifierTest.java REMOVE import org.hamcrest.CoreMa IMPORT
+RefactoringAction 1474027191381 SudokuVerifierTest.java ADD import org.hamcrest.CoreMatchers.* IMPORT
+RefactoringAction 1474027562670 SudokuVerifier.java ADD int only FIELD
+RefactoringAction 1474027564685 SudokuVerifier.java RENAME only=>int onlyPositives FIELD
+RefactoringAction 1474027565699 SudokuVerifier.java RENAME onlyPositives=>int onlyPositives() METHOD
+RefactoringAction 1474027572224 SudokuVerifier.java RENAME onlyPositives()=>int onlyPositives(String) METHOD
+RefactoringAction 1474028119536 SudokuVerifierTest.java RENAME testVerify_IncorrectString()=>void testVerify_TooShortString() METHOD
+RefactoringAction 1474028611055 SudokuVerifierTest.java ADD void testVerify_negativeNumberinString() METHOD
+EditAction 1474028799571 SudokuVerifier.java 419 2 4 0
