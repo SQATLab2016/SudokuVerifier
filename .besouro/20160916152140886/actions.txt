@@ -1,0 +1,9 @@
+FileOpenedAction 1474028501134 SudokuVerifier.java 162 1 1 0
+RefactoringAction 1474028827222 SudokuVerifier.java ADD boolean String FIELD
+RefactoringAction 1474028833443 SudokuVerifier.java REMOVE String FIELD
+RefactoringAction 1474029061880 SudokuVerifier.java RENAME verify(String)=>int verify(String, int) METHOD
+RefactoringAction 1474029074662 SudokuVerifier.java RENAME verify(String, int)=>int verify(String) METHOD
+RefactoringAction 1474031488646 SudokuVerifier.java ADD import java.awt.List IMPORT
+RefactoringAction 1474031493982 SudokuVerifier.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1474032081821 SudokuVerifier.java ADD import java.util.Vector IMPORT
+EditAction 1474033385030 SudokuVerifier.java 1814 1 11 0
