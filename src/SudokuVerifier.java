@@ -22,7 +22,7 @@ public class SudokuVerifier {
 		
 		//check
 	}
-	public boolean verifyNumber(int y, int x, int[][] sudoku){
+	public int verifyNumber(int y, int x, int[][] sudoku){
 		if(verifyHorizontal(y, x, sudoku)){
 			if(verifyVertical(y, x, sudoku)){
 				if(verifyBox(y, x, sudoku)){
