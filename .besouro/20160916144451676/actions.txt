@@ -115,3 +115,14 @@ EditAction 1474031366271 SudokuVerifier.java 1175 4 10 0
 UnitTestCaseAction 1474031379897 SudokuVerifierParametrizedTest.java FAIL
 UnitTestSessionAction 1474031379898 SudokuVerifierParametrizedTest.java FAIL
 EditAction 1474031391496 SudokuVerifierParametrizedTest.java 1371 3 7 3
+UnitTestCaseAction 1474031394207 SudokuVerifierParametrizedTest.java OK
+UnitTestSessionAction 1474031394208 SudokuVerifierParametrizedTest.java OK
+RefactoringAction 1474031484340 SudokuVerifier.java RENAME verifyOnlyOnce(String)=>int verifyOnlyOnce() METHOD
+RefactoringAction 1474031489853 SudokuVerifier.java RENAME verifyOnlyOnce()=>int verifyOnlyOnce(char) METHOD
+RefactoringAction 1474031507866 SudokuVerifier.java RENAME verifyOnlyOnce(char)=>int verifyOnlyOnce(char, String) METHOD
+RefactoringAction 1474031656622 SudokuVerifier.java RENAME verifyOnlyOnce(char, String)=>int verifyOnlyOnce() METHOD
+RefactoringAction 1474031661146 SudokuVerifier.java RENAME verifyOnlyOnce()=>int verifyOnlyOnce(char, String) METHOD
+RefactoringAction 1474031674176 SudokuVerifier.java RENAME verifyOnlyOnce(char, String)=>char target FIELD
+RefactoringAction 1474031724715 SudokuVerifier.java REMOVE target FIELD
+RefactoringAction 1474031724716 SudokuVerifier.java REMOVE String FIELD
+EditAction 1474031725579 SudokuVerifier.java 803 3 8 0
