@@ -34,6 +34,6 @@ public class SudokuVerifierTest {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidateSolution = correctSudoku;
 		int result = verifier.verify(candidateSolution);
-		assertTrue(result == 1);
+		assertTrue(result == 0);
 	}
 }
