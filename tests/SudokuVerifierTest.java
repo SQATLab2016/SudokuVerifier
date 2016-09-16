@@ -29,4 +29,8 @@ public class SudokuVerifierTest {
 	}
 	
 
+	@Test
+	public void testPositiveDigits() {
+		fail("not implemented");
+	}
 }

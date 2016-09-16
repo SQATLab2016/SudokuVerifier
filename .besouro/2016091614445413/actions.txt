@@ -47,3 +47,9 @@ EditAction 1474028884897 SudokuVerifierTest.java 1046 2 8 2
 UnitTestCaseAction 1474028891702 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1474028891702 SudokuVerifierTest.java FAIL
 EditAction 1474028939500 SudokuVerifierTest.java 1057 2 8 2
+UnitTestCaseAction 1474028942208 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474028942208 SudokuVerifierTest.java FAIL
+RefactoringAction 1474029065308 SudokuVerifierTest.java ADD void test_RowColumnViolation()/2 METHOD
+RefactoringAction 1474029068412 SudokuVerifierTest.java RENAME test_RowColumnViolation()/2=>void test()/2 METHOD
+RefactoringAction 1474029073576 SudokuVerifierTest.java RENAME test()/2=>void testPositiveDigits() METHOD
+EditAction 1474029087896 SudokuVerifierTest.java 1130 3 9 2
