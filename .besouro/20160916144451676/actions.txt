@@ -190,3 +190,9 @@ RefactoringAction 1474033382177 SudokuVerifier.java REMOVE verifyRows(String) ME
 EditAction 1474033386325 SudokuVerifier.java 1295 5 12 0
 EditAction 1474033389811 SudokuVerifier.java 1296 5 12 0
 EditAction 1474033541962 SudokuVerifierParametrizedTest.java 2432 7 16 6
+CompilationAction 1474033542046 SudokuVerifierParametrizedTest.java
+CompilationAction 1474033542046 SudokuVerifierParametrizedTest.java
+CompilationAction 1474033552751 SudokuVerifierParametrizedTest.java
+UnitTestCaseAction 1474033556768 SudokuVerifierParametrizedTest.java FAIL
+UnitTestSessionAction 1474033556768 SudokuVerifierParametrizedTest.java FAIL
+EditAction 1474033583369 SudokuVerifier.java 1295 5 12 0

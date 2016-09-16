@@ -34,7 +34,7 @@ public class SudokuVerifierParametrizedTest {
 						  "123456789"+
 						  "123456789";
 						  
-		assertEquals(verifier.verify(rowsRule))
+		assertEquals(-3, verifier.verify(rowsRule));
 		
 	}
 	
