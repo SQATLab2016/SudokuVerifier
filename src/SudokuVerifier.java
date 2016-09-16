@@ -42,7 +42,6 @@ public class SudokuVerifier {
 								t = (int) check.get(k);
 								if(square[i][j] - t == 0 ){
 									return -2;
-									break;
 								}
 								else{
 									check.addElement(square[i][j]);
@@ -52,8 +51,8 @@ public class SudokuVerifier {
 					}
 				}	
 			}
-			return 0;
 		}
+		return 0;
 */		
 /*		
 		//check R3-Row
@@ -68,7 +67,6 @@ public class SudokuVerifier {
 						t = (int) check.get(k);
 						if(square[i][j] - t == 0 ){
 							return -3;
-							break;
 						}
 						else{
 							check.addElement(square[i][j]);
@@ -76,8 +74,8 @@ public class SudokuVerifier {
 					}
 				}		
 			}
-			return 0;
 		}
+		return 0;
 */			
 /*		
 		//check R4-Column
@@ -92,7 +90,6 @@ public class SudokuVerifier {
 						t = (int) check.get(k);
 						if(square[j][i] - t == 0 ){
 							return -4;
-							break;
 						}
 						else{
 							check.addElement(square[j][i]);
@@ -100,8 +97,8 @@ public class SudokuVerifier {
 					}
 				}		
 			}
-			return 0;
 		}	
+		return 0;
 */				
 		
 	
