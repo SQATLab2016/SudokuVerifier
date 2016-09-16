@@ -21,6 +21,10 @@ public class SudokuVerifier {
 		return 0;	}
 	
 	public int checkDuplicates(String candidateSolution){
-		public String candiateSolution.substring(0,9);
+		String FirstRow=candidateSolution.substring(0,9);
+		if (boolean contains(1)){
+			return 1;
+		}
+		
 	}
 }
