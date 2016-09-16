@@ -7,10 +7,10 @@ public class SudokuVerifier {
 		
 		//check
 	}
-	public boolean verityVertical(int x, int y, int[] sudoku){
-		int toTest = sudoku[y][x];
-		for(int i = 0; i < sudoku[0].length; i++){
-			if(sudoku[y][i] == toTest && i != x){
+	public boolean verityVertical(char x, char[] sudoku){
+		char toTest = sudoku[x];
+		for(int i = 0; i < sudoku.length; i++){
+			if(sudoku[i] == toTest && i != x){
 				return false;
 			}
 		}
