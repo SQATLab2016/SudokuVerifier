@@ -22,3 +22,4 @@ RefactoringAction 1474027222080 SudokuVerifierTest.java ADD import org.hamcrest.
 RefactoringAction 1474027344089 SudokuVerifier.java REMOVE main(String METHOD
 RefactoringAction 1474027395656 SudokuVerifier.java ADD static void main(String METHOD
 EditAction 1474027491587 SudokuVerifier.java 466 3 5 0
+EditAction 1474027493443 SudokuVerifierTest.java 222 1 1 0
