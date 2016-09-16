@@ -12,7 +12,7 @@ public class SudokuVerifierTest {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidateSolution ="417A";
 		int result= verifier.verify(candidateSolution);
-		assertTrue(result == 0); 
+		assertTrue(result == -1); 
 	}
 
 }

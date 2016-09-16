@@ -170,3 +170,4 @@ EditAction 1474032666359 SudokuVerifier.java 11446 1 61 0
 RefactoringAction 1474032673400 SudokuVerifier.java REMOVE import java.util.HashSet IMPORT
 RefactoringAction 1474032673402 SudokuVerifier.java REMOVE import java.util.Set IMPORT
 EditAction 1474032691733 SudokuVerifierTest.java 567 1 4 1
+EditAction 1474032696907 SudokuVerifierTest.java 568 1 4 1
