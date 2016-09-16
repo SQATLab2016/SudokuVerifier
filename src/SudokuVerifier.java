@@ -10,7 +10,11 @@ public class SudokuVerifier {
 		}
 		
 		// Rule 2 violated
-		
+		for (String grid : getSubGrids(candidateSolution)) {
+			if ( ! digitsInGridAreValid(grid)) {
+				return -2;
+			}
+		}
 		
 		// returns 0 if the candidate solution is correct
 		return 0;
@@ -60,13 +64,27 @@ public class SudokuVerifier {
 		return grids;
 	}
 	
-
-	public static void main(String[] args) {
-
-		String a = "abcd";
-		char entry = a.charAt(2);
-		System.out.println();
+	public boolean digitsInGridAreValid(String grid) {
+		// array with digits and flag if they occured in the grid
+		int[] digitsUsed = new int[9];
+		for (int i=0; i<9; i++) {
+			digitsUsed[i] = 0;
+		}
 		
+		for (char c : grid.toCharArray()) {
+			int digit = Integer.parseInt(String.valueOf(c));
+			if (digitsUsed[digit] == 1) {
+				return false;
+			} else {
+				digitsUsed[digit] = 1;
+			}
+		}
+		
+		return true;
+	}
+	
+
+	public static void main(String[] args) {		
 		String corrSol = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		SudokuVerifier sv = new SudokuVerifier();
 		String[] grids = sv.getSubGrids(corrSol);

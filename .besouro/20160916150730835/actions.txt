@@ -232,3 +232,4 @@ RefactoringAction 1474035058124 SudokuVerifier.java RENAME areDigitsInGridValid(
 RefactoringAction 1474035062640 SudokuVerifier.java RENAME digitsInGridValid(String)=>boolean digitsInGridareValid(String) METHOD
 RefactoringAction 1474035064157 SudokuVerifier.java RENAME digitsInGridareValid(String)=>boolean digitsInGridAreValid(String) METHOD
 EditAction 1474035383857 SudokuVerifierTest.java 2929 15 20 11
+FileOpenedAction 1474035489831 SudokuVerifierTest.java 2929 15 20 11
