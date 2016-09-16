@@ -136,3 +136,14 @@ RefactoringAction 1474028301168 SudokuVerifierParametrizedTest.java RENAME testV
 RefactoringAction 1474028302681 SudokuVerifierParametrizedTest.java RENAME testTrue()=>void tesTrue() METHOD
 RefactoringAction 1474028304696 SudokuVerifierParametrizedTest.java RENAME tesTrue()=>void testBoxTrue() METHOD
 EditAction 1474028391958 SudokuVerifierParametrizedTest.java 1806 5 9 3
+CompilationAction 1474028393461 SudokuVerifierParametrizedTest.java
+CompilationAction 1474028393463 SudokuVerifierParametrizedTest.java
+CompilationAction 1474028488188 SudokuVerifierParametrizedTest.java
+CompilationAction 1474028488189 SudokuVerifierParametrizedTest.java
+CompilationAction 1474028488334 SudokuVerifierParametrizedTest.java
+CompilationAction 1474028488335 SudokuVerifierParametrizedTest.java
+CompilationAction 1474028499245 SudokuVerifierParametrizedTest.java
+CompilationAction 1474028499246 SudokuVerifierParametrizedTest.java
+UnitTestCaseAction 1474028500944 SudokuVerifierParametrizedTest.java FAIL
+UnitTestSessionAction 1474028500945 SudokuVerifierParametrizedTest.java FAIL
+EditAction 1474028538555 SudokuVerifierParametrizedTest.java 2264 5 15 5
