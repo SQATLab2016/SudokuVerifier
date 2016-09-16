@@ -12,3 +12,10 @@ EditAction 1474028944784 SudokuVerifierTest.java 669 2 5 1
 UnitTestCaseAction 1474028945965 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1474028945966 SudokuVerifierTest.java FAIL
 EditAction 1474028961583 SudokuVerifierTest.java 669 2 5 1
+UnitTestCaseAction 1474028961864 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474028961864 SudokuVerifierTest.java FAIL
+RefactoringAction 1474029134824 SudokuVerifier.java ADD void C FIELD
+RefactoringAction 1474029150336 SudokuVerifier.java RENAME C=>void VerifySudokuStringLengthIsCorrect FIELD
+RefactoringAction 1474029151348 SudokuVerifier.java RENAME VerifySudokuStringLengthIsCorrect=>void VerifySudokuStringLengthIsCorrect() METHOD
+RefactoringAction 1474029178932 SudokuVerifier.java RENAME VerifySudokuStringLengthIsCorrect()=>void VerifySudokuStringLengthIsCorrect(String) METHOD
+EditAction 1474029480729 SudokuVerifier.java 351 2 3 0
