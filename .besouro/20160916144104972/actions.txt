@@ -79,3 +79,18 @@ RefactoringAction 1474029689585 SudokuVerifierParametrizedTest.java RENAME Sudok
 RefactoringAction 1474029741611 SudokuVerifierParametrizedTest.java RENAME SudokuVerifierParametrizedTest(int)=>SudokuVerifierParametrizedTest(int, char) METHOD
 EditAction 1474030107822 SudokuVerifierTest.java 1087 3 8 2
 EditAction 1474030110006 SudokuVerifierParametrizedTest.java 359 2 1 0
+CompilationAction 1474030111457 SudokuVerifierParametrizedTest.java
+CompilationAction 1474030111457 SudokuVerifierParametrizedTest.java
+RefactoringAction 1474030171719 SudokuVerifierParametrizedTest.java ADD import org.junit.runners.Parameterized IMPORT
+RefactoringAction 1474030208629 SudokuVerifierParametrizedTest.java ADD static Collection<Object METHOD
+RefactoringAction 1474030261201 SudokuVerifierParametrizedTest.java ADD import java.util.Collection IMPORT
+RefactoringAction 1474030263588 SudokuVerifierParametrizedTest.java ADD import org.junit.runners.Parameterized.Parameters IMPORT
+RefactoringAction 1474030365675 SudokuVerifierParametrizedTest.java ADD import java.util.Arrays IMPORT
+RefactoringAction 1474030485951 SudokuVerifierParametrizedTest.java RENAME test()=>void checkGetNumberMethod() METHOD
+CompilationAction 1474030539693 SudokuVerifierParametrizedTest.java
+CompilationAction 1474030539693 SudokuVerifierParametrizedTest.java
+UnitTestCaseAction 1474030545000 SudokuVerifierParametrizedTest.java FAIL
+UnitTestSessionAction 1474030545000 SudokuVerifierParametrizedTest.java FAIL
+RefactoringAction 1474030668240 SudokuVerifierParametrizedTest.java RENAME SudokuVerifierParametrizedTest(int, char)=>SudokuVerifierParametrizedTest(char) METHOD
+RefactoringAction 1474030672374 SudokuVerifierParametrizedTest.java RENAME SudokuVerifierParametrizedTest(char)=>SudokuVerifierParametrizedTest(char, int) METHOD
+EditAction 1474030677366 SudokuVerifierParametrizedTest.java 814 3 5 1
