@@ -7,6 +7,8 @@ public class SudokuVerifierParametrizedTest {
 	@Test
 	public void testCandidateStringLenght() {
 		// Arrange
+		SudokuVerifier verifier = new SudokuVerifier();
+		
 		// Assert
 		// Act
 	}
