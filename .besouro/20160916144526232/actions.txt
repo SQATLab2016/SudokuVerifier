@@ -249,3 +249,5 @@ RefactoringAction 1474030999602 SudokuVerifier.java RENAME validNum=>boolean val
 RefactoringAction 1474031001613 SudokuVerifier.java RENAME validNumber=>boolean validNumber() METHOD
 EditAction 1474031007616 SudokuVerifier.java 1572 5 20 0
 EditAction 1474031363332 SudokuVerifier.java 1636 5 21 0
+RefactoringAction 1474031399603 SudokuVerifierTest.java ADD void testVerifyFail2()/2 METHOD
+EditAction 1474031403479 SudokuVerifierTest.java 1923 4 15 4
