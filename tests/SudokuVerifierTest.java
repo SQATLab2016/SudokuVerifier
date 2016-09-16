@@ -27,7 +27,7 @@ public class SudokuVerifierTest {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidateSolution = "";
 		
-		String correctSolution = "417369825632158947958724316825437169791586432346912758289643571573291684164875293"
+		String correctSolution = ""
 								+ "123456789"
 								+ "123456789"
 								+ "123456789"
@@ -40,10 +40,5 @@ public class SudokuVerifierTest {
 		assertThat(result, anyOf(is(-2), is(-3)));
 		
 		//
-	}
-	
-	@Test
-	public void testPostiveDigits() {
-		fail("Not yet implemented");
 	}
 }

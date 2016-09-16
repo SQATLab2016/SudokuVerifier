@@ -52,3 +52,13 @@ FileOpenedAction 1474028966182 SudokuVerifierParametrizedTest.java 172 1 1 0
 UnitTestCaseAction 1474028982984 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1474028982985 SudokuVerifierTest.java FAIL
 EditAction 1474029003135 SudokuVerifierTest.java 1414 3 10 2
+UnitTestCaseAction 1474029005153 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474029005154 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1474029030385 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474029030386 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1474029055665 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474029055666 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1474029070243 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474029070244 SudokuVerifierTest.java FAIL
+RefactoringAction 1474029087118 SudokuVerifierTest.java REMOVE testPostiveDigits() METHOD
+EditAction 1474029093737 SudokuVerifierTest.java 1255 2 9 2
