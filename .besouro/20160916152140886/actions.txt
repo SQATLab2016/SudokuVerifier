@@ -26,3 +26,6 @@ CompilationAction 1474034276196 SudokuVerifierTest.java
 UnitTestCaseAction 1474034296616 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1474034296617 SudokuVerifierTest.java FAIL
 EditAction 1474034407917 SudokuVerifierTest.java 662 1 6 1
+UnitTestCaseAction 1474034408262 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474034408262 SudokuVerifierTest.java FAIL
+EditAction 1474034509420 SudokuVerifierTest.java 660 1 6 1
