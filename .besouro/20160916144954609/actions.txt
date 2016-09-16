@@ -91,3 +91,10 @@ CompilationAction 1474028581358 SudokuVerifierTest.java
 CompilationAction 1474028581360 SudokuVerifierTest.java
 CompilationAction 1474028581361 SudokuVerifierTest.java
 EditAction 1474028691768 SudokuVerifier.java 349 2 3 0
+RefactoringAction 1474029025352 SudokuVerifierTest.java REMOVE test_FirstColumnCorrect() METHOD
+RefactoringAction 1474029039399 SudokuVerifierTest.java ADD void test FIELD
+RefactoringAction 1474029049914 SudokuVerifierTest.java RENAME test=>void testOnlyNumbers() METHOD
+RefactoringAction 1474029279389 SudokuVerifier.java RENAME hasOnlyNumbers()=>int hasOnlyNumbers(String) METHOD
+RefactoringAction 1474029284899 SudokuVerifier.java REMOVE candidateSolution FIELD
+CompilationAction 1474029485208 SudokuVerifierTest.java
+EditAction 1474029502292 SudokuVerifier.java 345 2 3 0

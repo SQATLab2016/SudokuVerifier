@@ -15,15 +15,10 @@ public class SudokuVerifierTest {
 	}
 
 	@Test
-	public void test_FirstColumnCorrect(){
+	public void testOnlyNumbers(){
 		SudokuVerifier verifier = new SudokuVerifier();
-		String candidateSolution = "417369825";
-		
-		
-		public int verify(String candidateSolution)
-		
-		
+		int result = verifier.hasOnlyNumbers("417369825632158947958724316825437169791586432346912758289643571573291684164875293");
+		assertEquals("Only contains numbers", 1, result);
 	}
-	
 	
 }
