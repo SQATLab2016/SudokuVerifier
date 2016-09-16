@@ -83,3 +83,5 @@ RefactoringAction 1474029834775 SudokuVerifier.java RENAME verifyOnlyOnce()=>int
 EditAction 1474029873645 SudokuVerifier.java 878 4 9 0
 EditAction 1474029964621 SudokuVerifier.java 884 4 9 0
 EditAction 1474030351622 SudokuVerifier.java 1188 4 10 0
+RefactoringAction 1474030392037 SudokuVerifierParametrizedTest.java ADD void testNumberAtStringOnlyOnce() METHOD
+EditAction 1474030424706 SudokuVerifier.java 1225 4 10 0

@@ -33,8 +33,9 @@ public class SudokuVerifier {
 		return 0;
 	}
 	
-	private int verifyOnlyOnce(String candidateSolution) {
+	public int verifyOnlyOnce(String candidateSolution) {
 		
+		// We should really iterate here...
 		for(int indxChar = 0; indxChar != 9; indxChar++) {
 			char orig = candidateSolution.charAt(indxChar);
 			for(int indxTarget = 0; indxTarget != 9; indxChar++) {
