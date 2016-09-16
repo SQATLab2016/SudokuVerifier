@@ -19,4 +19,13 @@ public class SudokuVerifier {
 			return 0;
 		}
 	}
+	
+	public int VerifyDigitsArePositive(String candidateSolution){
+		
+		if(candidateSolution.contains("-")){
+			return 1;
+		} else {
+			return 0;
+		}
+	}
 }

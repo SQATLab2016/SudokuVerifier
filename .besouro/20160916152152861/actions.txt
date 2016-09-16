@@ -31,3 +31,22 @@ EditAction 1474029939689 SudokuVerifierTest.java 820 2 5 1
 UnitTestCaseAction 1474029939991 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1474029939991 SudokuVerifierTest.java FAIL
 EditAction 1474029961468 SudokuVerifierTest.java 811 2 5 1
+UnitTestCaseAction 1474029961756 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474029961756 SudokuVerifierTest.java FAIL
+RefactoringAction 1474030058297 SudokuVerifierTest.java ADD void TestVerify FIELD
+RefactoringAction 1474030066811 SudokuVerifierTest.java RENAME TestVerify=>void TestVerifySudoku FIELD
+RefactoringAction 1474030083823 SudokuVerifierTest.java RENAME TestVerifySudoku=>void TestVerifyS FIELD
+RefactoringAction 1474030084837 SudokuVerifierTest.java RENAME TestVerifyS=>void TestVerify FIELD
+RefactoringAction 1474030130864 SudokuVerifierTest.java RENAME TestVerify=>void TestVerifyDigit FIELD
+RefactoringAction 1474030131876 SudokuVerifierTest.java RENAME TestVerifyDigit=>void TestVerifyDigits FIELD
+RefactoringAction 1474030143391 SudokuVerifierTest.java RENAME TestVerifyDigits=>void TestVerifyDigitsAre FIELD
+RefactoringAction 1474030145903 SudokuVerifierTest.java RENAME TestVerifyDigitsAre=>void TestVerifyDigitsArePositvie FIELD
+RefactoringAction 1474030159918 SudokuVerifierTest.java RENAME TestVerifyDigitsArePositvie=>void TestVerifyDigitsArePositv FIELD
+RefactoringAction 1474030160931 SudokuVerifierTest.java RENAME TestVerifyDigitsArePositv=>void TestVerifyDigitsArePosit FIELD
+RefactoringAction 1474030163446 SudokuVerifierTest.java RENAME TestVerifyDigitsArePosit=>void TestVerifyDigitsArePositv FIELD
+RefactoringAction 1474030164462 SudokuVerifierTest.java RENAME TestVerifyDigitsArePositv=>void TestVerifyDigitsArePosit FIELD
+RefactoringAction 1474030166985 SudokuVerifierTest.java RENAME TestVerifyDigitsArePosit=>void TestVerifyDigitsArePositive() METHOD
+RefactoringAction 1474030481671 SudokuVerifier.java ADD int VerifyDigitsArePositive FIELD
+RefactoringAction 1474030483681 SudokuVerifier.java RENAME VerifyDigitsArePositive=>int VerifyDigitsArePositive() METHOD
+RefactoringAction 1474030490700 SudokuVerifier.java RENAME VerifyDigitsArePositive()=>int VerifyDigitsArePositive(String) METHOD
+EditAction 1474030837446 SudokuVerifier.java 504 3 4 0
