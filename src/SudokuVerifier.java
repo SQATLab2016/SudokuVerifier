@@ -53,7 +53,7 @@ public class SudokuVerifier {
 	}
 	
 
-private int verifyRows(String candidateSolution) {		
+	private int verifyRows(String candidateSolution) {		
 		
 		int res = 0;
 		for(int indx = 0; indx != 9; indx++) {

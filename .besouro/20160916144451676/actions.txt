@@ -188,3 +188,4 @@ EditAction 1474033126663 SudokuVerifier.java 1297 5 12 0
 RefactoringAction 1474033206397 SudokuVerifierParametrizedTest.java ADD void testVerifyRowsRuleFollowed() METHOD
 RefactoringAction 1474033382177 SudokuVerifier.java REMOVE verifyRows(String) METHOD
 EditAction 1474033386325 SudokuVerifier.java 1295 5 12 0
+EditAction 1474033389811 SudokuVerifier.java 1296 5 12 0
