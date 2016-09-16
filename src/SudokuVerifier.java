@@ -29,15 +29,6 @@ public class SudokuVerifier {
 		}	
 	}
 	
-	public int digitsOnlyOnceInSubgrid(String candidateSolution){
-		
-		String[] solution;
-		
-		while(candidateSolution.length() > 0) {
-			String nextChunk = candidateSolution.substring(0, 3);
-			solution.append(nextChunk);		
-		}
-		return 0;
-	}
+
 	
 }
