@@ -20,6 +20,16 @@ public class SudokuVerifier {
 		
 		//check
 	}
+	public boolean verifyNumber(int y, int x, int[][] sudoku){
+		if(verifyHorizontal(y, x, sudoku)){
+			if(verifyVertical(y, x, sudoku)){
+				if(verifyBox(y, x, sudoku)){
+					return true;
+				}
+			}
+		}
+		return false;
+	}
 	public boolean verifyHorizontal(int y, int x, int[][] sudoku){
 		int toTest = sudoku[y][x];
 		for(int i = 0; i < sudoku.length; i++){

@@ -153,3 +153,13 @@ UnitTestSessionAction 1474028677172 SudokuVerifierParametrizedTest.java OK
 EditAction 1474028997325 SudokuVerifier.java 1156 4 15 0
 EditAction 1474029067640 SudokuVerifier.java 1255 4 16 0
 EditAction 1474029094577 SudokuVerifier.java 1255 4 16 0
+RefactoringAction 1474029112632 SudokuVerifier.java RENAME verifyHorizontal(int, int, int=>boolean verifySudoku(int, int, int METHOD
+RefactoringAction 1474029121643 SudokuVerifier.java RENAME verifySudoku(int, int, int=>boolean verify(int, int, int METHOD
+RefactoringAction 1474029124156 SudokuVerifier.java RENAME verify(int, int, int=>boolean verifyHorizontal(int, int, int METHOD
+RefactoringAction 1474029163205 SudokuVerifier.java ADD boolean verify FIELD
+RefactoringAction 1474029164721 SudokuVerifier.java RENAME verify=>boolean verifySudoku FIELD
+RefactoringAction 1474029169735 SudokuVerifier.java RENAME verifySudoku=>boolean verifySudoku(int, int) METHOD
+RefactoringAction 1474029173260 SudokuVerifier.java RENAME verifySudoku(int, int)=>boolean verifySudoku(int, int, int METHOD
+RefactoringAction 1474029178782 SudokuVerifier.java RENAME verifySudoku(int, int, int=>boolean verify(int, int, int METHOD
+RefactoringAction 1474029181796 SudokuVerifier.java RENAME verify(int, int, int=>boolean verifyNumber(int, int, int METHOD
+EditAction 1474029266881 SudokuVerifier.java 1475 5 18 0
