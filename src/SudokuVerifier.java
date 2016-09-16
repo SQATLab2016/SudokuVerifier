@@ -13,7 +13,9 @@ public class SudokuVerifier {
 		return 0;
 		
 		// Return -1 if violating Rule #1: A cell in a Sudoku game can only store positive digits, i.e. 1...9.
-		if (candidateSolution <= 0 ) {
+		int stringLength = candidateSolution.length();
+		
+		if (stringLength > 81 ) {
 			
 		}
 		return -1;
