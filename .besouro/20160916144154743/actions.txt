@@ -187,3 +187,7 @@ EditAction 1474032829933 SudokuVerifierTest.java 646 1 4 1
 UnitTestCaseAction 1474032833105 SudokuVerifierTest.java OK
 UnitTestSessionAction 1474032833106 SudokuVerifierTest.java OK
 EditAction 1474032899215 SudokuVerifierTest.java 572 1 4 1
+RefactoringAction 1474032906808 SudokuVerifierTest.java ADD void testVerifyR1()/2 METHOD
+RefactoringAction 1474032908321 SudokuVerifierTest.java RENAME testVerifyR1()/2=>void testVerifyR() METHOD
+RefactoringAction 1474032909334 SudokuVerifierTest.java RENAME testVerifyR()=>void testVerifyR2() METHOD
+EditAction 1474032927745 SudokuVerifierTest.java 854 2 8 2
