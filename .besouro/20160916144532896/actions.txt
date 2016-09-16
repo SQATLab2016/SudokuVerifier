@@ -23,3 +23,15 @@ RefactoringAction 1474027344089 SudokuVerifier.java REMOVE main(String METHOD
 RefactoringAction 1474027395656 SudokuVerifier.java ADD static void main(String METHOD
 EditAction 1474027491587 SudokuVerifier.java 466 3 5 0
 EditAction 1474027493443 SudokuVerifierTest.java 222 1 1 0
+RefactoringAction 1474027506282 SudokuVerifierTest.java REMOVE SudokuVerifierTest.java CLASS
+FileOpenedAction 1474027507795 SudokuVerifierTest.java 390 1 1 0
+FileOpenedAction 1474027530213 SudokuVerifierTest.java 390 1 1 0
+FileOpenedAction 1474027533660 SudokuVerifierParametrizedTest.java 172 1 1 0
+FileOpenedAction 1474027559073 SudokuVerifier.java 466 3 5 0
+FileOpenedAction 1474027561818 SudokuVerifierTest.java 390 1 1 0
+UnitTestSessionAction 1474027566969 SudokuVerifierTest.java OK
+FileOpenedAction 1474027571368 SudokuVerifier.java 466 3 5 0
+FileOpenedAction 1474027574488 SudokuVerifierTest.java 390 1 1 0
+FileOpenedAction 1474027581275 SudokuVerifier.java 466 3 5 0
+FileOpenedAction 1474027584551 SudokuVerifierTest.java 390 1 1 0
+FileOpenedAction 1474027606781 SudokuVerifier.java 466 3 5 0

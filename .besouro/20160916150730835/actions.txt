@@ -1,0 +1,6 @@
+FileOpenedAction 1474027651075 SudokuVerifier.java 466 3 5 0
+FileOpenedAction 1474027668738 SudokuVerifierTest.java 390 1 1 0
+FileOpenedAction 1474027718177 SudokuVerifierParametrizedTest.java 172 1 1 0
+RefactoringAction 1474027730104 SudokuVerifier.java REMOVE validNumberOfChar(String) METHOD
+RefactoringAction 1474027730107 SudokuVerifier.java REMOVE main(String METHOD
+EditAction 1474027746090 SudokuVerifierTest.java 390 1 1 0
