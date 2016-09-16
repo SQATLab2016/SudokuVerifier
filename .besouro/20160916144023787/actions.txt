@@ -25,3 +25,15 @@ RefactoringAction 1474028251659 SudokuVerifier.java RENAME gridToArrayConverter(
 RefactoringAction 1474028255278 SudokuVerifier.java RENAME gridToArrayConverter()=>int METHOD
 FileOpenedAction 1474028607038 SudokuVerifierTest.java 629 2 3 1
 EditAction 1474028625821 SudokuVerifierTest.java 626 2 3 1
+UnitTestCaseAction 1474028627904 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474028627919 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1474028660901 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474028660901 SudokuVerifierTest.java FAIL
+RefactoringAction 1474028684254 SudokuVerifierTest.java ADD void testVer FIELD
+RefactoringAction 1474028685814 SudokuVerifierTest.java RENAME testVer=>void testVerify FIELD
+RefactoringAction 1474028686843 SudokuVerifierTest.java RENAME testVerify=>void testVerify_ FIELD
+RefactoringAction 1474028693021 SudokuVerifierTest.java RENAME testVerify_=>void testVerify_Number FIELD
+RefactoringAction 1474028695595 SudokuVerifierTest.java RENAME testVerify_Number=>void testVerify_NumberCheck FIELD
+RefactoringAction 1474028697140 SudokuVerifierTest.java RENAME testVerify_NumberCheck=>void testVerify_NumberCheck() METHOD
+RefactoringAction 1474028747621 SudokuVerifierTest.java ADD SudokuVerifier sudokuVerifier FIELD
+EditAction 1474028752910 SudokuVerifierTest.java 680 3 2 1

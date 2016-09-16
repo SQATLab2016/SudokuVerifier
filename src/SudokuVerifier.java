@@ -40,7 +40,7 @@ public class SudokuVerifier {
 	}
 
 	private boolean sudokuRuleChecker(int[][] sudoku) {
-		boolean result = false;
+		boolean result = true;
 
 		return result;
 	}
@@ -52,7 +52,7 @@ public class SudokuVerifier {
 	}
 
 	public int[] gridToArrayConverter(int[][] arrayToConvert) {
-		int[] result = new int[arrayToConvert.length];
+		int[] result = new int[10];
 
 		return result;
 	}
