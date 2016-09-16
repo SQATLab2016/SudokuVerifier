@@ -42,4 +42,10 @@ public class SudokuVerifierTest {
 		assertEquals("length of the first row:", 9, result);
 	}
 	
+	@Test
+	public void testFirstRowDuplicates(){
+		SudokuVerifier verifier = new SudokuVerifier();
+		int result = verifier.checkDuplicates("417369825632158947958724316825437169791586432346912758289643571573291684164875293");
+		assertEquals("No duplicates", 1, result);
+	}
 }
