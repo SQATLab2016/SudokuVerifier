@@ -113,6 +113,9 @@ public class SudokuVerifierTest {
 	}
 	
 	
+	/*
+	 * Test for sub-grid calculation
+	 */
 	@Test
 	public void testGetSubGrids() {
 		String[] grids = sv.getSubGrids(corrSol);
@@ -123,5 +126,10 @@ public class SudokuVerifierTest {
 	/*
 	 * Test for rule 2
 	 */
+	
+	@Test
+	public void testVerify_DigitAppearsTwice() {
+		fail();
+	}
 
 }

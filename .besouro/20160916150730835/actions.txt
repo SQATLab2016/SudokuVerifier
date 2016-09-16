@@ -212,3 +212,23 @@ EditAction 1474034144358 SudokuVerifierTest.java 2821 14 19 11
 UnitTestCaseAction 1474034146499 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1474034146500 SudokuVerifierTest.java FAIL
 EditAction 1474034185176 SudokuVerifierTest.java 2818 14 19 11
+UnitTestCaseAction 1474034187240 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474034187241 SudokuVerifierTest.java FAIL
+RefactoringAction 1474034270652 SudokuVerifierTest.java ADD void test FIELD
+RefactoringAction 1474034274168 SudokuVerifierTest.java RENAME test=>void testVerify FIELD
+RefactoringAction 1474034275683 SudokuVerifierTest.java RENAME testVerify=>void testVerify_ FIELD
+RefactoringAction 1474034292199 SudokuVerifierTest.java RENAME testVerify_=>void testVerify_Double FIELD
+RefactoringAction 1474034309716 SudokuVerifierTest.java RENAME testVerify_Double=>void testVerify_ FIELD
+RefactoringAction 1474034314732 SudokuVerifierTest.java RENAME testVerify_=>void testVerify_DigitAppe FIELD
+RefactoringAction 1474034316248 SudokuVerifierTest.java RENAME testVerify_DigitAppe=>void testVerify_DigitAppears FIELD
+RefactoringAction 1474034320262 SudokuVerifierTest.java RENAME testVerify_DigitAppears=>void testVerify_DigitAppearsTwice FIELD
+RefactoringAction 1474034321778 SudokuVerifierTest.java RENAME testVerify_DigitAppearsTwice=>void testVerify_DigitAppearsTwice() METHOD
+RefactoringAction 1474034466499 SudokuVerifier.java ADD void areDigitsAppearingOnlyOnce() METHOD
+RefactoringAction 1474034477013 SudokuVerifier.java RENAME areDigitsAppearingOnlyOnce()=>void areDigitsInGrifdAppearingOnlyOnce() METHOD
+RefactoringAction 1474034478027 SudokuVerifier.java RENAME areDigitsInGrifdAppearingOnlyOnce()=>void areDigitsInGridAppearingOnlyOnce() METHOD
+RefactoringAction 1474034486554 SudokuVerifier.java RENAME areDigitsInGridAppearingOnlyOnce()=>void areDigitsInGridAppearingOnlyOnce(String) METHOD
+RefactoringAction 1474034509587 SudokuVerifier.java RENAME areDigitsInGridAppearingOnlyOnce(String)=>void areDigitsInGridValid(String) METHOD
+RefactoringAction 1474035058124 SudokuVerifier.java RENAME areDigitsInGridValid(String)=>boolean digitsInGridValid(String) METHOD
+RefactoringAction 1474035062640 SudokuVerifier.java RENAME digitsInGridValid(String)=>boolean digitsInGridareValid(String) METHOD
+RefactoringAction 1474035064157 SudokuVerifier.java RENAME digitsInGridareValid(String)=>boolean digitsInGridAreValid(String) METHOD
+EditAction 1474035383857 SudokuVerifierTest.java 2929 15 20 11
