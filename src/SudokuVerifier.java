@@ -1,5 +1,4 @@
-
-
+import java.util.Vector;
 
 public class SudokuVerifier {
 	
@@ -13,8 +12,21 @@ public class SudokuVerifier {
 		} else {		
 			res = verifyPositiveNumeric(candidateSolution);			
 		}	
+		
+		if(res == 0) {
+			res = verifyColumsRows(candidateSolution);			
+		}
+			
 		// returns 0 if the candidate solution is correct
 		return res;
+	}
+	
+	private int verifyColumsRows(String candidateSolution) {
+		Vector<String> parts = new Vector<String>();
+		
+		for(int indx = 0; indx != 9; indx++)
+			candidateSolution.substring(beginIndex, endIndex)		
+		return 0;
 	}
 	
 	private int verifyPositiveNumeric(String canditateSolution)

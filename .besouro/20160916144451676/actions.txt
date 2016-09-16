@@ -68,3 +68,5 @@ RefactoringAction 1474029136497 SudokuVerifier.java ADD int veri FIELD
 RefactoringAction 1474029142509 SudokuVerifier.java RENAME veri=>int verifyColumsRows() METHOD
 RefactoringAction 1474029146521 SudokuVerifier.java RENAME verifyColumsRows()=>int verifyColumsRows(String) METHOD
 EditAction 1474029155628 SudokuVerifierParametrizedTest.java 1143 2 4 2
+RefactoringAction 1474029385968 SudokuVerifier.java ADD import java.util.Vector IMPORT
+EditAction 1474029390937 SudokuVerifier.java 779 3 5 0
