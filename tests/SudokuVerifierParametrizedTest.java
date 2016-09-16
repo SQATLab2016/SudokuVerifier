@@ -42,7 +42,7 @@ public class SudokuVerifierParametrizedTest {
 	public void testNumber8AtStringOnlyOnce() {
 		SudokuVerifier verifier = new SudokuVerifier();		
 	
-		String candidateSolution = "123456789";
+		String candidateSolution = "12345679";
 		
 		assertEquals(0, verifier.verifyOnlyOnce('8', candidateSolution));
 	}
