@@ -44,3 +44,7 @@ EditAction 1474028821865 SudokuVerifierTest.java 739 2 2 2
 UnitTestCaseAction 1474028826832 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1474028826832 SudokuVerifierTest.java FAIL
 EditAction 1474028837268 SudokuVerifierTest.java 740 2 2 2
+UnitTestCaseAction 1474028871014 SudokuVerifierTest.java OK
+UnitTestSessionAction 1474028871014 SudokuVerifierTest.java OK
+RefactoringAction 1474028881435 SudokuVerifierTest.java RENAME testVerify_NumberCheck()=>void testVerify_NumberCheckRule1() METHOD
+EditAction 1474028882433 SudokuVerifierTest.java 742 2 2 2
