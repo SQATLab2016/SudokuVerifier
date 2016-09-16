@@ -5,9 +5,12 @@ public class SudokuVerifier {
 		
 		// Returns 0 if the candidate solution is correct
 		if (candidateSolution = "417369825632158947958724316825437169791586432346912758289643571573291684164875293") {
-			
+			return 0;
 		}
-		return 0;
+		else {
+			System.out.println("Failed!");
+		}
+		
 		
 		// Return -1 if violating Rule #1: A cell in a Sudoku game can only store positive digits, i.e. 1...9.
 		
