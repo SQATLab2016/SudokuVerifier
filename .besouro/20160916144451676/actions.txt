@@ -238,3 +238,6 @@ EditAction 1474034531807 SudokuVerifierParametrizedTest.java 2461 7 19 7
 UnitTestCaseAction 1474034534869 SudokuVerifierParametrizedTest.java FAIL
 UnitTestSessionAction 1474034534869 SudokuVerifierParametrizedTest.java FAIL
 EditAction 1474034543021 SudokuVerifierParametrizedTest.java 2460 7 19 7
+UnitTestCaseAction 1474034544982 SudokuVerifierParametrizedTest.java OK
+UnitTestSessionAction 1474034544982 SudokuVerifierParametrizedTest.java OK
+EditAction 1474034568389 SudokuVerifierParametrizedTest.java 2463 7 19 7
