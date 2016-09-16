@@ -1,0 +1,3 @@
+FileOpenedAction 1474034439146 SudokuVerifier.java 921 1 4 0
+CompilationAction 1474034644174 SudokuVerifier.java
+CompilationAction 1474034644321 SudokuVerifier.java
