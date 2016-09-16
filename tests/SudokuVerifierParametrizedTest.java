@@ -27,7 +27,7 @@ public class SudokuVerifierParametrizedTest {
 	
 		String candidateSolution = "123456789";
 		
-		assertEquals("", verifier.verifyOnlyOnce(candidateSolution), 0);
+		assertEquals("", 0, verifier.verifyOnlyOnce(candidateSolution));
 	}
 	
 	@Test

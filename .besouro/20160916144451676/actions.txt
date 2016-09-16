@@ -86,3 +86,6 @@ EditAction 1474030351622 SudokuVerifier.java 1188 4 10 0
 RefactoringAction 1474030392037 SudokuVerifierParametrizedTest.java ADD void testNumberAtStringOnlyOnce() METHOD
 EditAction 1474030424706 SudokuVerifier.java 1225 4 10 0
 EditAction 1474030524137 SudokuVerifierParametrizedTest.java 1367 3 7 3
+UnitTestCaseAction 1474030525844 SudokuVerifierParametrizedTest.java FAIL
+UnitTestSessionAction 1474030525844 SudokuVerifierParametrizedTest.java FAIL
+EditAction 1474030561095 SudokuVerifierParametrizedTest.java 1367 3 7 3
