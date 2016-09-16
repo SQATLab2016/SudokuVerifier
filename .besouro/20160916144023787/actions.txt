@@ -7,3 +7,21 @@ RefactoringAction 1474026770449 SudokuVerifier.java RENAME main=>static void mai
 RefactoringAction 1474026779731 SudokuVerifier.java RENAME main()=>static void main(String METHOD
 EditAction 1474026911535 SudokuVerifier.java 1079 2 8 0
 EditAction 1474026951334 SudokuVerifier.java 1081 2 8 0
+RefactoringAction 1474027180182 SudokuVerifier.java ADD boolean st FIELD
+RefactoringAction 1474027183286 SudokuVerifier.java RENAME st=>boolean length FIELD
+RefactoringAction 1474027185876 SudokuVerifier.java RENAME length=>boolean lengthChecker() METHOD
+RefactoringAction 1474027234361 SudokuVerifier.java RENAME lengthChecker()=>boolean lengthChecker(String) METHOD
+RefactoringAction 1474027289117 SudokuVerifier.java ADD int LENGTH FIELD
+RefactoringAction 1474027513963 SudokuVerifier.java ADD boolean sudokuRuleChecker(int METHOD
+RefactoringAction 1474028185078 SudokuVerifier.java ADD boolean duplicate FIELD
+RefactoringAction 1474028187153 SudokuVerifier.java RENAME duplicate=>boolean duplicateChecker FIELD
+RefactoringAction 1474028189743 SudokuVerifier.java RENAME duplicateChecker=>boolean duplicateChecker() METHOD
+RefactoringAction 1474028198525 SudokuVerifier.java RENAME duplicateChecker()=>boolean duplicateChecker(int METHOD
+RefactoringAction 1474028220194 SudokuVerifier.java ADD void gridToA FIELD
+RefactoringAction 1474028224328 SudokuVerifier.java RENAME gridToA=>void gridToArrayConverter FIELD
+RefactoringAction 1474028227432 SudokuVerifier.java RENAME gridToArrayConverter=>void gridToArrayConverter() METHOD
+RefactoringAction 1474028250614 SudokuVerifier.java RENAME gridToArrayConverter()=>int METHOD
+RefactoringAction 1474028251659 SudokuVerifier.java RENAME gridToArrayConverter(int=>int METHOD
+RefactoringAction 1474028255278 SudokuVerifier.java RENAME gridToArrayConverter()=>int METHOD
+FileOpenedAction 1474028607038 SudokuVerifierTest.java 629 2 3 1
+EditAction 1474028625821 SudokuVerifierTest.java 626 2 3 1
