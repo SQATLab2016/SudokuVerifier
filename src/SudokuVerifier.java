@@ -14,7 +14,7 @@ public class SudokuVerifier {
 		}	
 		
 		if(res == 0) {
-			res = verifyColumsRows(candidateSolution);			
+			res = verifyRows(candidateSolution);			
 		}
 			
 		// returns 0 if the candidate solution is correct
@@ -33,6 +33,18 @@ public class SudokuVerifier {
 		return 0;
 	}
 
+	public int checkStringSequence(String sequence)	{
+		
+		for(int indx = 0; indx != 9; indx++) {
+			char c = sequence.charAt(indx);
+			StringBuilder tmp = new StringBuilder(sequence);
+			tmp.deleteCharAt(indx);
+			verifyOnlyOnce(c, tmp.toString());
+		}
+			
+		return 0;		
+	}
+	
 	public int verifyOnlyOnce(char target, String candiateSolution)
 	{
 		if(candiateSolution.contains(Character.toString(target)))
