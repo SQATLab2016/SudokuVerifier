@@ -45,3 +45,9 @@ EditAction 1474028377165 SudokuVerifier.java 421 2 5 0
 EditAction 1474028409598 SudokuVerifier.java 444 2 4 0
 RefactoringAction 1474028428164 SudokuVerifier.java RENAME verifyNumbers(String)=>int verifyNumeric(String) METHOD
 EditAction 1474028432782 SudokuVerifier.java 444 2 4 0
+RefactoringAction 1474028450651 SudokuVerifierParametrizedTest.java ADD void test FIELD
+RefactoringAction 1474028459665 SudokuVerifierParametrizedTest.java RENAME test=>void testCandiate FIELD
+RefactoringAction 1474028461180 SudokuVerifierParametrizedTest.java RENAME testCandiate=>void testCandi FIELD
+RefactoringAction 1474028462193 SudokuVerifierParametrizedTest.java RENAME testCandi=>void testCanditate FIELD
+RefactoringAction 1474028466706 SudokuVerifierParametrizedTest.java RENAME testCanditate=>void testCanditateStringOnlyNumeric() METHOD
+EditAction 1474028484077 SudokuVerifierParametrizedTest.java 870 2 3 1

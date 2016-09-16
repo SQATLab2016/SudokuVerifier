@@ -15,10 +15,14 @@ public class SudokuVerifierParametrizedTest {
 		
 		// Act
 		// Assert
-		assertEquals("Invalid solution lenght", verifier.verify(INCORRECT_LENGHT_SOLUTION), -1);	
-		
-		
+		assertEquals("Invalid solution lenght", verifier.verify(INCORRECT_LENGHT_SOLUTION), -1);				
 
 	}
 
+	@Test
+	public void testCanditateStringOnlyNumeric()
+	{
+		SudokuVerifier verifier = new SudokuVerifier();		
+	}
+	
 }
