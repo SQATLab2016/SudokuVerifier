@@ -28,16 +28,16 @@ public class SudokuVerifier {
 			parts.add(candidateSolution.substring(indx*9, indx*9+9));
 		}
 		
-		
+		candidateSolution
 		
 		return 0;
 	}
 
 	
 	
-	private int verifyPositiveNumeric(String canditateSolution)
+	private int verifyPositiveNumeric(String candidateSolution)
 	{
-		if(canditateSolution.matches("[1-9]+"))
+		if(candidateSolution.matches("[1-9]+"))
 			return 0;
 		else
 			return -1;

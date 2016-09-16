@@ -126,3 +126,5 @@ RefactoringAction 1474031674176 SudokuVerifier.java RENAME verifyOnlyOnce(char, 
 RefactoringAction 1474031724715 SudokuVerifier.java REMOVE target FIELD
 RefactoringAction 1474031724716 SudokuVerifier.java REMOVE String FIELD
 EditAction 1474031725579 SudokuVerifier.java 803 3 8 0
+CompilationAction 1474031725690 SudokuVerifierParametrizedTest.java
+EditAction 1474031762883 SudokuVerifier.java 820 3 5 0
