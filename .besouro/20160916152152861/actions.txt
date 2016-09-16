@@ -59,3 +59,13 @@ UnitTestSessionAction 1474030848771 SudokuVerifierTest.java FAIL
 UnitTestCaseAction 1474031134361 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1474031134361 SudokuVerifierTest.java FAIL
 EditAction 1474031239245 SudokuVerifier.java 580 3 5 0
+UnitTestCaseAction 1474031239790 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474031239790 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1474031248101 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474031248101 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1474031279995 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474031279995 SudokuVerifierTest.java FAIL
+RefactoringAction 1474031426740 SudokuVerifierTest.java RENAME testVerify()=>void testSudoku() METHOD
+RefactoringAction 1474031777202 SudokuVerifierTest.java ADD void assertTrue(String, int) METHOD
+RefactoringAction 1474031783641 SudokuVerifierTest.java REMOVE assertTrue(String, int) METHOD
+EditAction 1474031881063 SudokuVerifier.java 589 3 4 0
