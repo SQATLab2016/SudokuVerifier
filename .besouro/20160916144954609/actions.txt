@@ -107,3 +107,6 @@ RefactoringAction 1474029677284 SudokuVerifierTest.java ADD void testOnlyNumbers
 RefactoringAction 1474029687300 SudokuVerifierTest.java RENAME testOnlyNumbers()/2=>void testOnlyNumbersFail() METHOD
 EditAction 1474029694118 SudokuVerifierTest.java 993 3 7 2
 EditAction 1474029719671 SudokuVerifierTest.java 992 3 7 2
+UnitTestCaseAction 1474029725079 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474029725080 SudokuVerifierTest.java FAIL
+EditAction 1474029732299 SudokuVerifierTest.java 994 3 7 2
