@@ -19,7 +19,7 @@ public class SudokuVerifier {
 	
 	private int verifyNumbers(String canditateSolution)
 	{
-		
+		canditateSolution.matches("[1-9]+");
 		return 0;		
 	}
 	
