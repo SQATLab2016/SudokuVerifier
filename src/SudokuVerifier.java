@@ -3,6 +3,14 @@ public class SudokuVerifier {
 	
 	public int verify(String candidateSolution) {
 		// returns 0 if the candidate solution is correct
+		int[][] sudoku = new int[9][9];
+		int mark = 0;
+		for(int i = 0; i < sudoku[0].length; i++){
+			for(int j = 0; j < sudoku.length; j++){
+				sudoku[i][j] = candidateSolution.charAt(mark);
+				mark++;
+			}
+		}
 		return 0;
 		
 		//check
