@@ -18,6 +18,18 @@ public class SudokuVerifierTest {
 		assertTrue("String is wrong!", result == 0 );
 		//fail("Not yet implemented");
 	}
+	
+	@Test
+	public void testVerify2() {
+		SudokuVerifier verifier = new SudokuVerifier();
+		String candidateSolution = "4173698256321589479587243168254371697915864323469127582896435715732916841648752933";
+		
+		int result = verifier.verify(candidateSolution);
+
+		
+		assertTrue("WrongLength!", result == -5 );
+		//fail("Not yet implemented");
+	}
 
 	@Test
 	public void TestVerifySudokuStringLengthIsCorrect(){
