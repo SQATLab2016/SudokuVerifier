@@ -48,3 +48,7 @@ RefactoringAction 1474028685559 SudokuVerifierTest.java RENAME test_Pois=>void t
 RefactoringAction 1474028692077 SudokuVerifierTest.java RENAME test_Posi=>void testPostiveDigits FIELD
 RefactoringAction 1474028693597 SudokuVerifierTest.java RENAME testPostiveDigits=>void testPostiveDigits() METHOD
 EditAction 1474028709752 SudokuVerifierTest.java 1291 3 9 2
+FileOpenedAction 1474028966182 SudokuVerifierParametrizedTest.java 172 1 1 0
+UnitTestCaseAction 1474028982984 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474028982985 SudokuVerifierTest.java FAIL
+EditAction 1474029003135 SudokuVerifierTest.java 1414 3 10 2
