@@ -13,11 +13,12 @@ public class SudokuVerifierParametrizedTest {
 		// Arrange
 		SudokuVerifier verifier = new SudokuVerifier();
 		
+		// Act
 		// Assert
 		assertEquals("Invalid solution lenght", verifier.verify(INCORRECT_LENGHT_SOLUTION), -1);		
-	
 		
-		// Act
+		
+
 	}
 
 }
