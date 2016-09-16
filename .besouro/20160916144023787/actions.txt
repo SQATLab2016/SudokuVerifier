@@ -91,3 +91,33 @@ UnitTestSessionAction 1474031169610 SudokuVerifierTest.java FAIL
 RefactoringAction 1474031343472 SudokuVerifierTest.java RENAME testVerify_LengthVerify()=>void testVerify_WholwVerify() METHOD
 RefactoringAction 1474031346046 SudokuVerifierTest.java RENAME testVerify_WholwVerify()=>void testVerify_Verify() METHOD
 EditAction 1474031346576 SudokuVerifierTest.java 1556 5 5 5
+RefactoringAction 1474031838905 SudokuVerifier.java ADD int loop FIELD
+RefactoringAction 1474031838905 SudokuVerifier.java ADD int loop/2 FIELD
+RefactoringAction 1474031838920 SudokuVerifier.java ADD int METHOD
+RefactoringAction 1474031963143 SudokuVerifier.java REMOVE loop FIELD
+RefactoringAction 1474031963143 SudokuVerifier.java REMOVE loop/2 FIELD
+RefactoringAction 1474031963143 SudokuVerifier.java REMOVE gridToArrayConverter(int METHOD
+CompilationAction 1474031964906 SudokuVerifier.java
+CompilationAction 1474031964906 SudokuVerifier.java
+CompilationAction 1474031964906 SudokuVerifier.java
+CompilationAction 1474031964906 SudokuVerifier.java
+RefactoringAction 1474031997245 SudokuVerifier.java RENAME gridToArrayConverter(int=>int METHOD
+CompilationAction 1474032006496 SudokuVerifier.java
+CompilationAction 1474032006496 SudokuVerifier.java
+CompilationAction 1474032006496 SudokuVerifier.java
+CompilationAction 1474032006496 SudokuVerifier.java
+CompilationAction 1474032006652 SudokuVerifier.java
+CompilationAction 1474032014826 SudokuVerifier.java
+RefactoringAction 1474032228081 SudokuVerifier.java REMOVE gridToArrayConverter(int, int METHOD
+RefactoringAction 1474032228097 SudokuVerifier.java REMOVE duplicateChecker(int METHOD
+RefactoringAction 1474032232730 SudokuVerifier.java ADD boolean duplicateChecker(int METHOD
+RefactoringAction 1474032232730 SudokuVerifier.java ADD int METHOD
+RefactoringAction 1474032237909 SudokuVerifier.java RENAME gridToArrayConverter(int, int=>int METHOD
+RefactoringAction 1474032241014 SudokuVerifier.java RENAME gridToArrayConverter(int)=>int METHOD
+CompilationAction 1474032242309 SudokuVerifier.java
+CompilationAction 1474032242309 SudokuVerifier.java
+CompilationAction 1474032242309 SudokuVerifier.java
+CompilationAction 1474032265802 SudokuVerifier.java
+CompilationAction 1474032265818 SudokuVerifier.java
+CompilationAction 1474032265818 SudokuVerifier.java
+EditAction 1474032328037 SudokuVerifierTest.java 1556 5 5 5

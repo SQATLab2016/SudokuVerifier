@@ -39,6 +39,15 @@ public class SudokuVerifier {
 
 	private int sudokuRuleChecker(int[][] sudoku) {
 		int result = 0;
+
+		for (int i = 0; i < ROW_LENGTH; i += 3) {
+			for (int j = 0; j < ROW_LENGTH; j += 3) {
+				if (duplicateChecker(gridToArrayConverter(i, j, sudoku))) {
+					return -2;
+				}
+			}
+		}
+
 		for (int loop = 0; loop < ROW_LENGTH; loop++) {
 			if (duplicateChecker(sudoku[loop])) {
 				return -3;
@@ -73,10 +82,19 @@ public class SudokuVerifier {
 		return result;
 	}
 
-	public int[] gridToArrayConverter(int[][] arrayToConvert) {
+	public int[] gridToArrayConverter(int i, int j, int[][] array) {
 		int[] result = new int[ROW_LENGTH];
+		int resultIndex = 0;
 
+		for (int k = i; k < (i + 3); k++) {
+			for (int l = j; l < (j + 3); l++) {
+				result[resultIndex] = array[k][l];
+				resultIndex++;
+			}
+
+		}
 		return result;
+
 	}
 
 	public boolean lengthChecker(String stringToCheck) {
@@ -90,8 +108,7 @@ public class SudokuVerifier {
 	public static void main(String[] args) {
 		SudokuVerifier sudokuObject = new SudokuVerifier();
 		int result = sudokuObject
-				.verify("417369825432158967958724316825437169791586432346912758289643571573291684164875293");
+				.verify("417369825342158967958724316825437169791586432346912758289643571573291684164875293");
 		System.out.println("Result: " + result);
 	}
 }
-// returns 0 if the candidate solution is correct
