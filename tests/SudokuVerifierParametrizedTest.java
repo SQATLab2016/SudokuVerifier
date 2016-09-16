@@ -34,7 +34,7 @@ public class SudokuVerifierParametrizedTest {
 						  "123456789"+
 						  "123456789";
 						  
-		assertEquals(-3, verifier.verifyRows(candidateSolution));
+		assertEquals(-3, verifier.verifyRows(rowsRule));
 		
 	}
 	
@@ -42,7 +42,7 @@ public class SudokuVerifierParametrizedTest {
 	public void testNumber8AtStringOnlyOnce() {
 		SudokuVerifier verifier = new SudokuVerifier();		
 	
-		String candidateSolution = "12345679";
+		String candidateSolution = "123456789";
 		
 		assertEquals(0, verifier.verifyOnlyOnce('8', candidateSolution));
 	}
@@ -51,7 +51,7 @@ public class SudokuVerifierParametrizedTest {
 	public void testNumber3AtStringOnlyOnce() {
 		SudokuVerifier verifier = new SudokuVerifier();		
 	
-		String candidateSolution = "12345679";
+		String candidateSolution = "123456789";
 		
 		assertEquals(-1, verifier.verifyOnlyOnce('3', candidateSolution));
 	} 
