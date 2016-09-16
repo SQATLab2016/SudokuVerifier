@@ -50,11 +50,10 @@ public class SudokuVerifier {
 	public String[] getSubGrids(String possSol) {
 		String[] grids = new String[9];
 		for (int i=0; i<9; i++) {
-			String grid = "";
-			grid.concat(   possSol.substring((i/3)*9 + i*3, (i/3)*9 + i*3 + 3)
+			String grid =  possSol.substring((i/3)*9 + i*3, (i/3)*9 + i*3 + 3)
 					     + possSol.substring(((i/3)+1)*9 + i*3, ((i/3)+1)*9 + i*3 + 3)
-					     + possSol.substring(((i/3)+2)*9 + i*3, ((i/3)+2)*9 + i*3 + 3)
-					   );
+					     + possSol.substring(((i/3)+2)*9 + i*3, ((i/3)+2)*9 + i*3 + 3);
+						
 			grids[i] = grid;
 		}
 		
@@ -71,7 +70,7 @@ public class SudokuVerifier {
 		String corrSol = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		SudokuVerifier sv = new SudokuVerifier();
 		String[] grids = sv.getSubGrids(corrSol);
-		System.out.println(grids[0]);
+		System.out.println(grids[1]);
 		
 		/*
 		assertThat("", anyOf(is(-2), is(-3)));
