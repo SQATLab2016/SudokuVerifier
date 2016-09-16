@@ -258,3 +258,8 @@ UnitTestSessionAction 1474031427176 SudokuVerifierTest.testVerifyFail3 OK
 RefactoringAction 1474031448125 SudokuVerifierTest.java ADD void testVerifyFail3()/2 METHOD
 RefactoringAction 1474031450658 SudokuVerifierTest.java RENAME testVerifyFail3()/2=>void testVerifyFail4() METHOD
 EditAction 1474031461795 SudokuVerifierTest.java 2466 5 19 5
+UnitTestCaseAction 1474031465860 SudokuVerifierTest.java OK
+UnitTestSessionAction 1474031465860 SudokuVerifierTest.java OK
+RefactoringAction 1474031473671 SudokuVerifierTest.java ADD void testVerifyFail4()/2 METHOD
+RefactoringAction 1474031493214 SudokuVerifierTest.java RENAME testVerifyFail4()/2=>void testVerifyFail5() METHOD
+EditAction 1474031493830 SudokuVerifierTest.java 3009 6 23 6
