@@ -15,10 +15,11 @@ public class SudokuVerifierTest {
 	@Test
 	public void TestVerifySudokuStringLengthIsCorrect(){
 		SudokuVerifier verifier = new SudokuVerifier();
-		String candidateSolution = "";
+		String candidateSolution = "12345689";
 		
-		int length = 81;
-		assertTrue("Length of the string is incorrect!", length == 81);
+		int result = verifier.VerifySudokuStringLengthIsCorrect(candidateSolution);
+		
+		assertTrue("Length of the string is incorrect!", result == 1);
 	}
 	
 }
