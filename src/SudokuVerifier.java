@@ -28,12 +28,17 @@ public class SudokuVerifier {
 			parts.add(candidateSolution.substring(indx*9, indx*9+9));
 		}
 		
-		candidateSolution
+		
 		
 		return 0;
 	}
 
-	
+	private int verifyOnlyOnce(char target, String candiateSolution)
+	{
+		if(candiateSolution.contains(Character.toString(target)));
+			return -1;
+		return 0;
+	}
 	
 	private int verifyPositiveNumeric(String candidateSolution)
 	{
