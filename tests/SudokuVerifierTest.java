@@ -13,7 +13,7 @@ public class SudokuVerifierTest {
 		String candidateSolution = "";
 		String correctSolution = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		int result = verifier.verify(correctSolution);
-		assertTrue(result == 0);
+		assertTrue(result == -1);
 		
 		fail("Not yet implemented");
 	}
