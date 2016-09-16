@@ -45,4 +45,18 @@ public class SudokuVerifierParametrizedTest {
 					   {9,2,3,4,4,6,7,8,9}};
 		assertEquals("line not valid", true, ver.verifyVertical(0, 0, line));
 	}
+	@Test
+	public void testBoxTrue() {
+		SudokuVerifier ver = new SudokuVerifier();
+		int[][] line = {{1,2,3,4,4,6,7,8,9},
+					   {4,5,6,4,4,6,7,8,9},
+					   {7,8,9,4,4,6,7,8,9},
+					   {4,2,3,4,4,6,7,8,9},
+					   {5,2,3,4,4,6,7,8,9},
+					   {6,2,3,4,4,6,7,8,9},
+					   {7,2,3,4,4,6,7,8,9},
+					   {8,2,3,4,4,6,7,8,9},
+					   {9,2,3,4,4,6,7,8,9}};
+		assertEquals("line not valid", true, ver.verifyVertical(0, 0, line));
+	}
 }

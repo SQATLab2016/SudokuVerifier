@@ -131,3 +131,8 @@ EditAction 1474028098034 SudokuVerifier.java 862 4 12 0
 EditAction 1474028228359 SudokuVerifier.java 933 4 12 0
 EditAction 1474028235496 SudokuVerifier.java 946 4 12 0
 EditAction 1474028256077 SudokuVerifier.java 946 4 12 0
+RefactoringAction 1474028294651 SudokuVerifierParametrizedTest.java ADD void testVerticalTrue()/2 METHOD
+RefactoringAction 1474028301168 SudokuVerifierParametrizedTest.java RENAME testVerticalTrue()/2=>void testTrue() METHOD
+RefactoringAction 1474028302681 SudokuVerifierParametrizedTest.java RENAME testTrue()=>void tesTrue() METHOD
+RefactoringAction 1474028304696 SudokuVerifierParametrizedTest.java RENAME tesTrue()=>void testBoxTrue() METHOD
+EditAction 1474028391958 SudokuVerifierParametrizedTest.java 1806 5 9 3
