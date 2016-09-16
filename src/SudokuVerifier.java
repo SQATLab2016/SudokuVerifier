@@ -85,13 +85,11 @@ public class SudokuVerifier {
 	public int[] gridToArrayConverter(int i, int j, int[][] array) {
 		int[] result = new int[ROW_LENGTH];
 		int resultIndex = 0;
-
 		for (int k = i; k < (i + 3); k++) {
 			for (int l = j; l < (j + 3); l++) {
 				result[resultIndex] = array[k][l];
 				resultIndex++;
 			}
-
 		}
 		return result;
 
