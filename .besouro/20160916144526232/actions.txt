@@ -164,3 +164,4 @@ RefactoringAction 1474029178782 SudokuVerifier.java RENAME verifySudoku(int, int
 RefactoringAction 1474029181796 SudokuVerifier.java RENAME verify(int, int, int=>boolean verifyNumber(int, int, int METHOD
 EditAction 1474029266881 SudokuVerifier.java 1475 5 18 0
 EditAction 1474029304207 SudokuVerifier.java 1518 5 18 0
+EditAction 1474029319339 SudokuVerifier.java 1527 5 18 0

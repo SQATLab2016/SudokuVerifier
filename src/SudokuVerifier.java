@@ -13,7 +13,7 @@ public class SudokuVerifier {
 		}
 		for(int i = 0; i < sudoku.length; i++){
 			for(int j = 0; j < sudoku.length; j++){
-				if(verifyNumber(i, j, sudoku)){
+				if(verifyNumber(i, j, sudoku) == false){
 					
 				}
 			}
