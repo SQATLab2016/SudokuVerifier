@@ -65,3 +65,32 @@ UnitTestCaseAction 1474028359199 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1474028359200 SudokuVerifierTest.java FAIL
 EditAction 1474028375531 SudokuVerifierTest.java 1651 6 11 1
 RefactoringAction 1474028376364 SudokuVerifierTest.java ADD String correctSolution FIELD
+UnitTestCaseAction 1474028392513 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474028392514 SudokuVerifierTest.java FAIL
+FileOpenedAction 1474028473483 SudokuVerifierParametrizedTest.java 111 0 0 0
+UnitTestCaseAction 1474028541754 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474028541755 SudokuVerifierTest.java FAIL
+RefactoringAction 1474028582023 SudokuVerifierTest.java REMOVE verifier FIELD
+RefactoringAction 1474028582025 SudokuVerifierTest.java REMOVE candidateSolution FIELD
+RefactoringAction 1474028582027 SudokuVerifierTest.java REMOVE correctSolution FIELD
+RefactoringAction 1474028698325 SudokuVerifierTest.java REMOVE setCandidateSolution(String) METHOD
+RefactoringAction 1474028698327 SudokuVerifierTest.java REMOVE getVerifier() METHOD
+RefactoringAction 1474028698329 SudokuVerifierTest.java REMOVE getCandidateSolution() METHOD
+RefactoringAction 1474028698331 SudokuVerifierTest.java REMOVE setVerifier(SudokuVerifier) METHOD
+CompilationAction 1474028713832 SudokuVerifierTest.java
+UnitTestCaseAction 1474028719581 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474028719582 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1474028742922 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474028742923 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1474028789687 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474028789688 SudokuVerifierTest.java FAIL
+RefactoringAction 1474028838672 SudokuVerifierTest.java ADD string correctSudoku FIELD
+RefactoringAction 1474028861774 SudokuVerifierTest.java ADD String incorrectSudoku FIELD
+RefactoringAction 1474028862793 SudokuVerifierTest.java REMOVE incorrectSudoku FIELD
+RefactoringAction 1474028863810 SudokuVerifierTest.java ADD String incorrectSudoku FIELD
+UnitTestCaseAction 1474028903241 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474028903242 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1474028932522 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474028932523 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1474028965264 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474028965265 SudokuVerifierTest.java FAIL
