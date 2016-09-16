@@ -8,7 +8,7 @@ public class SudokuVerifier {
 			return -1;
 		}
 		else{
-			
+			subGrids = createSubGrids(candidateSolution);
 		}
 		
 		
