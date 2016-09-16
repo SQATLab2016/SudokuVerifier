@@ -97,3 +97,4 @@ UnitTestSessionAction 1474027444035 SudokuVerifierParametrizedTest.java OK
 RefactoringAction 1474027457459 SudokuVerifierParametrizedTest.java ADD void testVerticalFail()/2 METHOD
 RefactoringAction 1474027462973 SudokuVerifierParametrizedTest.java RENAME testVerticalFail()/2=>void testVerticalTrue() METHOD
 EditAction 1474027494836 SudokuVerifier.java 587 3 7 0
+EditAction 1474027528316 SudokuVerifierParametrizedTest.java 1372 4 12 4
