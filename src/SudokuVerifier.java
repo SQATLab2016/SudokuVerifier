@@ -33,7 +33,9 @@ public class SudokuVerifier {
 		return 0;
 	}
 	
-	public string verifyOnlyOnce(String candidateSolution) {
+	public String verifyOnlyOnce(String candidateSolution) {
+		
+		StringBuilder tmp = new StringBuilder();
 		
 		// We should really iterate here...
 		for(int indxChar = 0; indxChar != 9; indxChar++) {
