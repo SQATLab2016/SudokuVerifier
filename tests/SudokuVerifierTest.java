@@ -28,6 +28,11 @@ public class SudokuVerifierTest {
 		assertEquals("expect 1",1, test.verify(incorrectString));
 	}
 	@Test
+	public void testVerify_ruleOne_containsChar(){
+		String stringContainsChar = "4173698256321589479587243168254371697915864323469127582896435715732916841648752-3";
+		assertEquals("expect 1", 1, test.verify(stringContainsChar));
+	}
+	@Test
 	public void testCheckInputStringLength_length81(){
 		//SudokuVerifier test = new SudokuVerifier();
 		String inputString = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";

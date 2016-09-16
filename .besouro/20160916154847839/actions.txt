@@ -57,3 +57,7 @@ EditAction 1474032761068 SudokuVerifierTest.java 2476 8 15 7
 UnitTestCaseAction 1474032761357 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1474032761357 SudokuVerifierTest.java FAIL
 EditAction 1474032824103 SudokuVerifierTest.java 2480 8 15 7
+UnitTestCaseAction 1474032824380 SudokuVerifierTest.java OK
+UnitTestSessionAction 1474032824381 SudokuVerifierTest.java OK
+RefactoringAction 1474032884988 SudokuVerifierTest.java ADD void testVerify_ruleOne_containsChar() METHOD
+EditAction 1474032965615 SudokuVerifierTest.java 2717 9 17 8
