@@ -61,3 +61,9 @@ RefactoringAction 1474028938578 SudokuVerifierTest.java ADD int RULE_2_VOILATION
 RefactoringAction 1474028938578 SudokuVerifierTest.java ADD int RULE_3_VOILATION_RESULT FIELD
 RefactoringAction 1474028938578 SudokuVerifierTest.java ADD int RULE_4_VOILATION_RESULT FIELD
 EditAction 1474028957968 SudokuVerifierTest.java 743 2 2 2
+RefactoringAction 1474029073471 SudokuVerifierTest.java ADD int RULE_4_VOILATION_RESULT/2 FIELD
+RefactoringAction 1474029078619 SudokuVerifierTest.java RENAME RULE_4_VOILATION_RESULT/2=>int APP_RESULT FIELD
+RefactoringAction 1474029079649 SudokuVerifierTest.java RENAME APP_RESULT=>int A_RESULT FIELD
+RefactoringAction 1474029081193 SudokuVerifierTest.java RENAME A_RESULT=>int AP_RESULT FIELD
+RefactoringAction 1474029083767 SudokuVerifierTest.java RENAME AP_RESULT=>int APPROVAL_RESULT FIELD
+EditAction 1474029093673 SudokuVerifierTest.java 835 2 2 2
