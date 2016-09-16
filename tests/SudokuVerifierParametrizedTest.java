@@ -21,6 +21,16 @@ public class SudokuVerifierParametrizedTest {
 	}
 
 	@Test
+	
+	public void testNumberAtStringOnlyOnce() {
+		SudokuVerifier verifier = new SudokuVerifier();		
+	
+		String candidateSolution = "123456789";
+		
+		assertEquals("", verifier.verifyOnlyOnce(candidateSolution), 0);
+	}
+	
+	@Test
 	public void testCandidateStringOnlyNumeric()
 	{
 		// Arrange
