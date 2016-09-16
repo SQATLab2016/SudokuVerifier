@@ -84,3 +84,10 @@ RefactoringAction 1474030700083 SudokuVerifierTest.java RENAME testVerifyRule2Ch
 RefactoringAction 1474030702142 SudokuVerifierTest.java RENAME testVerifyRule2Check()/2=>void testVerifyRule4Check() METHOD
 EditAction 1474030756914 SudokuVerifierTest.java 1562 5 5 5
 EditAction 1474030803402 SudokuVerifierTest.java 1562 5 5 5
+UnitTestCaseAction 1474030808729 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474030808729 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1474031169610 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474031169610 SudokuVerifierTest.java FAIL
+RefactoringAction 1474031343472 SudokuVerifierTest.java RENAME testVerify_LengthVerify()=>void testVerify_WholwVerify() METHOD
+RefactoringAction 1474031346046 SudokuVerifierTest.java RENAME testVerify_WholwVerify()=>void testVerify_Verify() METHOD
+EditAction 1474031346576 SudokuVerifierTest.java 1556 5 5 5

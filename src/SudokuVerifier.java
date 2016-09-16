@@ -48,7 +48,7 @@ public class SudokuVerifier {
 		for (int loop = 0; loop < ROW_LENGTH; loop++) {
 			int[] arrayToCheck = new int[9];
 			for (int loop2 = 0; loop2 < ROW_LENGTH; loop2++) {
-				arrayToCheck[loop2] = sudoku[loop][loop2];
+				arrayToCheck[loop2] = sudoku[loop2][loop];
 			}
 			if (duplicateChecker(arrayToCheck)) {
 				return -4;
@@ -90,7 +90,7 @@ public class SudokuVerifier {
 	public static void main(String[] args) {
 		SudokuVerifier sudokuObject = new SudokuVerifier();
 		int result = sudokuObject
-				.verify("417369825632158947958724316825437169791586432346912758289643571573291684164875293");
+				.verify("417369825432158967958724316825437169791586432346912758289643571573291684164875293");
 		System.out.println("Result: " + result);
 	}
 }

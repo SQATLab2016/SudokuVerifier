@@ -13,7 +13,7 @@ public class SudokuVerifierTest {
 	SudokuVerifier sudokuVerifier = new SudokuVerifier();
 
 	@Test
-	public void testVerify_LengthVerify() {
+	public void testVerify_Verify() {
 		assertEquals("Test to verify length", APPROVAL_RESULT, sudokuVerifier
 				.verify("417369825632158947958724316825437169791586432346912758289643571573291684164875293"));
 	}
