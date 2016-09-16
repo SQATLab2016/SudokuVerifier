@@ -131,3 +131,7 @@ RefactoringAction 1474033650231 SudokuVerifier.java ADD import com.sun.xml.inter
 RefactoringAction 1474033712502 SudokuVerifier.java ADD import com.sun.xml.internal.ws.util.StringUtils IMPORT
 RefactoringAction 1474033816829 SudokuVerifier.java REMOVE VerifyRows(String) METHOD
 EditAction 1474033829810 SudokuVerifier.java 804 3 4 0
+UnitTestCaseAction 1474033830358 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474033830359 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1474033959438 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474033959438 SudokuVerifierTest.java FAIL
