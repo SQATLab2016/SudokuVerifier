@@ -11,6 +11,9 @@ public class SudokuVerifier {
 	      }
 	      
 	   // R2: All digits appear only once in a sub-grid, i.e. they cannot repeat.
+	      
+	      
+	      
 	   // R3: A digit can appear only once in the rows of the global grid.
 	   // R4: A digit can appear only once in the columns of the global grid.
 	      
