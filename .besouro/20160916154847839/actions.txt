@@ -67,3 +67,10 @@ EditAction 1474033017769 SudokuVerifier.java 903 3 7 0
 UnitTestCaseAction 1474033018067 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1474033018067 SudokuVerifierTest.java FAIL
 EditAction 1474033036776 SudokuVerifierTest.java 2722 9 17 8
+UnitTestCaseAction 1474033037112 SudokuVerifierTest.java OK
+UnitTestSessionAction 1474033037113 SudokuVerifierTest.java OK
+RefactoringAction 1474033359615 SudokuVerifier.java ADD String FIELD
+RefactoringAction 1474033364627 SudokuVerifier.java RENAME createSub=>String FIELD
+RefactoringAction 1474033369180 SudokuVerifier.java RENAME createSubGrids=>String METHOD
+RefactoringAction 1474033375194 SudokuVerifier.java RENAME createSubGrids()=>String METHOD
+EditAction 1474034003769 SudokuVerifier.java 1819 4 11 0
