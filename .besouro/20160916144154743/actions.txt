@@ -177,3 +177,10 @@ RefactoringAction 1474032709667 SudokuVerifierTest.java ADD void testVerifyR1()/
 RefactoringAction 1474032713681 SudokuVerifierTest.java REMOVE testVerifyR1()/2 METHOD
 EditAction 1474032757806 SudokuVerifierTest.java 646 1 4 1
 EditAction 1474032762164 SudokuVerifierTest.java 646 1 4 1
+UnitTestCaseAction 1474032764879 SudokuVerifierTest.java OK
+UnitTestSessionAction 1474032764880 SudokuVerifierTest.java OK
+UnitTestCaseAction 1474032767002 SudokuVerifierTest.java OK
+UnitTestSessionAction 1474032767002 SudokuVerifierTest.java OK
+UnitTestCaseAction 1474032780664 SudokuVerifierTest.java OK
+UnitTestSessionAction 1474032780665 SudokuVerifierTest.java OK
+EditAction 1474032829933 SudokuVerifierTest.java 646 1 4 1
