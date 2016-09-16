@@ -54,9 +54,9 @@ public class SudokuVerifier {
 		char entry = a.charAt(2);
 		System.out.println(entry);
 		
-		
+		/*
 		assertThat("", anyOf(is(-2), is(-3)));
-		/*assertTrue
+		assertTrue
 		*/
 	}
 

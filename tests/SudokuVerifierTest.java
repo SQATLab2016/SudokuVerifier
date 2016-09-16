@@ -111,5 +111,10 @@ public class SudokuVerifierTest {
 	public void testVerify_InvalidChars() {
 		assertEquals(-1, sv.verify(corrSol.substring(0, 80).concat("%")));
 	}
+	
+	
+	/*
+	 * Test for rule 2
+	 */
 
 }

@@ -172,3 +172,12 @@ RefactoringAction 1474031786756 SudokuVerifier.java ADD import org.hamcrest.Base
 RefactoringAction 1474031793771 SudokuVerifier.java RENAME import org.hamcrest.BaseMatchers.*=>import org.hamcrest.BaseMatcher.* IMPORT
 CompilationAction 1474031799731 SudokuVerifier.java
 EditAction 1474031845452 SudokuVerifierTest.java 2655 13 17 10
+UnitTestCaseAction 1474031847487 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474031847488 SudokuVerifierTest.java FAIL
+RefactoringAction 1474031938409 SudokuVerifier.java ADD char FIELD
+RefactoringAction 1474031942926 SudokuVerifier.java RENAME get=>char FIELD
+RefactoringAction 1474031943939 SudokuVerifier.java RENAME getSubGrids=>char METHOD
+RefactoringAction 1474031948953 SudokuVerifier.java RENAME getSubGrids()=>char METHOD
+RefactoringAction 1474032224055 SudokuVerifier.java RENAME import org.hamcrest.BaseMatcher.*=>import org.hamcrest.CoreMatcher.* IMPORT
+RefactoringAction 1474032233573 SudokuVerifier.java RENAME import org.hamcrest.CoreMatcher.*=>import org.hamcrest.CoreMatchers.* IMPORT
+EditAction 1474032876543 SudokuVerifierTest.java 2688 13 17 10
