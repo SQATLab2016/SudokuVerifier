@@ -1,0 +1,24 @@
+FileOpenedAction 1474027728779 SudokuVerifier.java 162 1 1 0
+FileOpenedAction 1474028715823 SudokuVerifierTest.java 390 1 1 0
+FileOpenedAction 1474028721454 SudokuVerifierParametrizedTest.java 172 1 1 0
+RefactoringAction 1474029358450 SudokuVerifier.java ADD int FIELD
+RefactoringAction 1474029361467 SudokuVerifier.java REMOVE matrix FIELD
+RefactoringAction 1474029401010 SudokuVerifier.java ADD int FIELD
+RefactoringAction 1474029405558 SudokuVerifier.java REMOVE matrix FIELD
+RefactoringAction 1474030073167 SudokuVerifier.java ADD int FIELD
+RefactoringAction 1474030076184 SudokuVerifier.java REMOVE matrix FIELD
+EditAction 1474030188894 SudokuVerifier.java 409 1 0 0
+CompilationAction 1474030190995 SudokuVerifier.java
+CompilationAction 1474030190998 SudokuVerifier.java
+RefactoringAction 1474031144149 SudokuVerifierParametrizedTest.java ADD void main FIELD
+RefactoringAction 1474031148668 SudokuVerifierParametrizedTest.java RENAME main=>static void main() METHOD
+RefactoringAction 1474031152696 SudokuVerifierParametrizedTest.java RENAME main()=>void main FIELD
+RefactoringAction 1474031159210 SudokuVerifierParametrizedTest.java RENAME main=>static void main() METHOD
+RefactoringAction 1474031163725 SudokuVerifierParametrizedTest.java RENAME main()=>static void main(String) METHOD
+RefactoringAction 1474031170233 SudokuVerifierParametrizedTest.java RENAME main(String)=>static void main(String METHOD
+RefactoringAction 1474031340285 SudokuVerifierParametrizedTest.java REMOVE main(String METHOD
+EditAction 1474031340721 SudokuVerifierParametrizedTest.java 176 1 1 0
+CompilationAction 1474032101468 SudokuVerifier.java
+CompilationAction 1474032101471 SudokuVerifier.java
+CompilationAction 1474032101982 SudokuVerifier.java
+CompilationAction 1474032101983 SudokuVerifier.java
