@@ -30,7 +30,7 @@ public class SudokuVerifierParametrizedTest {
 	}
 	
 	@Test	
-	public void testNumber3AtStringOnlyOnceFails() {
+	public void testNumber3AtStringOnlyOnce() {
 		SudokuVerifier verifier = new SudokuVerifier();		
 	
 		String candidateSolution = "12345679";
