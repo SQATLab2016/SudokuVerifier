@@ -19,3 +19,10 @@ RefactoringAction 1474027203199 SudokuVerifierTest.java REMOVE import org.hamcre
 RefactoringAction 1474027206743 SudokuVerifierTest.java ADD import org.hamcrest.CoreMatchers.* IMPORT
 EditAction 1474027232933 SudokuVerifierTest.java 1088 3 10 2
 EditAction 1474027236093 SudokuVerifierParametrizedTest.java 111 0 0 0
+UnitTestCaseAction 1474027238776 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474027238778 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1474027379993 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474027379994 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1474027385013 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474027385014 SudokuVerifierTest.java FAIL
+EditAction 1474027451095 SudokuVerifierTest.java 1092 3 8 1
