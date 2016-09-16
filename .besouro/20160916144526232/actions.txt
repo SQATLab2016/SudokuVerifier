@@ -24,3 +24,7 @@ CompilationAction 1474026871964 SudokuVerifierParametrizedTest.java
 CompilationAction 1474026872129 SudokuVerifierParametrizedTest.java
 RefactoringAction 1474026901372 SudokuVerifier.java RENAME verityVertical(int, int=>boolean verifyVertical(int, int METHOD
 EditAction 1474026906785 SudokuVerifierParametrizedTest.java 299 1 3 1
+CompilationAction 1474026908167 SudokuVerifierParametrizedTest.java
+CompilationAction 1474026939840 SudokuVerifierParametrizedTest.java
+CompilationAction 1474026939995 SudokuVerifierParametrizedTest.java
+EditAction 1474026944836 SudokuVerifier.java 366 2 4 0

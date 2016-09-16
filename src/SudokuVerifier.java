@@ -7,8 +7,8 @@ public class SudokuVerifier {
 		
 		//check
 	}
-	public boolean verityVertical(char x, char[] sudoku){
-		char toTest = sudoku[x];
+	public boolean verifyVertical(int x, int[] sudoku){
+		int toTest = sudoku[x];
 		for(int i = 0; i < sudoku.length; i++){
 			if(sudoku[i] == toTest && i != x){
 				return false;
