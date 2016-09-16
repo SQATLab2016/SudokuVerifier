@@ -34,7 +34,7 @@ public class SudokuVerifier {
 		String a = "abcd";
 		//System.out.println(a.substring(2, 3));
 		
-		char entry = a.charAt(1);
+		char entry = a.charAt(2);
 		System.out.println(entry);
 		
 		/*

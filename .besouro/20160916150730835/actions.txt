@@ -35,3 +35,4 @@ RefactoringAction 1474028409439 SudokuVerifier.java RENAME getRowEntries=>char g
 RefactoringAction 1474028412956 SudokuVerifier.java RENAME getRowEntries()=>char getRowEntries(String) METHOD
 EditAction 1474028501529 SudokuVerifierTest.java 460 2 1 0
 EditAction 1474028510184 SudokuVerifier.java 792 5 9 0
+EditAction 1474028516140 SudokuVerifier.java 792 5 9 0
