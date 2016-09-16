@@ -308,3 +308,12 @@
 1474034184825 test-first 1 1149 true
 1474034184826 test-first 1 1149 true
 1474034184827 test-first 1 1149 true
+1474034307880 refactoring 3 29 true
+1474034307881 refactoring 1B 29 true
+1474034307882 refactoring 3 29 true
+1474034307883 refactoring 2B 29 true
+1474034307884 refactoring 3 29 true
+1474034307885 refactoring 3 29 true
+1474034307886 refactoring 1B 29 true
+1474034307887 refactoring 2B 29 true
+1474034307888 regression 1 29 true

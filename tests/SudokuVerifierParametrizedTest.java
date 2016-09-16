@@ -58,7 +58,7 @@ public class SudokuVerifierParametrizedTest {
 	
 	
 	@Test 
-	public void testCheckStringSequenceForDublicates()
+	public void testCheckStringSequenceForDublicatesNoDublicate()
 	{
 		SudokuVerifier verifier = new SudokuVerifier();
 		
