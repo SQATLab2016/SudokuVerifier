@@ -105,3 +105,21 @@ RefactoringAction 1474027551810 SudokuVerifier.java RENAME verifyHorizontal(inti
 RefactoringAction 1474027553322 SudokuVerifier.java RENAME verifyHorizontal(int)=>boolean verifyHorizontal(int, int, int METHOD
 RefactoringAction 1474027559835 SudokuVerifier.java RENAME verifyHorizontal(int, int, int=>boolean verifyHorizontal(int, int, int METHOD
 EditAction 1474027571448 SudokuVerifier.java 602 3 7 0
+CompilationAction 1474027572755 SudokuVerifierParametrizedTest.java
+RefactoringAction 1474027618269 SudokuVerifierParametrizedTest.java ADD void makeSudoku() METHOD
+CompilationAction 1474027673209 SudokuVerifierParametrizedTest.java
+CompilationAction 1474027673361 SudokuVerifierParametrizedTest.java
+CompilationAction 1474027673361 SudokuVerifierParametrizedTest.java
+CompilationAction 1474027673362 SudokuVerifierParametrizedTest.java
+CompilationAction 1474027673363 SudokuVerifierParametrizedTest.java
+CompilationAction 1474027728018 SudokuVerifierParametrizedTest.java
+CompilationAction 1474027728019 SudokuVerifierParametrizedTest.java
+CompilationAction 1474027728020 SudokuVerifierParametrizedTest.java
+CompilationAction 1474027728196 SudokuVerifierParametrizedTest.java
+CompilationAction 1474027728197 SudokuVerifierParametrizedTest.java
+RefactoringAction 1474027746402 SudokuVerifier.java ADD boolean test FIELD
+RefactoringAction 1474027750914 SudokuVerifier.java RENAME test=>boolean verifyBox FIELD
+RefactoringAction 1474027752926 SudokuVerifier.java RENAME verifyBox=>boolean verifyBox() METHOD
+RefactoringAction 1474027792441 SudokuVerifier.java RENAME verifyBox()=>boolean verifyBox(int, int) METHOD
+RefactoringAction 1474027795453 SudokuVerifier.java RENAME verifyBox(int, int)=>boolean verifyBox(int, int, int METHOD
+EditAction 1474027805721 SudokuVerifier.java 665 4 7 0

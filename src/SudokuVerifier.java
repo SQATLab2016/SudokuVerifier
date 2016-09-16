@@ -25,4 +25,7 @@ public class SudokuVerifier {
 		}
 		return true;
 	}
+	public boolean verifyBox(int y, int x, int[][] sudoku){
+		
+	}
 }
