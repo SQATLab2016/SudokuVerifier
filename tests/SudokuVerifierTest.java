@@ -9,6 +9,8 @@ public class SudokuVerifierTest {
 
 	@Test
 	public void testVerify() {
+		
+		SudoVerifier verifier = new SudoVerifier();
 		fail("Not yet implemented");
 	}
 

@@ -13,3 +13,6 @@ CompilationAction 1474033471346 SudokuVerifier.java
 CompilationAction 1474033533700 SudokuVerifier.java
 CompilationAction 1474033533855 SudokuVerifier.java
 EditAction 1474033671317 SudokuVerifier.java 1813 1 5 0
+RefactoringAction 1474033807827 SudokuVerifierTest.java RENAME testVerify()=>void testVerify(SudoVerifier) METHOD
+RefactoringAction 1474033815774 SudokuVerifierTest.java RENAME testVerify(SudoVerifier)=>void testVerify() METHOD
+EditAction 1474033833555 SudokuVerifierTest.java 439 1 2 0
