@@ -27,6 +27,8 @@ public class SudokuVerifierTest {
 				+ "123456789"
 				+ "123456789"
 				+ "123456789"
+				+ "123456789"
+				+ "123456789"
 				+ "123456789";
 		
 		int result = verifier.verify(candidateSolution);
