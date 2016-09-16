@@ -20,4 +20,7 @@ public class SudokuVerifier {
 		
 		return 0;	}
 	
+	public int checkDuplicates(String candidateSolution){
+		public String candiateSolution.substring(0,9);
+	}
 }

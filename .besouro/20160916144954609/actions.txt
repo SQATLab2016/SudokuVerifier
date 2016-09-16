@@ -119,3 +119,11 @@ RefactoringAction 1474030338592 SudokuVerifierTest.java RENAME test()=>void test
 RefactoringAction 1474030342607 SudokuVerifierTest.java RENAME test81()=>void test81numbers() METHOD
 EditAction 1474030351757 SudokuVerifierTest.java 1260 4 10 3
 EditAction 1474030373831 SudokuVerifierTest.java 1250 4 10 3
+UnitTestCaseAction 1474030384384 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474030384385 SudokuVerifierTest.java FAIL
+RefactoringAction 1474030665101 SudokuVerifier.java ADD int checkDuplicate FIELD
+RefactoringAction 1474030667114 SudokuVerifier.java RENAME checkDuplicate=>int checkDuplicates() METHOD
+RefactoringAction 1474030675637 SudokuVerifier.java RENAME checkDuplicates()=>int checkDuplicates(String) METHOD
+RefactoringAction 1474030774342 SudokuVerifier.java ADD void substring(int, int) METHOD
+RefactoringAction 1474030782750 SudokuVerifier.java REMOVE substring(int, int) METHOD
+EditAction 1474031130475 SudokuVerifier.java 454 3 3 0
