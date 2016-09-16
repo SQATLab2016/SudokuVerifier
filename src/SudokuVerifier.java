@@ -66,7 +66,12 @@ public class SudokuVerifier {
 
 		String a = "abcd";
 		char entry = a.charAt(2);
-		System.out.println(3/3);
+		System.out.println();
+		
+		String corrSol = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		SudokuVerifier sv = new SudokuVerifier();
+		String[] grids = sv.getSubGrids(corrSol);
+		System.out.println(grids[0]);
 		
 		/*
 		assertThat("", anyOf(is(-2), is(-3)));
