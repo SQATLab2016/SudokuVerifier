@@ -40,10 +40,10 @@ public class SudokuVerifier {
 		// We should really iterate here...
 		for(int indxChar = 0; indxChar != 9; indxChar++) {
 			char orig = candidateSolution.charAt(indxChar);		
-			
+			tmp.append(orig);
 		}
 				
-		
+		return tmp;
 	}
 	
 	
