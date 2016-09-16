@@ -20,15 +20,23 @@ public class SudokuVerifierParametrizedTest {
 
 	}
 
-	@Test
-	
-	public void testNumberAtStringOnlyOnce() {
+	@Test	
+	public void testNumber8AtStringOnlyOnce() {
 		SudokuVerifier verifier = new SudokuVerifier();		
 	
 		String candidateSolution = "12345679";
 		
 		assertEquals("", 0, verifier.verifyOnlyOnce('8', candidateSolution));
 	}
+	
+	@Test	
+	public void testNumber3AtStringOnlyOnceFails() {
+		SudokuVerifier verifier = new SudokuVerifier();		
+	
+		String candidateSolution = "12345679";
+		
+		assertEquals("", 0, verifier.verifyOnlyOnce('8', candidateSolution));
+	} 
 	
 	
 	

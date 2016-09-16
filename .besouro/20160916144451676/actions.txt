@@ -143,3 +143,10 @@ CompilationAction 1474032056812 SudokuVerifier.java
 CompilationAction 1474032070213 SudokuVerifier.java
 CompilationAction 1474032115532 SudokuVerifierParametrizedTest.java
 EditAction 1474032118927 SudokuVerifierParametrizedTest.java 1375 3 7 3
+UnitTestCaseAction 1474032123345 SudokuVerifierParametrizedTest.java OK
+UnitTestSessionAction 1474032123346 SudokuVerifierParametrizedTest.java OK
+RefactoringAction 1474032135744 SudokuVerifierParametrizedTest.java RENAME testNumberAtStringOnlyOnce()=>void testNumber8AtStringOnlyOnce() METHOD
+RefactoringAction 1474032146796 SudokuVerifierParametrizedTest.java ADD void testNumber8AtStringOnlyOnce()/2 METHOD
+RefactoringAction 1474032149307 SudokuVerifierParametrizedTest.java RENAME testNumber8AtStringOnlyOnce()/2=>void testNumberAtStringOnlyOnce() METHOD
+RefactoringAction 1474032151320 SudokuVerifierParametrizedTest.java RENAME testNumberAtStringOnlyOnce()=>void testNumber3AtStringOnlyOnce() METHOD
+EditAction 1474032154159 SudokuVerifierParametrizedTest.java 1609 4 10 4
