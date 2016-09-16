@@ -31,6 +31,7 @@ public class SudokuVerifierTest {
 
 	@Test
 	public void testPositiveDigits() {
-		fail("not implemented");
+		SudokuVerifier verifier = new SudokuVerifier();
+		String candidateSolution = correctSudoku;
 	}
 }
