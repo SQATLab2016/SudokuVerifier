@@ -32,7 +32,7 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test
-	public void testVerify_String_with_repetition_in_column_should_fail_rule3(){
+	public void testVerify_String_with_repetition_in_column_should_fail_rule4(){
 		SudokuVerifier verifier = new SudokuVerifier();
 		int result = verifier.verify("417369825432158967958724316825437169791586432346912758289643571573291684164875293");
 		

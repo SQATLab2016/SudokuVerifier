@@ -32,12 +32,27 @@ public class SudokuVerifier {
 				 row = row + String.valueOf(sudokuTable[x][y]);
 				 column = column+String.valueOf(sudokuTable[y][x]);
 			}
-			if(!isUniqueChars(row)){//regular expression that matched if there are repetitions of numbers
+			if(!isUniqueChars(row)){
 				return -3;
 			}
-			if(!isUniqueChars(column)){//regular expression that matched if there are repetitions of numbers
+			if(!isUniqueChars(column)){
 				return -4;
 			}
+		}
+		
+		//Check grids
+		for(int i=0;i<9;i+=3){
+			for(int j=0;j<9;j+=3){
+		String grid="";
+		for(int x=i;x<9;x++){			
+			for(int y=j;y<9;y++){
+				grid = grid + String.valueOf(sudokuTable[x][y]);
+			}
+		}
+		if(!isUniqueChars(grid)){
+			return -5;
+		}
+		}
 		}
 		
 		// returns 0 if the candidate solution is correct
@@ -46,7 +61,7 @@ public class SudokuVerifier {
 		//check
 	}
 	
-	public static boolean isUniqueChars(String str)
+	public static boolean isUniqueChars(String str)//from http://stackoverflow.com/questions/8901446/regex-allow-value-only-once
 	{
 	    boolean[] char_set = new boolean[256];
 	    for (int i = 0; i < str.length(); i++)

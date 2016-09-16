@@ -111,3 +111,7 @@ RefactoringAction 1474032123732 SudokuVerifierTest.java ADD void testVerify_Stri
 RefactoringAction 1474032131244 SudokuVerifierTest.java RENAME testVerify_String_with_repetition_in_row_should_fail_rule3()/2=>void testVerify_String_with_repetition_in_column_should_fail_rule3() METHOD
 EditAction 1474032161573 SudokuVerifierTest.java 1571 4 12 4
 EditAction 1474032170630 SudokuVerifierTest.java 1574 4 12 4
+UnitTestCaseAction 1474032183597 SudokuVerifierTest.java OK
+UnitTestSessionAction 1474032183598 SudokuVerifierTest.java OK
+RefactoringAction 1474033324388 SudokuVerifierTest.java RENAME testVerify_String_with_repetition_in_column_should_fail_rule3()=>void testVerify_String_with_repetition_in_column_should_fail_rule4() METHOD
+EditAction 1474033326690 SudokuVerifierTest.java 1574 4 12 4
