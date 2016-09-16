@@ -39,7 +39,7 @@ public class SudokuVerifierParametrizedTest {
 	}
 	
 	@Test	
-	public void testNumber8NotAtString() {
+	public void testNumber8NotInString() {
 		SudokuVerifier verifier = new SudokuVerifier();		
 	
 		String candidateSolution = "12345679";

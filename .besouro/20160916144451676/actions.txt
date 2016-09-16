@@ -225,3 +225,7 @@ UnitTestCaseAction 1474034016033 SudokuVerifierParametrizedTest.java FAIL
 UnitTestSessionAction 1474034016034 SudokuVerifierParametrizedTest.java FAIL
 EditAction 1474034152427 SudokuVerifier.java 1314 5 11 0
 EditAction 1474034177126 SudokuVerifier.java 1314 5 11 0
+UnitTestCaseAction 1474034184636 SudokuVerifierParametrizedTest.java OK
+UnitTestSessionAction 1474034184637 SudokuVerifierParametrizedTest.java OK
+RefactoringAction 1474034278770 SudokuVerifierParametrizedTest.java RENAME testNumber8NotAtString()=>void testNumber8NoString() METHOD
+EditAction 1474034280019 SudokuVerifierParametrizedTest.java 2442 7 19 7
