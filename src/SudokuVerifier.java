@@ -22,7 +22,7 @@ public class SudokuVerifier {
 				candidateSolution.charAt(9),candidateSolution.charAt(10),candidateSolution.charAt(11),
 				candidateSolution.charAt(18),candidateSolution.charAt(19),candidateSolution.charAt(20)};
 		Arrays.sort(firstGrid);
-	    if(!numbers.equals(firstGrid)) return 2; 	
+	    if(!numbers.equals(firstGrid)) return -2; 	
 		return 0;
 		//check
 	}
