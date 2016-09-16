@@ -25,7 +25,7 @@ public class SudokuVerifierTest {
 	@Test
 	public void TestVerifyDigitsArePositive(){
 		SudokuVerifier verifier = new SudokuVerifier();
-		String candidateSolution = "4-4-3-4";
+		String candidateSolution = "4444";
 		
 		int result = verifier.VerifyDigitsArePositive(candidateSolution);
 		
