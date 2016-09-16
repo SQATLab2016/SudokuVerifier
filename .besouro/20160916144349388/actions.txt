@@ -17,3 +17,6 @@ RefactoringAction 1474026699301 SudokuVerifierTest.java RENAME testVerify_80char
 RefactoringAction 1474026701320 SudokuVerifierTest.java RENAME testVerify_80characters_should_return_()=>void testVerify_80characters_should_return_error() METHOD
 EditAction 1474026910942 SudokuVerifierTest.java 625 1 3 1
 EditAction 1474026919888 SudokuVerifier.java 285 1 2 0
+UnitTestCaseAction 1474026923294 SudokuVerifierTest.java OK
+UnitTestSessionAction 1474026923295 SudokuVerifierTest.java OK
+EditAction 1474028153673 SudokuVerifier.java 660 1 5 0
