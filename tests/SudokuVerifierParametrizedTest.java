@@ -51,7 +51,7 @@ public class SudokuVerifierParametrizedTest {
 	public void testNumber3AtStringOnlyOnce() {
 		SudokuVerifier verifier = new SudokuVerifier();		
 	
-		String candidateSolution = "123356789";
+		String candidateSolution = "12356789";
 		
 		assertEquals(-1, verifier.verifyOnlyOnce('3', candidateSolution));
 	} 
