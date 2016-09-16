@@ -50,3 +50,6 @@
 1474032960517 test-addition 2 4079 true
 1474032960518 test-addition 2 4079 true
 1474032960519 test-addition 2 4079 true
+1474033174792 refactoring 1A 17 true
+1474033174793 refactoring 3 17 true
+1474033174794 refactoring 3 17 true

@@ -30,7 +30,6 @@ public class SudokuVerifierTest {
 				.verify("417369825342158967958724316825437169791586432346912758289643571573291684164875293"));
 	}
 	
-	
 	@Test
 	public void testVerifyRule4Check() {
 		assertEquals("Test to verify rule 4", RULE_4_VOILATION_RESULT, sudokuVerifier

@@ -150,3 +150,6 @@ UnitTestSessionAction 1474032960473 SudokuVerifierTest.java OK
 EditAction 1474033156943 SudokuVerifierTest.java 1684 5 5 5
 RefactoringAction 1474033167909 SudokuVerifierTest.java REMOVE testVerifyRule3Check() METHOD
 EditAction 1474033167972 SudokuVerifierTest.java 1329 4 4 4
+UnitTestCaseAction 1474033174792 SudokuVerifierTest.java OK
+UnitTestSessionAction 1474033174792 SudokuVerifierTest.java OK
+EditAction 1474033183154 SudokuVerifierTest.java 1327 4 4 4
