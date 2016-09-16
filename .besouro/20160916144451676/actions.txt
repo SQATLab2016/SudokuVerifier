@@ -152,3 +152,7 @@ RefactoringAction 1474032151320 SudokuVerifierParametrizedTest.java RENAME testN
 EditAction 1474032154159 SudokuVerifierParametrizedTest.java 1609 4 10 4
 EditAction 1474032157522 SudokuVerifierParametrizedTest.java 1604 4 10 4
 EditAction 1474032165722 SudokuVerifierParametrizedTest.java 1605 4 10 4
+UnitTestCaseAction 1474032167380 SudokuVerifierParametrizedTest.java OK
+UnitTestSessionAction 1474032167381 SudokuVerifierParametrizedTest.java OK
+RefactoringAction 1474032233258 SudokuVerifier.java RENAME verifyColumsRows(String)=>int verifyRows(String) METHOD
+EditAction 1474032241055 SudokuVerifier.java 964 4 9 0

@@ -21,7 +21,7 @@ public class SudokuVerifier {
 		return res;
 	}
 	
-	private int verifyColumsRows(String candidateSolution) {
+	private int verifyRows(String candidateSolution) {
 		Vector<String> parts = new Vector<String>();
 		
 		for(int indx = 0; indx != 9; indx++) {
