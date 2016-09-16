@@ -15,3 +15,6 @@ UnitTestCaseAction 1474033677663 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1474033677664 SudokuVerifierTest.java FAIL
 RefactoringAction 1474033694746 SudokuVerifier.java REMOVE candidateSolution FIELD
 EditAction 1474033699141 SudokuVerifier.java 905 1 2 0
+UnitTestCaseAction 1474033701949 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474033701950 SudokuVerifierTest.java FAIL
+EditAction 1474033976458 SudokuVerifier.java 920 1 4 0
