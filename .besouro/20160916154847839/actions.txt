@@ -54,3 +54,6 @@ RefactoringAction 1474032679487 SudokuVerifierTest.java ADD void testVerify_rule
 RefactoringAction 1474032727107 SudokuVerifierTest.java RENAME testVerify_ruleOne_incorrectLength()=>void testVerify_ruleOne_incorrectLength_8() METHOD
 RefactoringAction 1474032728125 SudokuVerifierTest.java RENAME testVerify_ruleOne_incorrectLength_8()=>void testVerify_ruleOne_incorrectLength_80() METHOD
 EditAction 1474032761068 SudokuVerifierTest.java 2476 8 15 7
+UnitTestCaseAction 1474032761357 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474032761357 SudokuVerifierTest.java FAIL
+EditAction 1474032824103 SudokuVerifierTest.java 2480 8 15 7
