@@ -11,6 +11,11 @@ public class SudokuVerifier {
 				mark++;
 			}
 		}
+		for(int i = 0; i < sudoku.length; i++){
+			for(int j = 0; j < sudoku.length; j++){
+				
+			}
+		}
 		return 0;
 		
 		//check
