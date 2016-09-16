@@ -1,0 +1,20 @@
+FileOpenedAction 1474026110204 SudokuVerifierParametrizedTest.java 172 2 1 0
+FileOpenedAction 1474026152522 SudokuVerifierTest.java 390 1 1 0
+RefactoringAction 1474026191960 SudokuVerifierParametrizedTest.java RENAME test_RowColumnViolation()=>void fail() METHOD
+RefactoringAction 1474026196482 SudokuVerifierParametrizedTest.java REMOVE test() METHOD
+RefactoringAction 1474026209542 SudokuVerifierParametrizedTest.java REMOVE fail() METHOD
+RefactoringAction 1474026264669 SudokuVerifierTest.java ADD void test() METHOD
+RefactoringAction 1474026480538 SudokuVerifierTest.java ADD void test_RowColumnViolation() METHOD
+RefactoringAction 1474027165986 SudokuVerifierTest.java ADD import org IMPORT
+RefactoringAction 1474027167505 SudokuVerifierTest.java REMOVE import org IMPORT
+RefactoringAction 1474027168527 SudokuVerifierTest.java ADD import org.h IMPORT
+RefactoringAction 1474027178048 SudokuVerifierTest.java RENAME import org.h=>import org.hamcre IMPORT
+RefactoringAction 1474027179070 SudokuVerifierTest.java RENAME import org.hamcre=>import org.hamcrest IMPORT
+RefactoringAction 1474027180095 SudokuVerifierTest.java REMOVE import org.hamcrest IMPORT
+RefactoringAction 1474027182111 SudokuVerifierTest.java ADD import org.hamcrest.Core IMPORT
+RefactoringAction 1474027183126 SudokuVerifierTest.java RENAME import org.hamcrest.Core=>import org.hamcrest.CoreM IMPORT
+RefactoringAction 1474027199659 SudokuVerifierTest.java RENAME import org.hamcrest.CoreM=>import org.hamcrest.CoreMat IMPORT
+RefactoringAction 1474027202184 SudokuVerifierTest.java RENAME import org.hamcrest.CoreMat=>import org.hamcrest.CoreMatchers IMPORT
+RefactoringAction 1474027203199 SudokuVerifierTest.java REMOVE import org.hamcrest.CoreMatchers IMPORT
+RefactoringAction 1474027206743 SudokuVerifierTest.java ADD import org.hamcrest.CoreMatchers.* IMPORT
+EditAction 1474027232933 SudokuVerifierTest.java 1088 3 10 2
