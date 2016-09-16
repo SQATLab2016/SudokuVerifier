@@ -25,12 +25,12 @@ public class SudokuVerifierTest {
 	@Test 
 	public void testVerify_ruleOne_incorrectLength_80(){
 		String incorrectString = "41736982563215894795872431682543716979158643234691275828964357157329168416487529";
-		assertEquals("expect 1",1, test.verify(incorrectString));
+		assertEquals("expect -1", -1, test.verify(incorrectString));
 	}
 	@Test
 	public void testVerify_ruleOne_containsChar(){
 		String stringContainsChar = "4173698256321589479587243168254371697915864323469127582896435715732916841648752-3";
-		assertEquals("expect 1", 1, test.verify(stringContainsChar));
+		assertEquals("expect -1", -1, test.verify(stringContainsChar));
 	}
 	@Test
 	public void testCheckInputStringLength_length81(){
