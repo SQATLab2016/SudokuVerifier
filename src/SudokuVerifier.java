@@ -32,7 +32,7 @@ public class SudokuVerifier {
 		if(!verifyBox(y, x, sudoku)){
 			return -2;
 		}
-		if(sudoku[y][x] > 9 || sudoku[y][x] < 0){
+		if(sudoku[y][x] > 9 || sudoku[y][x] < 1){
 			return -1;
 		}
 		return 0;
