@@ -24,6 +24,22 @@ public class SudokuVerifier {
 			}
 		}
 		
+		//Check grids
+				for(int i=0;i<9;i+=3){
+					for(int j=0;j<9;j+=3){
+				String grid="";
+				for(int x=i;x<9;x++){			
+					for(int y=j;y<9;y++){
+						grid = grid + String.valueOf(sudokuTable[x][y]);
+					}
+				}
+				if(!isUniqueChars(grid)){
+					return -5;
+				}
+				}
+				}
+				
+		
 		//Check rows and columns
 		for(int x=0;x<9;x++){
 			String row="";
@@ -40,20 +56,6 @@ public class SudokuVerifier {
 			}
 		}
 		
-		//Check grids
-		for(int i=0;i<9;i+=3){
-			for(int j=0;j<9;j+=3){
-		String grid="";
-		for(int x=i;x<9;x++){			
-			for(int y=j;y<9;y++){
-				grid = grid + String.valueOf(sudokuTable[x][y]);
-			}
-		}
-		if(!isUniqueChars(grid)){
-			return -5;
-		}
-		}
-		}
 		
 		// returns 0 if the candidate solution is correct
 		return 0;
