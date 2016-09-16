@@ -101,3 +101,6 @@ RefactoringAction 1474029940019 SudokuVerifierTest.java RENAME testValidNumberOf
 RefactoringAction 1474029943535 SudokuVerifierTest.java RENAME testValidNumberOfChar_()=>void testValidNumberOfChar_Correct() METHOD
 RefactoringAction 1474029945050 SudokuVerifierTest.java RENAME testValidNumberOfChar_Correct()=>void testValidNumberOfChar_CorrectNumber() METHOD
 EditAction 1474029978031 SudokuVerifierTest.java 1674 7 9 4
+UnitTestCaseAction 1474029980116 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474029980117 SudokuVerifierTest.java FAIL
+EditAction 1474029992070 SudokuVerifierTest.java 1684 7 10 4

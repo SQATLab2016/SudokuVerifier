@@ -43,6 +43,7 @@ public class SudokuVerifierTest {
 	@Test
 	public void testValidNumberOfChar_CorrectNumber() {
 		assertEquals(true, sv.validNumberOfChar(corrSol));
+		fail();
 	}
 	
 	@Test
