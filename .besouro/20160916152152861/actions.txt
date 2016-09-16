@@ -1,0 +1,10 @@
+FileOpenedAction 1474028513173 SudokuVerifierTest.java 390 2 3 0
+RefactoringAction 1474028673350 SudokuVerifierTest.java RENAME TestVerifySudokuStringIsInSCorrectFormat()=>void TestVerifySudokuStringLenght() METHOD
+RefactoringAction 1474028677366 SudokuVerifierTest.java RENAME TestVerifySudokuStringLenght()=>void TestVerifySudokuStringLeng() METHOD
+RefactoringAction 1474028678380 SudokuVerifierTest.java RENAME TestVerifySudokuStringLeng()=>void TestVerifySudokuStringLength() METHOD
+RefactoringAction 1474028683396 SudokuVerifierTest.java RENAME TestVerifySudokuStringLength()=>void TestVerifySudokuStringLengthIs() METHOD
+RefactoringAction 1474028685912 SudokuVerifierTest.java RENAME TestVerifySudokuStringLengthIs()=>void TestVerifySudokuStringLengthIsCorrect() METHOD
+FileOpenedAction 1474028772924 GildedRose.java 3169 4 4 0
+FileOpenedAction 1474028777362 GildedRoseTest.java 3016 7 37 6
+FileOpenedAction 1474028793146 GildedRoseTest.java 3016 7 37 6
+EditAction 1474028943491 SudokuVerifier.java 162 1 1 0
