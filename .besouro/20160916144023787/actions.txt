@@ -143,3 +143,4 @@ RefactoringAction 1474032876713 SudokuVerifierTest.java REMOVE testVerifyRule3Ch
 EditAction 1474032877103 SudokuVerifierTest.java 1329 4 4 4
 RefactoringAction 1474032883920 SudokuVerifierTest.java ADD void testVerifyRule3Check() METHOD
 EditAction 1474032885683 SudokuVerifierTest.java 1556 5 5 5
+EditAction 1474032925011 SudokuVerifierTest.java 1613 5 5 5
