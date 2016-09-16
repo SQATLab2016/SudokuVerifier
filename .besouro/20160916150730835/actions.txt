@@ -94,3 +94,10 @@ RefactoringAction 1474029827304 SudokuVerifierTest.java ADD void testValidNumber
 RefactoringAction 1474029827305 SudokuVerifierTest.java ADD void testValidNumberOfChar_OneCharMore() METHOD
 RefactoringAction 1474029844314 SudokuVerifierTest.java REMOVE wrongSol FIELD
 EditAction 1474029880927 SudokuVerifierTest.java 1497 6 8 3
+UnitTestCaseAction 1474029883019 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474029883020 SudokuVerifierTest.java FAIL
+RefactoringAction 1474029895407 SudokuVerifierTest.java ADD void testValidNumberOfChar_OneRowMissing()/2 METHOD
+RefactoringAction 1474029940019 SudokuVerifierTest.java RENAME testValidNumberOfChar_OneRowMissing()/2=>void testValidNumberOfChar_() METHOD
+RefactoringAction 1474029943535 SudokuVerifierTest.java RENAME testValidNumberOfChar_()=>void testValidNumberOfChar_Correct() METHOD
+RefactoringAction 1474029945050 SudokuVerifierTest.java RENAME testValidNumberOfChar_Correct()=>void testValidNumberOfChar_CorrectNumber() METHOD
+EditAction 1474029978031 SudokuVerifierTest.java 1674 7 9 4

@@ -32,6 +32,19 @@ public class SudokuVerifierTest {
 		fail("Not yet implemented");
 	}
 	
+	
+	
+	
+	
+	/*
+	 * Test for valid number of characters
+	 */
+	
+	@Test
+	public void testValidNumberOfChar_CorrectNumber() {
+		assertEquals(true, sv.validNumberOfChar(corrSol));
+	}
+	
 	@Test
 	public void testValidNumberOfChar_OneRowMissing() {
 		String sol = "";
