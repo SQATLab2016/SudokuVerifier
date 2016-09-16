@@ -4,7 +4,11 @@ public class SudokuVerifier {
 	String correctSolution = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 	String incorrectSolution = "123456789912345678891234567789123456678912345567891234456789123345678912234567891";
 	
+	
+	
 	public int verify(String candidateSolution) {
+		
+		public int clength = candidateSolution.length();
 		
 		// Returns 0 if the candidate solution is correct	
 		if (candidateSolution == correctSolution) {
@@ -13,9 +17,9 @@ public class SudokuVerifier {
 		return 0;
 		
 		// Return -1 if violating Rule #1: A cell in a Sudoku game can only store positive digits, i.e. 1...9.
-		int stringLength = candidateSolution.length();
 		
-		if (stringLength > 81 ) {
+		
+		if (clength > 81 ) {
 			
 		}
 		return -1;
