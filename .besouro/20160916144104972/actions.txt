@@ -6,3 +6,9 @@ RefactoringAction 1474027235655 SudokuVerifier.java RENAME get_number=>int get_n
 RefactoringAction 1474027238684 SudokuVerifier.java RENAME get_number()=>int get_number(char) METHOD
 RefactoringAction 1474027402590 SudokuVerifier.java ADD StringLengthNotEqual_81Exception() METHOD
 EditAction 1474028774639 SudokuVerifier.java 1498 3 12 0
+FileOpenedAction 1474028779514 SudokuVerifierTest.java 390 1 1 0
+RefactoringAction 1474028792550 SudokuVerifierTest.java RENAME testVerify()=>void testVerify_() METHOD
+RefactoringAction 1474028795065 SudokuVerifierTest.java RENAME testVerify_()=>void testVerify_String1() METHOD
+RefactoringAction 1474028800087 SudokuVerifierTest.java RENAME testVerify_String1()=>void testVerify_String1_() METHOD
+RefactoringAction 1474028801095 SudokuVerifierTest.java RENAME testVerify_String1_()=>void testVerify_String1_0() METHOD
+EditAction 1474028964894 SudokuVerifierTest.java 588 1 3 1
