@@ -36,3 +36,6 @@ RefactoringAction 1474026968239 SudokuVerifierParametrizedTest.java RENAME testV
 EditAction 1474026970675 SudokuVerifierParametrizedTest.java 497 2 6 2
 EditAction 1474026982670 SudokuVerifierParametrizedTest.java 497 2 6 2
 EditAction 1474026986106 SudokuVerifierParametrizedTest.java 497 2 6 2
+UnitTestCaseAction 1474026989318 SudokuVerifierParametrizedTest.java OK
+UnitTestSessionAction 1474026989319 SudokuVerifierParametrizedTest.java OK
+EditAction 1474026998820 SudokuVerifierParametrizedTest.java 497 2 6 2
