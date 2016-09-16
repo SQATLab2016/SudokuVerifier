@@ -1,5 +1,6 @@
 import static org.junit.Assert.*;
 
+
 import org.junit.Before;
 import org.junit.BeforeClass;
 
@@ -17,8 +18,9 @@ public class SudokuVerifierTest {
 		test = new SudokuVerifier();
 	}
 	@Test
-	public void testVerify() {
-		fail("Not yet implemented");
+	public void testVerify_ruleOne_correctInput() {
+		String correctString ="417369825632158947958724316825437169791586432346912758289643571573291684164875293"; 
+		assertEquals("expect 0", test.verify(correctString));
 	}
 	@Test
 	public void testCheckInputStringLength_length81(){
@@ -46,6 +48,7 @@ public class SudokuVerifierTest {
 		String inputString = "4173698256321589479587243168254371697915864323469127582896435715732916841648752-9";
 		assertFalse("expect false when the input contains character", test.checkInputStringContainsOnlyPostiveInt(inputString));
 	}
+
 	
 
 }

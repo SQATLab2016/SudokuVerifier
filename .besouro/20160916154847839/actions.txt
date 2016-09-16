@@ -32,3 +32,19 @@ EditAction 1474031942901 SudokuVerifierTest.java 2082 7 12 5
 UnitTestCaseAction 1474031943200 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1474031943201 SudokuVerifierTest.java FAIL
 EditAction 1474031992915 SudokuVerifierTest.java 2084 7 12 5
+UnitTestCaseAction 1474031994150 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474031994150 SudokuVerifierTest.java FAIL
+RefactoringAction 1474032451701 SudokuVerifierTest.java ADD void test/2 FIELD
+RefactoringAction 1474032460718 SudokuVerifierTest.java RENAME test/2=>void testRuel FIELD
+RefactoringAction 1474032462234 SudokuVerifierTest.java RENAME testRuel=>void tes FIELD
+RefactoringAction 1474032463247 SudokuVerifierTest.java RENAME tes=>void test/2 FIELD
+RefactoringAction 1474032468764 SudokuVerifierTest.java RENAME test/2=>void testRuel FIELD
+RefactoringAction 1474032469772 SudokuVerifierTest.java RENAME testRuel=>void testRu FIELD
+RefactoringAction 1474032482785 SudokuVerifierTest.java REMOVE testRu FIELD
+RefactoringAction 1474032485802 SudokuVerifierTest.java RENAME testVerify()=>void testVerify_() METHOD
+RefactoringAction 1474032489320 SudokuVerifierTest.java RENAME testVerify_()=>void testVerify_rule() METHOD
+RefactoringAction 1474032490336 SudokuVerifierTest.java RENAME testVerify_rule()=>void testVerify_rule1() METHOD
+RefactoringAction 1474032492845 SudokuVerifierTest.java RENAME testVerify_rule1()=>void testVerify_ruleOne_() METHOD
+RefactoringAction 1474032529867 SudokuVerifierTest.java RENAME testVerify_ruleOne_()=>void testVerify_ruleOne_correct() METHOD
+RefactoringAction 1474032531386 SudokuVerifierTest.java RENAME testVerify_ruleOne_correct()=>void testVerify_ruleOne_correctInput() METHOD
+EditAction 1474032614011 SudokuVerifier.java 896 3 7 0
