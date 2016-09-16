@@ -28,3 +28,9 @@ CompilationAction 1474026908167 SudokuVerifierParametrizedTest.java
 CompilationAction 1474026939840 SudokuVerifierParametrizedTest.java
 CompilationAction 1474026939995 SudokuVerifierParametrizedTest.java
 EditAction 1474026944836 SudokuVerifier.java 366 2 4 0
+UnitTestCaseAction 1474026951006 SudokuVerifierParametrizedTest.java OK
+UnitTestSessionAction 1474026951007 SudokuVerifierParametrizedTest.java OK
+RefactoringAction 1474026960209 SudokuVerifierParametrizedTest.java ADD void testVertical()/2 METHOD
+RefactoringAction 1474026965224 SudokuVerifierParametrizedTest.java RENAME testVertical()/2=>void testVerticalTrue() METHOD
+RefactoringAction 1474026968239 SudokuVerifierParametrizedTest.java RENAME testVertical()=>void testVerticalFail() METHOD
+EditAction 1474026970675 SudokuVerifierParametrizedTest.java 497 2 6 2
